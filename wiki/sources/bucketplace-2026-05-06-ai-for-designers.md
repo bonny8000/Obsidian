@@ -24,9 +24,9 @@ A designer's perspective on using AI to speed up drafts, automate UT setups, and
 - Interactive specs eliminate repetitive clarification questions.
 
 ## Linked Concepts
-- [[concepts/ai-agents/interactive-specsInteractive Specs]]
-- [[concepts/ux-research/automated-ut-setupAutomated UT Setup]]
-- [[concepts/ai-agents/athena-mcpAthena MCP]]
-- [[concepts/infrastructure-dev/figma-makeFigma Make]]
-- [[concepts/infrastructure-dev/design-to-code-workflowDesign-to-Code Workflow]]
+- [[concepts/ai-agents/interactive-specs|Interactive Specs]]
+- [[concepts/ux-research/automated-ut-setup|Automated UT Setup]]
+- [[concepts/ai-agents/athena-mcp|Athena MCP]]
+- [[concepts/infrastructure-dev/figma-make|Figma Make]]
+- [[concepts/infrastructure-dev/design-to-code-workflow|Design-to-Code Workflow]]
 

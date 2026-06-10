@@ -32,11 +32,11 @@ At Google I/O 2026, CEO Sundar Pichai announced a "full-stack" AI strategy that 
 
 ## Concepts Linked from this Source
 
-- [[concepts/ai-agents/gemini-3-5Gemini 3.5]]
-- [[concepts/ai-agents/agentic-aiAgentic AI]]
-- [[concepts/ai-agents/gemini-sparkGemini Spark]]
+- [[concepts/ai-agents/gemini-3-5|Gemini 3.5]]
+- [[concepts/ai-agents/agentic-ai|Agentic AI]]
+- [[concepts/ai-agents/gemini-spark|Gemini Spark]]
 - [[concepts/antigravity|Antigravity]]
-- [[concepts/ux-research/generative-uiGenerative UI]]
+- [[concepts/ux-research/generative-ui|Generative UI]]
 
 ## Reliability Notes
 

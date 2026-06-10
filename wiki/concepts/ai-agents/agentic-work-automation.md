@@ -28,11 +28,11 @@ The transcript's practical advice is to identify repetitive work, automate it wi
 
 ## Related Concepts
 
-- [[concepts/ai-agents/self-improving-agent-workflowsSelf-Improving Agent Workflows]]
-- [[concepts/ai-agents/coworkCowork]]
-- [[concepts/ai-agents/claude-codeClaude Code]]
-- [[concepts/ai-agents/ai-agent-workflowAI Agent Workflow]]
-- [[concepts/ai-agents/agent-memoryAgent Memory]]
+- [[concepts/ai-agents/self-improving-agent-workflows|Self-Improving Agent Workflows]]
+- [[concepts/ai-agents/cowork|Cowork]]
+- [[concepts/ai-agents/claude-code|Claude Code]]
+- [[concepts/ai-agents/ai-agent-workflow|AI Agent Workflow]]
+- [[concepts/ai-agents/agent-memory|Agent Memory]]
 
 ## Sources
 

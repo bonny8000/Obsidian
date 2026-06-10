@@ -27,9 +27,9 @@ As AI generates more UI, automated review becomes necessary to catch layout, spa
 
 ## Related Concepts
 
-- [[concepts/infrastructure-dev/design-to-code-workflowDesign-to-Code Workflow]]
-- [[concepts/infrastructure-dev/design-system-implementationDesign System Implementation]]
-- [[concepts/ai-agents/vibe-codingVibe Coding]]
+- [[concepts/infrastructure-dev/design-to-code-workflow|Design-to-Code Workflow]]
+- [[concepts/infrastructure-dev/design-system-implementation|Design System Implementation]]
+- [[concepts/ai-agents/vibe-coding|Vibe Coding]]
 
 ## Sources
 

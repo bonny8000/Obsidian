@@ -21,7 +21,7 @@ Raw source card: `raw/web/naverlabs-blog-34515.md`
 
 ## Summary
 
-This NAVER LABS article explains how AI connects with physical space through [[concepts/robotics-spatial/spatial-aiSpatial AI]], [[concepts/robotics-spatial/physical-aiPhysical AI]], mapping, robotics operations, and real-world testbeds such as NAVER 1784 and Gak Sejong.
+This NAVER LABS article explains how AI connects with physical space through [[concepts/robotics-spatial/spatial-ai|Spatial AI]], [[concepts/robotics-spatial/physical-ai|Physical AI]], mapping, robotics operations, and real-world testbeds such as NAVER 1784 and Gak Sejong.
 
 ## Extracted Claims
 
@@ -31,11 +31,11 @@ This NAVER LABS article explains how AI connects with physical space through [[c
 
 ## Linked Concepts
 
-- [[concepts/robotics-spatial/spatial-aiSpatial AI]]
-- [[concepts/robotics-spatial/physical-aiPhysical AI]]
-- [[concepts/robotics-spatial/digital-twinDigital Twin]]
-- [[concepts/robotics-spatial/visual-localizationVisual Localization]]
-- [[concepts/robotics-spatial/human-robot-interactionHuman-Robot Interaction]]
+- [[concepts/robotics-spatial/spatial-ai|Spatial AI]]
+- [[concepts/robotics-spatial/physical-ai|Physical AI]]
+- [[concepts/robotics-spatial/digital-twin|Digital Twin]]
+- [[concepts/robotics-spatial/visual-localization|Visual Localization]]
+- [[concepts/robotics-spatial/human-robot-interaction|Human-Robot Interaction]]
 
 ## Reliability Notes
 

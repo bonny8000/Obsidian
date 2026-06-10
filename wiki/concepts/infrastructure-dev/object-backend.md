@@ -21,8 +21,8 @@ It shifts the focus from "writing notes" to "modeling information." For an LLM-W
 - Every piece of information belongs to a typed object with defined properties.
 
 ## Related Concepts
-- [[concepts/infrastructure-dev/palantir-foundry-ontologyPalantir Foundry Ontology]]
-- [[concepts/infrastructure-dev/objectviewObjectView]]
+- [[concepts/infrastructure-dev/palantir-foundry-ontology|Palantir Foundry Ontology]]
+- [[concepts/infrastructure-dev/objectview|ObjectView]]
 
 ## Sources
 - [[sources/hsol-ai-portfolio-6|AI Portfolio Making (6): A Data Model for a Person]]

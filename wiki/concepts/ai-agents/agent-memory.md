@@ -18,7 +18,7 @@ Agent memory is the persistent context that lets an AI system reuse prior intera
 
 ## Why It Matters
 
-Without memory, useful AI work disappears at the end of a session. In an [[concepts/infrastructure-dev/llm-wikiLLM Wiki]], memory becomes inspectable Markdown rather than an opaque model-side state.
+Without memory, useful AI work disappears at the end of a session. In an [[concepts/infrastructure-dev/llm-wiki|LLM Wiki]], memory becomes inspectable Markdown rather than an opaque model-side state.
 
 ## Key Claims
 
@@ -28,10 +28,10 @@ Without memory, useful AI work disappears at the end of a session. In an [[conce
 
 ## Related Concepts
 
-- [[concepts/infrastructure-dev/llm-wikiLLM Wiki]]
-- [[concepts/product-management/compounding-knowledgeCompounding Knowledge]]
-- [[concepts/ai-agents/ai-agent-workflowAI Agent Workflow]]
-- [[concepts/ai-agents/skill-systemSkill System]]
+- [[concepts/infrastructure-dev/llm-wiki|LLM Wiki]]
+- [[concepts/product-management/compounding-knowledge|Compounding Knowledge]]
+- [[concepts/ai-agents/ai-agent-workflow|AI Agent Workflow]]
+- [[concepts/ai-agents/skill-system|Skill System]]
 
 ## Sources
 

@@ -19,7 +19,7 @@ An AI agent workflow is a work pattern where a human sets intent, constraints, a
 
 ## Why It Matters
 
-This is the bridge between [[concepts/ai-agents/vibe-designVibe Design]], [[concepts/ai-agents/vibe-codingVibe Coding]], and [[concepts/ai-agents/ai-maintained-wikiAI-Maintained Wiki]]. The agent is not only answering questions; it is maintaining work products and knowledge over time.
+This is the bridge between [[concepts/ai-agents/vibe-design|Vibe Design]], [[concepts/ai-agents/vibe-coding|Vibe Coding]], and [[concepts/ai-agents/ai-maintained-wiki|AI-Maintained Wiki]]. The agent is not only answering questions; it is maintaining work products and knowledge over time.
 
 ## Key Claims
 
@@ -29,11 +29,11 @@ This is the bridge between [[concepts/ai-agents/vibe-designVibe Design]], [[conc
 
 ## Related Concepts
 
-- [[concepts/ai-agents/autonomous-ai-agentAutonomous AI Agent]]
-- [[concepts/ai-agents/agent-memoryAgent Memory]]
-- [[concepts/ai-agents/skill-systemSkill System]]
-- [[concepts/infrastructure-dev/design-automationDesign Automation]]
-- [[concepts/ai-agents/ai-coding-toolsAI Coding Tools]]
+- [[concepts/ai-agents/autonomous-ai-agent|Autonomous AI Agent]]
+- [[concepts/ai-agents/agent-memory|Agent Memory]]
+- [[concepts/ai-agents/skill-system|Skill System]]
+- [[concepts/infrastructure-dev/design-automation|Design Automation]]
+- [[concepts/ai-agents/ai-coding-tools|AI Coding Tools]]
 
 ## Sources
 

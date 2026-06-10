@@ -30,11 +30,11 @@ Imitation learning is a practical route to complex manipulation, but collecting 
 
 ## Related Concepts
 
-- [[concepts/robotics-spatial/egocentric-human-dataEgocentric Human Data]]
-- [[concepts/robotics-spatial/human-to-robot-transferHuman-to-Robot Transfer]]
-- [[concepts/infrastructure-dev/domain-adaptationDomain Adaptation]]
-- [[concepts/robotics-spatial/mobile-manipulationMobile Manipulation]]
-- [[concepts/robotics-spatial/dexterous-manipulationDexterous Manipulation]]
+- [[concepts/robotics-spatial/egocentric-human-data|Egocentric Human Data]]
+- [[concepts/robotics-spatial/human-to-robot-transfer|Human-to-Robot Transfer]]
+- [[concepts/infrastructure-dev/domain-adaptation|Domain Adaptation]]
+- [[concepts/robotics-spatial/mobile-manipulation|Mobile Manipulation]]
+- [[concepts/robotics-spatial/dexterous-manipulation|Dexterous Manipulation]]
 
 ## Sources
 

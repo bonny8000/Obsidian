@@ -18,8 +18,8 @@ confidence: 1.0
 - **High-Fidelity Validation:** Allows for more accurate testing of edge cases before code is finalized.
 
 ## Implementation
-- **Design-to-Code:** Generated quickly using tools like [[concepts/ai-agents/claude-codeClaude Code]] via Figma MCP.
-- **Real Data:** Enhanced with real user data via [[concepts/ai-agents/athena-mcpAthena MCP]] for contextually accurate validation.
+- **Design-to-Code:** Generated quickly using tools like [[concepts/ai-agents/claude-code|Claude Code]] via Figma MCP.
+- **Real Data:** Enhanced with real user data via [[concepts/ai-agents/athena-mcp|Athena MCP]] for contextually accurate validation.
 
 ## Sources
 - [[sources/bucketplace-2026-05-06-ai-for-designers|How Designers Use AI (Bucketplace)]]

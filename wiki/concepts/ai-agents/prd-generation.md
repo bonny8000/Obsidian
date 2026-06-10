@@ -27,9 +27,9 @@ A PRD can align product, design, and engineering teams. AI-generated PRDs are us
 
 ## Related Concepts
 
-- [[concepts/product-management/ai-product-planningAI Product Planning]]
-- [[concepts/ai-agents/planning-to-code-workflowPlanning-to-Code Workflow]]
-- [[concepts/infrastructure-dev/wireframe-generationWireframe Generation]]
+- [[concepts/product-management/ai-product-planning|AI Product Planning]]
+- [[concepts/ai-agents/planning-to-code-workflow|Planning-to-Code Workflow]]
+- [[concepts/infrastructure-dev/wireframe-generation|Wireframe Generation]]
 
 ## Sources
 

@@ -28,10 +28,10 @@ The transcript presents Research Preview as a way to reduce launch commitment an
 
 ## Related Concepts
 
-- [[concepts/product-management/shipping-velocityShipping Velocity]]
-- [[concepts/product-management/ai-native-product-managementAI-Native Product Management]]
-- [[concepts/product-management/ai-product-consistencyAI Product Consistency]]
-- [[concepts/product-management/ai-product-onboardingAI Product Onboarding]]
+- [[concepts/product-management/shipping-velocity|Shipping Velocity]]
+- [[concepts/product-management/ai-native-product-management|AI-Native Product Management]]
+- [[concepts/product-management/ai-product-consistency|AI Product Consistency]]
+- [[concepts/product-management/ai-product-onboarding|AI Product Onboarding]]
 
 ## Sources
 

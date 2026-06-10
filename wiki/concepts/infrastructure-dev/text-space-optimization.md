@@ -25,7 +25,7 @@ Most LLM-based systems treat text documents as static configuration. Text-space 
 - Effective text-space optimizers need analogues to core deep-learning concepts: learning rate (edit aggressiveness), epochs (update rounds), and validation sets (gatekeeping).
 - Rejected-edit storage prevents the optimizer from wasting compute re-trying ineffective changes ??analogous to momentum or adaptive learning rate mechanisms.
 - At deployment, optimized text documents are plain text: no runtime cost difference from hand-crafted equivalents.
-- SkillOpt is the concrete instantiation of this concept in the agent-skills domain (see [[concepts/ai-agents/skilloptSkillOpt]]).
+- SkillOpt is the concrete instantiation of this concept in the agent-skills domain (see [[concepts/ai-agents/skillopt|SkillOpt]]).
 
 ## Analogy Table
 
@@ -48,12 +48,12 @@ Text-space optimization applies wherever:
 
 ## Related Concepts
 
-- [[concepts/ai-agents/skilloptSkillOpt]]
-- [[concepts/ai-agents/skill-systemSkill System]]
-- [[concepts/ai-agents/self-improving-agent-workflowsSelf-Improving Agent Workflows]]
-- [[concepts/ai-agents/agent-memoryAgent Memory]]
-- [[concepts/ai-agents/product-evalsProduct Evals]]
-- [[concepts/product-management/compounding-knowledgeCompounding Knowledge]]
+- [[concepts/ai-agents/skillopt|SkillOpt]]
+- [[concepts/ai-agents/skill-system|Skill System]]
+- [[concepts/ai-agents/self-improving-agent-workflows|Self-Improving Agent Workflows]]
+- [[concepts/ai-agents/agent-memory|Agent Memory]]
+- [[concepts/ai-agents/product-evals|Product Evals]]
+- [[concepts/product-management/compounding-knowledge|Compounding Knowledge]]
 
 ## Sources
 

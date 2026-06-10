@@ -32,12 +32,12 @@ This article describes Claude Design as an AI visual collaboration/workspace too
 
 ## Linked Concepts
 
-- [[concepts/ai-agents/claude-designClaude Design]]
-- [[concepts/ai-agents/conversational-canvasConversational Canvas]]
-- [[concepts/ai-agents/vibe-designVibe Design]]
-- [[concepts/infrastructure-dev/design-to-code-workflowDesign-to-Code Workflow]]
-- [[concepts/infrastructure-dev/design-review-automationDesign Review Automation]]
-- [[concepts/ai-agents/ai-visual-collaborationAI Visual Collaboration]]
+- [[concepts/ai-agents/claude-design|Claude Design]]
+- [[concepts/ai-agents/conversational-canvas|Conversational Canvas]]
+- [[concepts/ai-agents/vibe-design|Vibe Design]]
+- [[concepts/infrastructure-dev/design-to-code-workflow|Design-to-Code Workflow]]
+- [[concepts/infrastructure-dev/design-review-automation|Design Review Automation]]
+- [[concepts/ai-agents/ai-visual-collaboration|AI Visual Collaboration]]
 
 ## Reliability Notes
 

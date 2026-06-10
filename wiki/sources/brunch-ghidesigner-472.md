@@ -31,12 +31,12 @@ This article interprets Google's Gemini Enterprise Agent Platform as an enterpri
 
 ## Linked Concepts
 
-- [[concepts/infrastructure-dev/enterprise-ai-agent-platformEnterprise AI Agent Platform]]
-- [[concepts/ai-agents/agent-identityAgent Identity]]
-- [[concepts/ai-agents/agent-memoryAgent Memory]]
-- [[concepts/ux-research/ai-native-ux-designAI-Native UX Design]]
-- [[concepts/ux-research/design-research-automationDesign Research Automation]]
-- [[concepts/infrastructure-dev/cloud-ai-governanceCloud AI Governance]]
+- [[concepts/infrastructure-dev/enterprise-ai-agent-platform|Enterprise AI Agent Platform]]
+- [[concepts/ai-agents/agent-identity|Agent Identity]]
+- [[concepts/ai-agents/agent-memory|Agent Memory]]
+- [[concepts/ux-research/ai-native-ux-design|AI-Native UX Design]]
+- [[concepts/ux-research/design-research-automation|Design Research Automation]]
+- [[concepts/infrastructure-dev/cloud-ai-governance|Cloud AI Governance]]
 
 ## Reliability Notes
 

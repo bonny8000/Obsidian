@@ -17,7 +17,7 @@ Data scale (pretraining on large diverse datasets) can address gaps related to v
 - [[sources/arxiv-2512-22414|Human-to-Robot Transfer in VLA Models]] ??"Human-to-robot skill transfer is framed as an emergent capability under sufficient data diversity." Scale addresses visual and task diversity gaps.
 - [[sources/arxiv-2509-19626|EgoBridge]] ??"Human-to-robot transfer is limited by visual, sensor, and kinematic gaps. Aligning policy latent spaces can preserve action-relevant information while improving transfer." Explicit adaptation is needed for kinematic gaps.
 - [[sources/arxiv-2505-21864|DexUMI]] ??"A wearable hand exoskeleton can adapt human motion toward feasible robot hand motion. Hardware and software adaptation are both used to bridge human-to-robot embodiment differences." Hardware adaptation for DOF gaps.
-- [[concepts/robotics-spatial/embodiment-gapEmbodiment Gap]] ??"Embodiment gaps can be visual, kinematic, sensory, or action-space related. Some sources argue that scale can help produce embodiment-agnostic representations, but this needs full-paper verification."
+- [[concepts/robotics-spatial/embodiment-gap|Embodiment Gap]] ??"Embodiment gaps can be visual, kinematic, sensory, or action-space related. Some sources argue that scale can help produce embodiment-agnostic representations, but this needs full-paper verification."
 
 ## Follow-up Sources Needed
 - Ablation studies isolating the contribution of data scale versus adaptation techniques across different gap types.

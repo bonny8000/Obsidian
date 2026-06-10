@@ -28,11 +28,11 @@ The collected design sources frame UX work as moving beyond static screens towar
 
 ## Related Concepts
 
-- [[concepts/ai-agents/ai-agent-workflowAI Agent Workflow]]
-- [[concepts/ai-agents/vibe-designVibe Design]]
-- [[concepts/ai-agents/conversational-canvasConversational Canvas]]
-- [[concepts/ux-research/design-research-automationDesign Research Automation]]
-- [[concepts/infrastructure-dev/design-to-code-workflowDesign-to-Code Workflow]]
+- [[concepts/ai-agents/ai-agent-workflow|AI Agent Workflow]]
+- [[concepts/ai-agents/vibe-design|Vibe Design]]
+- [[concepts/ai-agents/conversational-canvas|Conversational Canvas]]
+- [[concepts/ux-research/design-research-automation|Design Research Automation]]
+- [[concepts/infrastructure-dev/design-to-code-workflow|Design-to-Code Workflow]]
 
 ## Sources
 

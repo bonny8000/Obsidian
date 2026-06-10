@@ -30,10 +30,10 @@ As web standards evolve rapidly, AI agents and human developers often rely on ou
 
 ## Related Concepts
 
-- [[concepts/ai-agents/ai-agent-workflowAI Agent Workflow]]
-- [[concepts/product-management/ai-product-consistencyAI Product Consistency]]
-- [[concepts/infrastructure-dev/design-system-implementationDesign System Implementation]]
-- [[concepts/ai-agents/mcp-integrationMCP Integration]]
+- [[concepts/ai-agents/ai-agent-workflow|AI Agent Workflow]]
+- [[concepts/product-management/ai-product-consistency|AI Product Consistency]]
+- [[concepts/infrastructure-dev/design-system-implementation|Design System Implementation]]
+- [[concepts/ai-agents/mcp-integration|MCP Integration]]
 
 ## Integration with AI Agents
 

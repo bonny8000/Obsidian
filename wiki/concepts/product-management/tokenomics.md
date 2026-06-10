@@ -27,9 +27,9 @@ As companies transition to being "AI-Native," the cost of operations becomes dir
 
 ## Related Concepts
 
-- [[concepts/product-management/ai-native-product-managementAI-Native Product Management]]
-- [[concepts/ai-agents/agentic-work-automationAgentic Work Automation]]
-- [[concepts/infrastructure-dev/token-efficiencyToken Efficiency]]
+- [[concepts/product-management/ai-native-product-management|AI-Native Product Management]]
+- [[concepts/ai-agents/agentic-work-automation|Agentic Work Automation]]
+- [[concepts/infrastructure-dev/token-efficiency|Token Efficiency]]
 
 ## Sources
 

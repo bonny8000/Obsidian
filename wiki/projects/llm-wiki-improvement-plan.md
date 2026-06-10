@@ -20,7 +20,7 @@ The vault is in good shape structurally: 564 notes, clear directory contract (AG
 
 > [!warning] Findings
 > 1. **25 corrupted/empty files** (0 or 3 bytes): 9 source pages, 4 concept pages, 6 query pages, 5 ingest reports, and the `ux-metrics-framework` map. Two corruption events: 2026-05-27 (files containing only `---`) and 2026-06-01 05:06 (zeroed files). Content described in the change log (Tullis & Albert, Chapman & Rodden, Adobe HAIC, VR Usability, Garrett/Cooper ingests) is **lost** and must be rebuilt.
-> 2. **124 files contain pipe-stripped wikilinks** — `[[concepts/ai-agents/agentic-aiAgentic AI]]` instead of `[[concepts/ai-agents/agentic-ai|Agentic AI]]`. These links are broken in Obsidian's graph and navigation. Likely a tool/sync pass removed `|` characters.
+> 2. **124 files contain pipe-stripped wikilinks** — `[[concepts/ai-agents/agentic-ai|Agentic AI]]` instead of `[[concepts/ai-agents/agentic-ai|Agentic AI]]`. These links are broken in Obsidian's graph and navigation. Likely a tool/sync pass removed `|` characters.
 > 3. **No version control.** The vault is not a git repo, which is why the corruption was silent and unrecoverable.
 
 ## Phase 0 — Repair (do first)

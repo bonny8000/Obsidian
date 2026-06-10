@@ -27,9 +27,9 @@ The article provides 11 practical recommendations for UX researchers and designe
 - **Pre-meeting Legwork:** Socializing ideas with engineering and stakeholders before formal meetings reduces friction and increases feasibility.
 
 ## Linked Concepts
-- [[concepts/product-management/product-roadmapProduct Roadmap]]
-- [[concepts/product-management/research-influenceResearch Influence]]
-- [[concepts/ux-research/usability-debtUsability Debt]]
-- [[concepts/ux-research/ux-metricsUX Metrics]]
-- [[concepts/product-management/discovery-phaseDiscovery Phase]]
+- [[concepts/product-management/product-roadmap|Product Roadmap]]
+- [[concepts/product-management/research-influence|Research Influence]]
+- [[concepts/ux-research/usability-debt|Usability Debt]]
+- [[concepts/ux-research/ux-metrics|UX Metrics]]
+- [[concepts/product-management/discovery-phase|Discovery Phase]]
 

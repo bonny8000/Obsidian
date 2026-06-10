@@ -24,8 +24,8 @@ An AI-maintained wiki delegates repetitive knowledge organization to an agent: s
 
 ## Related Concepts
 
-- [[concepts/infrastructure-dev/llm-wikiLLM Wiki]]
-- [[concepts/infrastructure-dev/knowledge-lintingKnowledge Linting]]
+- [[concepts/infrastructure-dev/llm-wiki|LLM Wiki]]
+- [[concepts/infrastructure-dev/knowledge-linting|Knowledge Linting]]
 - [[maps/llm-wiki-architecture|LLM Wiki Architecture]]
 
 ## Sources

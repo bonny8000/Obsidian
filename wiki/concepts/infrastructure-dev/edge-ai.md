@@ -21,8 +21,8 @@ confidence: 0.5
 - Enhances privacy by keeping data on the device.
 
 ## ?? Related Concepts
-- [[concepts/infrastructure-dev/on-premise-aiOn-premise AI]]
-- [[concepts/robotics-spatial/spatial-aiSpatial AI]]
+- [[concepts/infrastructure-dev/on-premise-ai|On-premise AI]]
+- [[concepts/robotics-spatial/spatial-ai|Spatial AI]]
 
 ## ?? Conflicts & Caveats
 - Limited by the hardware constraints (compute, memory, power) of the edge device.

@@ -39,12 +39,12 @@ Toss used a **three-phase prompting workflow** to build Huribot:
 
 ## Related Concepts
 
-- [[concepts/ux-research/automated-ut-setupAutomated UT Setup]]
-- [[concepts/ux-research/ux-research-automationUX Research Automation]]
-- [[concepts/ux-research/ai-usability-analysisAI Usability Analysis]]
-- [[concepts/ux-research/design-research-automationDesign Research Automation]]
-- [[concepts/ux-research/human-in-the-loopHuman-in-the-loop]]
-- [[concepts/ai-agents/athena-mcpAthena MCP]] ??parallel example from Bucketplace; also reduces UT setup overhead
+- [[concepts/ux-research/automated-ut-setup|Automated UT Setup]]
+- [[concepts/ux-research/ux-research-automation|UX Research Automation]]
+- [[concepts/ux-research/ai-usability-analysis|AI Usability Analysis]]
+- [[concepts/ux-research/design-research-automation|Design Research Automation]]
+- [[concepts/ux-research/human-in-the-loop|Human-in-the-loop]]
+- [[concepts/ai-agents/athena-mcp|Athena MCP]] ??parallel example from Bucketplace; also reduces UT setup overhead
 
 ## Sources
 

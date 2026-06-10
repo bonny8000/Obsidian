@@ -27,9 +27,9 @@ For design and knowledge work, autonomy shifts the workflow from asking for isol
 
 ## Related Concepts
 
-- [[concepts/ai-agents/ai-agent-workflowAI Agent Workflow]]
-- [[concepts/ai-agents/agent-memoryAgent Memory]]
-- [[concepts/ai-agents/skill-systemSkill System]]
+- [[concepts/ai-agents/ai-agent-workflow|AI Agent Workflow]]
+- [[concepts/ai-agents/agent-memory|Agent Memory]]
+- [[concepts/ai-agents/skill-system|Skill System]]
 
 ## Sources
 

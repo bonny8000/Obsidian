@@ -22,10 +22,10 @@ Using the language of metrics is essential for gaining stakeholder buy-in. PMs a
 - **Risk Mitigation:** Metrics can also be used to frame "risk," such as potential drop-off due to poor navigation or legal risk from accessibility non-compliance.
 
 ## Related Concepts
-- [[concepts/ux-research/heart-frameworkHEART Framework]]
-- [[concepts/ux-research/self-reported-ux-metricsSelf-Reported UX Metrics]]
-- [[concepts/ux-research/ux-performance-benchmarkingUX Performance Benchmarking]]
-- [[concepts/product-management/product-roadmapProduct Roadmap]]
+- [[concepts/ux-research/heart-framework|HEART Framework]]
+- [[concepts/ux-research/self-reported-ux-metrics|Self-Reported UX Metrics]]
+- [[concepts/ux-research/ux-performance-benchmarking|UX Performance Benchmarking]]
+- [[concepts/product-management/product-roadmap|Product Roadmap]]
 
 ## Sources
 - [[sources/nngroup-research-recommendations-roadmap|Research Recommendations and the Roadmap (NN/g)]]

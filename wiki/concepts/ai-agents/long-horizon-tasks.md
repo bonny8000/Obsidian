@@ -21,8 +21,8 @@ confidence: 0.8
 - Context window size and retrieval-augmented generation (RAG) are key enablers.
 
 ## ?? Related Concepts
-- [[concepts/ai-agents/agentic-aiAgentic AI]]
-- [[concepts/ai-agents/gemini-3-5Gemini 3.5]]
+- [[concepts/ai-agents/agentic-ai|Agentic AI]]
+- [[concepts/ai-agents/gemini-3-5|Gemini 3.5]]
 
 ## ?? Sources
 - [[sources/gemini-3-5-launch|Gemini 3.5 Launch]]

@@ -32,11 +32,11 @@ Professor Yoo Hoon-sik outlines a paradigm shift where AI agents take over the m
 
 ## Concepts Linked from this Source
 
-- [[concepts/ai-agents/agentic-aiAgentic AI]]
-- [[concepts/ai-agents/vibe-codingVibe Coding]]
-- [[concepts/infrastructure-dev/agentic-engineeringAgentic Engineering]]
-- [[concepts/infrastructure-dev/llm-wikiLLM Wiki]]
-- [[concepts/product-management/role-convergenceRole Convergence]]
+- [[concepts/ai-agents/agentic-ai|Agentic AI]]
+- [[concepts/ai-agents/vibe-coding|Vibe Coding]]
+- [[concepts/infrastructure-dev/agentic-engineering|Agentic Engineering]]
+- [[concepts/infrastructure-dev/llm-wiki|LLM Wiki]]
+- [[concepts/product-management/role-convergence|Role Convergence]]
 
 ## Reliability Notes
 

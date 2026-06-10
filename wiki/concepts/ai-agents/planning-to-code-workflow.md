@@ -28,10 +28,10 @@ This makes upstream product thinking reusable by developers and agents. Instead 
 
 ## Related Concepts
 
-- [[concepts/product-management/ai-product-planningAI Product Planning]]
-- [[concepts/ai-agents/mcp-integrationMCP Integration]]
-- [[concepts/infrastructure-dev/design-to-code-workflowDesign-to-Code Workflow]]
-- [[concepts/ai-agents/ai-coding-toolsAI Coding Tools]]
+- [[concepts/product-management/ai-product-planning|AI Product Planning]]
+- [[concepts/ai-agents/mcp-integration|MCP Integration]]
+- [[concepts/infrastructure-dev/design-to-code-workflow|Design-to-Code Workflow]]
+- [[concepts/ai-agents/ai-coding-tools|AI Coding Tools]]
 
 ## Sources
 

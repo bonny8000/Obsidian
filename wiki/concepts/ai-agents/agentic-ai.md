@@ -26,17 +26,17 @@ Agentic AI is viewed as the "next cycle" of AI development. It fundamentally cha
 
 - Agentic AI autonomously plans and executes multi-step tasks.
 - It enables a shift from "execution-oriented" work to "decision-oriented" governance.
-- Requires high-quality, cumulative knowledge bases (like an [[concepts/infrastructure-dev/llm-wikiLLM Wiki]]) to guide autonomous decision-making.
+- Requires high-quality, cumulative knowledge bases (like an [[concepts/infrastructure-dev/llm-wiki|LLM Wiki]]) to guide autonomous decision-making.
 - Specifically optimized for enterprise-scale "long-horizon" workflows.
 - **Gemini Spark** serves as a core production example of an "always-on" agentic system integrated with everyday workspace tools. *(Brunch 497)*
 
 ## Related Concepts
 
-- [[concepts/ai-agents/autonomous-ai-agentAutonomous AI Agent]]
-- [[concepts/ai-agents/agentic-work-automationAgentic Work Automation]]
-- [[concepts/ai-agents/vibe-codingVibe Coding]]
-- [[concepts/ai-agents/gemini-3-5Gemini 3.5]]
-- [[concepts/ai-agents/long-horizon-tasksLong-Horizon Tasks]]
+- [[concepts/ai-agents/autonomous-ai-agent|Autonomous AI Agent]]
+- [[concepts/ai-agents/agentic-work-automation|Agentic Work Automation]]
+- [[concepts/ai-agents/vibe-coding|Vibe Coding]]
+- [[concepts/ai-agents/gemini-3-5|Gemini 3.5]]
+- [[concepts/ai-agents/long-horizon-tasks|Long-Horizon Tasks]]
 
 ## Sources
 

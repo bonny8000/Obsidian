@@ -28,11 +28,11 @@ The transcript argues that AI changes which PM skills matter most. When implemen
 
 ## Related Concepts
 
-- [[concepts/product-management/product-tasteProduct Taste]]
-- [[concepts/ai-agents/product-evalsProduct Evals]]
-- [[concepts/ai-agents/model-introspectionModel Introspection]]
-- [[concepts/product-management/role-convergenceRole Convergence]]
-- [[concepts/product-management/ai-native-product-managementAI-Native Product Management]]
+- [[concepts/product-management/product-taste|Product Taste]]
+- [[concepts/ai-agents/product-evals|Product Evals]]
+- [[concepts/ai-agents/model-introspection|Model Introspection]]
+- [[concepts/product-management/role-convergence|Role Convergence]]
+- [[concepts/product-management/ai-native-product-management|AI-Native Product Management]]
 
 ## Sources
 

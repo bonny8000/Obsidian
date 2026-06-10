@@ -24,8 +24,8 @@ Describes Bucketplace's transformation of financial data into a real-time decisi
 - Unit economics (Contribution Margin) should drive operational decisions like inventory management.
 
 ## Linked Concepts
-- [[concepts/infrastructure-dev/nexus-data-lakeNexus Data Lake]]
-- [[concepts/product-management/finance-daFinance DA]]
-- [[concepts/product-management/fpa-centralFP&A Central]]
-- [[concepts/product-management/contribution-margin-operationsContribution Margin in Operations]]
+- [[concepts/infrastructure-dev/nexus-data-lake|Nexus Data Lake]]
+- [[concepts/product-management/finance-da|Finance DA]]
+- [[concepts/product-management/fpa-central|FP&A Central]]
+- [[concepts/product-management/contribution-margin-operations|Contribution Margin in Operations]]
 

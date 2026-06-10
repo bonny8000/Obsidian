@@ -28,10 +28,10 @@ Enterprise AI systems often run inside existing cloud environments. Governance d
 
 ## Related Concepts
 
-- [[concepts/infrastructure-dev/enterprise-ai-infrastructureEnterprise AI Infrastructure]]
-- [[concepts/ai-agents/amazon-bedrockAmazon Bedrock]]
-- [[concepts/infrastructure-dev/enterprise-ai-agent-platformEnterprise AI Agent Platform]]
-- [[concepts/ai-agents/agent-identityAgent Identity]]
+- [[concepts/infrastructure-dev/enterprise-ai-infrastructure|Enterprise AI Infrastructure]]
+- [[concepts/ai-agents/amazon-bedrock|Amazon Bedrock]]
+- [[concepts/infrastructure-dev/enterprise-ai-agent-platform|Enterprise AI Agent Platform]]
+- [[concepts/ai-agents/agent-identity|Agent Identity]]
 
 ## Sources
 

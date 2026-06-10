@@ -21,8 +21,8 @@ As users increasingly bypass traditional search engines (like Google) in favor o
 - GEO is critical for maintaining brand visibility in an agent-driven search landscape [wiki/sources/pxd-story-ai-insights.md].
 
 ## Related Concepts
-- [[concepts/ai-agents/agentic-aiAgentic AI]]
-- [[concepts/infrastructure-dev/ai-as-infrastructureAI as Infrastructure]]
+- [[concepts/ai-agents/agentic-ai|Agentic AI]]
+- [[concepts/infrastructure-dev/ai-as-infrastructure|AI as Infrastructure]]
 
 ## Sources
 - [[wiki/sources/pxd-story-ai-insights.md|pxd story: AI & UX Insights]]

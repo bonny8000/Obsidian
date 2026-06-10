@@ -21,8 +21,8 @@ confidence: 0.7
 - Includes observability, evaluation frameworks, and safety guardrails.
 
 ## ?? Related Concepts
-- [[concepts/ai-agents/model-harnessModel Harness]]
-- [[concepts/ai-agents/agentic-aiAgentic AI]]
+- [[concepts/ai-agents/model-harness|Model Harness]]
+- [[concepts/ai-agents/agentic-ai|Agentic AI]]
 
 ## ?? Sources
 - [[sources/pxd-story-ai-insights|pxd story: AI & UX Insights]]

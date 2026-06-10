@@ -32,9 +32,9 @@ Google DeepMind's Gemini 3.5 family represents a major leap in AI "actionability
 
 ## Concepts Linked from this Source
 
-- [[concepts/ai-agents/gemini-3-5Gemini 3.5]]
-- [[concepts/ai-agents/agentic-aiAgentic AI]]
-- [[concepts/ai-agents/long-horizon-tasksLong-Horizon Tasks]]
+- [[concepts/ai-agents/gemini-3-5|Gemini 3.5]]
+- [[concepts/ai-agents/agentic-ai|Agentic AI]]
+- [[concepts/ai-agents/long-horizon-tasks|Long-Horizon Tasks]]
 - [[concepts/frontier-safety-framework|Frontier Safety Framework]]
 
 ## Reliability Notes

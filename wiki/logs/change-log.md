@@ -192,11 +192,11 @@ Source: `raw/web/medium-harizlim-ai-qualitative-research-2026-05-10.md` (Medium,
 - Ingested three new sources: [[sources/founders-playbook-2026|Founder's Playbook (2026)]], [[sources/bucketplace-2026-05-08-financial-data-lake|Unlocking Finance to the Data Lake (Bucketplace)]], and [[sources/bucketplace-2026-05-06-ai-for-designers|How Designers Use AI (Bucketplace)]].
 - Created six new concept pages:
     - [[concepts/product-management/10-person-unicorn10-Person Unicorn]]
-    - [[concepts/ai-agents/orchestrator-of-agentsOrchestrator of Agents]]
-    - [[concepts/infrastructure-dev/nexus-data-lakeNexus Data Lake]]
-    - [[concepts/product-management/fpa-centralFP&A Central]]
-    - [[concepts/ai-agents/interactive-specsInteractive Specs]]
-    - [[concepts/ai-agents/athena-mcpAthena MCP]]
+    - [[concepts/ai-agents/orchestrator-of-agents|Orchestrator of Agents]]
+    - [[concepts/infrastructure-dev/nexus-data-lake|Nexus Data Lake]]
+    - [[concepts/product-management/fpa-central|FP&A Central]]
+    - [[concepts/ai-agents/interactive-specs|Interactive Specs]]
+    - [[concepts/ai-agents/athena-mcp|Athena MCP]]
 - Updated [[index|LLM Wiki Index]] to integrate new concepts into "AI Design and Agents" and "AI-Native Product Management" clusters.
 - Added raw content to `raw/web/` for source provenance.
 
@@ -223,17 +223,17 @@ Source: `raw/web/medium-harizlim-ai-qualitative-research-2026-05-10.md` (Medium,
 ## 2026-05-19
 
 - Ingested three new sources (GeekNews, Rapport Labs, pxd story) into `wiki/sources/`, `wiki/concepts/`, and created a new [[logs/2026-05-19-ingest-report|2026-05-19 Ingest Report]].
-- Added new concepts: [[concepts/ux-research/contextual-translationContextual Translation]], [[concepts/ai-agents/ai-inspection-botAI Inspection Bot]], [[concepts/ai-agents/harness-engineeringHarness Engineering]], and [[concepts/product-management/geo-generative-engine-optimizationGEO (Generative Engine Optimization)]].
-- Updated existing concepts: [[concepts/ai-agents/vibe-codingVibe Coding]], [[concepts/ux-research/human-in-the-loopHuman-in-the-loop]], and [[concepts/ai-agents/agentic-aiAgentic AI]].
+- Added new concepts: [[concepts/ux-research/contextual-translation|Contextual Translation]], [[concepts/ai-agents/ai-inspection-bot|AI Inspection Bot]], [[concepts/ai-agents/harness-engineering|Harness Engineering]], and [[concepts/product-management/geo-generative-engine-optimization|GEO (Generative Engine Optimization)]].
+- Updated existing concepts: [[concepts/ai-agents/vibe-coding|Vibe Coding]], [[concepts/ux-research/human-in-the-loop|Human-in-the-loop]], and [[concepts/ai-agents/agentic-ai|Agentic AI]].
 
 ## 2026-05-20
 
-- Added new concept: [[concepts/infrastructure-dev/modern-web-guidanceModern Web Guidance]].
+- Added new concept: [[concepts/infrastructure-dev/modern-web-guidance|Modern Web Guidance]].
 - Documented tool features, integration with AI agents, and relevance to AI product consistency.
 - Updated [[index|LLM Wiki Index]] to include the new concept under AI Design and Agents.
 - Ingested five new sources: MeasuringU (Senior UXR), Brunch (Agentic AI Competencies), Google I/O 2026, Gemini 3.5 Launch, and ZDNet (Dell AI-Native).
 - Created new source pages for all five sources in `wiki/sources/`.
-- Created/Updated concepts: [[concepts/ai-agents/agentic-aiAgentic AI]], [[concepts/ai-agents/gemini-3-5Gemini 3.5]], [[concepts/product-management/tokenomicsTokenomics]], and [[concepts/ux-research/senior-ux-researcherSenior UX Researcher]].
+- Created/Updated concepts: [[concepts/ai-agents/agentic-ai|Agentic AI]], [[concepts/ai-agents/gemini-3-5|Gemini 3.5]], [[concepts/product-management/tokenomics|Tokenomics]], and [[concepts/ux-research/senior-ux-researcher|Senior UX Researcher]].
 - Updated [[index|LLM Wiki Index]] to reflect new content across multiple topic clusters.
 
 ## 2026-05-21
@@ -246,7 +246,7 @@ Source: `raw/web/medium-harizlim-ai-qualitative-research-2026-05-10.md` (Medium,
     - Installed and activated `obsidian-markdown`, `obsidian-cli`, `obsidian-bases`, and `defuddle` skills.
     - Created `dashboard.base` for structured vault visualization.
     - Redesigned [[index|LLM Wiki Index]] using Obsidian callouts and base embeds.
-    - Enhanced [[concepts/infrastructure-dev/palantir-foundry-ontologyPalantir Foundry Ontology]] with Mermaid diagrams and callouts.
+    - Enhanced [[concepts/infrastructure-dev/palantir-foundry-ontology|Palantir Foundry Ontology]] with Mermaid diagrams and callouts.
 
 
 - **2026-05-27:** Deep ingest of Tullis & Albert (2013). Created UX Metrics Framework and associated concept notes ([[logs/2026-05-27-ingest-report|Report]]).

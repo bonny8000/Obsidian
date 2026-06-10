@@ -36,12 +36,12 @@ Usability test setup is often cited as a barrier to running small, frequent test
 
 ## Related Concepts
 
-- [[concepts/ux-research/huribotHuribot]]
-- [[concepts/ai-agents/athena-mcpAthena MCP]]
-- [[concepts/ux-research/ux-research-automationUX Research Automation]]
-- [[concepts/ux-research/ai-usability-analysisAI Usability Analysis]]
-- [[concepts/ux-research/design-research-automationDesign Research Automation]]
-- [[concepts/ai-agents/interactive-specsInteractive Specs]]
+- [[concepts/ux-research/huribot|Huribot]]
+- [[concepts/ai-agents/athena-mcp|Athena MCP]]
+- [[concepts/ux-research/ux-research-automation|UX Research Automation]]
+- [[concepts/ux-research/ai-usability-analysis|AI Usability Analysis]]
+- [[concepts/ux-research/design-research-automation|Design Research Automation]]
+- [[concepts/ai-agents/interactive-specs|Interactive Specs]]
 
 ## Sources
 

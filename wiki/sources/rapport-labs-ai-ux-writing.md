@@ -22,14 +22,14 @@ A case study by Rapport Labs on building an AI-powered UX writing system. They d
 ## Extracted Claims
 - Static guideline documents are often ignored; integration into workflow (e.g., Figma plugins) is essential for effectiveness [raw/2026-05-19-rapport-labs-ai-ux-writing.md].
 - Claude (Sonnet 3.5/4) is highly reliable for adhering to complex UX writing rules when paired with a reference database [raw/2026-05-19-rapport-labs-ai-ux-writing.md].
-- [[concepts/ai-agents/vibe-codingVibe Coding]] using AI (Cursor) enables non-engineers to prototype internal tools quickly [raw/2026-05-19-rapport-labs-ai-ux-writing.md].
-- A [[concepts/ux-research/human-in-the-loopHuman-in-the-loop]] approach is used where AI suggests variations and the designer makes the final choice [raw/2026-05-19-rapport-labs-ai-ux-writing.md].
+- [[concepts/ai-agents/vibe-coding|Vibe Coding]] using AI (Cursor) enables non-engineers to prototype internal tools quickly [raw/2026-05-19-rapport-labs-ai-ux-writing.md].
+- A [[concepts/ux-research/human-in-the-loop|Human-in-the-loop]] approach is used where AI suggests variations and the designer makes the final choice [raw/2026-05-19-rapport-labs-ai-ux-writing.md].
 
 ## Concepts Linked
-- [[concepts/ux-research/ux-writing-tfUX Writing TF]]
-- [[concepts/ai-agents/ai-inspection-botAI Inspection Bot]]
-- [[concepts/ai-agents/vibe-codingVibe Coding]]
-- [[concepts/ux-research/human-in-the-loopHuman-in-the-loop]]
+- [[concepts/ux-research/ux-writing-tf|UX Writing TF]]
+- [[concepts/ai-agents/ai-inspection-bot|AI Inspection Bot]]
+- [[concepts/ai-agents/vibe-coding|Vibe Coding]]
+- [[concepts/ux-research/human-in-the-loop|Human-in-the-loop]]
 
 ## Reliability Notes
 - Primary source from a practicing product designer at a well-known startup (Rapport Labs).

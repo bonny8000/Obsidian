@@ -24,7 +24,7 @@ Local transcript excerpt: `raw/files/lennys-podcast-ai-hardware-boom-transcript-
 
 ## Summary
 
-This podcast transcript excerpt frames AI hardware, robotics, manufacturing, and industrialization as a possible next frontier after software-side AI capabilities mature. Caitlin Kalinowski connects VR/AR technology foundations to robotics, emphasizes hardware development constraints, and highlights supply chain and safety as gating factors for [[concepts/robotics-spatial/physical-aiPhysical AI]].
+This podcast transcript excerpt frames AI hardware, robotics, manufacturing, and industrialization as a possible next frontier after software-side AI capabilities mature. Caitlin Kalinowski connects VR/AR technology foundations to robotics, emphasizes hardware development constraints, and highlights supply chain and safety as gating factors for [[concepts/robotics-spatial/physical-ai|Physical AI]].
 
 ## Extracted Claims
 
@@ -37,16 +37,16 @@ This podcast transcript excerpt frames AI hardware, robotics, manufacturing, and
 
 ## Linked Concepts
 
-- [[concepts/robotics-spatial/ai-hardware-boomAI Hardware Boom]]
-- [[concepts/robotics-spatial/physical-aiPhysical AI]]
-- [[concepts/robotics-spatial/ar-vr-to-robotics-transferAR/VR to Robotics Transfer]]
-- [[concepts/robotics-spatial/ar-glassesAR Glasses]]
-- [[concepts/robotics-spatial/hardware-product-developmentHardware Product Development]]
-- [[concepts/robotics-spatial/consumer-hardware-developmentConsumer Hardware Development]]
-- [[concepts/robotics-spatial/humanoid-robot-limitationsHumanoid Robot Limitations]]
-- [[concepts/robotics-spatial/robotics-supply-chainRobotics Supply Chain]]
-- [[concepts/robotics-spatial/robot-safetyRobot Safety]]
-- [[concepts/robotics-spatial/human-robot-interactionHuman-Robot Interaction]]
+- [[concepts/robotics-spatial/ai-hardware-boom|AI Hardware Boom]]
+- [[concepts/robotics-spatial/physical-ai|Physical AI]]
+- [[concepts/robotics-spatial/ar-vr-to-robotics-transfer|AR/VR to Robotics Transfer]]
+- [[concepts/robotics-spatial/ar-glasses|AR Glasses]]
+- [[concepts/robotics-spatial/hardware-product-development|Hardware Product Development]]
+- [[concepts/robotics-spatial/consumer-hardware-development|Consumer Hardware Development]]
+- [[concepts/robotics-spatial/humanoid-robot-limitations|Humanoid Robot Limitations]]
+- [[concepts/robotics-spatial/robotics-supply-chain|Robotics Supply Chain]]
+- [[concepts/robotics-spatial/robot-safety|Robot Safety]]
+- [[concepts/robotics-spatial/human-robot-interaction|Human-Robot Interaction]]
 
 ## Reliability Notes
 

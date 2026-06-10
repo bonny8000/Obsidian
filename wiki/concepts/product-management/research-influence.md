@@ -23,9 +23,9 @@ Without influence, research becomes a "footnote" in product development. Strateg
 - **Relational Trust:** Influence is built over time through consistent, useful, and honest partnership with product and engineering teams.
 
 ## Related Concepts
-- [[concepts/product-management/product-roadmapProduct Roadmap]]
-- [[concepts/ux-research/ux-metricsUX Metrics]]
-- [[concepts/product-management/discovery-phaseDiscovery Phase]]
+- [[concepts/product-management/product-roadmap|Product Roadmap]]
+- [[concepts/ux-research/ux-metrics|UX Metrics]]
+- [[concepts/product-management/discovery-phase|Discovery Phase]]
 
 ## Sources
 - [[sources/nngroup-research-recommendations-roadmap|Research Recommendations and the Roadmap (NN/g)]]

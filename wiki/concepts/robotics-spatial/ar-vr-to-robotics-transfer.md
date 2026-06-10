@@ -27,11 +27,11 @@ Even if consumer VR remains niche, its technical investment can still compound i
 
 ## Related Concepts
 
-- [[concepts/robotics-spatial/spatial-aiSpatial AI]]
-- [[concepts/robotics-spatial/physical-aiPhysical AI]]
-- [[concepts/robotics-spatial/ar-glassesAR Glasses]]
-- [[concepts/robotics-spatial/visual-localizationVisual Localization]]
-- [[concepts/robotics-spatial/hardware-product-developmentHardware Product Development]]
+- [[concepts/robotics-spatial/spatial-ai|Spatial AI]]
+- [[concepts/robotics-spatial/physical-ai|Physical AI]]
+- [[concepts/robotics-spatial/ar-glasses|AR Glasses]]
+- [[concepts/robotics-spatial/visual-localization|Visual Localization]]
+- [[concepts/robotics-spatial/hardware-product-development|Hardware Product Development]]
 
 ## Sources
 

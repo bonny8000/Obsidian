@@ -28,9 +28,9 @@ The pattern turns repeated AI conversations into durable knowledge. It also make
 
 ## Related Concepts
 
-- [[concepts/product-management/compounding-knowledgeCompounding Knowledge]]
-- [[concepts/ai-agents/ai-maintained-wikiAI-Maintained Wiki]]
-- [[concepts/infrastructure-dev/knowledge-lintingKnowledge Linting]]
+- [[concepts/product-management/compounding-knowledge|Compounding Knowledge]]
+- [[concepts/ai-agents/ai-maintained-wiki|AI-Maintained Wiki]]
+- [[concepts/infrastructure-dev/knowledge-linting|Knowledge Linting]]
 - [[maps/llm-wiki-architecture|LLM Wiki Architecture]]
 
 ## Sources

@@ -28,10 +28,10 @@ AI-native tools can compress development timelines, but faster shipping only hel
 
 ## Related Concepts
 
-- [[concepts/product-management/research-previewResearch Preview]]
-- [[concepts/product-management/ai-product-consistencyAI Product Consistency]]
-- [[concepts/product-management/ai-product-onboardingAI Product Onboarding]]
-- [[concepts/product-management/ai-native-product-managementAI-Native Product Management]]
+- [[concepts/product-management/research-preview|Research Preview]]
+- [[concepts/product-management/ai-product-consistency|AI Product Consistency]]
+- [[concepts/product-management/ai-product-onboarding|AI Product Onboarding]]
+- [[concepts/product-management/ai-native-product-management|AI-Native Product Management]]
 
 ## Sources
 

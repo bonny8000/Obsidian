@@ -27,10 +27,10 @@ If coding agents and frontier models run through a cloud platform such as Bedroc
 
 ## Related Concepts
 
-- [[concepts/ai-agents/codex-on-bedrockCodex on Bedrock]]
-- [[concepts/infrastructure-dev/enterprise-ai-infrastructureEnterprise AI Infrastructure]]
-- [[concepts/infrastructure-dev/cloud-ai-governanceCloud AI Governance]]
-- [[concepts/ai-agents/managed-ai-agentsManaged AI Agents]]
+- [[concepts/ai-agents/codex-on-bedrock|Codex on Bedrock]]
+- [[concepts/infrastructure-dev/enterprise-ai-infrastructure|Enterprise AI Infrastructure]]
+- [[concepts/infrastructure-dev/cloud-ai-governance|Cloud AI Governance]]
+- [[concepts/ai-agents/managed-ai-agents|Managed AI Agents]]
 
 ## Sources
 

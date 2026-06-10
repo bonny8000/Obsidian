@@ -28,9 +28,9 @@ It changes the developer or designer's role from typing every line to setting di
 
 ## Related Concepts
 
-- [[concepts/ai-agents/ai-coding-toolsAI Coding Tools]]
-- [[concepts/ai-agents/vibe-designVibe Design]]
-- [[concepts/ai-agents/ai-agent-workflowAI Agent Workflow]]
+- [[concepts/ai-agents/ai-coding-tools|AI Coding Tools]]
+- [[concepts/ai-agents/vibe-design|Vibe Design]]
+- [[concepts/ai-agents/ai-agent-workflow|AI Agent Workflow]]
 
 ## Sources
 

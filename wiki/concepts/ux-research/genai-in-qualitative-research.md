@@ -37,12 +37,12 @@ The conflict may reduce to a definitional disagreement about what counts as "usi
 
 ## Related Concepts
 
-- [[concepts/ai-agents/ai-as-thinking-partnerAI as Thinking Partner]]
-- [[concepts/ux-research/reflexive-thematic-analysisReflexive Thematic Analysis]]
-- [[concepts/ux-research/methodological-integrityMethodological Integrity]]
-- [[concepts/ux-research/research-ethicsResearch Ethics]]
-- [[concepts/ux-research/human-interpretationHuman Interpretation]]
-- [[concepts/ux-research/ux-research-automationUX Research Automation]]
+- [[concepts/ai-agents/ai-as-thinking-partner|AI as Thinking Partner]]
+- [[concepts/ux-research/reflexive-thematic-analysis|Reflexive Thematic Analysis]]
+- [[concepts/ux-research/methodological-integrity|Methodological Integrity]]
+- [[concepts/ux-research/research-ethics|Research Ethics]]
+- [[concepts/ux-research/human-interpretation|Human Interpretation]]
+- [[concepts/ux-research/ux-research-automation|UX Research Automation]]
 
 ## Sources
 

@@ -31,11 +31,11 @@ This article frames AI as future social and city infrastructure. It connects NAV
 
 ## Linked Concepts
 
-- [[concepts/infrastructure-dev/ai-as-infrastructureAI as Infrastructure]]
-- [[concepts/robotics-spatial/smart-city-aiSmart City AI]]
-- [[concepts/robotics-spatial/spatial-aiSpatial AI]]
-- [[concepts/robotics-spatial/digital-twinDigital Twin]]
-- [[concepts/robotics-spatial/physical-aiPhysical AI]]
+- [[concepts/infrastructure-dev/ai-as-infrastructure|AI as Infrastructure]]
+- [[concepts/robotics-spatial/smart-city-ai|Smart City AI]]
+- [[concepts/robotics-spatial/spatial-ai|Spatial AI]]
+- [[concepts/robotics-spatial/digital-twin|Digital Twin]]
+- [[concepts/robotics-spatial/physical-ai|Physical AI]]
 
 ## Reliability Notes
 

@@ -21,7 +21,7 @@ confidence: 0.6
 - Bridges the gap between traditional copy standards and AI capabilities.
 
 ## ?? Related Concepts
-- [[concepts/ux-research/ux-research-automationUX Research Automation]]
+- [[concepts/ux-research/ux-research-automation|UX Research Automation]]
 
 ## ?? Sources
 - [[sources/rapport-labs-ai-ux-writing|AI UX Writing Principles (Rapport Labs)]]

@@ -21,7 +21,7 @@ Raw source card: `raw/web/brunch-ghidesigner-482.md`
 
 ## Summary
 
-This article frames [[concepts/ai-agents/vibe-designVibe Design]] and [[concepts/ai-agents/vibe-codingVibe Coding]] as a shift from manual artifact production toward directing AI systems through intent, taste, and iterative review. It connects AI-native design surfaces with agentic coding tools that inspect projects, plan changes, edit code, and validate results.
+This article frames [[concepts/ai-agents/vibe-design|Vibe Design]] and [[concepts/ai-agents/vibe-coding|Vibe Coding]] as a shift from manual artifact production toward directing AI systems through intent, taste, and iterative review. It connects AI-native design surfaces with agentic coding tools that inspect projects, plan changes, edit code, and validate results.
 
 ## Extracted Claims
 
@@ -31,10 +31,10 @@ This article frames [[concepts/ai-agents/vibe-designVibe Design]] and [[concepts
 
 ## Linked Concepts
 
-- [[concepts/ai-agents/vibe-designVibe Design]]
-- [[concepts/ai-agents/vibe-codingVibe Coding]]
-- [[concepts/ai-agents/ai-agent-workflowAI Agent Workflow]]
-- [[concepts/ai-agents/ai-coding-toolsAI Coding Tools]]
+- [[concepts/ai-agents/vibe-design|Vibe Design]]
+- [[concepts/ai-agents/vibe-coding|Vibe Coding]]
+- [[concepts/ai-agents/ai-agent-workflow|AI Agent Workflow]]
+- [[concepts/ai-agents/ai-coding-tools|AI Coding Tools]]
 
 ## Reliability Notes
 

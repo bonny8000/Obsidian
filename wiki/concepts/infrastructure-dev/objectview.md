@@ -21,8 +21,8 @@ It allows for a consistent and automated presentation of different types of info
 - The ObjectView is responsible for mapping object properties and links to visual components.
 
 ## Related Concepts
-- [[concepts/infrastructure-dev/deterministic-uiDeterministic UI]]
-- [[concepts/infrastructure-dev/object-backendObject Backend]]
+- [[concepts/infrastructure-dev/deterministic-ui|Deterministic UI]]
+- [[concepts/infrastructure-dev/object-backend|Object Backend]]
 
 ## Sources
 - [[sources/hsol-ai-portfolio-6|AI Portfolio Making (6): A Data Model for a Person]]

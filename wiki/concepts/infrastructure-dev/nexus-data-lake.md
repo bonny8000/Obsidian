@@ -19,9 +19,9 @@ Traditionally, financial data is locked in ERP systems and only accessible to ac
 - **Security & Privacy:** Filtering out sensitive personal information while retaining high-signal business metrics.
 
 ## Key Features
-- **Finance DA Integration:** Designed by [[concepts/product-management/finance-daFinance DAs]] who understand both data pipelines and accounting principles.
+- **Finance DA Integration:** Designed by [[concepts/product-management/finance-da|Finance DAs]] who understand both data pipelines and accounting principles.
 - **Unit Economics Dashboard:** Provides a shared "source of truth" for MD and SCM teams.
-- **AI-Ready Schema:** Designed to be easily queried by [[concepts/product-management/fpa-centralFP&A Central]] AI agents.
+- **AI-Ready Schema:** Designed to be easily queried by [[concepts/product-management/fpa-central|FP&A Central]] AI agents.
 
 ## Sources
 - [[sources/bucketplace-2026-05-08-financial-data-lake|Unlocking Finance to the Data Lake (Bucketplace)]]

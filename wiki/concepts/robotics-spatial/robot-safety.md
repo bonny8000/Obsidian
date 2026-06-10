@@ -29,11 +29,11 @@ Robots can cause physical harm or social disruption if they misperceive, move un
 
 ## Related Concepts
 
-- [[concepts/robotics-spatial/human-robot-interactionHuman-Robot Interaction]]
-- [[concepts/robotics-spatial/socially-aware-navigationSocially Aware Navigation]]
-- [[concepts/robotics-spatial/humanoid-robot-limitationsHumanoid Robot Limitations]]
-- [[concepts/robotics-spatial/physical-aiPhysical AI]]
-- [[concepts/robotics-spatial/robot-boarding-areaRobot Boarding Area]]
+- [[concepts/robotics-spatial/human-robot-interaction|Human-Robot Interaction]]
+- [[concepts/robotics-spatial/socially-aware-navigation|Socially Aware Navigation]]
+- [[concepts/robotics-spatial/humanoid-robot-limitations|Humanoid Robot Limitations]]
+- [[concepts/robotics-spatial/physical-ai|Physical AI]]
+- [[concepts/robotics-spatial/robot-boarding-area|Robot Boarding Area]]
 
 ## Sources
 

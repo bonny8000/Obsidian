@@ -19,12 +19,12 @@ The **10-Person Unicorn** is a concept from the [[sources/founders-playbook-2026
 
 ## Key Strategies
 1. **Automate the "Tax":** Automating all non-core operational tasks (scheduling, reporting, triage) from Day Zero.
-2. **AI-Native Engineering:** Using [[concepts/ai-agents/claude-codeClaude Code]] and maintaining a durable [[concepts/infrastructure-dev/claudemd-contextCLAUDE.md Context]] to ship production-grade code with 1-2 engineers.
+2. **AI-Native Engineering:** Using [[concepts/ai-agents/claude-code|Claude Code]] and maintaining a durable [[concepts/infrastructure-dev/claudemd-context|CLAUDE.md Context]] to ship production-grade code with 1-2 engineers.
 3. **Founder-as-Orchestrator:** Founders remain in "strategic generation" mode while agents handle "tactical execution."
 
 ## Related Concepts
-- [[concepts/ai-agents/orchestrator-of-agentsOrchestrator of Agents]]
-- [[concepts/ai-agents/agentic-work-automationAgentic Work Automation]]
-- [[concepts/product-management/shipping-velocityShipping Velocity]]
-- [[concepts/infrastructure-dev/claudemd-contextCLAUDE.md Context]]
+- [[concepts/ai-agents/orchestrator-of-agents|Orchestrator of Agents]]
+- [[concepts/ai-agents/agentic-work-automation|Agentic Work Automation]]
+- [[concepts/product-management/shipping-velocity|Shipping Velocity]]
+- [[concepts/infrastructure-dev/claudemd-context|CLAUDE.md Context]]
 

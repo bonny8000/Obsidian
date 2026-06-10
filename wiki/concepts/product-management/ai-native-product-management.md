@@ -23,16 +23,16 @@ Traditional PM work often assumes stable capabilities and quarterly planning cyc
 
 - The PM's role shifts from heavy roadmap coordination toward shortening the path from idea to user feedback.
 - AI-native products need clear target users, top tasks, and failure modes because LLMs are general-purpose.
-- A lightweight [[concepts/product-management/research-previewResearch Preview]] model can help teams ship earlier without overcommitting.
+- A lightweight [[concepts/product-management/research-preview|Research Preview]] model can help teams ship earlier without overcommitting.
 - PMs still write PRDs for ambiguous or infrastructure-heavy work, but many daily decisions can move through metrics and team principles.
 
 ## Related Concepts
 
-- [[concepts/product-management/ai-pm-skillsAI PM Skills]]
-- [[concepts/product-management/product-tasteProduct Taste]]
-- [[concepts/product-management/shipping-velocityShipping Velocity]]
-- [[concepts/ai-agents/product-evalsProduct Evals]]
-- [[concepts/product-management/ai-product-planningAI Product Planning]]
+- [[concepts/product-management/ai-pm-skills|AI PM Skills]]
+- [[concepts/product-management/product-taste|Product Taste]]
+- [[concepts/product-management/shipping-velocity|Shipping Velocity]]
+- [[concepts/ai-agents/product-evals|Product Evals]]
+- [[concepts/product-management/ai-product-planning|AI Product Planning]]
 
 ## Sources
 

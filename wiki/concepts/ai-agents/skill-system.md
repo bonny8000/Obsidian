@@ -28,12 +28,12 @@ Skills turn one-off agent work into compounding process knowledge. For design op
 
 ## Related Concepts
 
-- [[concepts/ai-agents/autonomous-ai-agentAutonomous AI Agent]]
-- [[concepts/ai-agents/agent-memoryAgent Memory]]
-- [[concepts/ai-agents/ai-agent-workflowAI Agent Workflow]]
-- [[concepts/ai-agents/skilloptSkillOpt]]
-- [[concepts/infrastructure-dev/text-space-optimizationText-Space Optimization]]
-- [[concepts/ai-agents/self-improving-agent-workflowsSelf-Improving Agent Workflows]]
+- [[concepts/ai-agents/autonomous-ai-agent|Autonomous AI Agent]]
+- [[concepts/ai-agents/agent-memory|Agent Memory]]
+- [[concepts/ai-agents/ai-agent-workflow|AI Agent Workflow]]
+- [[concepts/ai-agents/skillopt|SkillOpt]]
+- [[concepts/infrastructure-dev/text-space-optimization|Text-Space Optimization]]
+- [[concepts/ai-agents/self-improving-agent-workflows|Self-Improving Agent Workflows]]
 
 ## Sources
 

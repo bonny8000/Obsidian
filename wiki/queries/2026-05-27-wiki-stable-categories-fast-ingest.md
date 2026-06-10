@@ -15,8 +15,8 @@ Use the schema layer (AGENTS.md / CLAUDE.md) to define category rules and requir
 
 ## Evidence
 - [[maps/llm-wiki-architecture|LLM Wiki Architecture]] ??The schema layer ("Rules for structure, style, ingest, query, and linting") is the human-controlled governor of wiki structure. Keeping schema rules explicit prevents drift.
-- [[concepts/product-management/ai-product-consistencyAI Product Consistency]] ??"Fast AI shipping can create overlapping features and unclear product boundaries." The same risk applies to wiki categories when ingesting rapidly.
-- [[concepts/infrastructure-dev/knowledge-lintingKnowledge Linting]] ??Linting can detect orphan pages, broken links, and category drift. Regular lint passes are the operational signal that category stability is degrading.
+- [[concepts/product-management/ai-product-consistency|AI Product Consistency]] ??"Fast AI shipping can create overlapping features and unclear product boundaries." The same risk applies to wiki categories when ingesting rapidly.
+- [[concepts/infrastructure-dev/knowledge-linting|Knowledge Linting]] ??Linting can detect orphan pages, broken links, and category drift. Regular lint passes are the operational signal that category stability is degrading.
 - [[sources/lennys-podcast-cat-wu-ai-pm-claude-code|Lenny's Podcast: Cat Wu on AI-Native PM]] ??"Consistency should be balanced against the learning value of shipping experiments." Applied to the wiki: prefer linking new sources to existing concepts over creating new categories.
 
 ## Follow-up Sources Needed

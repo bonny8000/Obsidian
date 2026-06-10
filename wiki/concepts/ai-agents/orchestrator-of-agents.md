@@ -19,6 +19,6 @@ The **Orchestrator of Agents** is the evolving role of a founder or team leader 
 
 ## Related Concepts
 - [[concepts/product-management/10-person-unicorn10-Person Unicorn]]
-- [[concepts/product-management/fpa-centralFP&A Central]]
-- [[concepts/ai-agents/agentic-aiAgentic AI]]
+- [[concepts/product-management/fpa-central|FP&A Central]]
+- [[concepts/ai-agents/agentic-ai|Agentic AI]]
 

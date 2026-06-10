@@ -28,10 +28,10 @@ Cowork represents an agent pattern where the output is a work artifact rather th
 
 ## Related Concepts
 
-- [[concepts/ai-agents/agentic-work-automationAgentic Work Automation]]
-- [[concepts/ai-agents/ai-agent-workflowAI Agent Workflow]]
-- [[concepts/ai-agents/mcp-integrationMCP Integration]]
-- [[concepts/ai-agents/self-improving-agent-workflowsSelf-Improving Agent Workflows]]
+- [[concepts/ai-agents/agentic-work-automation|Agentic Work Automation]]
+- [[concepts/ai-agents/ai-agent-workflow|AI Agent Workflow]]
+- [[concepts/ai-agents/mcp-integration|MCP Integration]]
+- [[concepts/ai-agents/self-improving-agent-workflows|Self-Improving Agent Workflows]]
 
 ## Sources
 

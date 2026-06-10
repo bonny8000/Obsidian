@@ -14,9 +14,9 @@ confidence: 0.66
 For UX research data (participant recordings, transcripts, survey responses): access control (who can read/write), data residency (where files are stored), and participant consent compliance are the highest-priority controls. For design-system assets (tokens, components, brand files): access control and change logging are the priorities, since leaking brand assets is a business risk and unauthorized changes can propagate across products.
 
 ## Evidence
-- [[concepts/infrastructure-dev/cloud-ai-governanceCloud AI Governance]] ??"Identity, logging, encryption, access control, and procurement workflows affect production readiness." These map directly onto UX data and design-asset requirements.
-- [[concepts/ux-research/research-ethicsResearch Ethics]] ??"Researcher accountability remains necessary when AI is involved." Accountability requires knowing who accessed participant data and when.
-- [[concepts/ai-agents/agent-identityAgent Identity]] ??"Long-running design or research agents need scoped access rather than broad ambient access. Agent identity supports traceability and permission management."
+- [[concepts/infrastructure-dev/cloud-ai-governance|Cloud AI Governance]] ??"Identity, logging, encryption, access control, and procurement workflows affect production readiness." These map directly onto UX data and design-asset requirements.
+- [[concepts/ux-research/research-ethics|Research Ethics]] ??"Researcher accountability remains necessary when AI is involved." Accountability requires knowing who accessed participant data and when.
+- [[concepts/ai-agents/agent-identity|Agent Identity]] ??"Long-running design or research agents need scoped access rather than broad ambient access. Agent identity supports traceability and permission management."
 - [[sources/brunch-ghidesigner-472|Brunch: Google Gemini Enterprise for UXUI Design]] ??"Enterprise AI agent platforms can integrate research data, design systems, feedback, and workflows in a governed environment."
 
 ## Follow-up Sources Needed

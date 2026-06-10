@@ -29,8 +29,8 @@ The working pattern has three layers:
 
 ## Related
 
-- [[concepts/infrastructure-dev/llm-wikiLLM Wiki]]
-- [[concepts/ai-agents/ai-maintained-wikiAI-Maintained Wiki]]
-- [[concepts/infrastructure-dev/knowledge-lintingKnowledge Linting]]
+- [[concepts/infrastructure-dev/llm-wiki|LLM Wiki]]
+- [[concepts/ai-agents/ai-maintained-wiki|AI-Maintained Wiki]]
+- [[concepts/infrastructure-dev/knowledge-linting|Knowledge Linting]]
 
 

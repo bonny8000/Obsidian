@@ -27,8 +27,8 @@ The article details **Gemini Spark**, Google's next-gen "Agentic AI" revealed at
 - **Hyper-personalization:** Persistent memory and contextual learning allow Spark to adapt to a user's specific style, preferences, and feedback over time.
 
 ## Linked Concepts
-- [[concepts/ai-agents/agentic-aiAgentic AI]]
-- [[concepts/ai-agents/gemini-sparkGemini Spark]]
-- [[concepts/ai-agents/ai-agent-workflowAI Agent Workflow]]
+- [[concepts/ai-agents/agentic-ai|Agentic AI]]
+- [[concepts/ai-agents/gemini-spark|Gemini Spark]]
+- [[concepts/ai-agents/ai-agent-workflow|AI Agent Workflow]]
 - [[concepts/google-workspace-ai|Google Workspace AI]]
 

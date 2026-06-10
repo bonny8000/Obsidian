@@ -22,9 +22,9 @@ The roadmap is the "source of truth" for what a team will build. Influencing the
 - **Prioritization Constraints:** Some items are immovable (mandates, deadlines), while others are "softer" and open to replacement by better-evidenced ideas.
 
 ## Related Concepts
-- [[concepts/product-management/research-influenceResearch Influence]]
-- [[concepts/ux-research/ux-metricsUX Metrics]]
-- [[concepts/product-management/discovery-phaseDiscovery Phase]]
+- [[concepts/product-management/research-influence|Research Influence]]
+- [[concepts/ux-research/ux-metrics|UX Metrics]]
+- [[concepts/product-management/discovery-phase|Discovery Phase]]
 
 ## Sources
 - [[sources/nngroup-research-recommendations-roadmap|Research Recommendations and the Roadmap (NN/g)]]

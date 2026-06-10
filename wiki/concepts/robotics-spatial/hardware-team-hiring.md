@@ -27,9 +27,9 @@ AI companies moving into devices and robotics need different talent than pure so
 
 ## Related Concepts
 
-- [[concepts/robotics-spatial/hardware-product-developmentHardware Product Development]]
-- [[concepts/robotics-spatial/consumer-hardware-developmentConsumer Hardware Development]]
-- [[concepts/robotics-spatial/ai-hardware-boomAI Hardware Boom]]
+- [[concepts/robotics-spatial/hardware-product-development|Hardware Product Development]]
+- [[concepts/robotics-spatial/consumer-hardware-development|Consumer Hardware Development]]
+- [[concepts/robotics-spatial/ai-hardware-boom|AI Hardware Boom]]
 
 ## Sources
 

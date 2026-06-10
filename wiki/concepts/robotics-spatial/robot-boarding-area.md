@@ -27,9 +27,9 @@ RBA connects physical clearance with social acceptability. A robot may technical
 
 ## Related Concepts
 
-- [[concepts/robotics-spatial/human-robot-interactionHuman-Robot Interaction]]
-- [[concepts/robotics-spatial/socially-aware-navigationSocially Aware Navigation]]
-- [[concepts/robotics-spatial/physical-aiPhysical AI]]
+- [[concepts/robotics-spatial/human-robot-interaction|Human-Robot Interaction]]
+- [[concepts/robotics-spatial/socially-aware-navigation|Socially Aware Navigation]]
+- [[concepts/robotics-spatial/physical-ai|Physical AI]]
 
 ## Sources
 

@@ -31,11 +31,11 @@ This article presents Hermes Agent as an autonomous AI agent framework for desig
 
 ## Linked Concepts
 
-- [[concepts/ai-agents/autonomous-ai-agentAutonomous AI Agent]]
-- [[concepts/ai-agents/agent-memoryAgent Memory]]
-- [[concepts/ai-agents/skill-systemSkill System]]
-- [[concepts/ai-agents/ai-agent-workflowAI Agent Workflow]]
-- [[concepts/infrastructure-dev/design-automationDesign Automation]]
+- [[concepts/ai-agents/autonomous-ai-agent|Autonomous AI Agent]]
+- [[concepts/ai-agents/agent-memory|Agent Memory]]
+- [[concepts/ai-agents/skill-system|Skill System]]
+- [[concepts/ai-agents/ai-agent-workflow|AI Agent Workflow]]
+- [[concepts/infrastructure-dev/design-automation|Design Automation]]
 
 ## Reliability Notes
 

@@ -37,12 +37,12 @@ Toss, the Korean fintech super-app, developed "Huribot" ??an AI assistant traine
 
 ## Linked Concepts
 
-- [[concepts/ux-research/huribotHuribot]]
-- [[concepts/ux-research/automated-ut-setupAutomated UT Setup]]
-- [[concepts/ux-research/ux-research-automationUX Research Automation]]
-- [[concepts/ux-research/ai-usability-analysisAI Usability Analysis]]
-- [[concepts/ux-research/design-research-automationDesign Research Automation]]
-- [[concepts/ux-research/human-in-the-loopHuman-in-the-loop]]
+- [[concepts/ux-research/huribot|Huribot]]
+- [[concepts/ux-research/automated-ut-setup|Automated UT Setup]]
+- [[concepts/ux-research/ux-research-automation|UX Research Automation]]
+- [[concepts/ux-research/ai-usability-analysis|AI Usability Analysis]]
+- [[concepts/ux-research/design-research-automation|Design Research Automation]]
+- [[concepts/ux-research/human-in-the-loop|Human-in-the-loop]]
 
 ## Reliability Notes
 

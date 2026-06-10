@@ -26,7 +26,7 @@ The article argues that AI-moderated interviews are a new research affordance, n
 - **Errors do not average out:** Sample problems (who produces data) and instrument problems (what happens to data) are structural, not statistical.
 
 ## Linked Concepts
-- [[concepts/ux-research/ai-moderated-interviewsAI-Moderated Interviews]]
-- [[concepts/ux-research/ux-research-automationUX Research Automation]]
-- [[concepts/ux-research/reliability-vs-validityReliability vs Validity]]
+- [[concepts/ux-research/ai-moderated-interviews|AI-Moderated Interviews]]
+- [[concepts/ux-research/ux-research-automation|UX Research Automation]]
+- [[concepts/ux-research/reliability-vs-validity|Reliability vs Validity]]
 
