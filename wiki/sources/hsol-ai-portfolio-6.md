@@ -34,7 +34,7 @@ The article describes a method for structuring a personal "AI portfolio" by adop
 - [[concepts/infrastructure-dev/object-backend|Object Backend]]
 - [[concepts/infrastructure-dev/object-graph-mapping|Object-Graph Mapping]]
 - [[concepts/infrastructure-dev/objectview|ObjectView]]
-- [[concepts/ai-agents/1-person-vault1-Person Vault]]
+- [[concepts/ai-agents/1-person-vault|1-Person Vault]]
 - [[concepts/infrastructure-dev/deterministic-ui|Deterministic UI]]
 - [[concepts/infrastructure-dev/graph-based-retrospection|Graph-based Retrospection]]
 

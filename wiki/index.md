@@ -42,6 +42,8 @@ confidence: 0.9
 > - [[maps/multilingual-typography-and-localization|Multilingual Typography and Localization]]
 > - [[maps/ai-ux-research-methods|AI UX Research Methods]]
 > - [[maps/research-methods-knowledge-base|Research Methods Knowledge Base]]
+> - [[maps/ux-metrics-framework|UX Metrics Framework]]
+> - [[maps/research-agenda|Research Agenda — Open Questions]]
 
 ---
 
@@ -192,8 +194,4 @@ confidence: 0.9
 ## 📜 Maintenance Logs
 > [!info] History
 > - [[logs/change-log|Change Log]]
-> - [[logs/lint-report|Lint Report]]
-
-> [!info] History
-> - [[logs/change-log|Change Log]]
-> - [[logs/lint-report|Lint Report]]
+> - [[log

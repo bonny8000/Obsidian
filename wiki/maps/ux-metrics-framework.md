@@ -23,15 +23,13 @@ confidence: 0.8
 
 - [[concepts/ux-research/ux-performance-benchmarking|UX Performance Benchmarking]] — against goals and norms.
 - [[concepts/ux-research/quant-uxr-rigor|Quant UXR Rigor]] / [[concepts/ux-research/reliability-vs-validity|Reliability vs Validity]] / [[concepts/ux-research/validity-and-decision-relevance|Validity and Decision Relevance]].
-- Statistics for small samples: [[sources/sauro-lewis-quantifying-ux-2016|Sauro & Lewis (2016)]] — confidence intervals, benchmark tests, sample size models, standardized questionnaires.
+- Statistics for small samples (from [[sources/sauro-lewis-quantifying-ux-2016|Sauro & Lewis (2016)]]):
+  - [[concepts/ux-research/ux-statistics-decision-map|UX Statistics Decision Map]] — route question → method
+  - [[concepts/ux-research/adjusted-wald-confidence-interval|Adjusted-Wald Confidence Interval]]
+  - [[concepts/ux-research/sample-size-for-usability-studies|Sample Size for Usability Studies]] / [[concepts/ux-research/problem-discovery-model|Problem Discovery Model]]
+  - [[concepts/ux-research/standardized-usability-questionnaires|Standardized Usability Questionnaires]]
 
 ## Core sources
 
 - [[sources/sauro-lewis-quantifying-ux-2016|Quantifying the User Experience (Sauro & Lewis, 2016)]]
-- [[sources/tullis-albert-measuring-ux-2013|Measuring the User Experience (Tullis & Albert, 2013)]] — re-ingest pending
-- [[sources/chapman-rodden-quant-uxr-2023|Quantitative User Experience Research (Chapman & Rodden, 2023)]] — re-ingest pending
-
-## Tensions & open questions
-
-- Standardized questionnaires (SUS) vs. product-analytics frameworks (HEART): when does each earn its keep?
-- Small-sample inferential stats vs. "just ship and A/B": where is the boundary for Bonny's projects?
+- [[sources/tullis-albert-measuring-ux-2013|Measuring the User Experience (Tullis & Albert

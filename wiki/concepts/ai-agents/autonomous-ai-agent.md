@@ -23,7 +23,7 @@ For design and knowledge work, autonomy shifts the workflow from asking for isol
 
 - Persistent memory and tool access are core ingredients of useful autonomy.
 - Autonomy requires guardrails, approvals, and clear operating instructions.
-- Agent value compounds when successful procedures become reusable [[concepts/ai-agents/skill-systemskills]].
+- Agent value compounds when successful procedures become reusable [[concepts/ai-agents/skill-system|skills]].
 
 ## Related Concepts
 

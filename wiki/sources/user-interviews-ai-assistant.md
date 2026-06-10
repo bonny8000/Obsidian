@@ -27,7 +27,7 @@ User Interviews has launched an AI Assistant suite designed to streamline the en
 - [[concepts/ai-recruitment|AI Recruitment]]
 - [[concepts/ai-analysis|AI Analysis]]
 - [[concepts/mcp-integration|MCP Integration]]
-- [[concepts/uxr-automation|UXR Automation]]
+- [[concepts/ux-research/ux-research-automation|UXR Automation]]
 
 ## Reliability Notes
 Primary source from the product vendor. High confidence in feature availability and intended use cases.

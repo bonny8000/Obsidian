@@ -10,10 +10,18 @@ confidence: 1.0
 
 # Change Log
 
+## 2026-06-10 - Phase 1+2: lint tooling, Sauro & Lewis deep ingest, research agenda, dashboards
+
+- Created `scripts/lint.py` (broken links, pipe-stripped links, empty pages, frontmatter, orphans, lost-content stubs) → [[logs/lint-report|Lint Report]]. Fixed 19 more broken links it caught (digit-prefixed titles, mojibake'd emoji links, 2 wrong targets); 17 remain (4 missing concept pages + template placeholders), listed in the report.
+- Deep-ingested Sauro & Lewis ch. 1, 3, 6–8: created [[concepts/ux-research/adjusted-wald-confidence-interval|Adjusted-Wald CI]], [[concepts/ux-research/sample-size-for-usability-studies|Sample Size for Usability Studies]], [[concepts/ux-research/problem-discovery-model|Problem Discovery Model]], [[concepts/ux-research/standardized-usability-questionnaires|Standardized Usability Questionnaires]], [[concepts/ux-research/ux-statistics-decision-map|UX Statistics Decision Map]]. Updated source page and [[maps/ux-metrics-framework|UX Metrics Framework]]. Remaining backlog: ch. 4–5, 9–10.
+- Created [[maps/research-agenda|Research Agenda]] (85 open questions harvested from all concept pages) + `scripts/harvest_questions.py` to regenerate it.
+- Extended `dashboard.base` with views: Drafts, Low Confidence, Lost Content, Stale (60 days).
+- Updated [[index|LLM Wiki Index]] map list.
+
 ## 2026-06-10 - Phase 0 Repair: git, broken links, corrupted pages
 
 - Initialized git version control with baseline commit of pre-repair state. Added `.gitignore`.
-- Fixed 590 pipe-stripped wikilinks (`[[path` fused with `Title]]`) across 125 files via script with dry-run verification.
+- Fixed 590 pipe-stripped wikilinks (alias pipe removed, path fused with title) across 125 files via script with dry-run verification.
 - Rebuilt all 25 corrupted/empty pages: 5 fully from `raw/`, 3 from backlink context, 6 as citation stubs needing re-ingest, 11 as tombstones. Details in [[logs/2026-06-10-corruption-recovery|Corruption Recovery Log]].
 - Created [[projects/llm-wiki-improvement-plan|LLM Wiki Improvement Plan]] (Phases 0–3).
 
@@ -198,7 +206,7 @@ Source: `raw/web/medium-harizlim-ai-qualitative-research-2026-05-10.md` (Medium,
 
 - Ingested three new sources: [[sources/founders-playbook-2026|Founder's Playbook (2026)]], [[sources/bucketplace-2026-05-08-financial-data-lake|Unlocking Finance to the Data Lake (Bucketplace)]], and [[sources/bucketplace-2026-05-06-ai-for-designers|How Designers Use AI (Bucketplace)]].
 - Created six new concept pages:
-    - [[concepts/product-management/10-person-unicorn10-Person Unicorn]]
+    - [[concepts/product-management/10-person-unicorn|10-Person Unicorn]]
     - [[concepts/ai-agents/orchestrator-of-agents|Orchestrator of Agents]]
     - [[concepts/infrastructure-dev/nexus-data-lake|Nexus Data Lake]]
     - [[concepts/product-management/fpa-central|FP&A Central]]
@@ -238,22 +246,4 @@ Source: `raw/web/medium-harizlim-ai-qualitative-research-2026-05-10.md` (Medium,
 - Added new concept: [[concepts/infrastructure-dev/modern-web-guidance|Modern Web Guidance]].
 - Documented tool features, integration with AI agents, and relevance to AI product consistency.
 - Updated [[index|LLM Wiki Index]] to include the new concept under AI Design and Agents.
-- Ingested five new sources: MeasuringU (Senior UXR), Brunch (Agentic AI Competencies), Google I/O 2026, Gemini 3.5 Launch, and ZDNet (Dell AI-Native).
-- Created new source pages for all five sources in `wiki/sources/`.
-- Created/Updated concepts: [[concepts/ai-agents/agentic-ai|Agentic AI]], [[concepts/ai-agents/gemini-3-5|Gemini 3.5]], [[concepts/product-management/tokenomics|Tokenomics]], and [[concepts/ux-research/senior-ux-researcher|Senior UX Researcher]].
-- Updated [[index|LLM Wiki Index]] to reflect new content across multiple topic clusters.
-
-## 2026-05-21
-
-- Ingested new source from Hansol Lim: [[sources/hsol-ai-portfolio-6|AI Portfolio Making (6): A Data Model for a Person]].
-- Created seven new concept pages related to personal data modeling and Palantir Foundry ontology.
-- Added new "Personal AI and Data Modeling" topic cluster to [[index|LLM Wiki Index]].
-- Created [[logs/2026-05-21-ingest-report|2026-05-21 Ingest Report]].
-- **Skill-Driven Overhaul:**
-    - Installed and activated `obsidian-markdown`, `obsidian-cli`, `obsidian-bases`, and `defuddle` skills.
-    - Created `dashboard.base` for structured vault visualization.
-    - Redesigned [[index|LLM Wiki Index]] using Obsidian callouts and base embeds.
-    - Enhanced [[concepts/infrastructure-dev/palantir-foundry-ontology|Palantir Foundry Ontology]] with Mermaid diagrams and callouts.
-
-
-- **2026-05-27:** Deep ingest of Tullis &
+- Ingested five new sources: MeasuringU (Senior UXR), Brunch (Agentic AI Competencies

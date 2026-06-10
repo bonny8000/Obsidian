@@ -15,7 +15,7 @@ The **10-Person Unicorn** is a concept from the [[sources/founders-playbook-2026
 ## Why it Matters
 - **Capital Efficiency:** Reaches scale without the traditional heavy dilution of constant fundraising for massive hiring.
 - **Speed:** Small teams avoid the "coordination tax" and "communication overhead" of large organizations.
-- **Leverage:** Each team member acts as an [[concepts/ai-agents/orchestrator-of-agentsorchestrator]], managing a fleet of AI agents that execute specialized tasks.
+- **Leverage:** Each team member acts as an [[concepts/ai-agents/orchestrator-of-agents|orchestrator]], managing a fleet of AI agents that execute specialized tasks.
 
 ## Key Strategies
 1. **Automate the "Tax":** Automating all non-core operational tasks (scheduling, reporting, triage) from Day Zero.

@@ -18,7 +18,7 @@ The **Orchestrator of Agents** is the evolving role of a founder or team leader 
 - **Quality Control:** Setting the "bar" and verifying agentic output against business goals.
 
 ## Related Concepts
-- [[concepts/product-management/10-person-unicorn10-Person Unicorn]]
+- [[concepts/product-management/10-person-unicorn|10-Person Unicorn]]
 - [[concepts/product-management/fpa-central|FP&A Central]]
 - [[concepts/ai-agents/agentic-ai|Agentic AI]]
 

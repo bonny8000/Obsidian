@@ -53,5 +53,5 @@ The review maps AI implementations across 10 steps of the research journey:
 - [[concepts/ux-research/ai-uxr-maturity-matrix|AI UXR Maturity Matrix]]
 - [[concepts/ux-research/agentic-research-workflows|Agentic Research Workflows]]
 - [[concepts/ux-research/ai-evals|AI Evals in Research]]
-- [[concepts/ux-research/synthetic-personas|Synthetic Personas]]
+- [[concepts/ux-research/grounded-synthetic-personas|Synthetic Personas]]
 - [[concepts/ux-research/research-operations|Research Operations]]

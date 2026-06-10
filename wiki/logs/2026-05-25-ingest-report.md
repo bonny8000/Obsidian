@@ -22,14 +22,14 @@ Ingested three high-leverage sources focusing on AI-native organizational struct
 - [[sources/bucketplace-2026-05-06-ai-for-designers|How Designers Use AI (Bucketplace)]]: Interactive specs and Athena MCP.
 
 ## New Concepts
-- [[concepts/product-management/10-person-unicorn?? 10-Person Unicorn]]
-- [[concepts/ai-agents/orchestrator-of-agents? Orchestrator of Agents]]
-- [[concepts/product-management/ai-native-stack??儭?AI-Native Stack]]
-- [[concepts/infrastructure-dev/nexus-data-lake?? Nexus Data Lake]]
-- [[concepts/product-management/fpa-central?? FP&A Central]]
-- [[concepts/ux-research/designing-for-agency?? Designing for Agency]]
-- [[concepts/ai-agents/interactive-specs??儭?Interactive Specs]]
-- [[concepts/ai-agents/athena-mcp?? Athena MCP]]
+- [[concepts/product-management/10-person-unicorn|10-Person Unicorn]]
+- [[concepts/ai-agents/orchestrator-of-agents|Orchestrator of Agents]]
+- [[concepts/product-management/ai-native-stack|AI-Native Stack]]
+- [[concepts/infrastructure-dev/nexus-data-lake|Nexus Data Lake]]
+- [[concepts/product-management/fpa-central|FP&A Central]]
+- [[concepts/ux-research/designing-for-agency|Designing for Agency]]
+- [[concepts/ai-agents/interactive-specs|Interactive Specs]]
+- [[concepts/ai-agents/athena-mcp|Athena MCP]]
 
 ## Updates
 - [[index|LLM Wiki Index]]: Added "Interactive Specs" and "Designing for Agency" to Highlights.
