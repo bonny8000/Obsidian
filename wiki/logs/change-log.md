@@ -10,6 +10,13 @@ confidence: 1.0
 
 # Change Log
 
+## 2026-06-10 - Phase 0 Repair: git, broken links, corrupted pages
+
+- Initialized git version control with baseline commit of pre-repair state. Added `.gitignore`.
+- Fixed 590 pipe-stripped wikilinks (`[[path` fused with `Title]]`) across 125 files via script with dry-run verification.
+- Rebuilt all 25 corrupted/empty pages: 5 fully from `raw/`, 3 from backlink context, 6 as citation stubs needing re-ingest, 11 as tombstones. Details in [[logs/2026-06-10-corruption-recovery|Corruption Recovery Log]].
+- Created [[projects/llm-wiki-improvement-plan|LLM Wiki Improvement Plan]] (Phases 0–3).
+
 ## 2026-06-10 - Ingest: Sauro & Lewis, Quantifying the User Experience (2nd ed.)
 
 Source: `raw/files/sauro-lewis-quantifying-the-user-experience-2e.pdf` (copied from Downloads, renamed from corrupted original filename)
@@ -249,10 +256,4 @@ Source: `raw/web/medium-harizlim-ai-qualitative-research-2026-05-10.md` (Medium,
     - Enhanced [[concepts/infrastructure-dev/palantir-foundry-ontology|Palantir Foundry Ontology]] with Mermaid diagrams and callouts.
 
 
-- **2026-05-27:** Deep ingest of Tullis & Albert (2013). Created UX Metrics Framework and associated concept notes ([[logs/2026-05-27-ingest-report|Report]]).
-
-- **2026-05-27:** Deep ingest of Chapman & Rodden (2023). Established HEART framework, MaxDiff, and Quant UXR Identity clusters ([[logs/2026-05-27-ingest-report-2|Report]]).
-
-- **2026-05-27:** Ingested Adobe HAIC Framework (2025). Built HAIC Modalities Taxonomy and Progressive User Control concepts ([[logs/2026-05-27-ingest-report-3|Report]]).
-
-- **2026-05-27:** Ingested VR Usability Design (2022). Expanded Spatial AI cluster with Immersion/Presence and Sickness Mitigation f
+- **2026-05-27:** Deep ingest of Tullis &
