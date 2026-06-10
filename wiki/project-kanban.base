@@ -1,0 +1,37 @@
+filters:
+  and:
+    - type == "project"
+    - not:
+        - file.folder == "_templates"
+formulas:
+  days_active: if(created, (now() - date(created)).days.round(0), "")
+  status_icon: if(status == "completed", "✅", if(status == "active", "🚀", if(status == "on-hold", "⏸️", "📝")))
+properties:
+  file.name:
+    displayName: Project Name
+  status:
+    displayName: Status
+  formula.days_active:
+    displayName: Days Active
+views:
+  - type: cards
+    name: Project Kanban
+    filters:
+      not:
+        - status == "completed"
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - formula.days_active
+      - updated
+  - type: table
+    name: All Projects
+    order:
+      - formula.status_icon
+      - file.name
+      - status
+      - created
+      - updated
+      - formula.days_active

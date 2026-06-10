@@ -1,0 +1,22 @@
+filters:
+  and:
+    - file.folder == "wiki/concepts"
+    - file.hasTag("spatial-ai") || file.hasTag("robotics") || file.hasTag("physical-ai") || file.hasTag("smart-city")
+views:
+  - type: table
+    name: Spatial & Robotics Concepts
+    order:
+      - file.name
+      - status
+      - tags
+      - updated
+    summaries:
+      file.name: Count
+  - type: cards
+    name: By Status
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - tags

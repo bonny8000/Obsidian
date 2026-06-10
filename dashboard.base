@@ -1,0 +1,38 @@
+filters:
+  or:
+    - type == "source"
+    - type == "concept"
+views:
+  - type: table
+    name: Recently Ingested Sources
+    filters:
+      and:
+        - type == "source"
+    order:
+      - file.name
+      - created
+      - updated
+    summaries:
+      file.name: Count
+  - type: cards
+    name: Concept Library
+    filters:
+      and:
+        - type == "concept"
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - tags
+    summaries:
+      file.name: Count
+  - type: list
+    name: Items Needing Review
+    filters:
+      and:
+        - status == "needs-review"
+    order:
+      - file.name
+      - updated

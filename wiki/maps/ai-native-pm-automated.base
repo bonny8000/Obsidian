@@ -1,0 +1,22 @@
+filters:
+  and:
+    - file.folder == "wiki/concepts"
+    - file.hasTag("ai-product-management") || file.hasTag("product-management")
+views:
+  - type: table
+    name: AI PM Concepts
+    order:
+      - file.name
+      - status
+      - confidence
+      - updated
+    summaries:
+      file.name: Count
+  - type: cards
+    name: By Status
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - tags
