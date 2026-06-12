@@ -30,6 +30,12 @@ confidence: 0.9
 ## 📊 Dashboard Access
 ![[../dashboard.base]]
 
+## Recent Ingests
+> [!info] Added 2026-06-12
+> - [[sources/theaxlabs-contaminated-memory-performance|AX LABS: Contaminated Memory Eats Away Performance]]
+> - [[sources/figma-you-never-stop-cultivating-taste|Figma: You Never Stop Cultivating Taste]]
+> - [[sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]]
+
 ## UX Research Workspace
 > [!abstract] Method-first research layer
 > - **Overview:** [[overview|Knowledge Base Overview]]
@@ -76,6 +82,7 @@ confidence: 0.9
 - [[concepts/infrastructure-dev/enterprise-ai-agent-platform|Enterprise AI Agent Platform]]
 - [[concepts/infrastructure-dev/cloud-ai-governance|Cloud AI Governance]]
 - [[concepts/ai-agents/agent-memory|Agent Memory]]
+- [[concepts/ai-agents/memory-contamination|Memory Contamination]]
 - [[concepts/ai-agents/skill-system|Skill System]]
 - [[concepts/ai-agents/skillopt|SkillOpt]]
 - [[concepts/infrastructure-dev/text-space-optimization|Text-Space Optimization]]

@@ -24,6 +24,7 @@ sources:
   - sources/carl-pearson-quant-uxr-self-study-resources
   - sources/quantuxblog
   - sources/meta-research-medium-publication
+  - sources/measuringu-statistics-30-participants
 confidence: 0.85
 ---
 
@@ -78,6 +79,7 @@ This cluster tracks where AI can help UX research and where research-method inte
 - [[concepts/ux-research/quant-uxr-learning-path|Quant UXR Learning Path]]
 - [[concepts/ux-research/quant-uxr-rigor|Quant UXR Rigor]]
 - [[concepts/ux-research/participant-selection-criteria|Participant Selection Criteria]]
+- [[concepts/ux-research/sample-size-for-usability-studies|Sample Size for Usability Studies]]
 
 ## Source Path
 
@@ -97,6 +99,7 @@ This cluster tracks where AI can help UX research and where research-method inte
 - [[sources/carl-pearson-quant-uxr-self-study-resources|Carl Pearson: Learn Quantitative UX Research]]
 - [[sources/quantuxblog|Quantitative UX Research Blog]]
 - [[sources/meta-research-medium-publication|Meta Research Medium Publication]]
+- [[sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]]
 
 ## Foundational UX Frameworks & Methods
 
@@ -136,4 +139,3 @@ The SAGE vs. Lim tension maps a key fork in the field: SAGE argues AI is methodo
 Bakhshi's "long accommodation" adds a profession-level quality gate: AI makes research generation cheaper, so the scarce work becomes proving that claims are valid and relevant to the decision being made.
 
 The 2026 MeasuringU hallucination follow-up makes the AI review gate more concrete: AI-only usability problems should be sorted into genuine findings, false alarms, and hallucinations before they are treated as evidence. The quant UXR sources add a complementary learning path: build the basics of surveys, statistics, programming, and research design, then define rigor by decision usefulness and data quality rather than method complexity.
-

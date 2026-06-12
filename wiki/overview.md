@@ -18,7 +18,7 @@ This vault is a research-first LLM knowledge base. `raw/` preserves evidence, `w
 
 ## Current Shape
 
-- Source records: [[maps/llm-ready-source-index|68 tracked source pages]], with 50 currently marked `llm_ready: true`.
+- Source records: [[maps/llm-ready-source-index|71 tracked source pages]], with 53 currently marked `llm_ready: true`.
 - UX research concept graph: [[concepts/ux-research/research-methods-foundations|research methods foundations]], [[concepts/ux-research/research-strategy|research strategy]], [[concepts/ux-research/research-operations|ResearchOps]], [[concepts/ux-research/ux-metrics|UX metrics]], and AI-assisted research concepts.
 - UX research operating layer: [[methods/usability-testing|method pages]], [[comparisons/research-method-selection-matrix|comparison matrices]], and [[analyses/ux-research-wiki-gap-audit-2026-06-12|analysis memos]].
 
@@ -29,6 +29,8 @@ This vault is a research-first LLM knowledge base. `raw/` preserves evidence, `w
 - Qualitative rigor: interviews, thematic analysis, reflexivity, validity, and methodological integrity.
 - Research operations: research strategy, maturity, participant criteria, respect, ethics, and reusable research knowledge.
 - Product-facing synthesis: translating research evidence into roadmaps, decisions, product taste, and AI-native workflows.
+- Agent memory operations: memory lifecycle, contamination controls, trace review, and durable context governance.
+- AI-era design taste: craft judgment, critique, care, and human review gates for generated artifacts.
 
 ## How To Use With An LLM
 
@@ -42,4 +44,3 @@ This vault is a research-first LLM knowledge base. `raw/` preserves evidence, `w
 - Some source records remain `coverage: partial` and should be deepened before being used as primary decision evidence.
 - The method library is now seeded, but each method should be expanded with project examples, study templates, and decision criteria.
 - Analysis memos should be added whenever sources are synthesized into a product or research recommendation.
-

@@ -21,6 +21,12 @@ This is the top-level catalog for the Obsidian LLM-Wiki. Use it as the first sto
 - [[wiki/maps/llm-ready-source-index|LLM-Ready Source Index]]
 - [[log|Operations Log]]
 
+## Recent Ingests
+
+- [[wiki/sources/theaxlabs-contaminated-memory-performance|AX LABS: Contaminated Memory Eats Away Performance]]
+- [[wiki/sources/figma-you-never-stop-cultivating-taste|Figma: You Never Stop Cultivating Taste]]
+- [[wiki/sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]]
+
 ## UX Research Workspace
 
 - [[wiki/methods/usability-testing|Usability Testing]]
@@ -41,4 +47,3 @@ This is the top-level catalog for the Obsidian LLM-Wiki. Use it as the first sto
 - [[wiki/concepts/ux-research/research-methods-foundations|Research Methods Foundations]]
 - [[wiki/concepts/ux-research/research-strategy|Research Strategy]]
 - [[wiki/concepts/ux-research/research-operations|Research Operations]]
-

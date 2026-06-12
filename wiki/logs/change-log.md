@@ -10,6 +10,16 @@ confidence: 1.0
 
 # Change Log
 
+## 2026-06-12 - Ingest: memory contamination, design taste, and n >= 30 statistics
+
+Sources: `raw/web/theaxlabs-contaminated-memory-performance-2026-06-12.md`, `raw/web/figma-you-never-stop-cultivating-taste-2026-06-12.md`, `raw/web/measuringu-statistics-30-participants-2026-06-12.md`
+
+- Created source pages for [[sources/theaxlabs-contaminated-memory-performance|AX LABS: Contaminated Memory Eats Away Performance]], [[sources/figma-you-never-stop-cultivating-taste|Figma: You Never Stop Cultivating Taste]], and [[sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]].
+- Created [[concepts/ai-agents/memory-contamination|Memory Contamination]] and updated [[concepts/ai-agents/agent-memory|Agent Memory]] with memory lifecycle and contamination controls.
+- Updated [[concepts/product-management/product-taste|Product Taste]] with Figma's taste-as-care and AI-era craft framing.
+- Updated Quant UXR concepts and [[methods/surveys-and-standardized-metrics|Surveys and Standardized Metrics]] with the MeasuringU n >= 30 guidance.
+- Updated [[maps/ai-design-agent-workflows|AI Design Agent Workflows]], [[maps/ai-native-product-management|AI-Native Product Management]], [[maps/ux-metrics-framework|UX Metrics Framework]], [[maps/ai-ux-research-methods|AI UX Research Methods]], root `index.md`, [[index|LLM Wiki Index]], and root `log.md`.
+
 ## 2026-06-12 - UX research workspace schema
 
 - Expanded `CLAUDE.md` into a full operating schema inspired by the reference research-vault structure.

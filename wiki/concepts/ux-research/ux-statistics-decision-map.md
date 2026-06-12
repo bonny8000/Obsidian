@@ -2,9 +2,11 @@
 type: concept
 status: active
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-12
 tags: [concept, statistics, quant-ux, playbook]
-sources: [sauro-lewis-quantifying-ux-2016]
+sources:
+  - sources/sauro-lewis-quantifying-ux-2016
+  - sources/measuringu-statistics-30-participants
 confidence: 0.9
 ---
 
@@ -15,6 +17,8 @@ confidence: 0.9
 Sauro & Lewis ch. 1 routes any UX research question to a method via three questions: (1) Estimating a value, comparing to a benchmark, or comparing alternatives? (2) Data discrete-binary (completion) or continuous (time, ratings)? (3) Same users or different users across conditions (within vs. between subjects)?
 
 ## Route table (compressed)
+
+- Do not route decisions through a fixed n >= 30 rule; route through data type, analysis goal, expected variability, confidence or power, and effect size.
 
 - Estimate precision → confidence interval ([[concepts/ux-research/adjusted-wald-confidence-interval|adjusted-Wald]] for binary; t-interval for continuous; log-transform for times).
 - Compare to benchmark → one-sample test (exact binomial / one-sample t).
@@ -33,6 +37,8 @@ This map turns the book into an operational playbook — the right page for a wo
 - [[concepts/ux-research/standardized-usability-questionnaires|Standardized Usability Questionnaires]]
 
 ## Sources
+
+- [[sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]]
 
 - [[sources/sauro-lewis-quantifying-ux-2016|Sauro & Lewis (2016)]], ch. 1, 3–10.
 

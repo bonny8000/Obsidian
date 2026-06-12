@@ -1,8 +1,8 @@
-﻿---
+---
 type: map
 status: active
 created: 2026-05-18
-updated: 2026-05-27
+updated: 2026-06-12
 tags: [map, ai-agent, design, coding]
 sources:
   - sources/brunch-ghidesigner-482
@@ -16,6 +16,8 @@ sources:
   - sources/bucketplace-2026-05-06-ai-for-designers
   - sources/founders-playbook-2026
   - sources/arxiv-2605-23904
+  - sources/theaxlabs-contaminated-memory-performance
+  - sources/figma-you-never-stop-cultivating-taste
 confidence: 0.82
 ---
 
@@ -37,6 +39,7 @@ This cluster describes how AI agents can support design and coding work by turni
 - [[concepts/ai-agents/athena-mcp|Athena MCP]]
 - [[concepts/ai-agents/autonomous-ai-agent|Autonomous AI Agent]]
 - [[concepts/ai-agents/agent-memory|Agent Memory]]
+- [[concepts/ai-agents/memory-contamination|Memory Contamination]]
 - [[concepts/ai-agents/agent-identity|Agent Identity]]
 - [[concepts/ai-agents/skill-system|Skill System]]
 - [[concepts/infrastructure-dev/design-automation|Design Automation]]
@@ -72,10 +75,12 @@ This cluster describes how AI agents can support design and coding work by turni
 - [[sources/bucketplace-2026-05-06-ai-for-designers|How Designers Use AI (Bucketplace)]]
 - [[sources/founders-playbook-2026|Founder's Playbook: Building an AI-Native Startup (2026)]]
 - [[sources/arxiv-2605-23904|arXiv 2605.23904: SkillOpt ??Self-Evolving Agent Skills]]
+- [[sources/theaxlabs-contaminated-memory-performance|AX LABS: Contaminated Memory Eats Away Performance]]
+- [[sources/figma-you-never-stop-cultivating-taste|Figma: You Never Stop Cultivating Taste]]
 
 ## Working Interpretation
 
-The reliable takeaway is workflow-level: AI design, planning, coding, and product operations become more powerful when they preserve context, enforce review loops, and turn repeated work into durable process knowledge. Specific product, market, and cloud-platform claims require verification.
+The reliable takeaway is workflow-level: AI design, planning, coding, and product operations become more powerful when they preserve context, enforce review loops, and turn repeated work into durable process knowledge. New memory sources add a quality gate: durable context must be protected from [[concepts/ai-agents/memory-contamination|Memory Contamination]]. New design-taste sources add a craft gate: AI output still needs human discernment and iteration before it becomes product work. Specific product, market, and cloud-platform claims require verification.
 
 ### Interface Patterns for Collaboration
 > [!info] Framework: [[sources/andru-saksena-adobe-haic-2025|Adobe HAIC (2025)]]

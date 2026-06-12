@@ -9,6 +9,7 @@ sources:
   - sources/tullis-albert-measuring-ux-2013
   - sources/carl-pearson-quant-uxr-self-study-resources
   - sources/chapman-rodden-quant-uxr-2023
+  - sources/measuringu-statistics-30-participants
 confidence: 0.86
 method_family: quantitative
 best_for: attitudes, self-reported experience, tracking, benchmarking
@@ -58,6 +59,8 @@ Surveys and standardized UX metrics quantify self-reported experience, attitudes
 
 ## Quality Bar
 
+- Avoid treating n >= 30 as a universal rule. Choose sample size from analysis goal, data type, uncertainty, power, and effect size.
+
 - Do not overstate precision.
 - Keep measurement validity separate from dashboard aesthetics.
 - Explain what the metric can and cannot decide.
@@ -77,8 +80,9 @@ Surveys and standardized UX metrics quantify self-reported experience, attitudes
 
 ## Source Evidence
 
+- [[sources/measuringu-statistics-30-participants|MeasuringU - Do Statistics Really Require 30 Participants?]]
+
 - [[sources/sauro-lewis-quantifying-ux-2016|Sauro and Lewis - Quantifying UX]]
 - [[sources/tullis-albert-measuring-ux-2013|Tullis and Albert - Measuring UX]]
 - [[sources/carl-pearson-quant-uxr-self-study-resources|Quant UXR Self-Study Resources]]
 - [[sources/chapman-rodden-quant-uxr-2023|Chapman and Rodden - Quant UXR]]
-

@@ -2,9 +2,11 @@
 type: concept
 status: active
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-12
 tags: [concept, statistics, quant-ux, confidence-intervals]
-sources: [sauro-lewis-quantifying-ux-2016]
+sources:
+  - sources/sauro-lewis-quantifying-ux-2016
+  - sources/measuringu-statistics-30-participants
 confidence: 0.95
 ---
 
@@ -20,6 +22,8 @@ Usability tasks routinely have n = 5–20 and completion rates near 0% or 100% �
 
 ## Key claims
 
+- The n >= 30 rule should not force binary UX metrics into naive Wald intervals; adjusted methods are better for small samples.
+
 - Use adjusted-Wald by default for completion-rate CIs at any n; it costs nothing at large n. (Sauro & Lewis 2016, ch. 3; conf 0.95)
 - Worked example in book: 3/10 successes → adjusted proportion 3.35/10.71 = 0.313 with interval ±0.233 at 90% confidence. (conf 0.95)
 - A point estimate without an interval invites overconfident decisions. (conf 0.9)
@@ -31,6 +35,8 @@ Usability tasks routinely have n = 5–20 and completion rates near 0% or 100% �
 - [[concepts/ux-research/quant-uxr-rigor|Quant UXR Rigor]]
 
 ## Sources
+
+- [[sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]]
 
 - [[sources/sauro-lewis-quantifying-ux-2016|Sauro & Lewis (2016)]], ch. 3.
 

@@ -2,11 +2,12 @@
 type: concept
 status: active
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-12
 tags: [ux-research, quant-uxr, rigor, research-strategy, validity]
 sources:
   - sources/quantuxblog
   - sources/carl-pearson-quant-uxr-self-study-resources
+  - sources/measuringu-statistics-30-participants
 confidence: 0.78
 ---
 
@@ -21,6 +22,8 @@ Quant UXR rigor is the discipline of using appropriate evidence to inform decisi
 Teams often treat "rigor" as a demand for more sophisticated methods or more data. The QuantUX framing is more useful for product work: rigor starts with the decision to be informed, then asks what data, method, stakeholder engagement, and strategic tradeoff are needed.
 
 ## Key Claims
+
+- Rigid sample-size folklore is not rigor; the sample size should come from the decision, analysis method, data type, uncertainty requirement, and effect size.
 
 - Method complexity is not the same as rigor.
 - Statistical significance is not a general-purpose substitute for decision learning.
@@ -38,6 +41,8 @@ Teams often treat "rigor" as a demand for more sophisticated methods or more dat
 - [[concepts/ux-research/quant-uxr-learning-path|Quant UXR Learning Path]]
 
 ## Sources
+
+- [[sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]]
 
 - [[sources/quantuxblog|Quantitative UX Research Blog]]
 - [[sources/carl-pearson-quant-uxr-self-study-resources|Carl Pearson: Learn Quantitative UX Research]]

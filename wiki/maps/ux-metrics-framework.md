@@ -2,9 +2,10 @@
 type: map
 status: active
 created: 2026-05-27
-updated: 2026-06-10
+updated: 2026-06-12
 tags: [map, ux-research, metrics, quant-ux]
-sources: []
+sources:
+  - sources/measuringu-statistics-30-participants
 confidence: 0.8
 ---
 
@@ -21,6 +22,8 @@ confidence: 0.8
 
 ## How to compare and decide
 
+- [[sources/measuringu-statistics-30-participants|MeasuringU's n >= 30 article]] clarifies that sample size should follow data type, analysis goal, uncertainty, power, and effect size rather than a universal threshold.
+
 - [[concepts/ux-research/ux-performance-benchmarking|UX Performance Benchmarking]] — against goals and norms.
 - [[concepts/ux-research/quant-uxr-rigor|Quant UXR Rigor]] / [[concepts/ux-research/reliability-vs-validity|Reliability vs Validity]] / [[concepts/ux-research/validity-and-decision-relevance|Validity and Decision Relevance]].
 - Statistics for small samples (from [[sources/sauro-lewis-quantifying-ux-2016|Sauro & Lewis (2016)]]):
@@ -31,11 +34,15 @@ confidence: 0.8
 
 ## Core sources
 
+- [[sources/measuringu-statistics-30-participants|Do Statistics Really Require 30 Participants? (MeasuringU, 2026)]]
+
 - [[sources/sauro-lewis-quantifying-ux-2016|Quantifying the User Experience (Sauro & Lewis, 2016)]]
 - [[sources/tullis-albert-measuring-ux-2013|Measuring the User Experience (Tullis & Albert, 2013)]] — re-ingest pending
 - [[sources/chapman-rodden-quant-uxr-2023|Quantitative User Experience Research (Chapman & Rodden, 2023)]] — re-ingest pending
 
 ## Tensions & open questions
+
+- How should reports explain valid small-n statistics without implying high precision?
 
 - Standardized questionnaires (SUS) vs. product-analytics frameworks (HEART): when does each earn its keep?
 - Small-sample inferential stats vs. "just ship and A/B": where is the boundary for Bonny's projects?

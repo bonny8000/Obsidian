@@ -14,9 +14,9 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 
 ## Status Summary
 
-- Total source pages: 68
-- LLM-ready source pages: 50
-- Deep / standard / light: 19 / 44 / 5
+- Total source pages: 71
+- LLM-ready source pages: 53
+- Deep / standard / light: 19 / 47 / 5
 - Partial coverage sources needing deeper ingest: 17
 
 ## How to Use
@@ -70,6 +70,7 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 | [[sources/bucketplace-2026-05-08-financial-data-lake|Source: Unlocking Finance to the Data Lake (Bucketplace)]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/bucketplace-pretendard-jp-2026-04-17|Bucketplace — Pretendard JP in a Multi-Country Android App]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/ditoday-claude-design-uiux-workflow|Digital iNSIGHT: Claude Design and UI/UX Workflow]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/figma-you-never-stop-cultivating-taste|Figma: You Never Stop Cultivating Taste]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/geeknews-kagi-translate-linkedin|Kagi Translate: LinkedIn Style AI]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/gemini-3-5-launch|Source: Introducing Gemini 3.5: Cutting-Edge Intelligence with Action]] | `standard` | `partial` | `false` | `false` | raw provenance, raw-based expansion |
 | [[sources/google-io-2026-agentic-gemini|Source: Google I/O 2026: The Beginning of the Agentic Gemini Era]] | `standard` | `partial` | `false` | `false` | raw provenance, raw-based expansion |
@@ -79,6 +80,7 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 | [[sources/mashdigi-aws-openai-bedrock-codex|Mashdigi: AWS and OpenAI Bedrock Collaboration]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/measuringu-ai-real-ui-problems-hallucinations|MeasuringU: Does AI Find Real UI Problems or Just Hallucinations?]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/measuringu-ai-usability-problem-analysis-video|MeasuringU: AI Reliability for Finding UI Problems]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/medium-harizlim-ai-qualitative-research-2026|Hariz Lim — AI in Qualitative Research: "If you're using AI as an analysis tool, you're doing it wrong"]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/meta-research-medium-publication|Meta Research Medium Publication]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/naverlabs-blog-10034251|NAVER LABS: Robot Elevator Boarding Acceptance]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
@@ -95,5 +97,6 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 | [[sources/saeidehbakhshi-wicked-work-ai-unbundles-research|Saeideh Bakhshi: The Wicked Work That Surfaces When AI Unbundles Research]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/sage-10778004251401851-genai-reflexive-qualitative-research|SAGE: Rejecting GenAI for Reflexive Qualitative Research]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/teams-message-1778509897273|Microsoft Teams Message Placeholder]] | `standard` | `substantial` | `false` | `true` | concept links |
+| [[sources/theaxlabs-contaminated-memory-performance|AX LABS: Contaminated Memory Eats Away Performance]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/toss-tech-research-platform-ai|Source: Toss Tech ??Huribot Story #1]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/zdnet-dell-ai-native|Source: Dell Vice Chairman Jeff Clarke: "AI-Native Transition"]] | `standard` | `partial` | `false` | `false` | raw provenance, raw-based expansion |
