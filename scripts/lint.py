@@ -64,7 +64,7 @@ sources: []
 confidence: 1.0
 ---
 
-# Lint Report — {today}
+# Lint Report - {today}
 """]
 labels = {'pipe_stripped': 'Pipe-stripped links', 'broken_links': 'Broken link targets',
           'empty': 'Empty/near-empty pages', 'no_frontmatter': 'Missing frontmatter',
@@ -78,6 +78,6 @@ for k, label in labels.items():
         out.append(f"- ... and {len(v)-50} more")
 
 report = '\n'.join(out) + '\n'
-open(os.path.join(WIKI, 'logs', 'lint-report.md'), 'w', encoding='utf-8').write(report)
+open(os.path.join(WIKI, 'logs', 'lint-report.md'), 'w', encoding='utf-8', newline='\n').write(report)
 print(f"pages: {len(pages)}")
 for k in labels: print(f"{k}: {len(set(issues[k]))}")

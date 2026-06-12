@@ -1,4 +1,4 @@
-﻿---
+---
 type: log
 status: active
 created: 2026-05-18
@@ -9,6 +9,23 @@ confidence: 1.0
 ---
 
 # Change Log
+
+## 2026-06-12 - UX research workspace schema
+
+- Expanded `CLAUDE.md` into a full operating schema inspired by the reference research-vault structure.
+- Added root `index.md`, root `log.md`, and [[overview|Knowledge Base Overview]] as first-class vault entrypoints.
+- Added `wiki/methods/`, `wiki/comparisons/`, and `wiki/analyses/` with reusable templates.
+- Seeded UX research method pages for usability testing, semi-structured interviews, surveys and standardized metrics, MaxDiff prioritization, reflexive thematic analysis, and AI-assisted research synthesis.
+- Added [[comparisons/research-method-selection-matrix|Research Method Selection Matrix]], [[comparisons/ai-assisted-research-risk-matrix|AI-Assisted Research Risk Matrix]], and [[analyses/ux-research-wiki-gap-audit-2026-06-12|UX Research Wiki Gap Audit]].
+- Updated `AGENTS.md`, `dashboard.base`, and [[index|LLM Wiki Index]] so future ingests update source, concept, method, comparison, and analysis layers together.
+
+## 2026-06-12 - LLM-ready source backfill
+
+- Added LLM-readiness fields to source records: `ingest_level`, `coverage`, `llm_ready`, and `raw_preserved`.
+- Updated `wiki/_templates/source.md` and `AGENTS.md` so future ingests distinguish light, standard, and deep coverage.
+- Added `scripts/backfill_llm_ready.py` to retrofit existing source pages and regenerate [[maps/llm-ready-source-index|LLM-Ready Source Index]].
+- Backfilled all 68 existing `wiki/sources/` pages with LLM-ready sections: key claims, useful examples, constraints/caveats, design implications, tensions, open questions, LLM use, reliability notes, and backfill status.
+- Updated [[maps/llm-wiki-architecture|LLM Wiki Architecture]], `dashboard.base`, and [[index|LLM Wiki Index]] to surface LLM-ready sources and sources needing deeper ingest.
 
 ## 2026-06-10 - Phase 1+2: lint tooling, Sauro & Lewis deep ingest, research agenda, dashboards
 

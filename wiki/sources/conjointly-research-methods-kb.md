@@ -2,10 +2,14 @@
 type: source
 status: active
 created: 2026-06-08
-updated: 2026-06-08
 tags: [research-methods, ux-research, methods, conjointly, trochim]
 sources:
   - raw/web/conjointly-research-methods-kb/manifest.json
+updated: 2026-06-12
+ingest_level: deep
+coverage: full
+llm_ready: true
+raw_preserved: true
 confidence: 0.9
 ---
 
@@ -29,7 +33,7 @@ Hosted web knowledge base / book-style research methods reference.
 
 This source collection is a broad research-methods reference covering foundations of research, sampling, measurement, validity, reliability, survey research, scaling, qualitative measures, unobtrusive measures, research design, experimental and quasi-experimental design, data analysis, and research write-up.
 
-## Extracted Claims
+## Key Claims
 
 - Research quality depends on matching the question, unit of analysis, design, measurement strategy, sampling frame, and analysis method.
 - Validity is not one check; the KB separates construct, internal, external, and conclusion validity as different risk areas.
@@ -37,7 +41,7 @@ This source collection is a broad research-methods reference covering foundation
 - Experimental and quasi-experimental designs should be judged through causal inference risks, group equivalence, assignment, threats, and analysis fit.
 - Research write-up is part of method quality because claims must be formatted, evidenced, and communicated clearly.
 
-## Concepts Linked From This Source
+## Concepts Linked
 
 - [[concepts/ux-research/research-methods-foundations|Research Methods Foundations]]
 - [[concepts/ux-research/reliability-vs-validity|Reliability vs Validity]]
@@ -179,8 +183,45 @@ This source collection is a broad research-methods reference covering foundation
 | 126 | &nbsp;&nbsp;Order the KB | [raw](../../raw/web/conjointly-research-methods-kb/126-kb-order-kb.md) | https://conjointly.com/kb/order-kb/ |
 | 127 | &nbsp;&nbsp;Conjointly Terms and Conditions | [raw](../../raw/web/conjointly-research-methods-kb/127-legal-terms-and-conditions.md) | https://conjointly.com/legal/terms-and-conditions/ |
 
+## Useful Examples
+
+- Current example source: use examples, tables, cases, or named artifacts already present elsewhere in this note; otherwise return to `raw/web/conjointly-research-methods-kb/manifest.json`, `raw/web/conjointly-research-methods-kb/`, `raw/web/conjointly-research-methods-kb/001-kb-home.md` before asking an LLM for concrete examples.
+
+## Constraints / Caveats
+
+- Coverage is `full` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
+- Claims should be checked against `raw/web/conjointly-research-methods-kb/manifest.json`, `raw/web/conjointly-research-methods-kb/`, `raw/web/conjointly-research-methods-kb/001-kb-home.md` when used for recommendations, metrics, or external-facing work.
+
 ## Reliability Notes
+
+- Coverage is `full` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
+- Claims should be checked against `raw/web/conjointly-research-methods-kb/manifest.json`, `raw/web/conjointly-research-methods-kb/`, `raw/web/conjointly-research-methods-kb/001-kb-home.md` when used for recommendations, metrics, or external-facing work.
 
 - Conjointly identifies the KB as Professor William M.K. Trochim's Research Methods Knowledge Base hosted by Conjointly.
 - This capture used the TOC page as the link authority and Defuddle extraction for readable Markdown.
 - The final TOC item is Conjointly's legal terms page; it was captured because it appears in the TOC appendix, but it is not treated as research-method evidence.
+
+## Design Implications
+
+- Use this source to shape research design, UX evidence, method selection, and evaluation prompts.
+- Connect it with [[concepts/ux-research/research-methods-foundations]], [[concepts/ux-research/reliability-vs-validity]], [[concepts/ux-research/methodological-integrity]], [[concepts/ux-research/research-ethics]] before turning it into a project recommendation.
+
+## Tensions
+
+- Backfill note: source-specific tensions were not separately extracted in the earlier ingest. Compare this source with related concepts and maps before treating its framing as settled.
+
+## Open Questions
+
+- What evidence, examples, or counterexamples should be extracted from the raw source before marking this as `coverage: full`?
+- Which linked concept would change most if this source were contradicted?
+
+## LLM Use
+
+- **Use for:** research design, UX evidence, method selection, and evaluation prompts.
+- **Do not use for:** unsupported exact claims beyond the source note's `full` coverage.
+- **Best prompt pattern:** Ask the LLM to combine this source with its linked concepts, then verify any specific claim against the raw source before final use.
+
+## Backfill Status
+
+- Retrofitted on 2026-06-12 by `scripts/backfill_llm_ready.py` from the existing source note.
+- This standardizes the note for LLM use; it does not by itself mean the raw source has been fully re-read.

@@ -30,10 +30,20 @@ confidence: 0.9
 ## 📊 Dashboard Access
 ![[../dashboard.base]]
 
+## UX Research Workspace
+> [!abstract] Method-first research layer
+> - **Overview:** [[overview|Knowledge Base Overview]]
+> - **Method Selection:** [[comparisons/research-method-selection-matrix|Research Method Selection Matrix]]
+> - **AI Research Risks:** [[comparisons/ai-assisted-research-risk-matrix|AI-Assisted Research Risk Matrix]]
+> - **Methods:** [[methods/usability-testing|Usability Testing]], [[methods/semi-structured-interviews|Interviews]], [[methods/surveys-and-standardized-metrics|Surveys and Metrics]], [[methods/maxdiff-prioritization|MaxDiff]], [[methods/reflexive-thematic-analysis|Reflexive Thematic Analysis]], [[methods/ai-assisted-research-synthesis|AI-Assisted Synthesis]]
+> - **Current Audit:** [[analyses/ux-research-wiki-gap-audit-2026-06-12|UX Research Wiki Gap Audit]]
+
 ## 🗺️ Knowledge Maps
 
 > [!abstract] Topic Maps
+> - [[overview|Knowledge Base Overview]]
 > - [[maps/llm-wiki-architecture|LLM Wiki Architecture]]
+> - [[maps/llm-ready-source-index|LLM-Ready Source Index]]
 > - [[maps/ai-design-agent-workflows|AI Design Agent Workflows]]
 > - [[maps/ai-native-product-management|AI-Native Product Management]]
 > - [[maps/spatial-ai-and-smart-city-robotics|Spatial AI and Smart City Robotics]]
@@ -192,10 +202,6 @@ confidence: 0.9
 ---
 
 ## 📜 Maintenance Logs
-> [!info] History
-> - [[logs/change-log|Change Log]]
-> - [[logs/lint-report|Lint Report]]
-
 > [!info] History
 > - [[logs/change-log|Change Log]]
 > - [[logs/lint-report|Lint Report]]

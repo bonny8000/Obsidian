@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-05-18
-updated: 2026-06-10
+updated: 2026-06-12
 tags: [map, ux-research, ai, research-methods]
 sources:
   - sources/measuringu-ai-usability-problem-analysis-video
@@ -32,6 +32,18 @@ confidence: 0.85
 ## Core Idea
 
 This cluster tracks where AI can help UX research and where research-method integrity sets limits. The key tension is productivity versus evidence quality, interpretive responsibility, and methodological fit.
+
+## Method Layer
+
+- [[methods/usability-testing|Usability Testing]]
+- [[methods/semi-structured-interviews|Semi-Structured Interviews]]
+- [[methods/surveys-and-standardized-metrics|Surveys and Standardized Metrics]]
+- [[methods/maxdiff-prioritization|MaxDiff Prioritization]]
+- [[methods/reflexive-thematic-analysis|Reflexive Thematic Analysis]]
+- [[methods/ai-assisted-research-synthesis|AI-Assisted Research Synthesis]]
+- [[comparisons/research-method-selection-matrix|Research Method Selection Matrix]]
+- [[comparisons/ai-assisted-research-risk-matrix|AI-Assisted Research Risk Matrix]]
+- [[analyses/ux-research-wiki-gap-audit-2026-06-12|UX Research Wiki Gap Audit]]
 
 ## Concepts
 

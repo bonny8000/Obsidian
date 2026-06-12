@@ -2,6 +2,9 @@ filters:
   or:
     - type == "source"
     - type == "concept"
+    - type == "method"
+    - type == "comparison"
+    - type == "analysis"
 views:
   - type: table
     name: Recently Ingested Sources
@@ -11,6 +14,32 @@ views:
     order:
       - file.name
       - created
+      - updated
+    summaries:
+      file.name: Count
+  - type: table
+    name: LLM-Ready Sources
+    filters:
+      and:
+        - type == "source"
+        - llm_ready == true
+    order:
+      - file.name
+      - ingest_level
+      - coverage
+      - updated
+    summaries:
+      file.name: Count
+  - type: table
+    name: Sources Needing Deepening
+    filters:
+      and:
+        - type == "source"
+        - llm_ready != true
+    order:
+      - coverage
+      - ingest_level
+      - file.name
       - updated
     summaries:
       file.name: Count
@@ -26,6 +55,40 @@ views:
       - file.name
       - status
       - tags
+    summaries:
+      file.name: Count
+  - type: table
+    name: UX Research Methods
+    filters:
+      and:
+        - type == "method"
+    order:
+      - file.name
+      - method_family
+      - best_for
+      - updated
+    summaries:
+      file.name: Count
+  - type: table
+    name: Comparison Matrices
+    filters:
+      and:
+        - type == "comparison"
+    order:
+      - file.name
+      - updated
+      - confidence
+    summaries:
+      file.name: Count
+  - type: table
+    name: Analysis Memos
+    filters:
+      and:
+        - type == "analysis"
+    order:
+      - updated
+      - file.name
+      - confidence
     summaries:
       file.name: Count
   - type: list

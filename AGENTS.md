@@ -8,9 +8,13 @@ The goal is to turn raw source material into a durable, interlinked Markdown kno
 
 - `raw/`: immutable source material. Read from this folder, but do not edit, move, rename, or delete files here unless Bonny explicitly asks.
 - `wiki/`: AI-maintained Markdown wiki. Create and update files here.
+- `wiki/overview.md`: high-level synthesis of the whole knowledge base.
 - `wiki/sources/`: one page per source, summarizing provenance and useful claims.
 - `wiki/concepts/`: one page per durable concept, pattern, person, tool, framework, or decision.
 - `wiki/maps/`: index pages, topic maps, timelines, comparison tables, and graph summaries.
+- `wiki/methods/`: one page per UX research method, with use cases, procedure, outputs, quality bar, and LLM assistance guidance.
+- `wiki/comparisons/`: decision tables that compare methods, tools, risks, claims, or research approaches.
+- `wiki/analyses/`: synthesized research memos, audits, and project-facing interpretations.
 - `wiki/queries/`: saved answers to important questions.
 - `wiki/projects/`: active, ongoing, or completed UX/Product initiatives and experiments.
 - `wiki/decisions/`: Lightweight UX/Product Decision Records (UXDRs) documenting choices and evidence.
@@ -25,7 +29,7 @@ The goal is to turn raw source material into a durable, interlinked Markdown kno
 4. Every substantive claim should have provenance: source page, raw file path or URL, date observed, and confidence.
 5. Separate facts from interpretations. Label weak, inferred, or speculative claims.
 6. Update existing pages before creating duplicates.
-7. Log meaningful changes in `wiki/logs/change-log.md`.
+7. Log meaningful changes in `log.md` and `wiki/logs/change-log.md`.
 8. Do not delete wiki pages without first recording why, unless Bonny explicitly asks for cleanup.
 
 ## Naming
@@ -51,6 +55,17 @@ confidence: 0.0
 ---
 ```
 
+Source pages must also include these LLM-readiness fields:
+
+```yaml
+ingest_level: light | standard | deep
+coverage: partial | substantial | full
+llm_ready: true | false
+raw_preserved: true | false
+```
+
+Use `light` for metadata, summary, and a few reusable ideas. Use `standard` when the source has raw provenance, key claims, caveats, linked concepts, and at least one use case for future reasoning. Use `deep` for books, PDFs, research-method references, source families, transcripts, or sources Bonny expects to cite repeatedly. Do not mark `coverage: full` unless the raw source was read or captured end-to-end and the source page says what was covered.
+
 ## Ingest Workflow
 
 When Bonny says "ingest", "compile", "add this to the wiki", or places new material in `raw/`:
@@ -58,11 +73,16 @@ When Bonny says "ingest", "compile", "add this to the wiki", or places new mater
 1. Inventory the relevant raw files.
 2. Read the source material enough to identify claims, entities, concepts, methods, and decisions.
 3. Create or update a source page in `wiki/sources/`.
-4. Create or update concept pages in `wiki/concepts/`.
-5. Add backlinks between source and concept pages.
-6. Update `wiki/index.md` and any relevant map in `wiki/maps/`.
-7. Record the ingest in `wiki/logs/change-log.md`.
-8. Report what changed and what remains uncertain.
+4. Set `ingest_level`, `coverage`, `llm_ready`, and `raw_preserved` honestly.
+5. Fill the LLM-ready source sections: `Key Claims`, `Useful Examples`, `Constraints / Caveats`, `Design Implications`, `Tensions`, `Open Questions`, `Concepts Linked`, `LLM Use`, and `Reliability Notes`.
+6. Create or update concept pages in `wiki/concepts/`.
+7. If the source changes UX research practice, update the relevant method page in `wiki/methods/`.
+8. If the source helps choose between approaches, update a comparison page in `wiki/comparisons/`.
+9. If multiple sources are synthesized into a recommendation, create or update an analysis memo in `wiki/analyses/`.
+10. Add backlinks between source, concept, method, comparison, and analysis pages.
+11. Update `wiki/overview.md`, `wiki/index.md`, and any relevant map in `wiki/maps/`.
+12. Record the ingest in `log.md` and `wiki/logs/change-log.md`.
+13. Report what changed and what remains uncertain.
 
 Do not paste copyrighted articles in full. Store a link, citation metadata, short excerpt only when necessary, and an AI-written summary.
 
@@ -130,9 +150,46 @@ Source pages should usually contain:
 - Source type
 - Location in `raw/` or URL
 - Summary
-- Extracted claims
+- Key claims
+- Useful examples
+- Constraints / caveats
+- Design implications
+- Tensions
+- Open questions
 - Concepts linked from this source
+- LLM use guidance
 - Reliability notes
+- Backfill status when the note was upgraded from an older, thinner source page
+
+Method pages should usually contain:
+
+- Purpose
+- Use When
+- Avoid When
+- Inputs
+- Procedure
+- Outputs
+- Quality Bar
+- LLM Assistance
+- Related Concepts
+- Source Evidence
+
+Comparison pages should usually contain:
+
+- Decision question
+- Criteria
+- Matrix
+- Recommendation pattern
+- Source evidence
+
+Analysis pages should usually contain:
+
+- Research question
+- Evidence base
+- Synthesis
+- Implications
+- Risks and counterpoints
+- Next research actions
 
 Query pages should usually contain:
 
@@ -167,4 +224,3 @@ Use fast local search when possible:
 - `git diff` if the vault is version controlled
 
 Prefer structured edits to ad hoc rewriting. Keep unrelated files untouched.
-
