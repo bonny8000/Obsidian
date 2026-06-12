@@ -1,0 +1,23 @@
+# Keep this Obsidian vault stable across Windows, macOS, and Linux.
+* text=auto eol=lf
+
+*.md text eol=lf
+*.base text eol=lf
+*.canvas text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.css text eol=lf
+*.txt text eol=lf
+
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.zip binary
