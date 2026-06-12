@@ -194,4 +194,8 @@ confidence: 0.9
 ## 📜 Maintenance Logs
 > [!info] History
 > - [[logs/change-log|Change Log]]
-> - [[log
+> - [[logs/lint-report|Lint Report]]
+
+> [!info] History
+> - [[logs/change-log|Change Log]]
+> - [[logs/lint-report|Lint Report]]

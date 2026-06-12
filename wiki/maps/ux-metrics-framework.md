@@ -32,4 +32,10 @@ confidence: 0.8
 ## Core sources
 
 - [[sources/sauro-lewis-quantifying-ux-2016|Quantifying the User Experience (Sauro & Lewis, 2016)]]
-- [[sources/tullis-albert-measuring-ux-2013|Measuring the User Experience (Tullis & Albert
+- [[sources/tullis-albert-measuring-ux-2013|Measuring the User Experience (Tullis & Albert, 2013)]] — re-ingest pending
+- [[sources/chapman-rodden-quant-uxr-2023|Quantitative User Experience Research (Chapman & Rodden, 2023)]] — re-ingest pending
+
+## Tensions & open questions
+
+- Standardized questionnaires (SUS) vs. product-analytics frameworks (HEART): when does each earn its keep?
+- Small-sample inferential stats vs. "just ship and A/B": where is the boundary for Bonny's projects?

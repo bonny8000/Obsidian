@@ -66,4 +66,6 @@ Remaining backlog: ch. 4–5 (benchmark and comparison tests), ch. 9 (six contro
 ## ⚠️ Reliability Notes
 
 > [!warning] Caveats
-> - Primary, authoritative source; both authors are leading figures in quant UX 
+> - Primary, authoritative source; both authors are leading figures in quant UX (MeasuringU; IBM/JUS).
+> - 2016 edition — predates AI-moderated research; pair with [[sources/measuringu-ai-usability-problem-analysis-video|MeasuringU AI analysis]] material for current practice. A 3rd edition exists; check for updated guidance before citing exact procedures.
+> - Copyrighted book: keep only summaries and short excerpts in the wiki, full text stays in `raw/`.

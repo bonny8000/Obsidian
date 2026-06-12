@@ -246,4 +246,22 @@ Source: `raw/web/medium-harizlim-ai-qualitative-research-2026-05-10.md` (Medium,
 - Added new concept: [[concepts/infrastructure-dev/modern-web-guidance|Modern Web Guidance]].
 - Documented tool features, integration with AI agents, and relevance to AI product consistency.
 - Updated [[index|LLM Wiki Index]] to include the new concept under AI Design and Agents.
-- Ingested five new sources: MeasuringU (Senior UXR), Brunch (Agentic AI Competencies
+- Ingested five new sources: MeasuringU (Senior UXR), Brunch (Agentic AI Competencies), Google I/O 2026, Gemini 3.5 Launch, and ZDNet (Dell AI-Native).
+- Created new source pages for all five sources in `wiki/sources/`.
+- Created/Updated concepts: [[concepts/ai-agents/agentic-ai|Agentic AI]], [[concepts/ai-agents/gemini-3-5|Gemini 3.5]], [[concepts/product-management/tokenomics|Tokenomics]], and [[concepts/ux-research/senior-ux-researcher|Senior UX Researcher]].
+- Updated [[index|LLM Wiki Index]] to reflect new content across multiple topic clusters.
+
+## 2026-05-21
+
+- Ingested new source from Hansol Lim: [[sources/hsol-ai-portfolio-6|AI Portfolio Making (6): A Data Model for a Person]].
+- Created seven new concept pages related to personal data modeling and Palantir Foundry ontology.
+- Added new "Personal AI and Data Modeling" topic cluster to [[index|LLM Wiki Index]].
+- Created [[logs/2026-05-21-ingest-report|2026-05-21 Ingest Report]].
+- **Skill-Driven Overhaul:**
+    - Installed and activated `obsidian-markdown`, `obsidian-cli`, `obsidian-bases`, and `defuddle` skills.
+    - Created `dashboard.base` for structured vault visualization.
+    - Redesigned [[index|LLM Wiki Index]] using Obsidian callouts and base embeds.
+    - Enhanced [[concepts/infrastructure-dev/palantir-foundry-ontology|Palantir Foundry Ontology]] with Mermaid diagrams and callouts.
+
+
+- **2026-05-27:** Deep ingest of Tullis &

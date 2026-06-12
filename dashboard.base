@@ -36,3 +36,47 @@ views:
     order:
       - file.name
       - updated
+  - type: table
+    name: Drafts / Needs Work
+    filters:
+      and:
+        - status == "draft"
+    order:
+      - file.name
+      - updated
+      - confidence
+    summaries:
+      file.name: Count
+  - type: table
+    name: Low Confidence (< 0.7)
+    filters:
+      and:
+        - confidence < 0.7
+        - type != "log"
+    order:
+      - confidence
+      - file.name
+      - updated
+    summaries:
+      file.name: Count
+  - type: table
+    name: Lost Content Awaiting Re-ingest
+    filters:
+      and:
+        - tags.contains("lost-content")
+    order:
+      - file.name
+      - updated
+    summaries:
+      file.name: Count
+  - type: table
+    name: Stale (not touched in 60 days)
+    filters:
+      and:
+        - type == "concept"
+        - updated < (now() - "60 days")
+    order:
+      - updated
+      - file.name
+    summaries:
+      file.name: Count
