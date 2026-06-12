@@ -1,4 +1,4 @@
-﻿---
+---
 type: query
 status: active
 created: 2026-05-27

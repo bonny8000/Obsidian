@@ -43,7 +43,7 @@ confidence: 1.0
 ## Orphaned concepts (no inbound links): 0
 
 
-## Lost-content stubs awaiting re-ingest: 18
+## Lost-content stubs awaiting re-ingest: 16
 
 - `logs/2026-05-27-ingest-report`
 - `logs/2026-05-27-ingest-report-2`
@@ -58,8 +58,6 @@ confidence: 1.0
 - `queries/2026-05-27-design-tasks-remain-manual`
 - `queries/2026-05-27-robot-safety-software-update-testing`
 - `sources/andru-saksena-adobe-haic-2025`
-- `sources/chapman-rodden-quant-uxr-2023`
 - `sources/cooper-about-face-4-2014`
 - `sources/garrett-elements-ux-2011`
 - `sources/gerhard-norton-vr-usability-2022`
-- `sources/tullis-albert-measuring-ux-2013`

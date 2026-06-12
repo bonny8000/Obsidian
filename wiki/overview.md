@@ -44,3 +44,7 @@ This vault is a research-first LLM knowledge base. `raw/` preserves evidence, `w
 - Some source records remain `coverage: partial` and should be deepened before being used as primary decision evidence.
 - The method library is now seeded, but each method should be expanded with project examples, study templates, and decision criteria.
 - Analysis memos should be added whenever sources are synthesized into a product or research recommendation.
+
+## Agent Experience (AX)
+
+A dedicated cluster under `concepts/agent-experience/` now covers the design knowledge for agentic products, organized around the leverage-versus-control tension: initiative (proactivity, interruption, collaboration patterns) and trust (calibration, transparency, error recovery, mental-model onboarding), plus an evaluation bridge into the method library (wizard-of-oz, longitudinal, diary studies). Entry point: [[maps/agent-experience-design|Agent Experience (AX) Design]]. Current confidence is practitioner-level; the cluster's stated next step is ingesting empirical human-AI interaction sources.

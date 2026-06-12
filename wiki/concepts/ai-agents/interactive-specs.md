@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 status: active
 created: 2026-05-25

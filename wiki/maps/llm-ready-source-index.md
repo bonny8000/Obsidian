@@ -14,10 +14,10 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 
 ## Status Summary
 
-- Total source pages: 71
-- LLM-ready source pages: 53
-- Deep / standard / light: 19 / 47 / 5
-- Partial coverage sources needing deeper ingest: 17
+- Total source pages: 74
+- LLM-ready source pages: 58
+- Deep / standard / light: 19 / 50 / 5
+- Partial coverage sources needing deeper ingest: 16
 
 ## How to Use
 
@@ -34,7 +34,7 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 | [[sources/brunch-ghidesigner-487|AI Designer LLM Wiki Article]] | `deep` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/brunch-ghidesigner-489|Source: 3 Competencies for UX/UI Designers in the Agentic AI Era]] | `deep` | `partial` | `false` | `false` | raw provenance, raw-based expansion |
 | [[sources/carl-pearson-quant-uxr-self-study-resources|Carl Pearson: Learn Quantitative UX Research]] | `deep` | `substantial` | `true` | `true` | ready for grounded ideation |
-| [[sources/chapman-rodden-quant-uxr-2023|Quantitative User Experience Research]] | `deep` | `partial` | `false` | `false` | raw provenance, raw-based expansion, concept links |
+| [[sources/chapman-rodden-quant-uxr-2023|Quantitative User Experience Research]] | `deep` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/conjointly-research-methods-kb|Conjointly Research Methods Knowledge Base]] | `deep` | `full` | `true` | `true` | ready for grounded ideation |
 | [[sources/cooper-about-face-4-2014|About Face 4: The Essentials of Interaction Design]] | `deep` | `partial` | `false` | `false` | raw provenance, raw-based expansion, concept links |
 | [[sources/founders-playbook-2026|Source: Founder's Playbook: Building an AI-Native Startup (2026)]] | `deep` | `substantial` | `true` | `true` | ready for grounded ideation |
@@ -46,13 +46,14 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 | [[sources/measuringu-senior-uxr-years|Source: How Many Years Does It Take to Become a Senior UX Researcher?]] | `deep` | `partial` | `false` | `false` | raw provenance, raw-based expansion |
 | [[sources/research-that-scales-towsey-2024|Research That Scales: The Research Operations Handbook]] | `deep` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/sauro-lewis-quantifying-ux-2016|Quantifying the User Experience: Practical Statistics for User Research (2nd ed.)]] | `deep` | `substantial` | `true` | `true` | ready for grounded ideation |
-| [[sources/tullis-albert-measuring-ux-2013|Measuring the User Experience (2nd ed.)]] | `deep` | `partial` | `false` | `false` | raw provenance, raw-based expansion, concept links |
+| [[sources/tullis-albert-measuring-ux-2013|Measuring the User Experience (2nd ed.)]] | `deep` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/user-interviews-ai-assistant|User Interviews AI Assistant]] | `deep` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/brunch-ghidesigner-495|디자인조이 AI와 함께 연 매출 수십억 원을 달성하다.]] | `light` | `partial` | `false` | `false` | raw provenance, raw-based expansion, concept links |
 | [[sources/brunch-ghidesigner-496|블록(Block) 가장 파격적인 'AI 네이티브' 조직 전환]] | `light` | `partial` | `false` | `false` | raw provenance, raw-based expansion, concept links |
 | [[sources/brunch-ghidesigner-498|앤트로픽, 클로드 오퍼스 4.8을 출시하다.]] | `light` | `partial` | `false` | `false` | raw provenance, raw-based expansion, concept links |
 | [[sources/microsoft-web-iq|Microsoft Web IQ: AI-Native Grounding APIs]] | `light` | `partial` | `false` | `false` | raw provenance, raw-based expansion, concept links |
 | [[sources/openai-codex-workflow|OpenAI Codex: Every Role, Tool, and Workflow]] | `light` | `partial` | `false` | `false` | raw provenance, raw-based expansion, concept links |
+| [[sources/amershi-2019-human-ai-guidelines|Amershi et al. (2019): Guidelines for Human-AI Interaction]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/arxiv-2410-24221|EgoMimic]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/arxiv-2505-21864|DexUMI]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/arxiv-2509-04443v1|EMMA]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
@@ -74,7 +75,9 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 | [[sources/geeknews-kagi-translate-linkedin|Kagi Translate: LinkedIn Style AI]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/gemini-3-5-launch|Source: Introducing Gemini 3.5: Cutting-Edge Intelligence with Action]] | `standard` | `partial` | `false` | `false` | raw provenance, raw-based expansion |
 | [[sources/google-io-2026-agentic-gemini|Source: Google I/O 2026: The Beginning of the Agentic Gemini Era]] | `standard` | `partial` | `false` | `false` | raw provenance, raw-based expansion |
+| [[sources/horvitz-1999-mixed-initiative|Horvitz (1999): Principles of Mixed-Initiative User Interfaces]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/hsol-ai-portfolio-6|AI Portfolio Making (6): A Data Model for a Person]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/lee-see-2004-trust-in-automation|Lee & See (2004): Trust in Automation — Designing for Appropriate Reliance]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/linkedin-user-selection-criteria|LinkedIn: Is This User Really Our User?]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/manyfast-homepage|Manyfast — AI Software Planning from PRD to Wireframes]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/mashdigi-aws-openai-bedrock-codex|Mashdigi: AWS and OpenAI Bedrock Collaboration]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
@@ -96,7 +99,7 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 | [[sources/saeidehbakhshi-the-fallacy-of-depth-at-scale|The Fallacy of Depth at Scale]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/saeidehbakhshi-wicked-work-ai-unbundles-research|Saeideh Bakhshi: The Wicked Work That Surfaces When AI Unbundles Research]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/sage-10778004251401851-genai-reflexive-qualitative-research|SAGE: Rejecting GenAI for Reflexive Qualitative Research]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
-| [[sources/teams-message-1778509897273|Microsoft Teams Message Placeholder]] | `standard` | `substantial` | `false` | `true` | concept links |
+| [[sources/teams-message-1778509897273|Microsoft Teams Message Placeholder]] | `standard` | `partial` | `false` | `true` | raw-based expansion, concept links |
 | [[sources/theaxlabs-contaminated-memory-performance|AX LABS: Contaminated Memory Eats Away Performance]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/toss-tech-research-platform-ai|Source: Toss Tech ??Huribot Story #1]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/zdnet-dell-ai-native|Source: Dell Vice Chairman Jeff Clarke: "AI-Native Transition"]] | `standard` | `partial` | `false` | `false` | raw provenance, raw-based expansion |

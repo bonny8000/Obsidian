@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 status: needs-review
 created: 2026-05-18

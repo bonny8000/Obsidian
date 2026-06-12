@@ -115,3 +115,11 @@ Remaining backlog: ch. 4–5 (benchmark and comparison tests), ch. 9 (six contro
 
 - Retrofitted on 2026-06-12 by `scripts/backfill_llm_ready.py` from the existing source note.
 - This standardizes the note for LLM use; it does not by itself mean the raw source has been fully re-read.
+
+## Companion Sources
+
+The vault's quant UXR trio, each with a distinct job:
+
+- This book — the statistics engine (tests, intervals, sample sizes)
+- [[sources/tullis-albert-measuring-ux-2013|Tullis & Albert (2013)]] — the metric taxonomy and study-planning layer
+- [[sources/chapman-rodden-quant-uxr-2023|Chapman & Rodden (2023)]] — the role, HEART, and Goals-Signals-Metrics derivation process
