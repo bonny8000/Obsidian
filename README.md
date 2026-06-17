@@ -2,11 +2,13 @@
 
 This is a local Obsidian vault set up for an LLM Wiki workflow.
 
-Open this folder in Obsidian:
+Everything for this vault lives on the D: drive. Open this folder in Obsidian:
 
 ```text
-C:\Users\bonny_chen\LLM-Wiki
+D:\Obsidian\LLM-Wiki
 ```
+
+All raw sources, wiki pages, scripts, and logs are kept under `D:\Obsidian\LLM-Wiki`. Do not create or sync a copy under `C:\Users\bonny_chen` — work directly against the D: drive path.
 
 Basic use:
 

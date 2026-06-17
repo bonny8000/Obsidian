@@ -2,13 +2,87 @@
 type: log
 status: active
 created: 2026-05-18
-updated: 2026-06-10
+updated: 2026-06-17
 tags: [log, maintenance]
 sources: []
 confidence: 1.0
 ---
 
 # Change Log
+
+## 2026-06-17 - MeasuringU 5-pack ingest
+
+Sources captured to `raw/web/`:
+
+- `measuringu-tac10-screening-2026-06-17.md` — Lewis & Sauro, 2026-06-02.
+- `measuringu-synthetic-users-review-2026-06-17.md` — Lewis & Sauro, 2026-04-14.
+- `measuringu-credible-vs-confidence-intervals-2026-06-17.md` — Sauro & Lewis, 2026-04-08.
+- `measuringu-bayes-priors-uxr-2026-06-17.md` — Sauro & Lewis, 2026-03-31.
+- `measuringu-banner-tables-2026-06-17.md` — Lewis & Sauro, 2026-03-24.
+
+- Created five source pages under `wiki/sources/` with full LLM-ready sections (key claims, useful examples, constraints, design implications, tensions, open questions, concepts linked, LLM use, reliability notes).
+- New concepts:
+  - [[concepts/ux-research/bayesian-credible-interval|Bayesian Credible Interval]] — Bayesian binary-outcome interval; near-identical numbers to adjusted-Wald under non-informative priors, different interpretation. Includes the four-method comparison table from the source.
+  - [[concepts/ux-research/bayesian-priors-in-uxr|Bayesian Priors in UXR]] — captures the five-scenario sensitivity demonstration and the discipline of disclose / sensitivity-test / collect-more.
+  - [[concepts/ux-research/tac-10-tech-savviness|TAC-10 Tech Savviness]] — instrument plus its Guttman-pattern data-cleaning role (87% plausible / <0.5% implausible).
+  - [[concepts/ux-research/survey-data-quality-screening|Survey Data Quality Screening]] — the layered 8-method checklist with AI-fraud framing.
+  - [[concepts/ux-research/banner-table|Banner Table]] — the market-research stub-and-banner format with use/avoid criteria and Skill-candidate framing.
+- Updated existing concepts:
+  - [[concepts/ux-research/synthetic-survey-data|Synthetic Survey Data]] — added the Lewis & Sauro 12-paper review (9 encouraging vs 14 discouraging findings; 21% replication on classic psych studies; shallow-extension trap in interviews); confidence 0.74 → 0.82.
+  - [[concepts/ux-research/adjusted-wald-confidence-interval|Adjusted-Wald Confidence Interval]] — added the "likely range" / "plausible range" stakeholder phrasings from the credible-vs-CI source, plus a cross-link to the new Bayesian credible interval concept.
+- Updated [[maps/ux-metrics-framework|UX Metrics Framework]] map with a Bayesian section, a Survey Quality and Reporting section, and citations to all five new MeasuringU sources. Confidence 0.84 → 0.86.
+- Updated `wiki/index.md` and root `index.md` Recent Ingests.
+
+## 2026-06-17 - Web ingest: Atlassian Context Engine (companion to DESIGN.md)
+
+Source: `raw/web/atlassian-design-system-context-engine-2026-06-17.md` (Christley & Radford, Atlassian Blog, 2026-05-28)
+
+- Captured Maria Christley (Head of Design, ADS) and Rachel Radford (Design Manager, ADS) framing piece into `raw/web/`. This is the strategic companion to the DESIGN.md case study ingested earlier today.
+- Created [[sources/atlassian-design-system-context-engine|Atlassian: Building the Context Engine for the AI Era]] with full LLM-ready sections including the four-pillar AI-native definition, the expanded Context Engine infra stack, reported impact numbers (52% accuracy / 34% faster / 26% fewer calls / 16% fewer tokens — methodology not disclosed), the Core / Platform / App composition model and its evolution into a "constellation," and concrete artifact stories (date-time picker accessibility redesign, 1.5-pixel-stroke icon system, 5-token motion system, Panel component).
+- Created [[concepts/infrastructure-dev/ai-native-design-system|AI-Native Design System]] concept with the four-pillar self-assessment maturity model and the Context Engine stack diagram.
+- Updated [[concepts/infrastructure-dev/design-md|DESIGN.md]] concept to cross-link the new AI-Native Design System concept and the Christley & Radford companion source.
+- Updated [[overview|Knowledge Base Overview]] with the Context Engine framing and AI-Native Design System maturity model.
+- Updated `wiki/index.md` and root `index.md` with the new Recent Ingests entries and AI Design and Agents cluster links.
+
+## 2026-06-17 (PM) - Web ingest: Atlassian DESIGN.md
+
+Source: `raw/web/atlassian-design-md-2026-06-17.md` (Hall & Campbell, Atlassian Blog, 2026-06-15)
+
+- Captured the Atlassian DESIGN.md blog post (Kylor Hall, Principal Prompt Engineer; Andrew Campbell, Senior Design Technologist) into `raw/web/`.
+- Created [[sources/atlassian-design-md|Atlassian: DESIGN.md — Portable Design Context in Practice]] with full LLM-ready sections including the four-row benchmark table (no context / ADS MCP / ADS skill / DESIGN.md), the three structural limitations of DESIGN.md in production (loads everything every turn; shortening kills sophistication; teaches re-implementation, not adoption), and the four jobs DESIGN.md is right for (high-level artistic direction; quick prototyping; tool interoperability; customer theming).
+- Added new concept [[concepts/infrastructure-dev/design-md|DESIGN.md]] as a fourth context primitive (portable, always-on, brand-intent) beside Agent Skills, MCP, and AGENTS.md.
+- Extended [[comparisons/skills-vs-mcp-vs-agents-md|Skills vs MCP vs AGENTS.md]] into a four-primitive comparison with a DESIGN.md row in the matrix, an updated recommendation pattern, three new routing heuristics (one-shot vs production, re-implementation canary, missing-context canary), and an Atlassian source citation.
+- Updated [[overview|Knowledge Base Overview]] with the four-primitive routing decision and the Atlassian production data point.
+- Updated `wiki/index.md` and root `index.md` Recent Ingests, plus the AI Design and Agents cluster.
+
+## 2026-06-17 - Deep ingest: Agent Skills (Day 3)
+
+Source: `raw/Agent-Skills-Day-3.pdf` (Singhal, Hernandez Larios, Dus, Nigam, Kolan, May 2026; curated by Shubham Saboo)
+
+- Copied user-supplied PDF from `D:\Bonny_Files\Downloads\Agent Skills_Day_3.pdf` to `raw/Agent-Skills-Day-3.pdf` and read end-to-end with `pdftotext -layout` (1,661 lines).
+- Created [[sources/agent-skills-day-3|Agent Skills (Day 3)]] source page with deep ingest (ingest_level: deep, coverage: full, llm_ready: true, confidence: 0.92). Covers Skill anatomy + the two authoring paths, progressive disclosure with token math, four failure modes (Trigger / Execution / Token Budget / Regression), the five-pattern Evaluation Toolkit, EDD with a refund-skill JSON case, the Read/Draft/Act graduation ladder + pass^k, eval coverage gate, "98.4% operational infrastructure" Claude Code reverse-engineering claim, context overflow vs Lost in the Middle vs Context Rot, meta-skills four buckets, DAG orchestration + Capability Profiles + Canonical Skill Taxonomy, Context Debt and "Shift Intelligence Left", architectural tradeoffs table, skill source trust defaults, Google Agents CLI worked example, retail case study with read/draft/act ladder applied.
+- Added new concepts:
+  - [[concepts/ai-agents/agent-skills|Agent Skills]] — the format primitive (folder + SKILL.md + scripts/references/assets), the five rules, skill smells, minimal template.
+  - [[concepts/ai-agents/progressive-disclosure|Progressive Disclosure]] — three-level loading model, token math, decoupling available vs active capability.
+  - [[concepts/ai-agents/context-rot|Context Rot]] — silent context-overflow failure mode, Lost in the Middle + Chroma Research findings, three practical implications.
+  - [[concepts/ai-agents/procedural-memory|Procedural Memory]] — completing the episodic/semantic/procedural typology for LLM agents.
+- Added comparison [[comparisons/skills-vs-mcp-vs-agents-md|Skills vs MCP vs AGENTS.md]] — decision matrix, recommendation pattern, routing heuristics, and the Day-3 one-line mental model.
+- Updated [[concepts/ai-agents/skill-system|Skill System]] with Day-3 evidence and links to the four new concepts; confidence 0.85 → 0.9.
+- Updated [[concepts/ai-agents/agent-memory|Agent Memory]] with the procedural-memory bullet linking the new concept; confidence 0.72 → 0.78.
+- Updated [[concepts/ai-agents/self-improving-agent-workflows|Self-Improving Agent Workflows]] with Day-3's four-bucket meta-skill taxonomy and the three habits that hold up; confidence 0.80 → 0.84.
+- Updated [[overview|Knowledge Base Overview]] with a new "Agentic Engineering Series (Day 1 + Day 2 + Day 3)" section.
+- Updated [[index|LLM Wiki Index]] and root `index.md` with the new Recent Ingests entries and AI Design and Agents cluster links.
+- Out-of-scope housekeeping done in the same session: fixed the root `README.md` so it points to the actual D:\ vault path instead of stale C:\Users\bonny_chen\LLM-Wiki.
+
+## 2026-06-16 - Detailed ingest: MeasuringU n >= 30 statistics
+
+Source: `raw/web/measuringu-statistics-30-participants-2026-06-16-detailed.md`
+
+- Added a detailed raw evidence card for [[sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]] using Defuddle extraction and web verification.
+- Promoted the source page from standard/substantial to detailed/detailed coverage.
+- Rebuilt the connected small-n statistics notes: [[concepts/ux-research/sample-size-for-usability-studies|Sample Size for Usability Studies]], [[concepts/ux-research/adjusted-wald-confidence-interval|Adjusted-Wald Confidence Interval]], and [[concepts/ux-research/ux-statistics-decision-map|UX Statistics Decision Map]].
+- Added [[playbooks/small-n-ux-statistics-checklist|Small-N UX Statistics Checklist]] for responding to stakeholder claims that statistics require 30 participants.
+- Updated [[methods/surveys-and-standardized-metrics|Surveys and Standardized Metrics]], [[maps/ux-metrics-framework|UX Metrics Framework]], [[maps/llm-ready-source-index|LLM-Ready Source Index]], [[index|LLM Wiki Index]], and root `index.md`.
 
 ## 2026-06-12 - Ingest: memory contamination, design taste, and n >= 30 statistics
 

@@ -2,11 +2,12 @@
 type: concept
 status: active
 created: 2026-06-10
-updated: 2026-06-12
-tags: [concept, statistics, quant-ux, confidence-intervals]
+updated: 2026-06-17
+tags: [concept, statistics, quant-ux, confidence-intervals, bayesian-comparison]
 sources:
   - sources/sauro-lewis-quantifying-ux-2016
   - sources/measuringu-statistics-30-participants
+  - sources/measuringu-credible-vs-confidence-intervals
 confidence: 0.95
 ---
 
@@ -14,32 +15,66 @@ confidence: 0.95
 
 ## Summary
 
-The recommended method for binomial confidence intervals (completion rates, conversion, yes/no metrics) at small sample sizes: "add two successes and two failures" (more precisely, add z²/2 ≈ 1.92 to successes and z² ≈ 3.84 to n for 95% CI), then compute the standard Wald interval on the adjusted proportion. Outperforms the classic Wald interval, which is badly miscalibrated for small n and extreme proportions.
+Adjusted-Wald is a small-sample method for binomial confidence intervals, useful for completion rates, conversion, yes/no outcomes, and other binary UX metrics. The practical 95% shortcut is close to adding two successes and two failures before computing a Wald-style interval on the adjusted proportion.
 
-## Why it matters
+More generally, for confidence level z:
 
-Usability tasks routinely have n = 5–20 and completion rates near 0% or 100% — exactly where the naive Wald interval fails. The adjusted-Wald gives honest uncertainty bounds for the small-sample reality of UX work.
+- adjusted n = n + z^2
+- adjusted successes = x + z^2 / 2
+- adjusted proportion = adjusted successes / adjusted n
 
-## Key claims
+Then compute the interval around the adjusted proportion.
 
-- The n >= 30 rule should not force binary UX metrics into naive Wald intervals; adjusted methods are better for small samples.
+## Why It Matters
 
-- Use adjusted-Wald by default for completion-rate CIs at any n; it costs nothing at large n. (Sauro & Lewis 2016, ch. 3; conf 0.95)
-- Worked example in book: 3/10 successes → adjusted proportion 3.35/10.71 = 0.313 with interval ±0.233 at 90% confidence. (conf 0.95)
-- A point estimate without an interval invites overconfident decisions. (conf 0.9)
+Usability studies often have small samples and binary outcomes. A naive Wald interval can look precise when the actual uncertainty is much wider, especially near 0% or 100% completion. Adjusted-Wald gives a more honest uncertainty estimate without forcing the team to collect 30 participants by default.
 
-## Related concepts
+## Key Claims
 
+- The n >= 30 rule should not force binary UX metrics into naive Wald intervals.
+- Standard Wald intervals can badly understate uncertainty for small-sample binary data.
+- Adjusted methods work better for completion-rate confidence intervals when n is small.
+- A point estimate without an interval invites overconfident product decisions.
+- Small-n binary analysis is possible, but it must surface interval width and decision risk.
+
+## Use When
+
+- Reporting task completion from a usability study.
+- Reporting pass/fail, yes/no, conversion, or binary success outcomes.
+- A stakeholder asks whether a completion rate from n < 30 can be statistically summarized.
+- Comparing the uncertainty of several small-sample binary metrics.
+
+## Avoid When
+
+- The outcome is a rating scale or continuous metric; use t-based methods instead.
+- The study needs a hypothesis test between two proportions; use a planned comparison method such as N - 1 two-proportion.
+- The interval is too wide for the decision; the method is valid, but the sample may still be insufficient.
+
+## Related Concepts
+
+- [[concepts/ux-research/bayesian-credible-interval|Bayesian Credible Interval]] — Bayesian counterpart; near-identical numbers under non-informative priors, different interpretation.
+- [[concepts/ux-research/bayesian-priors-in-uxr|Bayesian Priors in UXR]] — when priors diverge, so do the conclusions.
 - [[concepts/ux-research/sample-size-for-usability-studies|Sample Size for Usability Studies]]
+- [[concepts/ux-research/ux-statistics-decision-map|UX Statistics Decision Map]]
 - [[concepts/ux-research/ux-performance-benchmarking|UX Performance Benchmarking]]
 - [[concepts/ux-research/quant-uxr-rigor|Quant UXR Rigor]]
+
+## Practical interpretation
+
+The technically correct interpretation — "if we ran many tests with 20 users and computed confidence intervals each time, on average, 95 out of 100 intervals will contain the unknown population completion rate" — is hard to land with stakeholders. Defensible stakeholder phrasings ([[sources/measuringu-credible-vs-confidence-intervals|Sauro & Lewis, 2026]]):
+
+- **Likely range:** "X% to Y% is the most likely range for the unknown completion rate."
+- **Plausible range:** "Given this data, values inside are plausible while those outside are implausible."
+
+Avoid saying "95% probability the true value is in this range" with a confidence interval — that's a Bayesian credible interval statement. If you need that interpretation, compute a credible interval instead (the numbers are usually very close under non-informative priors).
 
 ## Sources
 
 - [[sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]]
-
+- [[sources/measuringu-credible-vs-confidence-intervals|MeasuringU: Credible vs. Confidence Intervals — Different Meanings but Similar Decisions]] (Sauro & Lewis, 2026)
 - [[sources/sauro-lewis-quantifying-ux-2016|Sauro & Lewis (2016)]], ch. 3.
 
-## Open questions
+## Open Questions
 
-- Should wiki dashboards report CIs for any metric Bonny tracks from usability sessions?
+- Should wiki dashboards report adjusted-Wald intervals for every binary metric from usability sessions?
+- Should the vault add a calculator artifact for adjusted-Wald and N - 1 two-proportion tests?

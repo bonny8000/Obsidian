@@ -5,9 +5,10 @@ created: 2026-06-12
 tags: [source, ux-research, quant-uxr, statistics, sample-size, confidence-intervals]
 sources:
   - raw/web/measuringu-statistics-30-participants-2026-06-12
-updated: 2026-06-12
-ingest_level: standard
-coverage: substantial
+  - raw/web/measuringu-statistics-30-participants-2026-06-16-detailed
+updated: 2026-06-16
+ingest_level: detailed
+coverage: detailed
 llm_ready: true
 raw_preserved: true
 confidence: 0.9
@@ -21,13 +22,41 @@ Lewis, Jim; Sauro, Jeff. "Do Statistics Really Require 30 Participants?" Measuri
 
 URL: https://measuringu.com/do-statistics-really-require-30-participants/
 
-Raw source card: `raw/web/measuringu-statistics-30-participants-2026-06-12.md`
+Raw source cards:
+
+- `raw/web/measuringu-statistics-30-participants-2026-06-12.md`
+- `raw/web/measuringu-statistics-30-participants-2026-06-16-detailed.md`
 
 ## Summary
 
 This MeasuringU article explains why the common n >= 30 rule has real statistical roots but is often misapplied in UX research. The number 30 appears because t and z values converge around that range and because many sampling distributions become approximately normal near that range. But the article argues that 30 is not a universal threshold for valid statistics.
 
 The main recommendation is to choose sample size based on the analysis, data type, variability, desired confidence or power, and effect size. Small samples can be statistically valid when the right methods are used, but they usually have wider uncertainty and lower sensitivity.
+
+## Detailed Evidence Map
+
+The article gives three reasons the n >= 30 rule feels plausible:
+
+- Around 30 observations, t values and z values become similar enough that introductory statistics can simplify many calculations.
+- Normal approximations to binomial data become less fragile as n grows, especially when proportions are not near 0 or 1.
+- The Central Limit Theorem often makes sampling distributions of means more normal as sample size increases.
+
+It then separates those approximations from UX decision practice:
+
+- t-based methods were built for small continuous samples where the population standard deviation is unknown.
+- UX raw data is often non-normal, but inferential procedures depend on sampling distributions and method choice, not only raw histograms.
+- For binary data, the problem is not small n by itself; the problem is using standard Wald intervals when adjusted methods are available.
+- Small samples usually limit precision and power, so reporting uncertainty is more important than defending a threshold.
+
+## Decision Routing
+
+| Research output | Data type | Better small-n route |
+|---|---|---|
+| SUS, SEQ, SUPR-Q, UX-Lite mean | Rating scale / continuous-like | t interval or t test with correct degrees of freedom |
+| Task completion rate | Binary | Adjusted-Wald confidence interval |
+| Two completion rates | Binary comparison | N - 1 two-proportion method or another appropriate small-sample comparison |
+| Task time | Right-skewed continuous | Log-transform for confidence intervals, then transform back |
+| Any small sample | Estimate or comparison | Show interval width, detectable effect size, and power limits |
 
 ## Key Claims
 
@@ -80,12 +109,24 @@ The main recommendation is to choose sample size based on the analysis, data typ
 - [[concepts/ux-research/ux-statistics-decision-map|UX Statistics Decision Map]]
 - [[concepts/ux-research/quant-uxr-rigor|Quant UXR Rigor]]
 - [[concepts/ux-research/ux-performance-benchmarking|UX Performance Benchmarking]]
+- [[playbooks/small-n-ux-statistics-checklist|Small-N UX Statistics Checklist]]
 
 ## LLM Use
 
 - **Use for:** explaining small-n UX statistics, planning sample sizes, reviewing whether analysis choices match data types.
 - **Do not use for:** declaring a specific project sample size adequate without project-specific assumptions.
 - **Best prompt pattern:** Ask the LLM to identify the data type, analysis goal, expected effect size, and uncertainty requirement before proposing a sample size.
+
+## Detailed Prompt Pattern
+
+Ask:
+
+1. What decision will this metric support?
+2. Is the outcome rating-scale, binary, time, or another distribution?
+3. Are we estimating one value, comparing to a benchmark, or comparing alternatives?
+4. What interval width, power, or minimum detectable effect is needed?
+5. Which method matches the data type: t, adjusted-Wald, N - 1 two-proportion, log-time interval, or another planned analysis?
+6. What caveat should appear in the report if n is small?
 
 ## Reliability Notes
 
@@ -95,4 +136,4 @@ The main recommendation is to choose sample size based on the analysis, data typ
 ## Backfill Status
 
 - Created directly in LLM-ready format on 2026-06-12.
-- This is a new source page, not a retrofit of an older note.
+- Detailed raw/source pass added on 2026-06-16.

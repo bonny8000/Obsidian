@@ -83,7 +83,7 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 | [[sources/mashdigi-aws-openai-bedrock-codex|Mashdigi: AWS and OpenAI Bedrock Collaboration]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/measuringu-ai-real-ui-problems-hallucinations|MeasuringU: Does AI Find Real UI Problems or Just Hallucinations?]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/measuringu-ai-usability-problem-analysis-video|MeasuringU: AI Reliability for Finding UI Problems]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
-| [[sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]] | `detailed` | `detailed` | `true` | `true` | ready for small-n UX statistics reasoning |
 | [[sources/medium-harizlim-ai-qualitative-research-2026|Hariz Lim — AI in Qualitative Research: "If you're using AI as an analysis tool, you're doing it wrong"]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/meta-research-medium-publication|Meta Research Medium Publication]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/naverlabs-blog-10034251|NAVER LABS: Robot Elevator Boarding Acceptance]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |

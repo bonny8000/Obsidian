@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-05-18
-updated: 2026-06-10
+updated: 2026-06-17
 tags: [index, llm-wiki, dashboard]
 sources:
   - sources/brunch-ghidesigner-487
@@ -31,6 +31,31 @@ confidence: 0.9
 ![[../dashboard.base]]
 
 ## Recent Ingests
+> [!success] MeasuringU 5-pack 2026-06-17
+> - [[sources/measuringu-tac10-screening|TAC-10 for Screening & Data Cleaning (Lewis & Sauro, 2026-06-02)]]
+> - [[sources/measuringu-synthetic-users-review|A Review of Experiments with Synthetic Users (Lewis & Sauro, 2026-04-14)]]
+> - [[sources/measuringu-credible-vs-confidence-intervals|Credible vs Confidence Intervals (Sauro & Lewis, 2026-04-08)]]
+> - [[sources/measuringu-bayes-priors-uxr|Bayes' Law in UX Research — Power and Perils of Priors (Sauro & Lewis, 2026-03-31)]]
+> - [[sources/measuringu-banner-tables|How to Use Banner Tables (Lewis & Sauro, 2026-03-24)]]
+> - New concepts: [[concepts/ux-research/bayesian-credible-interval|Bayesian Credible Interval]], [[concepts/ux-research/bayesian-priors-in-uxr|Bayesian Priors in UXR]], [[concepts/ux-research/tac-10-tech-savviness|TAC-10 Tech Savviness]], [[concepts/ux-research/survey-data-quality-screening|Survey Data Quality Screening]], [[concepts/ux-research/banner-table|Banner Table]]
+> - Updated: [[concepts/ux-research/synthetic-survey-data|Synthetic Survey Data]] (with 12-paper review), [[concepts/ux-research/adjusted-wald-confidence-interval|Adjusted-Wald CI]] (with credible-interval cross-link and stakeholder phrasings), [[maps/ux-metrics-framework|UX Metrics Framework]] map.
+
+> [!success] Web ingest 2026-06-17 (companion pair)
+> - [[sources/atlassian-design-system-context-engine|Atlassian: Building the Context Engine for the AI Era (Christley & Radford, 2026-05-28)]]
+> - [[sources/atlassian-design-md|Atlassian: DESIGN.md — Portable Design Context in Practice (Hall & Campbell, 2026-06-15)]]
+> - New concepts: [[concepts/infrastructure-dev/ai-native-design-system|AI-Native Design System]], [[concepts/infrastructure-dev/design-md|DESIGN.md]]
+> - Extended comparison: [[comparisons/skills-vs-mcp-vs-agents-md|Skills vs MCP vs AGENTS.md vs DESIGN.md]] now four-primitive
+
+> [!success] Deep ingest 2026-06-17
+> - [[sources/agent-skills-day-3|Agent Skills (Day 3) — Singhal et al. (2026)]]
+> - New concepts: [[concepts/ai-agents/agent-skills|Agent Skills]], [[concepts/ai-agents/progressive-disclosure|Progressive Disclosure]], [[concepts/ai-agents/context-rot|Context Rot]], [[concepts/ai-agents/procedural-memory|Procedural Memory]]
+> - Updated: [[concepts/ai-agents/skill-system|Skill System]], [[concepts/ai-agents/agent-memory|Agent Memory]], [[concepts/ai-agents/self-improving-agent-workflows|Self-Improving Agent Workflows]]
+> - New comparison: [[comparisons/skills-vs-mcp-vs-agents-md|Skills vs MCP vs AGENTS.md]]
+
+> [!info] Detailed pass 2026-06-16
+> - [[sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]]
+> - [[playbooks/small-n-ux-statistics-checklist|Small-N UX Statistics Checklist]]
+
 > [!info] Added 2026-06-12
 > - [[sources/theaxlabs-contaminated-memory-performance|AX LABS: Contaminated Memory Eats Away Performance]]
 > - [[sources/figma-you-never-stop-cultivating-taste|Figma: You Never Stop Cultivating Taste]]
@@ -66,7 +91,7 @@ confidence: 0.9
 ## 🏗️ Topic Clusters
 
 ### 🎨 AI Design and Agents
-> [!tip] Highlights: [[concepts/ai-agents/vibe-design|Vibe Design]], [[concepts/ai-agents/claude-design|Claude Design]], [[concepts/ai-agents/interactive-specs|Interactive Specs]], [[concepts/ux-research/designing-for-agency|Designing for Agency]]
+> [!tip] Highlights: [[concepts/ai-agents/agent-skills|Agent Skills]], [[concepts/ai-agents/vibe-design|Vibe Design]], [[concepts/ai-agents/claude-design|Claude Design]], [[concepts/ai-agents/interactive-specs|Interactive Specs]], [[concepts/ux-research/designing-for-agency|Designing for Agency]]
 - [[concepts/ai-agents/ai-agent-workflow|AI Agent Workflow]]
 - [[concepts/ux-research/designing-for-agency|Designing for Agency]]
 - [[concepts/product-management/ai-product-planning|AI Product Planning]]
@@ -82,7 +107,11 @@ confidence: 0.9
 - [[concepts/infrastructure-dev/enterprise-ai-agent-platform|Enterprise AI Agent Platform]]
 - [[concepts/infrastructure-dev/cloud-ai-governance|Cloud AI Governance]]
 - [[concepts/ai-agents/agent-memory|Agent Memory]]
+- [[concepts/ai-agents/procedural-memory|Procedural Memory]]
 - [[concepts/ai-agents/memory-contamination|Memory Contamination]]
+- [[concepts/ai-agents/context-rot|Context Rot]]
+- [[concepts/ai-agents/progressive-disclosure|Progressive Disclosure]]
+- [[concepts/ai-agents/agent-skills|Agent Skills]]
 - [[concepts/ai-agents/skill-system|Skill System]]
 - [[concepts/ai-agents/skillopt|SkillOpt]]
 - [[concepts/infrastructure-dev/text-space-optimization|Text-Space Optimization]]
@@ -90,6 +119,9 @@ confidence: 0.9
 - [[concepts/infrastructure-dev/modern-web-guidance|Modern Web Guidance]]
 - [[concepts/ai-agents/agentic-ai|Agentic AI]]
 - [[concepts/ai-agents/gemini-3-5|Gemini 3.5]]
+- [[concepts/infrastructure-dev/design-md|DESIGN.md]]
+- [[concepts/infrastructure-dev/ai-native-design-system|AI-Native Design System]]
+- [[comparisons/skills-vs-mcp-vs-agents-md|Comparison: Skills vs MCP vs AGENTS.md vs DESIGN.md]]
 
 ### 💼 AI-Native Product Management
 > [!info] Core Skills: [[concepts/product-management/product-taste|Product Taste]], [[concepts/product-management/10-person-unicorn|10-Person Unicorn]]
