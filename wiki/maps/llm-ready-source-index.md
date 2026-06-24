@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-22
 tags: [map, llm-ready, source-index]
 sources: []
 confidence: 1.0
@@ -14,10 +14,10 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 
 ## Status Summary
 
-- Total source pages: 74
-- LLM-ready source pages: 58
-- Deep / standard / light: 19 / 50 / 5
-- Partial coverage sources needing deeper ingest: 16
+- Total source pages: 110
+- LLM-ready source pages: 93
+- Deep / standard / light: 25 / 78 / 7
+- Partial coverage sources needing deeper ingest: 18
 
 ## How to Use
 
@@ -103,3 +103,39 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 | [[sources/theaxlabs-contaminated-memory-performance|AX LABS: Contaminated Memory Eats Away Performance]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/toss-tech-research-platform-ai|Source: Toss Tech ??Huribot Story #1]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/zdnet-dell-ai-native|Source: Dell Vice Chairman Jeff Clarke: "AI-Native Transition"]] | `standard` | `partial` | `false` | `false` | raw provenance, raw-based expansion |
+| [[sources/atlassian-ai-prototyping-handshakes|Atlassian: Handoffs into Handshakes (AI Prototyping at Scale)]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/figma-mcp-server-four-ways|Figma: 4 Ways We're Using Our MCP Server]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/aidesign-guide-catalog|The AI Design Guide (Resource Directory)]] | `light` | `partial` | `false` | `true` | resource pointer; not citable evidence |
+| [[sources/bayer-prince-reliable-agentic-ai|Bayer PRINCE: Building Reliable Agentic AI Systems]] | `deep` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/fowler-sensors-coding-agents|Böckeler: Maintainability Sensors for Coding Agents]] | `deep` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/hai-cooperbench-agent-teamwork|CooperBench: AI Coding Agents Fail at Teamwork]] | `standard` | `substantial` | `true` | `true` | preprint write-up; verify vs arXiv 2601.13295 |
+| [[sources/hai-headlines-ai-news-audit|Real-Time Audit of Six Commercial News Chatbots]] | `standard` | `substantial` | `true` | `true` | preprint write-up; verify vs arXiv 2605.22785 |
+| [[sources/guanjie-li-llm-user-proxy|Li: What LLMs Can and Cannot Find in Interview Transcripts]] | `deep` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/nngroup-design-process-compressed|NN/g: Design Process Isn't Dead, It's Compressed]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/trevor-calabro-ux-research-as-a-service|Calabro: UX Research as a Service]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/ada-kim-satisfaction-vs-benefit-ai|Kim: Satisfaction vs Actual Benefit in AI Use]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/kevin-newton-uxr-three-jobs|Newton (2026): UX Research Is Splitting Into Three Jobs]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/acm-dis2026-algorithmic-self-portraits|Lee et al. (2026): Algorithmic Self-Portraits (TubeLens), DIS '26]] | `standard` | `substantial` | `true` | `true` | full ingest (PDF preserved); deepen findings on demand |
+| [[sources/ipsos-trust-ultimate-wireframe|Ipsos: Trust as the Ultimate Wireframe]] | `light` | `partial` | `false` | `true` | Ceros report not rendered; thesis only |
+| [[sources/vibe-coding-agent-security-evaluation-day-4|Day 4 — Vibe Coding Agent Security & Evaluation]] | `deep` | `substantial` | `true` | `true` | security half deep; deepen evaluation half |
+| [[sources/spec-driven-production-development-day-5|Day 5 — Spec-Driven Production-Grade Development]] | `deep` | `substantial` | `true` | `true` | first half deep; deepen zero-trust/policy section |
+| [[sources/bakhshi-representative-sample|Bakhshi (2026): There Is No Such Thing as a Representative Sample]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/bakhshi-ai-in-qualitative-research-map|Bakhshi (2026): AI in Qualitative Research — A Map]] | `deep` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/svenja-pieritz-positioning-experiment|Pieritz (2026): Positioning Experiment (relevance vs intent)]] | `standard` | `substantial` | `true` | `true` | directional; underpowered self-study |
+| [[sources/myrealtrip-polaris-cancellation-recommendation|Myrealtrip "Polaris": Cancellation → Next Trip]] | `standard` | `substantial` | `true` | `true` | ~70% lift is observational, not causal |
+| [[sources/yozm-ai-prd|Yozm IT (2026): What an AI PRD Must Do Differently]] | `standard` | `substantial` | `true` | `true` | full via summary; verbatim re-capture optional |
+| [[sources/langchain-multi-agent-architecture|LangChain: Choosing the Right Multi-Agent Architecture]] | `standard` | `substantial` | `true` | `true` | vendor blog; 4 patterns + scenario perf |
+| [[sources/langchain-loop-engineering|LangChain: The Art of Loop Engineering]] | `standard` | `substantial` | `true` | `true` | vendor blog |
+| [[sources/langchain-custom-agent-harness|LangChain: How to Build a Custom Agent Harness]] | `standard` | `substantial` | `true` | `true` | vendor blog; deepens harness-engineering |
+| [[sources/langchain-verifiers-legal-agents|LangChain: Designing Efficient Verifiers for Legal Agents]] | `standard` | `substantial` | `true` | `true` | vendor blog; cost/RL charts image-only |
+| [[sources/langchain-predictable-coding-agent-spend|LangChain: Making Coding-Agent Spend Predictable]] | `standard` | `substantial` | `true` | `true` | vendor blog |
+| [[sources/langchain-model-neutrality|LangChain: Why Model Neutrality Matters More Than Cloud]] | `standard` | `substantial` | `true` | `true` | vendor blog |
+| [[sources/langchain-box-ai-deep-agents|Box × LangChain: AI-Native with Deep Agents]] | `standard` | `substantial` | `true` | `true` | customer story; no independent metrics |
+| [[sources/langchain-lyft-support-agent-platform|Lyft × LangChain: Self-Serve Support Agent Platform]] | `standard` | `substantial` | `true` | `true` | customer story; baseline-metrics table image-only |
+| [[sources/langchain-agent-middleware|LangChain: Agent Middleware (1.0 origin post)]] | `standard` | `substantial` | `true` | `true` | canonical source for the Agent Middleware concept |
+| [[sources/langchain-background-subagents|LangChain: Running Subagents in the Background]] | `standard` | `substantial` | `true` | `true` | vendor blog |
+| [[sources/langchain-interpreter-skills|LangChain: Interpreter Skills]] | `standard` | `substantial` | `true` | `true` | vendor blog |
+| [[sources/langchain-agent-authorization|LangChain: Two Types of Agent Authorization]] | `standard` | `substantial` | `true` | `true` | maps to Day-4 confused-deputy / identity |
+| [[sources/langchain-eu-ai-act|LangChain: LangSmith / OSS & the EU AI Act]] | `standard` | `substantial` | `true` | `true` | governance; article-crosswalk table captured |
+| [[sources/langchain-evaluating-deep-agents|LangChain: Evaluating Deep Agents]] | `standard` | `substantial` | `true` | `true` | vendor blog; 3×3 eval matrix |
+| [[sources/langchain-exa|Exa × LangChain: Agentic Search]] | `standard` | `substantial` | `true` | `true` | partner story; ops metrics only, no quality numbers |

@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-05-18
-updated: 2026-06-12
+updated: 2026-06-22
 tags: [map, ux-research, ai, research-methods]
 sources:
   - sources/measuringu-ai-usability-problem-analysis-video
@@ -25,6 +25,14 @@ sources:
   - sources/quantuxblog
   - sources/meta-research-medium-publication
   - sources/measuringu-statistics-30-participants
+  - sources/guanjie-li-llm-user-proxy
+  - sources/nngroup-design-process-compressed
+  - sources/trevor-calabro-ux-research-as-a-service
+  - sources/ada-kim-satisfaction-vs-benefit-ai
+  - sources/kevin-newton-uxr-three-jobs
+  - sources/bakhshi-representative-sample
+  - sources/bakhshi-ai-in-qualitative-research-map
+  - sources/svenja-pieritz-positioning-experiment
 confidence: 0.85
 ---
 
@@ -53,6 +61,13 @@ This cluster tracks where AI can help UX research and where research-method inte
 - [[concepts/ux-research/ai-usability-analysis|AI Usability Analysis]]
 - [[concepts/ux-research/ai-usability-false-alarm-triage|AI Usability False-Alarm Triage]]
 - [[concepts/ux-research/huribot|Huribot]]
+- [[concepts/ux-research/llm-user-proxy|LLM User Proxy]]
+- [[concepts/ux-research/process-literacy|Process Literacy]]
+- [[concepts/ux-research/research-as-a-service|Research as a Service]]
+- [[concepts/ux-research/uxr-role-split|UXR Role Split]]
+- [[concepts/ux-research/claim-based-sampling|Claim-Based Sampling]]
+- [[concepts/ux-research/ai-qualitative-research-map|AI Qualitative Research Map]]
+- [[concepts/ux-research/say-do-gap|Say-Do Gap]]
 - [[concepts/ux-research/automated-ut-setup|Automated UT Setup]]
 - [[concepts/ux-research/ai-moderated-interviews|AI-Moderated Interviews]]
 - [[concepts/ux-research/reliability-vs-validity|Reliability vs Validity]]

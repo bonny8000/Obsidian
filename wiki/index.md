@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-05-18
-updated: 2026-06-17
+updated: 2026-06-22
 tags: [index, llm-wiki, dashboard]
 sources:
   - sources/brunch-ghidesigner-487
@@ -31,6 +31,35 @@ confidence: 0.9
 ![[../dashboard.base]]
 
 ## Recent Ingests
+> [!success] LangChain agent-engineering batch 2 — 2026-06-22 (7 posts)
+> - [[sources/langchain-agent-middleware|Agent Middleware (LangChain 1.0)]], [[sources/langchain-background-subagents|Async Subagents]], [[sources/langchain-interpreter-skills|Interpreter Skills]]
+> - [[sources/langchain-agent-authorization|Agent Authorization]], [[sources/langchain-eu-ai-act|EU AI Act]], [[sources/langchain-evaluating-deep-agents|Evaluating Deep Agents]], [[sources/langchain-exa|Exa: Agentic Search]]
+> - New concepts: [[concepts/ai-agents/agent-authorization|Agent Authorization]], [[concepts/ai-agents/async-subagents|Async Subagents]], [[concepts/ai-agents/agent-interpreter|Agent Interpreter]], [[concepts/ai-agents/agent-trajectory-evaluation|Agent Trajectory Evaluation]], [[concepts/ai-agents/agentic-search|Agentic Search]], [[concepts/infrastructure-dev/eu-ai-act-compliance|EU AI Act Compliance]]
+
+> [!success] LangChain agent-engineering batch 2026-06-22 (8 posts)
+> - Architecture/loops: [[sources/langchain-multi-agent-architecture|Multi-Agent Architecture]], [[sources/langchain-loop-engineering|Loop Engineering]], [[sources/langchain-custom-agent-harness|Custom Agent Harness]]
+> - Reliability/economics: [[sources/langchain-verifiers-legal-agents|Verifiers (Legal)]], [[sources/langchain-predictable-coding-agent-spend|Predictable Spend]], [[sources/langchain-model-neutrality|Model Neutrality]]
+> - Enterprise: [[sources/langchain-box-ai-deep-agents|Box: Deep Agents]], [[sources/langchain-lyft-support-agent-platform|Lyft: Self-Serve Platform]]
+> - New concepts: [[concepts/ai-agents/multi-agent-architecture|Multi-Agent Architecture]], [[concepts/ai-agents/loop-engineering|Loop Engineering]], [[concepts/ai-agents/agent-middleware|Agent Middleware]], [[concepts/ai-agents/agent-verifiers|Agent Verifiers]], [[concepts/ai-agents/model-neutrality|Model Neutrality]], [[concepts/infrastructure-dev/agent-cost-control|Agent Cost Control]], [[concepts/ai-agents/deep-agents|Deep Agents]], [[concepts/infrastructure-dev/self-serve-agent-platform|Self-Serve Agent Platform]]
+
+> [!success] UX research & product batch 2026-06-22 (5 sources)
+> - UXR: [[sources/bakhshi-representative-sample|Bakhshi: Representative Sample]], [[sources/bakhshi-ai-in-qualitative-research-map|Bakhshi: AI in Qual Research — A Map]], [[sources/svenja-pieritz-positioning-experiment|Pieritz: Positioning Experiment]]
+> - Product: [[sources/myrealtrip-polaris-cancellation-recommendation|Myrealtrip "Polaris"]], [[sources/yozm-ai-prd|Yozm: AI PRD]]
+> - New concepts: [[concepts/ux-research/claim-based-sampling|Claim-Based Sampling]], [[concepts/ux-research/ai-qualitative-research-map|AI Qualitative Research Map]], [[concepts/ux-research/say-do-gap|Say-Do Gap]], [[concepts/product-management/feature-vs-platform|Feature vs Platform]], [[concepts/product-management/ai-prd|AI PRD]]
+
+> [!success] Agentic Engineering series — Day 4 & 5 (2026-06-22)
+> - [[sources/vibe-coding-agent-security-evaluation-day-4|Day 4 — Vibe Coding Agent Security & Evaluation]] (Kartakis et al.)
+> - [[sources/spec-driven-production-development-day-5|Day 5 — Spec-Driven Production-Grade Development]] (Boonstra)
+> - Completes the Day 1–5 arc. New concepts: [[concepts/ai-agents/agent-security-architecture|Agent Security Architecture]], [[concepts/ai-agents/red-blue-green-agent-teaming|Red/Blue/Green Agent Teaming]], [[concepts/ai-agents/slopsquatting|Slopsquatting]], [[concepts/ai-agents/vibe-coding-agent-evaluation|Vibe-Coding Agent Evaluation]], [[concepts/ai-agents/spec-driven-development|Spec-Driven Development]], [[concepts/ai-agents/zero-trust-agent-development|Zero-Trust Agent Development]]
+
+> [!success] AI × UX / agentic batch 2026-06-22 (14 sources)
+> - Design-system AI prototyping: [[sources/atlassian-ai-prototyping-handshakes|Atlassian: Handoffs→Handshakes]], [[sources/figma-mcp-server-four-ways|Figma: 4 Ways We Use Our MCP Server]], [[sources/aidesign-guide-catalog|The AI Design Guide (directory)]]
+> - Agentic reliability: [[sources/bayer-prince-reliable-agentic-ai|Bayer PRINCE (agentic RAG)]], [[sources/fowler-sensors-coding-agents|Böckeler: Maintainability Sensors]]
+> - Stanford HAI: [[sources/hai-cooperbench-agent-teamwork|CooperBench: agents fail at teamwork]], [[sources/hai-headlines-ai-news-audit|Audit of 6 news chatbots]]
+> - UXR & human-AI: [[sources/nngroup-design-process-compressed|NN/g: Process Compressed]], [[sources/guanjie-li-llm-user-proxy|Li: LLM user proxies]], [[sources/trevor-calabro-ux-research-as-a-service|Calabro: Research as a Service]], [[sources/ada-kim-satisfaction-vs-benefit-ai|Kim: Satisfaction vs Benefit]]
+> - Upgraded to full (user-supplied text/PDF, 2026-06-22): [[sources/kevin-newton-uxr-three-jobs|Newton: UXR splitting into three jobs]], [[sources/acm-dis2026-algorithmic-self-portraits|Lee et al.: algorithmic self-portraits (DIS '26)]]; still partial: [[sources/ipsos-trust-ultimate-wireframe|Ipsos: Trust as the Ultimate Wireframe]]
+> - New concepts: [[concepts/ai-agents/context-engineering|Context Engineering]], [[concepts/ai-agents/agentic-rag|Agentic RAG]], [[concepts/ai-agents/multi-agent-coordination|Multi-Agent Coordination]], [[concepts/ai-agents/ai-news-intermediary|AI as News Intermediary]], [[concepts/infrastructure-dev/maintainability-sensor|Maintainability Sensor]], [[concepts/infrastructure-dev/mutation-testing|Mutation Testing]], [[concepts/infrastructure-dev/agentic-content|Agentic Content]], [[concepts/infrastructure-dev/ai-prototyping|AI Prototyping]], [[concepts/ux-research/llm-user-proxy|LLM User Proxy]], [[concepts/ux-research/research-as-a-service|Research as a Service]], [[concepts/ux-research/process-literacy|Process Literacy]], [[concepts/agent-experience/ai-sycophancy|AI Sycophancy]], [[concepts/agent-experience/satisfaction-vs-benefit|Satisfaction vs Benefit]], [[concepts/ux-research/uxr-role-split|UXR Role Split]], [[concepts/ux-research/algorithmic-self|Algorithmic Self]]
+
 > [!success] MeasuringU 5-pack 2026-06-17
 > - [[sources/measuringu-tac10-screening|TAC-10 for Screening & Data Cleaning (Lewis & Sauro, 2026-06-02)]]
 > - [[sources/measuringu-synthetic-users-review|A Review of Experiments with Synthetic Users (Lewis & Sauro, 2026-04-14)]]
