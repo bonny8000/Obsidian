@@ -29,15 +29,14 @@ basenames = {r.split('/')[-1]: r for r in pages}
 linked = set()
 
 for rel, s in texts.items():
-    if rel == 'logs/lint-report':
-        continue
+    if rel == 'logs/lint-report' or rel.startswith('_templates/'):
+        continue  # skip generated report + template scaffolds (intentional [[concepts/]] placeholders)
     if len(s.strip()) < 40:
         issues['empty'].append(rel)
     if not s.lstrip('﻿').startswith('---'):
         issues['no_frontmatter'].append(rel)
-    if 'lost-content' in s or 'lost in' in s.lower() and 'corruption' in s.lower():
-        if 'lost-content' in s or 'Rebuilt stub' in s or 'Answer lost' in s:
-            issues['lost_content'].append(rel)
+    if ('lost-content' in s or 'Rebuilt stub' in s or 'Answer lost' in s) and not rel.startswith('logs/'):
+        issues['lost_content'].append(rel)  # logs/ legitimately mention these terms; they are not content stubs
     for m in stripped_pat.finditer(s):
         issues['pipe_stripped'].append(f'{rel}: {m.group(0)[:60]}')
     for m in link_pat.finditer(s):

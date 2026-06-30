@@ -2,11 +2,12 @@
 type: concept
 status: active
 created: 2026-05-18
-updated: 2026-05-18
+updated: 2026-06-29
 tags: [ux-design, ai-native, ai-agent]
 sources:
   - sources/brunch-ghidesigner-472
   - sources/ditoday-claude-design-uiux-workflow
+  - sources/uxfolio-ai-ux-design
 confidence: 0.66
 ---
 
@@ -25,6 +26,7 @@ The collected design sources frame UX work as moving beyond static screens towar
 - Designers may need to design the relationship between users and autonomous agents.
 - AI-native design workflows combine research, prototyping, implementation, and validation.
 - Product claims about specific tools should be verified against official documentation.
+- **The value shift is from execution ("pixel-pushing") to curation/direction**, framed as a hybrid director+algorithm workflow with two reusable structures: a three-pillar workflow (research/pattern recognition -> ideation/prototyping -> decision-driven portfolios) and the **"AI Sandwich"** quality loop (human context -> AI exploration -> human validation) ([[sources/uxfolio-ai-ux-design|UXfolio, 2026]]). *Vendor/promotional content with no statistics or citations — treat as framework/vocabulary, not evidence.*
 
 ## Related Concepts
 
@@ -38,6 +40,7 @@ The collected design sources frame UX work as moving beyond static screens towar
 
 - [[sources/brunch-ghidesigner-472|Brunch: Google Gemini Enterprise for UXUI Design]]
 - [[sources/ditoday-claude-design-uiux-workflow|Digital iNSIGHT: Claude Design and UI/UX Workflow]]
+- [[sources/uxfolio-ai-ux-design|UXfolio: AI UX Design — Strategic Blueprint for the AI-Augmented Designer (2026)]] — vendor framework: director-vs-executor reframing, three-pillar workflow, "AI Sandwich" loop.
 
 ## Open Questions
 

@@ -2,13 +2,118 @@
 type: log
 status: active
 created: 2026-05-18
-updated: 2026-06-17
+updated: 2026-06-29
 tags: [log, maintenance]
 sources: []
 confidence: 1.0
 ---
 
 # Change Log
+
+## 2026-06-29 - Christine Vallaure design-systems & agentic-AI batch (4 articles, multi-agent workflow)
+
+Ingested 4 Christine Vallaure (moonlearning.io) Substack notes — each 302-redirects to a full article — via the fetch → adversarial-verify → concept-synthesis workflow.
+
+Sources captured to `raw/web/` (suffix `-2026-06-29`), all `standard` / `substantial` / `llm_ready: true`:
+
+- `christinevallaure-agentic-ai-design-systems` — "Agentic AI, Design Systems & Figma: A Practical Guide" (2026-03-31; conf 0.85).
+- `christinevallaure-a2ui-generative-ui` — "A2UI Under the Hood" (2026-06-17; conf 0.82).
+- `christinevallaure-hypertokens` — "What Are Hypertokens?" (2026-06-28; conf 0.78).
+- `christinevallaure-human-approach-agentic-ai` — "A Human Approach to Agentic AI" (2026-03-26; conf 0.72).
+
+- New concepts: [[concepts/infrastructure-dev/hypertokens|Hypertokens]] (named style bundles compiling to many targets — coined by Jake Albaugh, Config 2026), [[concepts/infrastructure-dev/component-catalog|Component Catalog]] (the designer-authored palette an agent may assemble from), [[concepts/agent-experience/a2ui-protocol|A2UI Protocol]] (Google-initiated generative-UI protocol), [[concepts/infrastructure-dev/figma-code-connect|Figma Code Connect]], [[concepts/ai-agents/markdown-agent-orchestration|Markdown Agent Orchestration]] (a whole multi-agent system in one CLAUDE.md), [[concepts/ai-agents/persona-agent|Persona Agent]] (human-named work agents).
+- Enriched 18 existing concepts across design-systems (ai-native-design-system, generative-ui, deterministic-ui, color-token-architecture, design-to-code-workflow, design-system-implementation, token-efficiency, agentic-technical-debt, mcp-integration, vibe-design) and agentic/AX (agent-transparency, cowork, 1-person-vault, claudemd-context, multi-agent-coordination, ai-sycophancy, domain-expert-as-builder, parasocial-relationship).
+- Adversarial verification corrected a coinage misattribution (hypertokens = Jake Albaugh, not Vallaure) and several paraphrase-as-verbatim / truncated quotes. Synthesizer dropped 2 thin concepts (figma-slots, design-system-as-instructions, folded in); orchestrator fixed the resulting dangling links on the source page.
+- Source index recomputed from disk: 147 sources / 125 `llm_ready` / deep·standard·light 26·107·11 / 22 partial. Lint clean (0 broken, 0 orphans).
+
+## 2026-06-29 - Digital-twins & AI-UX batch (6 sources, multi-agent workflow)
+
+Ingested 6 dropped URLs via a fetch → adversarial-verify → concept-synthesis workflow (13 agents).
+
+Sources captured to `raw/web/` (suffix `-2026-06-29`):
+
+- `voiceofuser-inhouse-digital-twins-blueprint` — Constantine Papas, The Voice of User, 2026-06-12 (`standard`/`substantial`).
+- `brox-digital-twins-market-research` — VentureBeat (`light`/`partial`/`llm_ready: false`; body blocked, reconstructed, vendor-PR).
+- `uxfolio-ai-ux-design` — Tibor Balázs, UXfolio, 2026-05-21 (`standard`/`substantial`; vendor/promotional).
+- `drs2026-generative-events-design-ontology` — Yu & Zhao, Loughborough, DRS2026 (`light`/`partial`; abstract-only).
+- `kakao-vc-ai-companion-relationship` — Kakao Ventures, 2026-06-04 (`standard`/`substantial`).
+- `opencut-open-source-video-editor` — OpenAlternative listing (`light`/`partial`; off-theme).
+
+- New concepts (7, after consolidating the AI-companion set 6→4 post-review — merged `ai-business-model` + `ai-ip-and-fandom` into Relationship Architecture): [[concepts/ux-research/digital-twin-respondents|Digital-Twin Respondents]] (productized Brox + home-built; the Type-5 individual-replica instance), [[concepts/ux-research/in-house-synthetic-user-pipeline|In-House Synthetic User Pipeline]] (the build+validation recipe), [[concepts/ux-research/generative-events|Generative Events]] (DRS ontology — absorbs OODO/process-ontology/PD/co-design/design-as-research), [[concepts/agent-experience/ai-companion|AI Companion]], [[concepts/agent-experience/relationship-architecture|Relationship Architecture]] (the relationship-depth thesis + revenue-surface / IP & fandom monetization), [[concepts/agent-experience/parasocial-relationship|Parasocial Relationship]], [[concepts/agent-experience/companion-attachment-dependency|Companion Attachment & Dependency]].
+- Enriched: [[concepts/ux-research/synthetic-user-taxonomy|Synthetic User Taxonomy]] (Type-5 in the wild; baseline ladder shows full twins 0.75 = demographics 0.75), [[concepts/ux-research/synthetic-survey-data|Synthetic Survey Data]] (MAE thresholds, under-dispersion 154/164, hyper-rationality 99.9% vs 52%), [[concepts/ux-research/grounded-synthetic-personas|Grounded Synthetic Personas]], [[concepts/ux-research/llm-user-proxy|LLM User Proxy]], [[concepts/ux-research/say-do-gap|Say-Do Gap]], [[concepts/ux-research/ai-persona-replication|AI Persona Replication]], [[concepts/ux-research/algorithmic-monoculture|Algorithmic Monoculture]], [[concepts/ux-research/ax-ai-experience|AX (AI Experience)]], [[concepts/ux-research/ai-native-ux-design|AI-Native UX Design]].
+- Adversarial verification fixed a prompting-vs-fine-tuning overclaim, two coverage downgrades (DRS, OpenCut → partial), and several Brox overstatements; the synthesizer dropped 7 DRS stubs + the OpenCut concept + 10 redundant UXfolio links. Reconciled the DRS source page's dangling links post-synthesis.
+- Source index recomputed from disk: 143 sources / 121 `llm_ready` / deep·standard·light 26·103·11 / 22 partial.
+
+## 2026-06-26 - Wiki maintenance & lint pass
+
+Full-vault health check, defect repair, and semantic audit (web fetching skipped per request). See [[logs/2026-06-26-maintenance-report|the maintenance report]] for detail.
+
+- **Broken links 17 → 0.** Created 4 grounded concept pages ([[concepts/ai-agents/frontier-safety-framework|frontier-safety-framework]], [[concepts/ux-research/corporate-jargon|corporate-jargon]], [[concepts/ai-agents/google-workspace-ai|google-workspace-ai]], [[concepts/infrastructure-dev/antigravity|antigravity]]); repaired 2 broken "original source" pointers ([[sources/microsoft-web-iq|microsoft-web-iq]], [[sources/openai-codex-workflow|openai-codex-workflow]]) by relinking to real concepts; rephrased 3 illustrative wikilink-style placeholders (a query + the weekly-report playbook).
+- **Hardened `scripts/lint.py`:** skip `_templates/` in the link scan (6 false-positive broken links removed); exclude `logs/` from the lost-content heuristic (6 false positives removed).
+- **Re-answered 6 corruption-lost query stubs** (the 2026-05-27 set) from current wiki evidence, each citing only verified-on-disk pages; lint re-confirmed 0 new broken links. Lost-content 16 → 4 (remaining 4 = source stubs awaiting un-fetchable PDFs: andru-saksena, cooper, garrett, gerhard).
+- **Semantic audit** of all 6 concept clusters (265 pages, read-only): no real duplicates/conflicts; surfaced advisory cross-link opportunities, one merge candidate (false-alarm-triage → ai-usability-analysis), and missing-concept candidates (e.g. appropriate-reliance, teleoperation, prompt-linting). Applied 1 cross-link: [[concepts/infrastructure-dev/palantir-foundry-ontology|palantir-foundry-ontology]] ↔ [[concepts/infrastructure-dev/organizational-ontology|organizational-ontology]]. Remaining recommendations left for Bonny's approval.
+
+## 2026-06-26 - Raw drop batch 2 (3 sources)
+
+Sources captured to `raw/web/` (suffixed `-2026-06-26`), drafted + adversarially verified by the writer/verifier workflow:
+
+- `yozm-tiro-ax-ontology` — Yozm IT × The Plato (CTO Kim Sang-chul interview), 2026-06 (branded content; vendor metrics).
+- `hai-algorithmic-hiring-bias` — Stanford HAI (Bommasani, Bana, Creel, Jurafsky, Liang), 2026-05-26 (news write-up of the authors' paper).
+- `brunch-ponyodesign-llm-wiki-clone` — ponyodesign, Brunch, 2026-06-10 (personal first-person build log).
+
+- Published 3 source pages (`standard` / `substantial` / `llm_ready: true`; confidence 0.75 / 0.82 / 0.75).
+- New concepts:
+  - [[concepts/infrastructure-dev/organizational-ontology|Organizational Ontology]] — data+logic+action model of an org; a pre-ontology is drafted from meeting records before formal ratification.
+  - [[concepts/ai-agents/agent-digital-twin|Agent Digital Twin]] — a per-person agent mirroring one teammate's judgment/voice, gated by a central rule repository (the "Macrohard" fleet).
+  - [[concepts/ux-research/algorithmic-monoculture|Algorithmic Monoculture]] — vendor concentration turns individual AI bias into correlated "systemic rejection"; audit at the position level (EEOC four-fifths), not pooled.
+- Enriched existing concepts: [[concepts/infrastructure-dev/llm-wiki|LLM Wiki]] and [[concepts/ai-agents/ai-maintained-wiki|AI-Maintained Wiki]] — added the Tiro (org-scale) and ponyodesign (personal-scale) build logs as convergent independent evidence for this vault's own raw → AI-maintained-wiki pattern (both cite Karpathy's "LLM Wiki").
+- Updated [[maps/llm-ready-source-index|LLM-Ready Source Index]] (124 → 127; `llm_ready` 106 → 109; standard 91 → 94), [[overview|Overview]] (new "Raw Drop #2" section), `wiki/index.md`, root `index.md`.
+
+## 2026-06-26 - Raw drop batch (5 sources)
+
+Sources captured to `raw/web/` (all suffixed `-2026-06-26`), drafted and adversarially verified by a 5-writer + 5-verifier workflow:
+
+- `imweb-safe-llm-generated-sql` — Yehee Choi, Imweb Tech, 2026-06-22 (fetched fully).
+- `naverlabs-europe-divine-encoder` — Naver Labs Europe (user-supplied Chinese text; original URL pending).
+- `lennys-newsletter-new-inner-game` — Joe Hudson, Lenny's Newsletter, 2026-06-23 (~75%; self-talk how-to paywalled).
+- `heyratel-ios-ai-agent-environment` — Jinyoo / Ratel And Partners (HeyRatel, Medium), 2026-06 (fetched fully).
+- `datarize-intelligence-to-autonomy` — Datarize, 2026-02-02 (vendor marketing; metrics unaudited).
+
+- Published 5 source pages under `wiki/sources/` with full LLM-ready sections (all `standard` / `substantial` / `llm_ready: true`; confidence 0.68–0.82).
+- New concepts:
+  - [[concepts/ai-agents/text-to-sql|Text-to-SQL]] — NL→SQL plus the deterministic safety harness (judgment/execution split, AST gates, pgvector domain rules, bounded self-repair) that makes the output trustworthy.
+  - [[concepts/robotics-spatial/multi-teacher-distillation|Multi-Teacher Distillation]] — distilling several specialist teachers into one shared compact encoder (DIVINE; DUSt3R + multi-HMR).
+  - [[concepts/product-management/wisdom-stack|Wisdom Stack]] — Hudson's four human capabilities (discernment, conflict, willingness-to-fail, self-talk) as the durable AI-era advantage.
+  - [[concepts/ai-agents/criteria-driven-ai-adoption|Criteria-Driven AI Adoption]] — "the standard chooses the tools": automate from explicit criteria, not hype.
+  - [[concepts/ai-agents/model-escalation-gate|Model Escalation Gate]] — cheap-by-default, escalate-by-stakes to a frontier model or human ("advisor" mode).
+  - [[concepts/product-management/insight-to-execution-gap|Insight-to-Execution Gap]] — autonomy = collapsing the gap from prediction to action; value = friction removed, not model sophistication.
+- Verification fixes applied: corrected a corrupted percent-encoded character in the HeyRatel `source_url` (both files); dropped an unverifiable Hangul author name on the Imweb page.
+- Updated [[maps/llm-ready-source-index|LLM-Ready Source Index]] (119 → 124; `llm_ready` 101 → 106; standard 86 → 91), [[overview|Overview]] (new "Raw Drop" section), `wiki/index.md`, and root `index.md`.
+- Not re-ingested: yozm/3792 (already done 2026-06-25). Still blocked: [[sources/carrotcap-naver|Naver carrotcap]] (same post 224326504833; awaiting user-supplied text/PDF).
+
+## 2026-06-25 - AI-era practice & product batch (9 sources)
+
+Sources captured to `raw/web/` (all suffixed `-2026-06-25`):
+
+- `measuringu-types-of-synthetic-users` — Lewis & Sauro, MeasuringU, 2026-06-23.
+- `dusskapark-product-designer-codex` — Joo Hyung Park (Jude), Medium, 2026-06-10.
+- `toss-tossplace-ai-surf-day` — TossPlace EP.2 (JS-blocked; reconstructed from Toss Tech's AI Surf Day companion).
+- `google-good-seo-is-good-geo` — Brendon Kraham, Think with Google, 2026-06.
+- `yozm-obsidian-llm-wiki-secondbrain` — Gom's IT Blog, Yozm IT, 2026-06-10 (**this vault's blueprint**).
+- `carrotcap-naver` — **partial stub**; Naver host blocked + unindexed, no content captured.
+- `maily-product-makers-planning-harness` — Product Makers Note, Maily, 2026-06-24 (via `share.google` redirect).
+- `kakao-vc-ai-input-modality-wearables` — Kakao Ventures, 2026-06-24.
+- `theaxlabs-hanwha-life-claude-code-pbl` — AX LABS, 2026.
+
+- Published 9 source pages under `wiki/sources/` with full LLM-ready sections (8 `llm_ready: true`, 1 stub).
+- New concepts:
+  - [[concepts/ux-research/synthetic-user-taxonomy|Synthetic User Taxonomy]] — the 5-type grounding spectrum (proto → demographic → persona → research-grounded → digital-twin); generative agents are a separate category.
+  - [[concepts/product-management/planning-harness|Planning Harness]] — harness engineering for PM planning (context + skills + guardrails + validation; "AI sitter → harness engineer").
+  - [[concepts/robotics-spatial/input-modality|Input Modality]] — wearable sensor-input taxonomy (channel × collection mechanism × the technical/adoption/trust barriers).
+  - [[concepts/infrastructure-dev/ai-adoption-culture|AI Adoption Culture]] — org AI enablement; bottom-up (Toss AI Surf Day) vs. structured cohort (Hanwha PBL).
+  - [[concepts/product-management/domain-expert-as-builder|Domain Expert as Builder]] — non-developers building & owning real software/agents; the bottleneck is judgment, not coding.
+- Updated existing concepts: [[concepts/product-management/geo-generative-engine-optimization|GEO]] (Google's "good SEO is good GEO" + conflicts note), [[concepts/product-management/role-convergence|Role Convergence]] (designer + expert-builder field evidence; confidence 0.7 → 0.75), [[concepts/infrastructure-dev/llm-wiki|LLM Wiki]] + [[concepts/ai-agents/ai-maintained-wiki|AI-Maintained Wiki]] (Yozm blueprint as meta-source), [[concepts/ai-agents/harness-engineering|Harness Engineering]] (planning-harness application; headers de-mojibaked; draft → active), [[concepts/ux-research/synthetic-survey-data|Synthetic Survey Data]] + [[concepts/ux-research/grounded-synthetic-personas|Grounded Synthetic Personas]] (taxonomy cross-links).
+- Updated [[maps/llm-ready-source-index|LLM-Ready Source Index]] (110 → 119; `llm_ready` 93 → 101; standard 78 → 86, light 7 → 8; partial 18 → 19), [[overview|Overview]], `wiki/index.md`, root `index.md`.
 
 ## 2026-06-17 - MeasuringU 5-pack ingest
 

@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-06-12
-updated: 2026-06-22
+updated: 2026-06-26
 tags: [map, llm-ready, source-index]
 sources: []
 confidence: 1.0
@@ -14,10 +14,10 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 
 ## Status Summary
 
-- Total source pages: 110
-- LLM-ready source pages: 93
-- Deep / standard / light: 25 / 78 / 7
-- Partial coverage sources needing deeper ingest: 18
+- Total source pages: 147
+- LLM-ready source pages: 125
+- Deep / standard / light: 26 / 107 / 11
+- Partial coverage sources needing deeper ingest: 22
 
 ## How to Use
 
@@ -139,3 +139,30 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 | [[sources/langchain-eu-ai-act|LangChain: LangSmith / OSS & the EU AI Act]] | `standard` | `substantial` | `true` | `true` | governance; article-crosswalk table captured |
 | [[sources/langchain-evaluating-deep-agents|LangChain: Evaluating Deep Agents]] | `standard` | `substantial` | `true` | `true` | vendor blog; 3×3 eval matrix |
 | [[sources/langchain-exa|Exa × LangChain: Agentic Search]] | `standard` | `substantial` | `true` | `true` | partner story; ops metrics only, no quality numbers |
+| [[sources/measuringu-types-of-synthetic-users|MeasuringU (2026): Types of Synthetic Users]] | `standard` | `substantial` | `true` | `true` | provisional 5-type taxonomy; verbatim defs optional |
+| [[sources/dusskapark-product-designer-codex|Park (2026): How Far Can a Designer Build with Codex?]] | `standard` | `substantial` | `true` | `true` | single strong case study; no metrics |
+| [[sources/toss-tossplace-ai-surf-day|TossPlace (2026): AI Surf Day (EP.2)]] | `standard` | `substantial` | `true` | `true` | EP.2 body JS-blocked; reconstructed from Toss Tech companion |
+| [[sources/google-good-seo-is-good-geo|Kraham / Google (2026): Good SEO is Good GEO]] | `standard` | `substantial` | `true` | `true` | first-party Google; cross-engine claims unproven |
+| [[sources/yozm-obsidian-llm-wiki-secondbrain|Gom's IT Blog (2026): Obsidian LLM Wiki (this vault's blueprint)]] | `standard` | `substantial` | `true` | `true` | meta-source for this vault's architecture |
+| [[sources/maily-product-makers-planning-harness|Product Makers Note (2026): Planning Harness]] | `standard` | `substantial` | `true` | `true` | practitioner how-to; efficacy unproven |
+| [[sources/kakao-vc-ai-input-modality|Kakao Ventures (2026): Input Modality on Wearables]] | `standard` | `substantial` | `true` | `true` | VC thesis; framing lens, no market data |
+| [[sources/theaxlabs-hanwha-life-claude-code-pbl|AX LABS × Hanwha Life (2026): 6-week Claude Code PBL]] | `standard` | `substantial` | `true` | `true` | vendor case; success-biased, no hard metrics |
+| [[sources/carrotcap-naver|Naver blog carrotcap (post 224326504833)]] | `light` | `partial` | `false` | `false` | host blocked + unindexed; needs user-supplied text |
+| [[sources/imweb-safe-llm-generated-sql|Imweb (2026): How to Safely Use SQL Written by AI]] | `standard` | `substantial` | `true` | `true` | deterministic Text-to-SQL safety harness; vendor CBT metrics |
+| [[sources/naverlabs-europe-divine-encoder|Naver Labs Europe: DIVINE Universal Encoder]] | `standard` | `substantial` | `true` | `true` | multi-teacher distillation; vendor metrics, original URL pending |
+| [[sources/lennys-newsletter-new-inner-game|Hudson (2026): The New Inner Game]] | `standard` | `substantial` | `true` | `true` | ~75% captured (self-talk how-to paywalled); coaching essay |
+| [[sources/heyratel-ios-ai-agent-environment|HeyRatel (2026): Not a Tool but a Standard (iOS agent env)]] | `standard` | `substantial` | `true` | `true` | single-team field report; qualitative, no metrics |
+| [[sources/datarize-intelligence-to-autonomy|Datarize (2026): From Intelligence to Autonomy]] | `standard` | `substantial` | `true` | `true` | vendor marketing; ROAS/lift unaudited |
+| [[sources/yozm-tiro-ax-ontology|Yozm × The Plato (2026): Ontology for AX from Meeting Records (Tiro)]] | `standard` | `substantial` | `true` | `true` | branded content; vendor metrics unverified |
+| [[sources/hai-algorithmic-hiring-bias|Stanford HAI (2026): AI Hiring Bias & Systemic Rejection]] | `standard` | `substantial` | `true` | `true` | news write-up; verify figures vs paper |
+| [[sources/brunch-ponyodesign-llm-wiki-clone|ponyodesign (2026): Self-Mirroring Obsidian LLM Wiki]] | `standard` | `substantial` | `true` | `true` | personal blog; qualitative |
+| [[sources/voiceofuser-inhouse-digital-twins-blueprint|The Voice of User (2026): In-House Digital-Twins Blueprint]] | `standard` | `substantial` | `true` | `true` | strong build+validation recipe; embedded study figures untraced to primaries |
+| [[sources/kakao-vc-ai-companion-relationship|Kakao Ventures (2026): AI Companion — Relationship Depth Determines the BM]] | `standard` | `substantial` | `true` | `true` | VC thesis; thin hard data (Neuro-sama 160k figure is the article's own) |
+| [[sources/uxfolio-ai-ux-design|UXfolio (2026): AI UX Design — Strategic Blueprint]] | `standard` | `substantial` | `true` | `true` | vendor/promotional; framework & vocabulary, not evidence |
+| [[sources/drs2026-generative-events-design-ontology|Yu & Zhao (2026): Generative Events (DRS2026)]] | `light` | `partial` | `true` | `true` | abstract-only; full PDF not ingested |
+| [[sources/opencut-open-source-video-editor|OpenCut: Open-Source Video Editor (OpenAlternative listing)]] | `light` | `partial` | `true` | `true` | off-theme tool listing; repo/site not captured directly |
+| [[sources/brox-digital-twins-market-research|Brox (2026): 60,000 "digital twins" of real people (VentureBeat)]] | `light` | `partial` | `false` | `true` | vendor-PR; body blocked (403/429), reconstructed; numbers are company claims, no independent validation |
+| [[sources/christinevallaure-agentic-ai-design-systems|Vallaure (2026): Agentic AI, Design Systems & Figma — A Practical Guide]] | `standard` | `substantial` | `true` | `true` | practitioner checklist; Figma-specific, time-sensitive, soft commercial incentive |
+| [[sources/christinevallaure-a2ui-generative-ui|Vallaure (2026): A2UI Under the Hood — Radically Adaptive UI]] | `standard` | `substantial` | `true` | `true` | designer primer on the A2UI generative-UI protocol; emerging spec |
+| [[sources/christinevallaure-hypertokens|Vallaure (2026): What Are Hypertokens? (coined by Jake Albaugh, Config 2026)]] | `standard` | `substantial` | `true` | `true` | forward-looking/unshipped; benefit claim is a single demo |
+| [[sources/christinevallaure-human-approach-agentic-ai|Vallaure (2026): A Human Approach to Agentic AI — One Person, One File, Five Agents]] | `standard` | `substantial` | `true` | `true` | practitioner n=1 narrative; book teaser |

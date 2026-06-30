@@ -36,7 +36,7 @@ This playbook standardizes the creation of weekly reports, ensuring consistent f
 ## How to Use
 1. Copy the template block.
 2. Replace `{{date_range}}` with the current week's dates.
-3. Fill in the sections with bullet points summarizing your work. Use links to `[[projects/]]` or `[[decisions/]]` where applicable.
+3. Fill in the sections with bullet points summarizing your work. Link to the relevant project or decision pages where applicable.
 4. Share with the team or manager.
 
 ## Linked Theory

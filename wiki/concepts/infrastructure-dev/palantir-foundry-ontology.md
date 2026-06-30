@@ -42,6 +42,7 @@ graph TD
 ## Related Concepts
 - [[concepts/infrastructure-dev/object-backend|Object Backend]]
 - [[concepts/infrastructure-dev/object-graph-mapping|Object-Graph Mapping]]
+- [[concepts/infrastructure-dev/organizational-ontology|Organizational Ontology]] — the business/operational sibling: same data + logic + action layering, bootstrapped from meeting records.
 
 ## Sources
 - [[sources/hsol-ai-portfolio-6|AI Portfolio Making (6): A Data Model for a Person]]

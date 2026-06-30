@@ -2,11 +2,14 @@
 type: concept
 status: active
 created: 2026-05-18
-updated: 2026-05-18
+updated: 2026-06-26
 tags: [llm-wiki, knowledge-management, obsidian]
 sources:
   - sources/brunch-ghidesigner-487
-confidence: 0.8
+  - sources/yozm-obsidian-llm-wiki-secondbrain
+  - sources/brunch-ponyodesign-llm-wiki-clone
+  - sources/yozm-tiro-ax-ontology
+confidence: 0.85
 ---
 
 # LLM Wiki
@@ -25,6 +28,8 @@ The pattern turns repeated AI conversations into durable knowledge. It also make
 - The wiki layer is generated and maintained by the AI agent.
 - The schema layer tells the agent how to structure pages and workflows.
 - The main workflows are ingest, query, and lint.
+- **This vault's blueprint:** [[sources/yozm-obsidian-llm-wiki-secondbrain|Gom's IT Blog (2026)]] documents the exact pattern this vault implements — Obsidian + GitHub + Claude Code, the immutable-raw → AI-maintained-wiki split, and the `/ingest` `/lint` `/query` skills — plus the discipline to *improve incrementally rather than over-design the structure up front.*
+- **Convergent independent evidence (2026-06):** a designer's personal build ([[sources/brunch-ponyodesign-llm-wiki-clone|ponyodesign]] — *"Obsidian is the IDE, AI is the programmer, the wiki is the codebase,"* the same premise as this vault) and an organization-scale build ([[sources/yozm-tiro-ax-ontology|The Plato / Tiro]] — meeting-records → pre-[[concepts/infrastructure-dev/organizational-ontology|ontology]] → agents) show the same raw → AI-maintained-wiki pattern at both personal and org scope, both explicitly citing Karpathy's "LLM Wiki."
 
 ## Related Concepts
 
@@ -36,6 +41,9 @@ The pattern turns repeated AI conversations into durable knowledge. It also make
 ## Sources
 
 - [[sources/brunch-ghidesigner-487|AI Designer LLM Wiki Article]]
+- [[sources/yozm-obsidian-llm-wiki-secondbrain|Gom's IT Blog (2026): Building an Obsidian-Based LLM Wiki (this vault's blueprint)]]
+- [[sources/brunch-ponyodesign-llm-wiki-clone|ponyodesign (2026): I Created a Clone of Myself That Knows Me Best (personal-scale build)]]
+- [[sources/yozm-tiro-ax-ontology|Yozm × The Plato (2026): Ontology for AX from Meeting Records (org-scale build, feat. Tiro)]]
 
 ## Open Questions
 

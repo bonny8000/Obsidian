@@ -2,11 +2,14 @@
 type: concept
 status: active
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-29
 tags: [ai-native-design-system, context-engine, design-system, agentic-engineering, mcp, agent-skills, accessibility]
 sources:
   - sources/atlassian-design-system-context-engine
   - sources/atlassian-design-md
+  - sources/christinevallaure-agentic-ai-design-systems
+  - sources/christinevallaure-a2ui-generative-ui
+  - sources/christinevallaure-hypertokens
 confidence: 0.82
 ---
 
@@ -37,6 +40,9 @@ confidence: 0.82
 - **Accessibility belongs in the context layer**, not as a downstream QA step. Encode accessibility constraints in structured content + skills so the system generates accessible UI by default. Atlassian's date-time picker redesign (≥ 3:1 contrast, semantic labels, reduced keyboard inputs) is the concrete artifact.
 - **Aphorism worth carrying:** *"To identify the rules that help LLMs, you also uncover the rules that help explain these concepts to humans — and that's a good thing."* The forcing function flows both ways.
 - **MCP/Skills = "an instruction manual for using" the system; DESIGN.md = "a guide on how to re-implement" it** ([[sources/atlassian-design-md|Hall & Campbell, 2026]]). An AI-native design system needs *both* sides of that split, applied to the right consumer.
+- **"Design system as instructions, not documentation."** Vallaure reframes the AI shift as: *"The design system is no longer just documentation for developers. It is instructions for a machine"* that reads and assembles UI faithfully — *"it will go exactly where you point it."* The creative-control upside is conditional on rigorous file/token setup; a sloppy file yields sloppy agent output ([[sources/christinevallaure-agentic-ai-design-systems|Vallaure, 2026]]). (This "design-system-as-instructions" reframing is treated as a facet of this concept, not a separate page.)
+- **The catalog is the agent-facing contract.** In A2UI-style generative UI, an AI-native design system exposes a machine-readable [[concepts/infrastructure-dev/component-catalog|component catalog]] as the *only* palette an agent may build from — making catalog quality the ceiling for every generated screen ([[sources/christinevallaure-a2ui-generative-ui|Vallaure, 2026]]).
+- **Bundled tokens reduce agent reconstruction.** [[concepts/infrastructure-dev/hypertokens|Hypertokens]] (named, grouped style bundles compiling to many targets) are a proposed AI-native primitive: handing an agent `Surface.brand` instead of raw values means less to reverse-engineer ([[sources/christinevallaure-hypertokens|Vallaure, 2026]]).
 
 ## Self-assessment maturity model (Atlassian four pillars)
 
@@ -60,6 +66,10 @@ For any design system, audit each pillar honestly:
 - [[concepts/infrastructure-dev/design-review-automation|Design Review Automation]]
 - [[concepts/infrastructure-dev/scaffold-design-system|Scaffold Design System]]
 - [[concepts/infrastructure-dev/color-token-architecture|Color Token Architecture]]
+- [[concepts/infrastructure-dev/component-catalog|Component Catalog]] — the agent-facing machine-readable subset.
+- [[concepts/infrastructure-dev/hypertokens|Hypertokens]] — bundled-decision token tier.
+- [[concepts/infrastructure-dev/figma-code-connect|Figma Code Connect]] — Figma↔code mapping that gates reuse.
+- [[concepts/agent-experience/a2ui-protocol|A2UI Protocol]] — protocol that consumes the catalog.
 - [[concepts/ai-agents/progressive-disclosure|Progressive Disclosure]]
 - [[concepts/ai-agents/context-rot|Context Rot]]
 - [[concepts/infrastructure-dev/agentic-engineering|Agentic Engineering]]
@@ -79,6 +89,9 @@ For any design system, audit each pillar honestly:
 - [[sources/atlassian-design-md|Hall & Campbell (2026): Atlassian's DESIGN.md is here]] — companion piece with concrete production data.
 - [[sources/agent-skills-day-3|Singhal et al. (2026): Agent Skills (Day 3)]] — situates the Context Engine inside the wider agentic engineering frame.
 - [[sources/the-new-sdlc-with-vibe-coding-day-1|Osmani et al. (2026): The New SDLC With Vibe Coding (Day 1)]] — static-vs-dynamic context split.
+- [[sources/christinevallaure-agentic-ai-design-systems|Vallaure (2026): Agentic AI, Design Systems & Figma]] — "design system as instructions for a machine" reframing + six-part Figma checklist.
+- [[sources/christinevallaure-a2ui-generative-ui|Vallaure (2026): A2UI Under the Hood]] — the catalog as agent-facing contract.
+- [[sources/christinevallaure-hypertokens|Vallaure (2026): Hypertokens]] — bundled-decision token tier for agents.
 
 ## ❓ Open Questions
 

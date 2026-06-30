@@ -2,9 +2,11 @@
 type: concept
 status: active
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-06-29
 tags: [concept, multi-agent, collaboration, coordination-gap, social-intelligence, evaluation]
-sources: [hai-cooperbench-agent-teamwork]
+sources:
+  - hai-cooperbench-agent-teamwork
+  - sources/christinevallaure-human-approach-agentic-ai
 confidence: 0.8
 ---
 
@@ -22,6 +24,7 @@ confidence: 0.8
 - Failures are social: ignoring a teammate's warning, overwriting their code, low-value status updates, unanswered questions, broken promises.
 - A core confusion is spatial vs semantic coordination — *where* in the code to edit vs *what* to edit.
 - Fix path: train agents for coordination and add verification (commitments/contracts, periodic integration checks), not just better prompts.
+- **Informal, emergent coordination is the optimistic counterpoint — and the cautionary one.** In Vallaure's n=1 setup, five persona agents began coordinating *unprogrammed*, inferred from their role descriptions; but unspecified coordination is also *unaudited* coordination, which sits in direct tension with the CooperBench finding that today's agents coordinate poorly ([[sources/christinevallaure-human-approach-agentic-ai|Vallaure, 2026]]).
 
 ## 🔗 Related Concepts
 - [[concepts/agent-experience/collaboration-patterns|Collaboration Patterns]]
@@ -29,6 +32,7 @@ confidence: 0.8
 - [[concepts/ai-agents/managed-ai-agents|Managed AI Agents]]
 - [[concepts/ai-agents/autonomous-ai-agent|Autonomous AI Agent]]
 - [[concepts/agent-experience/trust-calibration|Trust Calibration]]
+- [[concepts/ai-agents/markdown-agent-orchestration|Markdown Agent Orchestration]] · [[concepts/ai-agents/persona-agent|Persona Agent]]
 
 ## ⚖️ Conflicts & Caveats
 > [!warning] Contradictions
@@ -36,6 +40,7 @@ confidence: 0.8
 
 ## 📚 Sources
 - [[sources/hai-cooperbench-agent-teamwork|HAI: AI Coding Agents Fail at Teamwork (CooperBench)]]
+- [[sources/christinevallaure-human-approach-agentic-ai|Vallaure (2026): A Human Approach to Agentic AI]] — n=1 account of emergent, unprogrammed persona-agent coordination.
 
 ## ❓ Open Questions
 - What training objectives actually teach coordination rather than coding skill?

@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-05-18
-updated: 2026-06-22
+updated: 2026-06-26
 tags: [index, llm-wiki, dashboard]
 sources:
   - sources/brunch-ghidesigner-487
@@ -31,6 +31,40 @@ confidence: 0.9
 ![[../dashboard.base]]
 
 ## Recent Ingests
+> [!success] Christine Vallaure design-systems & agentic-AI batch — 2026-06-29 (4 articles, multi-agent workflow)
+> - Design systems for agents: [[sources/christinevallaure-agentic-ai-design-systems|Agentic AI, Design Systems & Figma]], [[sources/christinevallaure-hypertokens|What Are Hypertokens?]]
+> - Generative UI / orchestration: [[sources/christinevallaure-a2ui-generative-ui|A2UI Under the Hood]], [[sources/christinevallaure-human-approach-agentic-ai|A Human Approach to Agentic AI (one file, five agents)]]
+> - New concepts: [[concepts/infrastructure-dev/hypertokens|Hypertokens]], [[concepts/infrastructure-dev/component-catalog|Component Catalog]], [[concepts/agent-experience/a2ui-protocol|A2UI Protocol]], [[concepts/infrastructure-dev/figma-code-connect|Figma Code Connect]], [[concepts/ai-agents/markdown-agent-orchestration|Markdown Agent Orchestration]], [[concepts/ai-agents/persona-agent|Persona Agent]]
+> - Verified: caught hypertokens coinage misattribution (Jake Albaugh, Config 2026) + several misquotes; dropped 2 thin concepts (figma-slots, design-system-as-instructions)
+
+> [!success] Digital-twins & AI-UX batch — 2026-06-29 (6 sources, multi-agent workflow)
+> - Digital twins / synthetic users: [[sources/voiceofuser-inhouse-digital-twins-blueprint|The Voice of User: In-House Digital-Twins Blueprint]], [[sources/brox-digital-twins-market-research|Brox: 60,000 "digital twins" (VentureBeat — vendor-PR, llm_ready:false)]]
+> - AI UX design: [[sources/uxfolio-ai-ux-design|UXfolio: AI UX Design Blueprint]], [[sources/drs2026-generative-events-design-ontology|Yu & Zhao: Generative Events (DRS2026, abstract-only)]]
+> - AI companions / tool: [[sources/kakao-vc-ai-companion-relationship|Kakao Ventures: AI Companion — Relationship Depth → BM]], [[sources/opencut-open-source-video-editor|OpenCut (open-source video editor)]]
+> - New concepts (7, after consolidating the companion set 6→4): [[concepts/ux-research/digital-twin-respondents|Digital-Twin Respondents]], [[concepts/ux-research/in-house-synthetic-user-pipeline|In-House Synthetic User Pipeline]], [[concepts/ux-research/generative-events|Generative Events]], [[concepts/agent-experience/ai-companion|AI Companion]], [[concepts/agent-experience/relationship-architecture|Relationship Architecture]] (absorbs business-model + IP/fandom), [[concepts/agent-experience/parasocial-relationship|Parasocial Relationship]], [[concepts/agent-experience/companion-attachment-dependency|Companion Attachment & Dependency]]
+> - Verified: adversarial fact-check per source (caught a fine-tuning overclaim, 2 coverage downgrades, Brox overstatements); synthesizer dropped 7 DRS stubs + OpenCut + 10 redundant UXfolio links
+
+> [!success] Raw drop #2 — 2026-06-26 (3 sources)
+> - AX / ontology: [[sources/yozm-tiro-ax-ontology|Yozm × The Plato: Ontology for AX from Meeting Records (feat. Tiro)]]
+> - AI fairness: [[sources/hai-algorithmic-hiring-bias|Stanford HAI: AI Hiring Bias & Systemic Rejection]]
+> - Meta (self-mirroring): [[sources/brunch-ponyodesign-llm-wiki-clone|ponyodesign: a designer's Obsidian LLM Wiki "clone"]]
+> - New concepts: [[concepts/infrastructure-dev/organizational-ontology|Organizational Ontology]], [[concepts/ai-agents/agent-digital-twin|Agent Digital Twin]], [[concepts/ux-research/algorithmic-monoculture|Algorithmic Monoculture]]; enriched [[concepts/infrastructure-dev/llm-wiki|LLM Wiki]] + [[concepts/ai-agents/ai-maintained-wiki|AI-Maintained Wiki]]
+
+> [!success] Raw drop — 2026-06-26 (5 sources)
+> - Safe LLM tooling: [[sources/imweb-safe-llm-generated-sql|Imweb: How to Safely Use SQL Written by AI]]
+> - Robotics / spatial AI: [[sources/naverlabs-europe-divine-encoder|Naver Labs Europe: DIVINE universal encoder]]
+> - AI-era work & leadership: [[sources/lennys-newsletter-new-inner-game|Hudson: The New Inner Game (Lenny's)]]
+> - Agentic engineering (field report): [[sources/heyratel-ios-ai-agent-environment|HeyRatel: Not a Tool but a Standard (iOS team)]]
+> - Autonomy / product: [[sources/datarize-intelligence-to-autonomy|Datarize: From Intelligence to Autonomy]]
+> - New concepts: [[concepts/ai-agents/text-to-sql|Text-to-SQL]], [[concepts/robotics-spatial/multi-teacher-distillation|Multi-Teacher Distillation]], [[concepts/product-management/wisdom-stack|Wisdom Stack]], [[concepts/ai-agents/criteria-driven-ai-adoption|Criteria-Driven AI Adoption]], [[concepts/ai-agents/model-escalation-gate|Model Escalation Gate]], [[concepts/product-management/insight-to-execution-gap|Insight-to-Execution Gap]]
+
+> [!success] AI-era practice & product batch — 2026-06-25 (9 sources)
+> - Synthetic users: [[sources/measuringu-types-of-synthetic-users|MeasuringU: Types of Synthetic Users (5-type taxonomy)]]
+> - Builders: [[sources/dusskapark-product-designer-codex|Park: Designer builds full-stack with Codex]], [[sources/theaxlabs-hanwha-life-claude-code-pbl|AX LABS × Hanwha Life: 6-week Claude Code PBL]]
+> - Org adoption / search / PM / wearables: [[sources/toss-tossplace-ai-surf-day|TossPlace: AI Surf Day]], [[sources/google-good-seo-is-good-geo|Google: Good SEO is Good GEO]], [[sources/maily-product-makers-planning-harness|Product Makers Note: Planning Harness]], [[sources/kakao-vc-ai-input-modality|Kakao Ventures: Input Modality on Wearables]]
+> - Meta (this vault's blueprint): [[sources/yozm-obsidian-llm-wiki-secondbrain|Gom's IT Blog: Obsidian LLM Wiki]]; partial stub: [[sources/carrotcap-naver|Naver carrotcap (host blocked)]]
+> - New concepts: [[concepts/ux-research/synthetic-user-taxonomy|Synthetic User Taxonomy]], [[concepts/product-management/planning-harness|Planning Harness]], [[concepts/robotics-spatial/input-modality|Input Modality]], [[concepts/infrastructure-dev/ai-adoption-culture|AI Adoption Culture]], [[concepts/product-management/domain-expert-as-builder|Domain Expert as Builder]]
+
 > [!success] LangChain agent-engineering batch 2 — 2026-06-22 (7 posts)
 > - [[sources/langchain-agent-middleware|Agent Middleware (LangChain 1.0)]], [[sources/langchain-background-subagents|Async Subagents]], [[sources/langchain-interpreter-skills|Interpreter Skills]]
 > - [[sources/langchain-agent-authorization|Agent Authorization]], [[sources/langchain-eu-ai-act|EU AI Act]], [[sources/langchain-evaluating-deep-agents|Evaluating Deep Agents]], [[sources/langchain-exa|Exa: Agentic Search]]
@@ -133,6 +167,7 @@ confidence: 0.9
 - [[concepts/ai-agents/interactive-specs|Interactive Specs]]
 - [[concepts/infrastructure-dev/design-review-automation|Design Review Automation]]
 - [[concepts/ai-agents/autonomous-ai-agent|Autonomous AI Agent]]
+- [[concepts/ai-agents/agent-digital-twin|Agent Digital Twin]]
 - [[concepts/infrastructure-dev/enterprise-ai-agent-platform|Enterprise AI Agent Platform]]
 - [[concepts/infrastructure-dev/cloud-ai-governance|Cloud AI Governance]]
 - [[concepts/ai-agents/agent-memory|Agent Memory]]
@@ -147,9 +182,18 @@ confidence: 0.9
 - [[concepts/ai-agents/self-improving-agent-workflows|Self-Improving Agent Workflows]]
 - [[concepts/infrastructure-dev/modern-web-guidance|Modern Web Guidance]]
 - [[concepts/ai-agents/agentic-ai|Agentic AI]]
+- [[concepts/ai-agents/text-to-sql|Text-to-SQL]]
+- [[concepts/ai-agents/criteria-driven-ai-adoption|Criteria-Driven AI Adoption]]
+- [[concepts/ai-agents/model-escalation-gate|Model Escalation Gate]]
 - [[concepts/ai-agents/gemini-3-5|Gemini 3.5]]
 - [[concepts/infrastructure-dev/design-md|DESIGN.md]]
 - [[concepts/infrastructure-dev/ai-native-design-system|AI-Native Design System]]
+- [[concepts/infrastructure-dev/hypertokens|Hypertokens]]
+- [[concepts/infrastructure-dev/component-catalog|Component Catalog]]
+- [[concepts/infrastructure-dev/figma-code-connect|Figma Code Connect]]
+- [[concepts/agent-experience/a2ui-protocol|A2UI Protocol]]
+- [[concepts/ai-agents/markdown-agent-orchestration|Markdown Agent Orchestration]]
+- [[concepts/ai-agents/persona-agent|Persona Agent]]
 - [[comparisons/skills-vs-mcp-vs-agents-md|Comparison: Skills vs MCP vs AGENTS.md vs DESIGN.md]]
 
 ### 💼 AI-Native Product Management
@@ -165,6 +209,11 @@ confidence: 0.9
 - [[concepts/product-management/discovery-phase|Discovery Phase]]
 - [[concepts/product-management/research-preview|Research Preview]]
 - [[concepts/product-management/role-convergence|Role Convergence]]
+- [[concepts/product-management/domain-expert-as-builder|Domain Expert as Builder]]
+- [[concepts/product-management/planning-harness|Planning Harness]]
+- [[concepts/infrastructure-dev/ai-adoption-culture|AI Adoption Culture]]
+- [[concepts/product-management/wisdom-stack|Wisdom Stack]]
+- [[concepts/product-management/insight-to-execution-gap|Insight-to-Execution Gap]]
 - [[concepts/ai-agents/claude-code|Claude Code]]
 - [[concepts/ai-agents/cowork|Cowork]]
 - [[concepts/ai-agents/agentic-work-automation|Agentic Work Automation]]
@@ -181,6 +230,7 @@ confidence: 0.9
 > [!success] New Pass: [[concepts/infrastructure-dev/palantir-foundry-ontology|Foundry Ontology]]
 - [[concepts/ai-agents/1-person-vault|1-Person Vault]]
 - [[concepts/infrastructure-dev/palantir-foundry-ontology|Palantir Foundry Ontology]]
+- [[concepts/infrastructure-dev/organizational-ontology|Organizational Ontology]]
 - [[concepts/infrastructure-dev/object-backend|Object Backend]]
 - [[concepts/infrastructure-dev/object-graph-mapping|Object-Graph Mapping]]
 - [[concepts/infrastructure-dev/objectview|ObjectView]]
@@ -200,8 +250,13 @@ confidence: 0.9
 - [[concepts/ux-research/any-2-agreement|Any-2 Agreement]]
 - [[concepts/ux-research/genai-in-qualitative-research|GenAI in Qualitative Research]]
 - [[concepts/ux-research/synthetic-survey-data|Synthetic Survey Data]]
+- [[concepts/ux-research/synthetic-user-taxonomy|Synthetic User Taxonomy]]
+- [[concepts/ux-research/digital-twin-respondents|Digital-Twin Respondents]]
+- [[concepts/ux-research/in-house-synthetic-user-pipeline|In-House Synthetic User Pipeline]]
+- [[concepts/ux-research/generative-events|Generative Events]]
 - [[concepts/ux-research/reflexive-thematic-analysis|Reflexive Thematic Analysis]]
 - [[concepts/ux-research/methodological-integrity|Methodological Integrity]]
+- [[concepts/ux-research/algorithmic-monoculture|Algorithmic Monoculture]]
 - [[concepts/ux-research/wicked-research-scoping|Wicked Research Scoping]]
 - [[concepts/ux-research/senior-ux-researcher|Senior UX Researcher]]
 - [[concepts/ux-research/grounded-synthetic-personas|Grounded Synthetic Personas]]
@@ -242,12 +297,14 @@ confidence: 0.9
 > [!note] Physical World: [[concepts/robotics-spatial/spatial-ai|Spatial AI]], [[concepts/robotics-spatial/physical-ai|Physical AI]]
 - [[concepts/robotics-spatial/spatial-ai|Spatial AI]]
 - [[concepts/robotics-spatial/physical-ai|Physical AI]]
+- [[concepts/robotics-spatial/multi-teacher-distillation|Multi-Teacher Distillation]]
 - [[concepts/robotics-spatial/ai-hardware-boom|AI Hardware Boom]]
 - [[concepts/robotics-spatial/hardware-product-development|Hardware Product Development]]
 - [[concepts/robotics-spatial/robotics-supply-chain|Robotics Supply Chain]]
 - [[concepts/robotics-spatial/robot-safety|Robot Safety]]
 - [[concepts/robotics-spatial/humanoid-robot-limitations|Humanoid Robot Limitations]]
 - [[concepts/robotics-spatial/digital-twin|Digital Twin]]
+- [[concepts/robotics-spatial/input-modality|Input Modality]]
 - [[concepts/robotics-spatial/human-robot-interaction|Human-Robot Interaction]]
 - [[concepts/robotics-spatial/robot-boarding-area|Robot Boarding Area]]
 

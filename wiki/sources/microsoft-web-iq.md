@@ -43,7 +43,10 @@ raw_preserved: false
 
 ## Concepts Linked
 
-- [[microsoft-web-iq-announcement|원본 소스 (microsoft_web_iq_announcement.md)]]
+- [[concepts/ai-agents/agentic-rag|Agentic RAG]]
+- [[concepts/ai-agents/agentic-search|Agentic Search]]
+- [[concepts/infrastructure-dev/token-efficiency|Token Efficiency]]
+- [[concepts/infrastructure-dev/ai-as-infrastructure|AI as Infrastructure]]
 - [Microsoft Web IQ 공식 페이지](https://aka.ms/WebIQ)
 
 ## Useful Examples

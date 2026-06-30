@@ -2,9 +2,9 @@
 type: concept
 status: active
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-06-29
 tags: [concept, say-do-gap, stated-vs-revealed, purchase-intent, willingness-to-pay, survey-validity]
-sources: [svenja-pieritz-positioning-experiment]
+sources: [svenja-pieritz-positioning-experiment, brox-digital-twins-market-research, voiceofuser-inhouse-digital-twins-blueprint]
 confidence: 0.8
 ---
 
@@ -21,12 +21,14 @@ confidence: 0.8
 - **Desire ≠ willingness to pay:** users wanting high-value extras doesn't survive a real price (the Kiwi.com bundle example) — wanting and paying are different axes.
 - Even surveyed *intent* is itself a stated measure — the deepest say-do gap (intent → actual conversion) needs behavioral data.
 - Practical move: **measure intent/behavior, not just appeal**, and treat appeal-without-conversion as a signal to dig, not a green light.
+- **Synthetic respondents inherit the say-do gap at its source.** [[concepts/ux-research/digital-twin-respondents|Digital-twin respondents]] built largely from *interviews* (self-report) model what people *say*, not what they'd *do* — Brox twins grounded in AI-driven interviews are vulnerable to exactly this ([[sources/brox-digital-twins-market-research|Brox, 2026]]). The in-house blueprint partly counters it by grounding on **behavioral telemetry** (what users *did*), but then a twin's *opinions* become model inferences over behavior — a fresh say-do tension rather than an escape from it ([[sources/voiceofuser-inhouse-digital-twins-blueprint|The Voice of User, 2026]]).
 
 ## 🔗 Related Concepts
 - [[concepts/ux-research/validity-and-decision-relevance|Validity and Decision Relevance]]
 - [[concepts/ux-research/self-reported-ux-metrics|Self-Reported UX Metrics]]
 - [[concepts/agent-experience/satisfaction-vs-benefit|Satisfaction vs Benefit]]
 - [[concepts/ux-research/synthetic-survey-data|Synthetic Survey Data]]
+- [[concepts/ux-research/digital-twin-respondents|Digital-Twin Respondents]] — interview-grounded twins inherit the say-do gap.
 - [[concepts/ux-research/maxdiff-prioritization|MaxDiff Prioritization]]
 
 ## ⚖️ Conflicts & Caveats
@@ -35,6 +37,8 @@ confidence: 0.8
 
 ## 📚 Sources
 - [[sources/svenja-pieritz-positioning-experiment|Pieritz (2026): People Loved How I Described My Services…]]
+- [[sources/brox-digital-twins-market-research|Brox: 60,000 "digital twins" of real people (VentureBeat, 2026)]] — interview-grounded twins inherit stated-not-revealed bias.
+- [[sources/voiceofuser-inhouse-digital-twins-blueprint|The Voice of User: In-House Digital-Twins Blueprint (2026)]] — behavioral grounding shifts, not removes, the say-do tension.
 
 ## ❓ Open Questions
 - When does stated intent reliably predict behavior, and for which decisions?

@@ -2,12 +2,13 @@
 type: concept
 status: active
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-29
 tags: [agent-experience, transparency, explainability, ax]
 sources:
   - sources/andru-saksena-adobe-haic-2025
   - sources/amershi-2019-human-ai-guidelines
   - sources/lee-see-2004-trust-in-automation
+  - sources/christinevallaure-a2ui-generative-ui
 confidence: 0.75
 ---
 
@@ -29,6 +30,7 @@ Probabilistic systems break the predictability assumptions of traditional UI. Us
 - Transparency about data use (which personal context the agent read) is a trust and privacy requirement, not just a UX nicety.
 - Honest capability boundaries ("I can't access X") outperform vague deflection in long-run trust.
 - Lee & See's purpose/process/performance dimensions give the three-layer structure its empirical basis: users build trust from why the system exists, how it works, and its track record — see [[sources/lee-see-2004-trust-in-automation|Lee & See 2004]].
+- **The recipe/renderer split is an agent-experience surface.** In [[concepts/agent-experience/a2ui-protocol|A2UI]], the agent emits a structured "recipe" that a renderer turns into a screen from approved catalog components — a provenance boundary that shapes whether users can trust generated UI, and where a [[concepts/infrastructure-dev/component-catalog|catalog]] gap can cause a silent "quiet downgrade" the user feels without explanation ([[sources/christinevallaure-a2ui-generative-ui|Vallaure, 2026]]).
 
 ## Related Concepts
 
@@ -36,6 +38,7 @@ Probabilistic systems break the predictability assumptions of traditional UI. Us
 - [[concepts/agent-experience/proactivity-design|Proactivity Design]]
 - [[concepts/agent-experience/mental-model-onboarding|Mental Model Onboarding]]
 - [[concepts/ux-research/ax-ai-experience|AX (AI Experience)]]
+- [[concepts/agent-experience/a2ui-protocol|A2UI Protocol]] — the agent-to-UI rendering surface.
 
 ## Conflicts & Caveats
 
@@ -46,6 +49,7 @@ Probabilistic systems break the predictability assumptions of traditional UI. Us
 - [[sources/amershi-2019-human-ai-guidelines|Amershi et al. (2019): Human-AI Guidelines]]
 - [[sources/lee-see-2004-trust-in-automation|Lee & See (2004): Trust in Automation]]
 - [[sources/andru-saksena-adobe-haic-2025|Adobe HAIC Framework]]
+- [[sources/christinevallaure-a2ui-generative-ui|Vallaure (2026): A2UI Under the Hood]] — recipe/renderer split as a transparency/provenance surface.
 
 ## Open Questions
 

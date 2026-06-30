@@ -1,14 +1,45 @@
 ---
 type: query
-status: draft
+status: active
 created: 2026-05-27
-updated: 2026-06-10
-tags: [query, lost-content]
-sources: []
-confidence: 0.0
+updated: 2026-06-26
+tags: [query]
+sources: [sources/naverlabs-blog-10034251, sources/lennys-podcast-ai-hardware-boom-caitlin-kalinowski, sources/fowler-sensors-coding-agents, sources/bayer-prince-reliable-agentic-ai, sources/vibe-coding-agent-security-evaluation-day-4, sources/spec-driven-production-development-day-5, sources/langchain-verifiers-legal-agents, sources/langchain-evaluating-deep-agents]
+confidence: 0.55
 ---
 
 # Query: robot safety software update testing
 
-> [!warning] Answer lost
-> Original answer lost in 2026-06-01 corruption ([[logs/2026-06-10-corruption-recovery|recovery log]]). The wiki has grown since — re-ask to regenerate a better answer.
+## Short Answer
+
+The wiki treats robot safety as a four-layer problem — physical/embodied mechanics, AI behavior, adversarial security, and social acceptability ([[concepts/robotics-spatial/robot-safety|Robot Safety]]) — and the hard case for software updates is that an over-the-air model change can alter behavior that was previously validated. The robotics sources cover the physical and social layers well (control mass/speed/impact energy, use soft/compliant designs, and judge "should the robot move" not just "can it move") but say little directly about an update/testing pipeline. The wiki's strongest grounded answer therefore comes from porting its AI-engineering safety discipline onto robots: treat every model update as untrusted by default ([[concepts/ai-agents/zero-trust-agent-development|Zero-Trust Agent Development]]), gate it behind layered verification before it ships, and never let a green dashboard substitute for human review. Concretely that means continuous **sensors** plus **regression tests** before and after each update ([[concepts/infrastructure-dev/maintainability-sensor|Maintainability Sensor]]), **mutation testing** so coverage numbers don't give a false sense of security ([[concepts/infrastructure-dev/mutation-testing|Mutation Testing]]), **trajectory evaluation** of the robot's decision sequence (not just its final action) in reset-per-test, mocked environments ([[concepts/ai-agents/agent-trajectory-evaluation|Agent Trajectory Evaluation]]), and **verifiers** designed for false-pass asymmetry — wrongly passing an unsafe behavior is far costlier than wrongly failing a safe one ([[concepts/ai-agents/agent-verifiers|Agent Verifiers]]). A digital twin gives a safe simulation substrate to run these checks before a physical rollout ([[concepts/robotics-spatial/digital-twin|Digital Twin]]), and a human checkpoint should sit at the consequential decision point — sign-off to deploy ([[concepts/ux-research/human-in-the-loop|Human-in-the-Loop]]). Note this is synthesis across robotics and AI-engineering clusters; the wiki has no source that specifically studies robot OTA-update safety certification, so confidence is moderate.
+
+## Evidence
+
+- [[concepts/robotics-spatial/robot-safety|Robot Safety]] — defines safety as physical + AI-behavior + adversarial + interaction safeguards, and states AI-safety risk gets more serious "when model outputs control physical movement or sensors" — the exact risk a software update introduces. Its own Open Question is this query.
+- [[concepts/robotics-spatial/humanoid-robot-limitations|Humanoid Robot Limitations]] — a strong robot near people is a safety risk if mass, speed, or impact energy are uncontrolled; softer/lighter/compliant designs reduce harm. Physical envelope limits should bound whatever a new model is allowed to command.
+- [[sources/lennys-podcast-ai-hardware-boom-caitlin-kalinowski|Lenny's Podcast: AI Hardware Boom]] (llm_ready) — hardware has far fewer iteration cycles than software, demanding risk-first architecture and strong reliability discipline; robots near people need non-threatening behavior, soft/compliant design, and explicit adversarial-safety thinking.
+- [[concepts/ai-agents/zero-trust-agent-development|Zero-Trust Agent Development]] — assume AI output cannot be trusted by default; layer guardrails, sandboxing, human-in-the-loop, AI-generated test coverage, evaluation, and a policy server, applied from the start. Directly transferable to validating a robot behavior update.
+- [[sources/spec-driven-production-development-day-5|Day 5 — Spec-Driven Production-Grade Development]] (llm_ready) — source for zero-trust: the spec defines intent, the safety net verifies the output is safe to ship; AI-generated test coverage turns freed capacity into more tests.
+- [[concepts/infrastructure-dev/maintainability-sensor|Maintainability Sensor]] — computational (deterministic) and inferential (LLM) feedback signals that let a system self-correct before issues reach humans; warns of "false sense of security" from green checks — a caution for any pre-deploy gate.
+- [[sources/fowler-sensors-coding-agents|Böckeler: Maintainability Sensors for Coding Agents]] (llm_ready) — the test suite is a regression sensor: a failing pre-existing test forces "did I break it, or am I intentionally changing behavior?" — the core question every software update must answer. Sensors run in-session, in CI, scheduled, and in production.
+- [[concepts/infrastructure-dev/mutation-testing|Mutation Testing]] — coverage shows a line ran, not that its impact was verified; mutation testing finds missing assertions. For safety tests this prevents a suite that "passes" without actually checking the dangerous behavior.
+- [[concepts/ai-agents/agent-trajectory-evaluation|Agent Trajectory Evaluation]] — evaluate the sequence of decisions, not just the final output, because a right outcome can come via a bad path; reset-per-test environments + API mocking make tests deterministic and repeatable. The pattern for regression-testing a robot's decision-making across an update.
+- [[concepts/ai-agents/agent-verifiers|Agent Verifiers]] — automated pass/fail checks against a rubric; in high-stakes domains design for false-pass asymmetry (wrongly passing a bad output is far costlier). Maps directly to safety gates where a false pass means an unsafe robot ships.
+- [[concepts/ai-agents/agent-security-architecture|Agent Security Architecture]] — defence-in-depth, "Effective Trust" earned continuously rather than granted once, and an external "safety envelope" assuming the model can fail or be compromised — the adversarial/security layer of robot safety updates.
+- [[sources/bayer-prince-reliable-agentic-ai|Bayer PRINCE: Reliable Agentic AI]] (llm_ready) — reliability comes from engineering the harness (retries, state, fallbacks, observability, multi-stage evaluation incl. daily live-traffic eval), not better models alone; a confidence-score quarantine routes low-confidence automated writes to human review — a template for gating uncertain update behavior.
+- [[concepts/robotics-spatial/digital-twin|Digital Twin]] — a continuously updated digital model used for simulation and planning; provides a safe substrate to validate a behavior update before any physical rollout.
+- [[concepts/ux-research/human-in-the-loop|Human-in-the-Loop]] — human review is most valuable at interpretation and decision points, and "approve-by-default" loops degrade into rubber-stamping; the deploy-an-update decision is exactly such a checkpoint.
+- [[sources/naverlabs-blog-10034251|NAVER LABS: Robot Elevator Boarding Acceptance]] (llm_ready) — "can move" and "should move" are different questions; an update must be tested for social acceptability (crowding, yielding), not only physical collision avoidance.
+
+## Reusable Notes
+
+- A robot software update is best treated as an **untrusted change gated by layered verification**: bound it inside a physical safety envelope (mass/speed/impact limits per [[concepts/robotics-spatial/humanoid-robot-limitations|Humanoid Robot Limitations]]), validate behavior in a [[concepts/robotics-spatial/digital-twin|Digital Twin]] before physical rollout, and require a [[concepts/ux-research/human-in-the-loop|Human-in-the-Loop]] sign-off — the [[concepts/ai-agents/zero-trust-agent-development|Zero-Trust]] posture applied to embodiment.
+- For *testing* specifically, the wiki's coding-agent toolkit transfers cleanly: regression tests + sensors before/after each update, [[concepts/infrastructure-dev/mutation-testing|mutation testing]] so coverage isn't mistaken for assurance, and [[concepts/ai-agents/agent-trajectory-evaluation|trajectory evaluation]] of the decision path in reset-per-test mocked scenarios — with [[concepts/ai-agents/agent-verifiers|verifier]] gates tuned so a false pass (unsafe behavior shipped) is the expensive failure mode.
+- Robot safety is multi-layer: physical safety is necessary but not sufficient — [[concepts/robotics-spatial/socially-aware-navigation|socially aware navigation]] means an update can pass collision tests yet still fail acceptability, so test the "should it act" question too.
+
+## Follow-up Sources Needed
+
+- A source specifically on **robot/embodied-AI software-update and OTA safety practice** (staged rollout, shadow mode, rollback, fail-safe/emergency-stop behavior, functional-safety standards like ISO 13482 / ISO 10218). The current answer is synthesized from AI-engineering safety, not robotics-specific update governance.
+- A source on **safety certification and regulatory testing for physical robots** (hazard analysis, risk assessment, formal verification of motion limits) to ground the "physical safety envelope" claim beyond the podcast's qualitative framing.
+- The underlying **ACM CHI 2026 paper** behind [[sources/naverlabs-blog-10034251|the NAVER LABS elevator study]] and the **Frontiers paper** behind [[sources/bayer-prince-reliable-agentic-ai|Bayer PRINCE]] for quantitative method and evaluation detail (both currently `substantial`, not `full`).

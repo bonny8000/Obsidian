@@ -43,7 +43,10 @@ OpenAI가 개발자 중심이었던 **Codex**를 모든 전문 직무를 위한 
 
 ## Concepts Linked
 
-- [[openai-codex-role-workflow|원본 소스 (openai_codex_role_workflow.md)]]
+- [[concepts/ai-agents/ai-coding-tools|AI Coding Tools]]
+- [[concepts/ai-agents/agentic-work-automation|Agentic Work Automation]]
+- [[concepts/product-management/domain-expert-as-builder|Domain Expert as Builder]]
+- [[concepts/product-management/role-convergence|Role Convergence]]
 - [OpenAI Codex 공식 발표](https://openai.com/index/codex-for-every-role-tool-workflow/)
 
 ## Useful Examples
