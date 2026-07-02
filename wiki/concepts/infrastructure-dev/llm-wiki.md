@@ -2,7 +2,7 @@
 type: concept
 status: active
 created: 2026-05-18
-updated: 2026-06-26
+updated: 2026-07-02
 tags: [llm-wiki, knowledge-management, obsidian]
 sources:
   - sources/brunch-ghidesigner-487
@@ -28,6 +28,7 @@ The pattern turns repeated AI conversations into durable knowledge. It also make
 - The wiki layer is generated and maintained by the AI agent.
 - The schema layer tells the agent how to structure pages and workflows.
 - The main workflows are ingest, query, and lint.
+- The safe maintenance loop is capture → draft → review → apply → focused checks → lint → log; visual Canvas files make the loop legible but do not replace evidence.
 - **This vault's blueprint:** [[sources/yozm-obsidian-llm-wiki-secondbrain|Gom's IT Blog (2026)]] documents the exact pattern this vault implements — Obsidian + GitHub + Claude Code, the immutable-raw → AI-maintained-wiki split, and the `/ingest` `/lint` `/query` skills — plus the discipline to *improve incrementally rather than over-design the structure up front.*
 - **Convergent independent evidence (2026-06):** a designer's personal build ([[sources/brunch-ponyodesign-llm-wiki-clone|ponyodesign]] — *"Obsidian is the IDE, AI is the programmer, the wiki is the codebase,"* the same premise as this vault) and an organization-scale build ([[sources/yozm-tiro-ax-ontology|The Plato / Tiro]] — meeting-records → pre-[[concepts/infrastructure-dev/organizational-ontology|ontology]] → agents) show the same raw → AI-maintained-wiki pattern at both personal and org scope, both explicitly citing Karpathy's "LLM Wiki."
 
@@ -37,6 +38,8 @@ The pattern turns repeated AI conversations into durable knowledge. It also make
 - [[concepts/ai-agents/ai-maintained-wiki|AI-Maintained Wiki]]
 - [[concepts/infrastructure-dev/knowledge-linting|Knowledge Linting]]
 - [[maps/llm-wiki-architecture|LLM Wiki Architecture]]
+- [[maps/llm-wiki-visual-workflows|LLM Wiki Visual Workflows]]
+- [[playbooks/safe-ingest-promotion-workflow|Safe Ingest Promotion Workflow]]
 
 ## Sources
 
@@ -50,5 +53,4 @@ The pattern turns repeated AI conversations into durable knowledge. It also make
 - [Answered ??[[queries/2026-05-27-llm-wiki-source-types-first|Query Page]]] Which source types should Bonny ingest first?
 - [Answered ??[[queries/2026-05-27-llm-wiki-git-version-control|Query Page]]] Should this vault be version controlled with Git?
 - Which Obsidian plugins should be enabled after the basic workflow is stable? (insufficient evidence in wiki ??requires Obsidian plugin ecosystem knowledge not yet collected)
-
 

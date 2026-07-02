@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-05-18
-updated: 2026-06-12
+updated: 2026-07-02
 tags: [map, ai-product-management, agents, claude-code]
 sources:
   - sources/lennys-podcast-cat-wu-ai-pm-claude-code
@@ -10,7 +10,8 @@ sources:
   - sources/bucketplace-2026-05-08-financial-data-lake
   - sources/nngroup-research-recommendations-roadmap
   - sources/figma-you-never-stop-cultivating-taste
-confidence: 0.85
+  - sources/kakao-vc-upsell-design
+confidence: 0.86
 ---
 
 # AI-Native Product Management
@@ -25,6 +26,7 @@ This cluster tracks how product work changes when LLMs and agents become part of
 - [[concepts/product-management/product-roadmap|Product Roadmap]]
 - [[concepts/product-management/discovery-phase|Discovery Phase]]
 - [[concepts/product-management/product-taste|Product Taste]]
+- [[concepts/product-management/upsell-design|Upsell Design]]
 
 ![[ai-native-pm-automated.base]]
 
@@ -35,8 +37,10 @@ This cluster tracks how product work changes when LLMs and agents become part of
 - [[sources/bucketplace-2026-05-08-financial-data-lake|Unlocking Finance to the Data Lake (Bucketplace)]]
 - [[sources/nngroup-research-recommendations-roadmap|Research Recommendations and the Roadmap (NN/g)]]
 - [[sources/figma-you-never-stop-cultivating-taste|Figma: You Never Stop Cultivating Taste]]
+- [[sources/kakao-vc-upsell-design|Kakao Ventures: Upsell Design]]
 
 ## Working Interpretation
 
 The useful takeaway for Bonny's LLM Wiki is operational: treat ingest, synthesis, linking, and maintenance as product workflows. Define the user task, keep source traceability, run link checks, collect feedback, and turn repeated corrections into durable rules or evals. The Figma taste source adds a product-quality layer: when AI makes generation cheap, product taste becomes the review discipline that decides what is worth keeping.
 
+The upsell source adds a monetization quality gate: classify the upgrade as value, reassurance, or convenience; calculate incremental margin; then require clear total price, an obvious opt-out, and trust metrics. Attachment rate alone is not a sufficient success measure.

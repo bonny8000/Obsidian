@@ -2,13 +2,24 @@
 type: log
 status: active
 created: 2026-05-18
-updated: 2026-06-29
+updated: 2026-07-02
 tags: [log, maintenance]
 sources: []
 confidence: 1.0
 ---
 
 # Change Log
+
+## 2026-07-02 - Cross-domain ingest and visual workflow upgrade
+
+- Preserved four raw web cards and the original seven-page arXiv PDF.
+- Published four LLM-ready source pages and four connected concept pages across infrastructure, agent training, UX research, and product management.
+- Added three Obsidian Canvas diagrams under `wiki/canvases/`: three-layer architecture, advanced modules, and safe draft/review/apply.
+- Added [[maps/llm-wiki-visual-workflows|LLM Wiki Visual Workflows]] and [[playbooks/safe-ingest-promotion-workflow|Safe Ingest Promotion Workflow]].
+- Corrected the stale [[projects/llm-wiki-improvement-plan|LLM Wiki Improvement Plan]] to reflect completed Git/lint foundations and current gaps.
+- Updated `AGENTS.md`, `CLAUDE.md`, [[maps/llm-wiki-architecture|LLM Wiki Architecture]], [[methods/surveys-and-standardized-metrics|Surveys and Standardized Metrics]], three topic maps, both indexes, overview, and the source-readiness index.
+- Kept two boundaries explicit: Ollama is installed but no local models are configured; GraphRAG remains a future module.
+- Recorded the research-ethics limitation of arXiv:2606.30660: no formal IRB approval and no AI disclosure to participants or ASHA workers.
 
 ## 2026-06-29 - Christine Vallaure design-systems & agentic-AI batch (4 articles, multi-agent workflow)
 

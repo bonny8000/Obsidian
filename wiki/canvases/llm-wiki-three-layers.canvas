@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"3000000000000001","type":"group","x":960,"y":100,"width":400,"height":880,"color":"6","label":"3. Schema + agents"},
+		{"id":"2000000000000001","type":"group","x":460,"y":100,"width":400,"height":560,"color":"4","label":"2. Compiled wiki"},
+		{"id":"1000000000000001","type":"group","x":0,"y":100,"width":360,"height":560,"color":"2","label":"1. Raw evidence"},
+		{"id":"1000000000000002","type":"text","text":"# Raw\n\nImmutable source material:\n- web capture cards\n- PDFs and files\n- transcripts and datasets\n\n**Rule:** preserve source truth.","x":40,"y":160,"width":280,"height":250},
+		{"id":"2000000000000002","type":"text","text":"# Wiki\n\nAI-maintained knowledge graph:\n- source records\n- concepts and methods\n- comparisons and analyses\n- maps, canvases, indexes\n\n**Rule:** connect evidence to decisions.","x":500,"y":160,"width":320,"height":280},
+		{"id":"2000000000000003","type":"text","text":"## Readiness\n\n`ingest_level` + `coverage` + `llm_ready` + `raw_preserved` + confidence","x":500,"y":475,"width":320,"height":150},
+		{"id":"3000000000000003","type":"file","file":"wiki/playbooks/safe-ingest-promotion-workflow.md","x":1000,"y":440,"width":320,"height":520},
+		{"id":"3000000000000002","type":"text","text":"# Operating layer\n\n- `AGENTS.md` and `CLAUDE.md`\n- templates and skills\n- lint and backfill scripts\n- Bases and dashboards\n- Git backup / audit\n\n**Rule:** make behavior repeatable.","x":1000,"y":160,"width":320,"height":250},
+		{"id":"4000000000000001","type":"text","text":"# Agent loop\n\nCapture → draft → review → apply → link-check → lint → log\n\nThe agent maintains the Wiki; humans own intent and high-risk approval.","x":460,"y":1000,"width":400,"height":200,"color":"5"},
+		{"id":"1000000000000003","type":"text","text":"## Evidence contract\n\nURL / author / date / capture method / coverage / caveats","x":40,"y":455,"width":280,"height":170}
+	],
+	"edges":[
+		{"id":"a000000000000001","fromNode":"1000000000000002","fromSide":"right","toNode":"2000000000000002","toSide":"left","label":"compiled into"},
+		{"id":"a000000000000002","fromNode":"1000000000000003","fromSide":"right","toNode":"2000000000000003","toSide":"left","label":"supports"},
+		{"id":"a000000000000003","fromNode":"2000000000000002","fromSide":"right","toNode":"3000000000000002","toSide":"left","label":"organized by"},
+		{"id":"a000000000000004","fromNode":"3000000000000003","fromSide":"bottom","toNode":"4000000000000001","toSide":"right","label":"instructs"},
+		{"id":"a000000000000005","fromNode":"4000000000000001","fromSide":"top","toNode":"2000000000000003","toSide":"bottom","label":"maintains"}
+	]
+}

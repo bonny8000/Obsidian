@@ -15,6 +15,8 @@ The goal is to turn raw source material into a durable, interlinked Markdown kno
 - `wiki/methods/`: one page per UX research method, with use cases, procedure, outputs, quality bar, and LLM assistance guidance.
 - `wiki/comparisons/`: decision tables that compare methods, tools, risks, claims, or research approaches.
 - `wiki/analyses/`: synthesized research memos, audits, and project-facing interpretations.
+- `wiki/canvases/`: Obsidian Canvas diagrams for architecture, workflows, and graph navigation; diagrams are navigation, not evidence.
+- `wiki/playbooks/`: reusable operational gates and decision checklists.
 - `wiki/queries/`: saved answers to important questions.
 - `wiki/projects/`: active, ongoing, or completed UX/Product initiatives and experiments.
 - `wiki/decisions/`: Lightweight UX/Product Decision Records (UXDRs) documenting choices and evidence.
@@ -31,6 +33,7 @@ The goal is to turn raw source material into a durable, interlinked Markdown kno
 6. Update existing pages before creating duplicates.
 7. Log meaningful changes in `log.md` and `wiki/logs/change-log.md`.
 8. Do not delete wiki pages without first recording why, unless Bonny explicitly asks for cleanup.
+9. Use the [[wiki/playbooks/safe-ingest-promotion-workflow|Safe Ingest Promotion Workflow]] for draft, review, apply, and validation gates. Human approval is required for high-risk claims, destructive graph edits, external publishing, or consent/privacy-sensitive material.
 
 ## Naming
 
@@ -83,6 +86,7 @@ When Bonny says "ingest", "compile", "add this to the wiki", or places new mater
 11. Update `wiki/overview.md`, `wiki/index.md`, and any relevant map in `wiki/maps/`.
 12. Record the ingest in `log.md` and `wiki/logs/change-log.md`.
 13. Report what changed and what remains uncertain.
+14. When a workflow is easier to understand visually, update `wiki/canvases/` and link the Canvas from a map page. Validate Canvas JSON and edge endpoints before completion.
 
 Do not paste copyrighted articles in full. Store a link, citation metadata, short excerpt only when necessary, and an AI-written summary.
 

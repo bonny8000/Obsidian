@@ -2,62 +2,76 @@
 type: project
 status: active
 created: 2026-06-10
-updated: 2026-06-10
-tags: [project, meta, wiki-maintenance]
+updated: 2026-07-02
+tags: [project, meta, wiki-maintenance, canvas, safety]
 sources: []
-confidence: 0.9
+confidence: 0.95
 ---
 
 # LLM Wiki Improvement Plan
 
 ## Objectives
 
-Make the wiki (1) trustworthy — no silent data loss, (2) smarter — deeper synthesis, not just ingestion, and (3) proactive — it tells Bonny things instead of waiting to be asked.
+Make the wiki trustworthy, useful for synthesis, visually navigable, and safe for repeated AI maintenance.
 
-## Current Status (audit, 2026-06-10)
+## Current Status (2026-07-02)
 
-The vault is in good shape structurally: 564 notes, clear directory contract (AGENTS.md), templates, maps, and a disciplined change log. But the audit found real damage:
+> [!success] Foundations complete
+> - Git is active as the backup/audit layer and the vault has a verified GitHub `main` history.
+> - `scripts/lint.py` checks broken links, empty pages, frontmatter, orphans, and content-loss signals.
+> - Raw evidence and AI-maintained wiki layers are established.
+> - Source-readiness metadata and the LLM-Ready Source Index are in use.
+> - The earlier pipe-link and empty-file corruption incidents were repaired or tracked.
 
-> [!warning] Findings
-> 1. **25 corrupted/empty files** (0 or 3 bytes): 9 source pages, 4 concept pages, 6 query pages, 5 ingest reports, and the `ux-metrics-framework` map. Two corruption events: 2026-05-27 (files containing only `---`) and 2026-06-01 05:06 (zeroed files). Content described in the change log (Tullis & Albert, Chapman & Rodden, Adobe HAIC, VR Usability, Garrett/Cooper ingests) is **lost** and must be rebuilt.
-> 2. **125 files contained pipe-stripped wikilinks** (590 links) — the alias pipe was removed, e.g. path `agentic-ai` fused with title "Agentic AI". Fixed by script on 2026-06-10. Likely a tool/sync pass stripped `|` characters.
-> 3. **No version control.** The vault is not a git repo, which is why the corruption was silent and unrecoverable.
+> [!info] 2026-07-02 architecture upgrade
+> - Added three Obsidian Canvas workflows: three-layer architecture, advanced modules, and safe draft/review/apply.
+> - Added [[../playbooks/safe-ingest-promotion-workflow|Safe Ingest Promotion Workflow]].
+> - Added [[../maps/llm-wiki-visual-workflows|LLM Wiki Visual Workflows]] as the visual navigation hub.
+> - Ollama is installed but has no local models; local drafting remains optional and cannot write directly to the wiki.
 
-## Phase 0 — Repair (do first)
+> [!warning] Operational decision still open
+> Obsidian currently opens `D:\Obsidian`, while the Git repository and maintained vault content are under `D:\Obsidian\LLM-Wiki`. Keep edits in the repository and confirm the intended app root before changing Obsidian configuration.
 
-1. **Init git** in the vault and commit everything as a baseline before any mass edit. Add `.obsidian/workspace*` to `.gitignore`.
-2. **Fix pipe-stripped links** with a script (regex: kebab-path immediately followed by a capital letter → reinsert `|`). Verify with a dry-run diff, then commit.
-3. **Rebuild the 25 empty pages.** Raw material still exists for some (`raw/web/`, `raw/files/`); books (Tullis & Albert, Cooper, Garrett) need re-ingest from PDFs or summaries. Track each in a rebuild checklist.
-4. **Find the corruption cause** before trusting any sync/plugin again — check Obsidian plugins, sync tools, and any script run on 2026-05-27 and 2026-06-01.
+## Phase 0 — Repair and Baseline (complete)
 
-## Phase 1 — Trustworthy
+- [x] Initialize Git and preserve a clean baseline.
+- [x] Normalize Windows Git metadata and line endings.
+- [x] Repair pipe-stripped links and rebuild recoverable empty pages.
+- [x] Preserve raw PDFs and source cards before synthesis.
 
-- **Lint script** (`scripts/lint.py`): broken/pipe-stripped links, empty or stub files, missing frontmatter, orphans, claims without sources. Writes `wiki/logs/lint-report.md`. Run after every ingest.
-- **Git commit per ingest** — the change log gets a verifiable diff behind it.
+## Phase 1 — Trustworthy Operations (complete, ongoing enforcement)
 
-## Phase 2 — Smarter
+- [x] Add vault lint and focused link checks.
+- [x] Add source-readiness metadata and a generated-style source index.
+- [x] Add draft → review → apply → validation gates.
+- [x] Use Git as backup/audit rather than day-to-day note sync.
+- [ ] Decide and document the intended Obsidian app root (`D:\Obsidian` vs `D:\Obsidian\LLM-Wiki`).
 
-- **Work the deep-ingest backlog**: Sauro & Lewis 2e ([[sources/sauro-lewis-quantifying-ux-2016]]) chapters → adjusted-Wald CI, sample-size models, standardized questionnaires (SUS/PSSUQ/SUPR-Q), problem-discovery model. Same for rebuilt book sources.
-- **Synthesis over collection**: for each map, add a "Tensions & open questions" section that contrasts sources (e.g., MeasuringU AI-analysis skepticism vs. AI-moderated-research optimism). Concept pages already have `Open questions` — harvest them into a single **research agenda** note (`wiki/maps/research-agenda.md`) ranked by how often a question recurs.
-- **Bases dashboards**: extend `dashboard.base` — stale pages (updated > 60 days), low-confidence claims (< 0.7), draft-status pages. Obsidian then shows what needs attention on open.
+## Phase 2 — Smarter and More Navigable (in progress)
 
-## Phase 3 — Proactive
+- [x] Add maps, Bases dashboards, and method/comparison/analysis layers.
+- [x] Add Canvas architecture and workflow diagrams.
+- [x] Connect web and PDF ingest to the same raw-first promotion path.
+- [ ] Keep map "Tensions & Open Questions" sections current as sources accumulate.
+- [ ] Reduce the remaining partial-source backlog using original PDFs or authenticated captures.
+- [ ] Add a small automated check that Canvas edge targets and linked file nodes exist.
 
-- **Scheduled weekly digest** (Cowork scheduled task): what changed, what went stale, top 3 open questions, 1–2 suggested next sources based on gaps. Saved to `wiki/logs/` + shown in chat.
-- **Inbox workflow**: drop anything into `raw/inbox/`; the agent proposes (not auto-applies) source pages and concept links on the next session.
-- **Source watchlist**: a note listing feeds worth monitoring (MeasuringU, QuantUXBlog, arXiv HCI queries, brunch authors already in the vault); the weekly task checks them and queues candidates.
-- **Resurfacing**: weekly digest includes 3 older concepts related to currently active projects, to keep past knowledge in circulation.
+## Phase 3 — Proactive and Optional Modules
 
-## Key Decisions
+- [ ] Configure a local Ollama model only if draft quality, structured output, and review gates pass.
+- [ ] Evaluate semantic RAG / GraphRAG against link-and-map retrieval before adopting it.
+- [ ] Produce a scheduled weekly digest: changes, stale pages, top open questions, and resurfaced concepts.
+- [ ] Add a source watchlist and a review queue without auto-publishing new claims.
 
-- [ ] UXDR: adopt git as the vault's safety layer (Phase 0.1) — record in `wiki/decisions/` once done.
+## Decision Rules
 
-## Tasks & Next Steps
+- The core stays Raw → Source → Concept/Method/Map → Index/Log.
+- Optional modules may draft or retrieve, but cannot bypass provenance, review, or lint.
+- A Canvas improves comprehension; it does not raise evidence confidence.
+- Completion metrics never substitute for validity, trust, or ethics metrics.
 
-- [ ] Phase 0.1 git init + baseline commit
-- [ ] Phase 0.2 pipe-link repair script + dry run + apply
-- [ ] Phase 0.3 rebuild checklist for 25 empty pages
-- [ ] Phase 0.4 identify corruption cause
-- [ ] Phase 1 lint script
-- [ ] Phase 2 Sauro & Lewis deep ingest (chapters 3, 6–8 first — highest reuse for quant UXR work)
-- [ ] Phase 3 schedule weekly digest task
+## Related
+
+- [[../maps/llm-wiki-architecture|LLM Wiki Architecture]]
+- [[../maps/llm-wiki-visual-workflows|LLM Wiki Visual Workflows]]
+- [[../playbooks/safe-ingest-promotion-workflow|Safe Ingest Promotion Workflow]]

@@ -2,7 +2,7 @@
 type: log
 status: active
 created: 2026-06-12
-updated: 2026-06-29
+updated: 2026-07-02
 tags: [log, operations, llm-wiki]
 sources: []
 confidence: 1.0
@@ -11,6 +11,14 @@ confidence: 1.0
 # Operations Log
 
 Append-only chronological log for structural vault changes. Detailed generated checks live in [[wiki/logs/lint-report|Lint Report]] and durable maintenance notes live in [[wiki/logs/change-log|Change Log]].
+
+## 2026-07-02
+
+- Ingested four sources into `raw/web/` and `wiki/sources/`: [[wiki/sources/sangwook-typescript-6-migration-troubleshooting|TypeScript 6 migration troubleshooting]], [[wiki/sources/clova-merit-post-training|CLOVA MERIT]], [[wiki/sources/arxiv-2606.30660-value-sensitive-conversational-ai|value-sensitive conversational surveys]], and [[wiki/sources/kakao-vc-upsell-design|upsell design]].
+- Preserved arXiv:2606.30660 as `raw/files/arxiv-2606.30660-value-sensitive-conversational-ai.pdf`; extracted all seven pages and visually checked page 1.
+- Added four concepts: [[wiki/concepts/infrastructure-dev/typescript-configuration-hygiene|TypeScript Configuration Hygiene]], [[wiki/concepts/ai-agents/conflict-aware-instruction-tuning|Conflict-Aware Instruction Tuning]], [[wiki/concepts/ux-research/value-sensitive-conversational-surveys|Value-Sensitive Conversational Surveys]], and [[wiki/concepts/product-management/upsell-design|Upsell Design]].
+- Added [[wiki/maps/llm-wiki-visual-workflows|LLM Wiki Visual Workflows]], three Obsidian Canvas files, and [[wiki/playbooks/safe-ingest-promotion-workflow|Safe Ingest Promotion Workflow]] based on the user-provided architecture references.
+- Updated architecture, improvement plan, agent operating instructions, survey method, topic maps, overview, indexes, and source-readiness counts (151 sources / 129 `llm_ready`).
 
 ## 2026-06-29
 

@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-05-18
-updated: 2026-06-22
+updated: 2026-07-02
 tags: [map, ux-research, ai, research-methods]
 sources:
   - sources/measuringu-ai-usability-problem-analysis-video
@@ -33,7 +33,8 @@ sources:
   - sources/bakhshi-representative-sample
   - sources/bakhshi-ai-in-qualitative-research-map
   - sources/svenja-pieritz-positioning-experiment
-confidence: 0.85
+  - sources/arxiv-2606.30660-value-sensitive-conversational-ai
+confidence: 0.86
 ---
 
 # AI UX Research Methods
@@ -95,6 +96,7 @@ This cluster tracks where AI can help UX research and where research-method inte
 - [[concepts/ux-research/quant-uxr-rigor|Quant UXR Rigor]]
 - [[concepts/ux-research/participant-selection-criteria|Participant Selection Criteria]]
 - [[concepts/ux-research/sample-size-for-usability-studies|Sample Size for Usability Studies]]
+- [[concepts/ux-research/value-sensitive-conversational-surveys|Value-Sensitive Conversational Surveys]]
 
 ## Source Path
 
@@ -115,6 +117,7 @@ This cluster tracks where AI can help UX research and where research-method inte
 - [[sources/quantuxblog|Quantitative UX Research Blog]]
 - [[sources/meta-research-medium-publication|Meta Research Medium Publication]]
 - [[sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]]
+- [[sources/arxiv-2606.30660-value-sensitive-conversational-ai|Maurya (2026): Value-Sensitive Conversational AI for Low-Literacy Surveys]]
 
 ## Foundational UX Frameworks & Methods
 
@@ -142,6 +145,10 @@ These are the bedrock frameworks that AI-assisted research sits on top of. Under
 - [[concepts/ux-research/quant-uxr-learning-path|Quant UXR Learning Path]]
 - [[concepts/ux-research/quant-uxr-rigor|Quant UXR Rigor]]
 - [[concepts/ux-research/senior-uxr-career-paths|Senior UXR Career Paths]]
+
+## Inclusive Conversational Surveys
+
+[[sources/arxiv-2606.30660-value-sensitive-conversational-ai|Maurya (2026)]] adds field evidence that survey modality is part of methodological fit. Voice and value-sensitive conversational cues were associated with higher completion among low-literacy women, but the study also creates a strict interpretation boundary: completion is not response validity, the design was quasi-experimental, and undisclosed AI weakened informed consent. Use [[concepts/ux-research/value-sensitive-conversational-surveys|Value-Sensitive Conversational Surveys]] to route modality, co-design, transparency, and quality checks.
 
 ## Working Interpretation
 

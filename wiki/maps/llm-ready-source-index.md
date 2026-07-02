@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-06-12
-updated: 2026-06-26
+updated: 2026-07-02
 tags: [map, llm-ready, source-index]
 sources: []
 confidence: 1.0
@@ -14,9 +14,10 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 
 ## Status Summary
 
-- Total source pages: 147
-- LLM-ready source pages: 125
-- Deep / standard / light: 26 / 107 / 11
+- Total source pages: 151
+- LLM-ready source pages: 129
+- Deep / standard / light / detailed: 27 / 110 / 11 / 1
+- Legacy source pages without an `ingest_level`: 2
 - Partial coverage sources needing deeper ingest: 22
 
 ## How to Use
@@ -29,6 +30,20 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 
 | Source | Level | Coverage | LLM ready | Raw preserved | Deepening focus |
 | --- | --- | --- | --- | --- | --- |
+| [[sources/arxiv-2606.30660-value-sensitive-conversational-ai|Maurya (2026): Value-Sensitive Conversational AI for Low-Literacy Surveys]] | `deep` | `full` | `true` | `true` | full preprint preserved; replicate with randomization and AI disclosure |
+| [[sources/clova-merit-post-training|CLOVA: MERIT Conflict-Aware Post-Training]] | `standard` | `substantial` | `true` | `true` | first-party explainer; use the paper and code for implementation |
+| [[sources/kakao-vc-upsell-design|Kakao Ventures: Upsell Design Through Value, Reassurance, and Convenience]] | `standard` | `substantial` | `true` | `true` | product framework; validate economics, trust, and legal boundaries |
+| [[sources/sangwook-typescript-6-migration-troubleshooting|Sangwook Han: TypeScript 6 Migration Troubleshooting]] | `standard` | `substantial` | `true` | `true` | practitioner case; verify tool-specific migration against current versions |
+| [[sources/agent-skills-day-3|Agent Skills (Day 3)]] | `deep` | `full` | `true` | `true` | ready for grounded ideation |
+| [[sources/agent-tools-interoperability-day-2|Agent Tools & Interoperability]] | `unclassified` | `unknown` | `false` | `unknown` | legacy source needs readiness metadata |
+| [[sources/atlassian-design-md|Atlassian: DESIGN.md — Portable Design Context in Practice]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/atlassian-design-system-context-engine|Atlassian: Building the Context Engine for the AI Era]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/measuringu-banner-tables|MeasuringU: How to Use Banner Tables to Present Survey Results]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/measuringu-bayes-priors-uxr|MeasuringU: Bayes' Law in UX Research — The Power and Perils of Priors]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/measuringu-credible-vs-confidence-intervals|MeasuringU: Credible vs. Confidence Intervals]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/measuringu-synthetic-users-review|MeasuringU: A Review of Experiments with Synthetic Users]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/measuringu-tac10-screening|MeasuringU: Using the TAC-10 for Screening and Data Cleaning]] | `standard` | `substantial` | `true` | `true` | ready for grounded ideation |
+| [[sources/the-new-sdlc-with-vibe-coding-day-1|The New SDLC With Vibe Coding]] | `unclassified` | `unknown` | `false` | `unknown` | legacy source needs readiness metadata |
 | [[sources/andru-saksena-adobe-haic-2025|Adobe HAIC Framework (Andru & Saksena, 2025)]] | `deep` | `partial` | `false` | `false` | raw provenance, raw-based expansion |
 | [[sources/arxiv-2605-23904|Source: arXiv 2605.23904 ??SkillOpt]] | `deep` | `substantial` | `true` | `true` | ready for grounded ideation |
 | [[sources/brunch-ghidesigner-487|AI Designer LLM Wiki Article]] | `deep` | `substantial` | `true` | `true` | ready for grounded ideation |

@@ -2,7 +2,7 @@
 type: index
 status: active
 created: 2026-06-12
-updated: 2026-06-29
+updated: 2026-07-02
 tags: [index, llm-wiki, ux-research]
 sources: []
 confidence: 1.0
@@ -19,9 +19,13 @@ This is the top-level catalog for the Obsidian LLM-Wiki. Use it as the first sto
 - [[wiki/overview|Knowledge Base Overview]]
 - [[wiki/index|Obsidian Dashboard Index]]
 - [[wiki/maps/llm-ready-source-index|LLM-Ready Source Index]]
+- [[wiki/maps/llm-wiki-visual-workflows|LLM Wiki Visual Workflows]]
+- [[wiki/playbooks/safe-ingest-promotion-workflow|Safe Ingest Promotion Workflow]]
 - [[log|Operations Log]]
 
 ## Recent Ingests
+
+- **Cross-domain ingest + visual workflow upgrade (2026-07-02):** [[wiki/sources/sangwook-typescript-6-migration-troubleshooting|TypeScript 6 migration troubleshooting]], [[wiki/sources/clova-merit-post-training|CLOVA MERIT]], [[wiki/sources/arxiv-2606.30660-value-sensitive-conversational-ai|value-sensitive conversational surveys]], and [[wiki/sources/kakao-vc-upsell-design|Kakao Ventures on upsell design]]. Added four durable concepts plus [[wiki/maps/llm-wiki-visual-workflows|three Obsidian Canvas workflows]] and a [[wiki/playbooks/safe-ingest-promotion-workflow|safe draft/review/apply playbook]].
 
 - **Christine Vallaure design-systems & agentic-AI batch (2026-06-29, 4 articles):** *Design systems for agents* — [[wiki/sources/christinevallaure-agentic-ai-design-systems|Agentic AI, Design Systems & Figma: A Practical Guide]], [[wiki/sources/christinevallaure-hypertokens|What Are Hypertokens?]] (the layer between tokens & components — coined by Jake Albaugh at Config 2026). *Generative UI* — [[wiki/sources/christinevallaure-a2ui-generative-ui|A2UI Under the Hood (radically adaptive UI)]]. *Agentic orchestration* — [[wiki/sources/christinevallaure-human-approach-agentic-ai|A Human Approach to Agentic AI (one person, one file, five agents)]]. New concepts: [[wiki/concepts/infrastructure-dev/hypertokens|Hypertokens]], [[wiki/concepts/infrastructure-dev/component-catalog|Component Catalog]], [[wiki/concepts/agent-experience/a2ui-protocol|A2UI Protocol]], [[wiki/concepts/infrastructure-dev/figma-code-connect|Figma Code Connect]], [[wiki/concepts/ai-agents/markdown-agent-orchestration|Markdown Agent Orchestration]], [[wiki/concepts/ai-agents/persona-agent|Persona Agent]]. Run as a verified multi-agent workflow; verification caught a coinage misattribution + several misquotes.
 - **Digital-twins & AI-UX batch (2026-06-29, 6 sources):** *Synthetic users / digital twins* — [[wiki/sources/voiceofuser-inhouse-digital-twins-blueprint|The Voice of User: In-House Digital-Twins Blueprint]], [[wiki/sources/brox-digital-twins-market-research|Brox: 60,000 "digital twins" (VentureBeat — vendor-PR, body blocked, `llm_ready: false`)]]. *AI UX design* — [[wiki/sources/uxfolio-ai-ux-design|UXfolio: AI UX Design Blueprint (vendor)]], [[wiki/sources/drs2026-generative-events-design-ontology|Yu & Zhao: Generative Events (DRS2026, abstract-only)]]. *AI companions* — [[wiki/sources/kakao-vc-ai-companion-relationship|Kakao Ventures: AI Companion — Relationship Depth → BM]]. *Tool* — [[wiki/sources/opencut-open-source-video-editor|OpenCut (open-source video editor; off-theme, light)]]. New concepts (7, after consolidating the AI-companion set 6→4): [[wiki/concepts/ux-research/digital-twin-respondents|Digital-Twin Respondents]], [[wiki/concepts/ux-research/in-house-synthetic-user-pipeline|In-House Synthetic User Pipeline]], [[wiki/concepts/ux-research/generative-events|Generative Events]], [[wiki/concepts/agent-experience/ai-companion|AI Companion]], [[wiki/concepts/agent-experience/relationship-architecture|Relationship Architecture]] (absorbs the AI-business-model + IP/fandom monetization thesis), [[wiki/concepts/agent-experience/parasocial-relationship|Parasocial Relationship]], [[wiki/concepts/agent-experience/companion-attachment-dependency|Companion Attachment & Dependency]]. Run as a verified multi-agent workflow (fetch → adversarial fact-check → concept synthesis).

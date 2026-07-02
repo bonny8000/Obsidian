@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-07-02
 tags: [map, agentic-engineering, agents, harness, moc]
 sources:
   - the-new-sdlc-with-vibe-coding-day-1
@@ -15,7 +15,8 @@ sources:
   - hai-cooperbench-agent-teamwork
   - langchain-multi-agent-architecture
   - langchain-agent-middleware
-confidence: 0.85
+  - clova-merit-post-training
+confidence: 0.86
 ---
 
 # Agentic Engineering (Map of Content)
@@ -73,6 +74,10 @@ Recurring meta-theme of the vault: **"looks done / fast / satisfying ≠ reliabl
 ### Economics & portability
 - [[concepts/infrastructure-dev/agent-cost-control|Agent Cost Control]] · [[concepts/ai-agents/model-neutrality|Model Neutrality]]
 - [[concepts/infrastructure-dev/token-efficiency|Token Efficiency]] · [[concepts/product-management/tokenomics|Tokenomics]]
+
+### Training and model composition
+- [[concepts/ai-agents/conflict-aware-instruction-tuning|Conflict-Aware Instruction Tuning]] — dataset-gradient conflict map → balanced independent tuning → one-shot merge
+- [[sources/clova-merit-post-training|CLOVA MERIT]] — first-party ICML 2026 explainer with arXiv-verified method and headline result
 
 ### Spec, process & content
 - [[concepts/ai-agents/spec-driven-development|Spec-Driven Development]] · [[concepts/product-management/ai-prd|AI PRD]]

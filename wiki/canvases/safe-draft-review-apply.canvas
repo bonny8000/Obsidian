@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {"id":"6100000000000001","type":"text","x":0,"y":220,"width":300,"height":180,"text":"# Raw source\n\nImmutable web card, PDF, transcript, or file with provenance and coverage.","color":"2"},
+    {"id":"6100000000000002","type":"text","x":400,"y":80,"width":340,"height":190,"text":"# Draft with Codex\n\nPrimary lane: propose source, concept, method, map, and log changes in the working tree.","color":"3"},
+    {"id":"6100000000000003","type":"text","x":400,"y":360,"width":340,"height":190,"text":"# Optional Ollama draft\n\nLocal and private, but currently no models installed. Never write directly to the Wiki before validation.","color":"6"},
+    {"id":"6100000000000004","type":"text","x":850,"y":220,"width":340,"height":220,"text":"# Review gate\n\nCheck provenance, duplication, uncertainty, ethics, consent, privacy, and user intent.\n\nHigh-risk changes require human approval.","color":"1"},
+    {"id":"6100000000000005","type":"file","x":1300,"y":220,"width":360,"height":220,"file":"wiki/playbooks/safe-ingest-promotion-workflow.md"},
+    {"id":"6100000000000006","type":"text","x":1770,"y":80,"width":340,"height":200,"text":"# Maintenance gate\n\nFocused wikilink checks → Canvas JSON validation → vault lint → `git diff --check`.","color":"5"},
+    {"id":"6100000000000007","type":"text","x":1770,"y":390,"width":340,"height":180,"text":"# Updated Wiki\n\nSource-grounded notes, maps, canvases, indexes, and logs reflect the approved draft.","color":"4"},
+    {"id":"6100000000000008","type":"text","x":850,"y":560,"width":340,"height":130,"text":"**Safety idea**\n\nDraft first. Review second. Apply third. Validate last.","color":"1"}
+  ],
+  "edges": [
+    {"id":"c000000000000001","fromNode":"6100000000000001","fromSide":"right","toNode":"6100000000000002","toSide":"left","toEnd":"arrow","label":"input"},
+    {"id":"c000000000000002","fromNode":"6100000000000001","fromSide":"right","toNode":"6100000000000003","toSide":"left","toEnd":"arrow","label":"optional input"},
+    {"id":"c000000000000003","fromNode":"6100000000000002","fromSide":"right","toNode":"6100000000000004","toSide":"left","toEnd":"arrow","label":"submits"},
+    {"id":"c000000000000004","fromNode":"6100000000000003","fromSide":"right","toNode":"6100000000000004","toSide":"left","toEnd":"arrow","label":"submits"},
+    {"id":"c000000000000005","fromNode":"6100000000000004","fromSide":"right","toNode":"6100000000000005","toSide":"left","toEnd":"arrow","label":"applies via"},
+    {"id":"c000000000000006","fromNode":"6100000000000005","fromSide":"right","toNode":"6100000000000006","toSide":"left","toEnd":"arrow","label":"checks"},
+    {"id":"c000000000000007","fromNode":"6100000000000006","fromSide":"bottom","toNode":"6100000000000007","toSide":"top","toEnd":"arrow","label":"updates"},
+    {"id":"c000000000000008","fromNode":"6100000000000008","fromSide":"top","toNode":"6100000000000004","toSide":"bottom","toEnd":"arrow","label":"governs"}
+  ]
+}

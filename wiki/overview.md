@@ -2,7 +2,7 @@
 type: overview
 status: active
 created: 2026-06-12
-updated: 2026-06-29
+updated: 2026-07-02
 tags: [overview, synthesis, ux-research, llm-wiki, agentic-engineering]
 sources:
   - maps/llm-ready-source-index
@@ -18,7 +18,7 @@ This vault is a research-first LLM knowledge base. `raw/` preserves evidence, `w
 
 ## Current Shape
 
-- Source records: [[maps/llm-ready-source-index|147 tracked source pages]], with 125 currently marked `llm_ready: true`.
+- Source records: [[maps/llm-ready-source-index|151 tracked source pages]], with 129 currently marked `llm_ready: true`.
 - UX research concept graph: [[concepts/ux-research/research-methods-foundations|research methods foundations]], [[concepts/ux-research/research-strategy|research strategy]], [[concepts/ux-research/research-operations|ResearchOps]], [[concepts/ux-research/ux-metrics|UX metrics]], and AI-assisted research concepts.
 - UX research operating layer: [[methods/usability-testing|method pages]], [[comparisons/research-method-selection-matrix|comparison matrices]], and [[analyses/ux-research-wiki-gap-audit-2026-06-12|analysis memos]].
 
@@ -31,6 +31,8 @@ This vault is a research-first LLM knowledge base. `raw/` preserves evidence, `w
 - Product-facing synthesis: translating research evidence into roadmaps, decisions, product taste, and AI-native workflows.
 - Agent memory operations: memory lifecycle, contamination controls, trace review, and durable context governance.
 - AI-era design taste: craft judgment, critique, care, and human review gates for generated artifacts.
+- Inclusive conversational research: audio-first access, community co-design, AI disclosure, and the separation of completion from data validity.
+- Product monetization design: value, reassurance, and convenience upsells bounded by clear choice and trust metrics.
 
 ## How To Use With An LLM
 
@@ -44,6 +46,17 @@ This vault is a research-first LLM knowledge base. `raw/` preserves evidence, `w
 - Some source records remain `coverage: partial` and should be deepened before being used as primary decision evidence.
 - The method library is now seeded, but each method should be expanded with project examples, study templates, and decision criteria.
 - Analysis memos should be added whenever sources are synthesized into a product or research recommendation.
+
+## Cross-Domain Ingest and Visual Workflow Upgrade (2026-07-02)
+
+Four sources expanded four different parts of the graph:
+
+- [[sources/sangwook-typescript-6-migration-troubleshooting|TypeScript 6 migration troubleshooting]] → [[concepts/infrastructure-dev/typescript-configuration-hygiene|TypeScript Configuration Hygiene]]: make module resolution, output layout, ambient types, and tool-generated options explicit.
+- [[sources/clova-merit-post-training|CLOVA MERIT]] → [[concepts/ai-agents/conflict-aware-instruction-tuning|Conflict-Aware Instruction Tuning]]: split heterogeneous datasets by gradient conflict, train independently, and merge once.
+- [[sources/arxiv-2606.30660-value-sensitive-conversational-ai|Value-sensitive conversational surveys]] → [[concepts/ux-research/value-sensitive-conversational-surveys|Value-Sensitive Conversational Surveys]]: voice and culturally aligned cues can improve completion, but validity, transparency, consent, and causal attribution remain unresolved.
+- [[sources/kakao-vc-upsell-design|Kakao Ventures on upsell design]] → [[concepts/product-management/upsell-design|Upsell Design]]: value, reassurance, and convenience offers require a viable base option, clear opt-out, and long-term trust metrics.
+
+The user-provided architecture images also produced a new visual operating layer: [[maps/llm-wiki-visual-workflows|LLM Wiki Visual Workflows]] and [[playbooks/safe-ingest-promotion-workflow|Safe Ingest Promotion Workflow]].
 
 ## Agent Experience (AX)
 

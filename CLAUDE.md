@@ -22,6 +22,8 @@ LLM-Wiki/
     |-- concepts/             # concepts, frameworks, theories, and principles
     |-- comparisons/          # comparison tables across methods/tools/claims
     |-- analyses/             # synthesized research memos and audits
+    |-- canvases/             # Obsidian-native visual maps and workflows
+    |-- playbooks/            # reusable operating and review gates
     |-- maps/                 # topic maps and source-readiness dashboards
     |-- projects/             # active project plans
     |-- decisions/            # decision records
@@ -37,6 +39,7 @@ LLM-Wiki/
 - Use `wiki/sources/` for source-specific evidence, `wiki/concepts/` for reusable ideas, `wiki/methods/` for UX research methods, `wiki/comparisons/` for decision tables, and `wiki/analyses/` for synthesized memos.
 - When adding a UX research method, connect it to at least one source and one concept. If evidence is thin, mark the page as partial rather than overstating confidence.
 - Update `index.md`, `wiki/index.md`, `wiki/overview.md`, and `log.md` after meaningful ingest or structural changes.
+- Use [[wiki/playbooks/safe-ingest-promotion-workflow|Safe Ingest Promotion Workflow]] for draft → review → apply → validate. Canvas diagrams support navigation but never replace raw evidence or source records.
 
 ## LLM Use Pattern
 
@@ -45,4 +48,3 @@ LLM-Wiki/
 3. Use partial sources for ideation only, then return to `raw/` before making recommendations.
 4. For UX research work, move in this order: research question -> method page -> comparison page -> source records -> analysis memo.
 5. Record major maintenance in `log.md` and `wiki/logs/change-log.md`.
-

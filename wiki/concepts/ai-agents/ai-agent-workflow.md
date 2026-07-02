@@ -2,7 +2,7 @@
 type: concept
 status: active
 created: 2026-05-18
-updated: 2026-05-18
+updated: 2026-07-02
 tags: [ai-agent, workflow, design, coding]
 sources:
   - sources/brunch-ghidesigner-482
@@ -26,6 +26,8 @@ This is the bridge between [[concepts/ai-agents/vibe-design|Vibe Design]], [[con
 - Agent workflows become more useful when they can preserve project memory and reuse successful patterns.
 - Design and coding workflows converge when artifacts can move from intent to implementation through structured agent handoff.
 - Strategic value comes from repeatability, not only one-off generation.
+- A reliable workflow separates draft, review, apply, and validation instead of letting generation write directly to the durable artifact.
+- High-risk decisions require a human review gate; low-risk work still requires focused checks and clear provenance.
 
 ## Related Concepts
 
@@ -34,6 +36,8 @@ This is the bridge between [[concepts/ai-agents/vibe-design|Vibe Design]], [[con
 - [[concepts/ai-agents/skill-system|Skill System]]
 - [[concepts/infrastructure-dev/design-automation|Design Automation]]
 - [[concepts/ai-agents/ai-coding-tools|AI Coding Tools]]
+- [[playbooks/safe-ingest-promotion-workflow|Safe Ingest Promotion Workflow]]
+- [[maps/llm-wiki-visual-workflows|LLM Wiki Visual Workflows]]
 
 ## Sources
 
@@ -44,5 +48,4 @@ This is the bridge between [[concepts/ai-agents/vibe-design|Vibe Design]], [[con
 ## Open Questions
 
 - [Answered ??[[queries/2026-05-27-agent-workflow-standardize-first|Query Page]]] Which agent workflows should Bonny standardize first: research, design review, prototype generation, or wiki maintenance?
-
 

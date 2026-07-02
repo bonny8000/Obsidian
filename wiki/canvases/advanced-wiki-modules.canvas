@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"5100000000000001","type":"text","x":450,"y":300,"width":420,"height":220,"text":"# Core LLM Wiki\n\nRaw evidence → source records → concepts / methods / maps → indexes and logs\n\nKeep the core inspectable and source-grounded.","color":"4"},
+		{"id":"5100000000000002","type":"text","x":0,"y":0,"width":360,"height":190,"text":"# Web + PDF ingest — implemented\n\nDefuddle for readable pages. Original PDFs in `raw/files/`; text extraction and visual verification before synthesis.","color":"2"},
+		{"id":"5100000000000003","type":"text","x":0,"y":260,"width":360,"height":190,"text":"# Obsidian-safe writes — implemented\n\nRaw is immutable. Edits stay inside the vault. High-risk changes use review gates; links and Canvas edges are validated.","color":"1"},
+		{"id":"5100000000000004","type":"text","x":0,"y":520,"width":360,"height":190,"text":"# Skills + operating schema — implemented\n\n`AGENTS.md`, `CLAUDE.md`, templates, playbooks, and scripts make ingest and maintenance repeatable.","color":"3"},
+		{"id":"5100000000000005","type":"text","x":980,"y":0,"width":380,"height":190,"text":"# Local LLM lane — optional\n\nOllama is installed, but no models were configured on 2026-07-02. Draft-only until structured output and quality gates pass.","color":"6"},
+		{"id":"5100000000000006","type":"text","x":980,"y":260,"width":380,"height":190,"text":"# Visual navigation — implemented\n\nCanvas diagrams, Maps, Bases, and graph view expose architecture, clusters, gaps, and workflows.","color":"5"},
+		{"id":"5100000000000007","type":"text","x":980,"y":520,"width":380,"height":190,"text":"# Semantic RAG / GraphRAG — future\n\nCurrent retrieval uses wikilinks and source readiness. Add embeddings only with provenance-preserving citations and evals.","color":"6"},
+		{"id":"5100000000000008","type":"text","x":450,"y":650,"width":420,"height":200,"text":"# Promotion path\n\nAtoms (raw claims) → source records → durable concepts → maps / analyses → project decisions\n\nPromote recurring knowledge; do not fragment every sentence.","color":"4"}
+	],
+	"edges":[
+		{"id":"b000000000000001","fromNode":"5100000000000002","fromSide":"right","toNode":"5100000000000001","toSide":"left","toEnd":"arrow","label":"feeds"},
+		{"id":"b000000000000002","fromNode":"5100000000000003","fromSide":"right","toNode":"5100000000000001","toSide":"left","toEnd":"arrow","label":"protects"},
+		{"id":"b000000000000003","fromNode":"5100000000000004","fromSide":"right","toNode":"5100000000000001","toSide":"left","toEnd":"arrow","label":"governs"},
+		{"id":"b000000000000004","fromNode":"5100000000000005","fromSide":"left","toNode":"5100000000000001","toSide":"right","toEnd":"arrow","label":"drafts for"},
+		{"id":"b000000000000005","fromNode":"5100000000000001","fromSide":"right","toNode":"5100000000000006","toSide":"left","toEnd":"arrow","label":"visualized by"},
+		{"id":"b000000000000006","fromNode":"5100000000000001","fromSide":"right","toNode":"5100000000000007","toSide":"left","toEnd":"arrow","label":"may feed"},
+		{"id":"b000000000000007","fromNode":"5100000000000001","fromSide":"bottom","toNode":"5100000000000008","toSide":"top","toEnd":"arrow","label":"promotes into"}
+	]
+}

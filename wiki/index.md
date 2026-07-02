@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-05-18
-updated: 2026-06-26
+updated: 2026-07-02
 tags: [index, llm-wiki, dashboard]
 sources:
   - sources/brunch-ghidesigner-487
@@ -31,6 +31,13 @@ confidence: 0.9
 ![[../dashboard.base]]
 
 ## Recent Ingests
+> [!success] Cross-domain ingest + visual workflow upgrade — 2026-07-02 (4 sources, 3 Canvases)
+> - Engineering: [[sources/sangwook-typescript-6-migration-troubleshooting|TypeScript 6 migration troubleshooting]] → [[concepts/infrastructure-dev/typescript-configuration-hygiene|TypeScript Configuration Hygiene]]
+> - Model training: [[sources/clova-merit-post-training|CLOVA MERIT]] → [[concepts/ai-agents/conflict-aware-instruction-tuning|Conflict-Aware Instruction Tuning]]
+> - Inclusive research: [[sources/arxiv-2606.30660-value-sensitive-conversational-ai|Value-sensitive conversational surveys]] → [[concepts/ux-research/value-sensitive-conversational-surveys|Value-Sensitive Conversational Surveys]]
+> - Product monetization: [[sources/kakao-vc-upsell-design|Kakao Ventures on upsell design]] → [[concepts/product-management/upsell-design|Upsell Design]]
+> - Visual operations: [[maps/llm-wiki-visual-workflows|LLM Wiki Visual Workflows]] + [[playbooks/safe-ingest-promotion-workflow|Safe Ingest Promotion Workflow]]
+
 > [!success] Christine Vallaure design-systems & agentic-AI batch — 2026-06-29 (4 articles, multi-agent workflow)
 > - Design systems for agents: [[sources/christinevallaure-agentic-ai-design-systems|Agentic AI, Design Systems & Figma]], [[sources/christinevallaure-hypertokens|What Are Hypertokens?]]
 > - Generative UI / orchestration: [[sources/christinevallaure-a2ui-generative-ui|A2UI Under the Hood]], [[sources/christinevallaure-human-approach-agentic-ai|A Human Approach to Agentic AI (one file, five agents)]]
@@ -137,6 +144,7 @@ confidence: 0.9
 > [!abstract] Topic Maps
 > - [[overview|Knowledge Base Overview]]
 > - [[maps/llm-wiki-architecture|LLM Wiki Architecture]]
+> - [[maps/llm-wiki-visual-workflows|LLM Wiki Visual Workflows]]
 > - [[maps/llm-ready-source-index|LLM-Ready Source Index]]
 > - [[maps/ai-design-agent-workflows|AI Design Agent Workflows]]
 > - [[maps/ai-native-product-management|AI-Native Product Management]]

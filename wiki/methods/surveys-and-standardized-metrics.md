@@ -2,7 +2,7 @@
 type: method
 status: active
 created: 2026-06-12
-updated: 2026-06-16
+updated: 2026-07-02
 tags: [method, ux-research, survey, metrics, quant-uxr]
 sources:
   - sources/sauro-lewis-quantifying-ux-2016
@@ -10,7 +10,8 @@ sources:
   - sources/carl-pearson-quant-uxr-self-study-resources
   - sources/chapman-rodden-quant-uxr-2023
   - sources/measuringu-statistics-30-participants
-confidence: 0.88
+  - sources/arxiv-2606.30660-value-sensitive-conversational-ai
+confidence: 0.9
 method_family: quantitative
 best_for: attitudes, self-reported experience, tracking, benchmarking
 avoid_when: behavior must be observed directly or sample quality is weak
@@ -29,6 +30,7 @@ Surveys and standardized UX metrics quantify self-reported experience, attitudes
 - A decision depends on relative differences across variants, segments, or time.
 - The construct can be asked clearly and interpreted consistently.
 - A standardized measure such as SUS, SEQ, SUPR-Q, or UX-Lite matches the decision.
+- Participants may benefit from an audio-first or conversational modality, and the study can separately measure access, comprehension, completion, and response quality.
 
 ## Avoid When
 
@@ -36,6 +38,7 @@ Surveys and standardized UX metrics quantify self-reported experience, attitudes
 - The sample source is biased or too small for the decision.
 - The team wants a survey to replace direct usability observation.
 - The only argument for the sample size is a generic n >= 30 rule.
+- A human-like agent would be deployed without clear AI disclosure, privacy checks, skip/stop controls, or a plan to distinguish completion from valid data.
 
 ## Inputs
 
@@ -54,6 +57,7 @@ Surveys and standardized UX metrics quantify self-reported experience, attitudes
 5. Collect responses with sample-quality checks.
 6. Analyze effect size, uncertainty, and practical significance.
 7. Explain the decision limit, especially when n is small.
+8. If using voice or conversational AI, co-design language and pacing, disclose the agent, preserve skip/stop controls, and measure comprehension and response validity in addition to completion.
 
 ## Small-N Analysis Guidance
 
@@ -79,6 +83,7 @@ Surveys and standardized UX metrics quantify self-reported experience, attitudes
 - Do not overstate precision.
 - Keep measurement validity separate from dashboard aesthetics.
 - Explain what the metric can and cannot decide.
+- Treat delivery modality as part of the instrument. Higher completion does not establish truthfulness, validity, or informed consent.
 
 ## LLM Assistance
 
@@ -94,6 +99,7 @@ Surveys and standardized UX metrics quantify self-reported experience, attitudes
 - [[concepts/ux-research/ux-statistics-decision-map|UX Statistics Decision Map]]
 - [[concepts/ux-research/sample-size-for-usability-studies|Sample Size for Usability Studies]]
 - [[playbooks/small-n-ux-statistics-checklist|Small-N UX Statistics Checklist]]
+- [[concepts/ux-research/value-sensitive-conversational-surveys|Value-Sensitive Conversational Surveys]]
 
 ## Source Evidence
 
@@ -102,3 +108,4 @@ Surveys and standardized UX metrics quantify self-reported experience, attitudes
 - [[sources/tullis-albert-measuring-ux-2013|Tullis and Albert - Measuring UX]]
 - [[sources/carl-pearson-quant-uxr-self-study-resources|Quant UXR Self-Study Resources]]
 - [[sources/chapman-rodden-quant-uxr-2023|Chapman and Rodden - Quant UXR]]
+- [[sources/arxiv-2606.30660-value-sensitive-conversational-ai|Maurya (2026) - Value-Sensitive Conversational AI for Low-Literacy Surveys]]
