@@ -106,6 +106,8 @@ Create a topic map for the current wiki.
 
 ## Recent ingests
 
+- **2026-07-20** — Ingested UXperiment on synthetic users, Cell TICS on cognitive effort, Microsoft Design's Agent UX principles, and Korean Brunch UX writing principles.
+- **2026-07-07** — Qualtrics market research trends, Eopla 0-person company analysis, and HBS explainable AI paper.
 - **2026-06-17** — Agentic engineering trilogy (SDLC Day-1, Interoperability Day-2, Agent Skills Day-3); Atlassian DESIGN.md + Context Engine pair; MeasuringU 5-pack (TAC-10 screening, synthetic users review, credible vs confidence intervals, Bayes priors, banner tables). Plus 11 new concepts and a four-primitive routing comparison ([Skills vs MCP vs AGENTS.md vs DESIGN.md](wiki/comparisons/skills-vs-mcp-vs-agents-md.md)).
 - **2026-06-16** — Detailed MeasuringU n ≥ 30 statistics ingest; Small-N UX Statistics Checklist playbook.
 - **2026-06-12** — Vault moved to `D:\Obsidian\LLM-Wiki`; UX research workspace schema, Agent Experience cluster, foundational AX sources (Lee & See, Horvitz, Amershi), Quant UXR book trio rebuilt from full PDFs.
