@@ -29,6 +29,7 @@ Attention is the scarcest resource in agentic products. An agent that interrupts
 - Modality should scale with urgency: ambient cue < inline suggestion < notification < blocking dialog. Most agent messages deserve the lowest tier.
 - Batching low-urgency items into digests preserves value while protecting flow.
 - Horvitz demonstrated a graded-autonomy ladder selected by inferred confidence: do nothing, suggest, act with confirmation, act automatically — the canonical template for interruption-tier design — see [[sources/horvitz-1999-mixed-initiative|Horvitz 1999]].
+- **Nudging more than notifying:** Microsoft Design advocates replacing static, formal notifications with dynamic, context-aware cues that respect the user's environment (e.g. public vs. private) — see [[concepts/agent-experience/microsoft-agent-ux-principles|Microsoft Agent UX Principles]].
 
 ## Related Concepts
 
@@ -46,6 +47,7 @@ Attention is the scarcest resource in agentic products. An agent that interrupts
 - [[sources/horvitz-1999-mixed-initiative|Horvitz (1999): Mixed-Initiative User Interfaces]]
 - [[sources/amershi-2019-human-ai-guidelines|Amershi et al. (2019): Human-AI Guidelines]]
 - [[sources/andru-saksena-adobe-haic-2025|Adobe HAIC Framework]]
+- [[sources/microsoft-design-ux-for-agents|Microsoft Design (2025): UX Design for Agents]]
 
 ## Open Questions
 

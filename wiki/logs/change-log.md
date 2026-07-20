@@ -2,13 +2,31 @@
 type: log
 status: active
 created: 2026-05-18
-updated: 2026-07-02
+updated: 2026-07-07
 tags: [log, maintenance]
 sources: []
 confidence: 1.0
 ---
 
 # Change Log
+
+## 2026-07-20 - UXperiment Synthetic Users, UX Writing, Cognitive Science in UX, and Upgraded MeasuringU Synthetic Users source
+
+- Upgraded [[wiki/sources/measuringu-types-of-synthetic-users|MeasuringU: What Are the Different Types of Synthetic Users?]] to `coverage: full` by adding verbatim type definitions from a fresh fetch. Removed duplicate fetch file.
+- Ingested manually provided article [[wiki/sources/medium-cognitive-science-ux|Medium: Cognitive Science and User Experience]] into `raw/web/`.
+- Created new concepts [[wiki/concepts/ux-research/cognitive-science-in-ux|Cognitive Science in UX]] and [[wiki/concepts/ux-research/marrs-tri-level-of-analysis|Marr's Tri-Level of Analysis]].
+- Ingested Korean Brunch article [[wiki/sources/brunch-ux-writing-principles|Brunch: Persuading Users vs Making Them Understand (UX Writing)]] and extracted [[wiki/concepts/ux-research/ux-writing-conversion-principles|UX Writing Conversion Principles]] and [[wiki/concepts/ux-research/cta-friction|CTA Friction]].
+- Ingested manually provided UXperiment article [[wiki/sources/uxperiment-synthetic-users-vs-real|UXperiment: Can Synthetic Users Replace Real Ones?]] into `raw/web/` and created concepts [[wiki/concepts/ux-research/synthetic-user-bias|Synthetic User Bias]], [[wiki/concepts/ux-research/black-swan-insights|Black Swan Insights]], and [[wiki/concepts/ux-research/hybrid-research-model|Hybrid Research Model]].
+- Ingested manually provided Cell TICS article [[wiki/sources/cell-tics-cognitive-effort|Why is cognitive effort experienced as costly?]] into `raw/web/` and created concepts [[wiki/concepts/cognitive-science/opportunity-cost-of-effort|Opportunity Cost of Effort]], [[wiki/concepts/cognitive-science/information-theoretic-effort|Information-Theoretic View of Effort]], and [[wiki/concepts/cognitive-science/network-control-theory-effort|Network Control Theory of Effort]].
+- Ingested Microsoft Design article [[wiki/sources/microsoft-design-ux-for-agents|UX Design for Agents]] into `raw/web/` and created concept [[wiki/concepts/agent-experience/microsoft-agent-ux-principles|Microsoft Agent UX Principles]]. Updated `initiative-and-interruption`, `trust-calibration`, and `agent-transparency` concepts with Microsoft's framework claims.
+
+## 2026-07-07 - Market research trends, 0-person company runtime, and explainable AI behavior
+
+- Ingested three new sources into `raw/web/` and `wiki/sources/`: [[wiki/sources/qualtrics-market-research-trends-2026|Qualtrics 2026 Market Research Trends Report]], [[wiki/sources/eopla-magazine-44341-0-person-company|Eopla Matrix "0-Person Company" analysis]], and [[wiki/sources/hbs-working-knowledge-ai-advice-willful-blindness|HBS Explainable AI advice working paper]].
+- Added 9 new concept pages across AI/UX research and agent experience: [[concepts/ux-research/democratization-of-insights|Democratization of Insights]], [[concepts/ux-research/specialized-research-platforms|Specialized Research Platforms]], [[concepts/ux-research/ai-adoption-gap|AI Adoption Gap]], [[concepts/ai-agents/zero-person-company|Zero-Person Company]], [[concepts/ai-agents/autonomous-company-runtime|Autonomous Company Runtime]], [[concepts/ai-agents/loop-optimization|Loop Optimization]], [[concepts/agent-experience/willful-blindness|Willful Blindness]], [[concepts/agent-experience/checkbox-transparency|Checkbox Transparency]], and [[concepts/ux-research/explainable-ai|Explainable AI]].
+- Enriched existing concepts: [[concepts/agent-experience/trust-calibration|Trust Calibration]] (added HBS findings on how incentives skew calibration) and [[concepts/ux-research/human-in-the-loop|Human-in-the-Loop]] (noted how willful blindness exposes checkpoints to strategic avoidance and mapped LangChain's four HITL loop checkpoints).
+- Updated [[maps/llm-ready-source-index|LLM-Ready Source Index]] (recomputed counts from disk: 154 total sources, 132 `llm_ready`, 113 `standard`), [[maps/agent-experience-design|Agent Experience (AX) Design Map]], [[maps/ai-ux-research-methods|AI UX Research Methods Map]], and the change logs.
+- Confirmed that LangChain "The Art of Loop Engineering" URL provided was already fully ingested (processed 2026-06-22).
 
 ## 2026-07-02 - Cross-domain ingest and visual workflow upgrade
 

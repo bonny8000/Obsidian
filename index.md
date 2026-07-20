@@ -2,7 +2,7 @@
 type: index
 status: active
 created: 2026-06-12
-updated: 2026-07-02
+updated: 2026-07-07
 tags: [index, llm-wiki, ux-research]
 sources: []
 confidence: 1.0
@@ -24,6 +24,8 @@ This is the top-level catalog for the Obsidian LLM-Wiki. Use it as the first sto
 - [[log|Operations Log]]
 
 ## Recent Ingests
+
+- **Market research, Explainable AI, and 0-person companies (2026-07-07):** [[wiki/sources/qualtrics-market-research-trends-2026|Qualtrics 2026 Market Research Trends Report]], [[wiki/sources/eopla-magazine-44341-0-person-company|Eopla Matrix "0-Person Company" analysis]], and [[wiki/sources/hbs-working-knowledge-ai-advice-willful-blindness|HBS Explainable AI advice working paper]]. Added 9 concepts: [[wiki/concepts/ux-research/democratization-of-insights|Democratization of Insights]], [[wiki/concepts/ux-research/specialized-research-platforms|Specialized Research Platforms]], [[wiki/concepts/ux-research/ai-adoption-gap|AI Adoption Gap]], [[wiki/concepts/ai-agents/zero-person-company|Zero-Person Company]], [[wiki/concepts/ai-agents/autonomous-company-runtime|Autonomous Company Runtime]], [[wiki/concepts/ai-agents/loop-optimization|Loop Optimization]], [[wiki/concepts/agent-experience/willful-blindness|Willful Blindness]], [[wiki/concepts/agent-experience/checkbox-transparency|Checkbox Transparency]], and [[wiki/concepts/ux-research/explainable-ai|Explainable AI]]. Enriched [[wiki/concepts/agent-experience/trust-calibration|Trust Calibration]] and [[wiki/concepts/ux-research/human-in-the-loop|Human-in-the-Loop]].
 
 - **Cross-domain ingest + visual workflow upgrade (2026-07-02):** [[wiki/sources/sangwook-typescript-6-migration-troubleshooting|TypeScript 6 migration troubleshooting]], [[wiki/sources/clova-merit-post-training|CLOVA MERIT]], [[wiki/sources/arxiv-2606.30660-value-sensitive-conversational-ai|value-sensitive conversational surveys]], and [[wiki/sources/kakao-vc-upsell-design|Kakao Ventures on upsell design]]. Added four durable concepts plus [[wiki/maps/llm-wiki-visual-workflows|three Obsidian Canvas workflows]] and a [[wiki/playbooks/safe-ingest-promotion-workflow|safe draft/review/apply playbook]].
 

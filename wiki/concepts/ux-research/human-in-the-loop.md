@@ -4,8 +4,10 @@ status: active
 created: 2026-06-01
 updated: 2026-06-10
 tags: [concept, ai-agents, ux-research, governance]
-sources: []
-confidence: 0.85
+sources:
+  - sources/hbs-working-knowledge-ai-advice-willful-blindness
+  - sources/langchain-loop-engineering
+confidence: 0.88
 ---
 
 # Human-in-the-Loop
@@ -24,6 +26,8 @@ Recurring spine across this wiki's clusters: agentic automation ([[concepts/ai-a
 
 - Human review is most valuable at interpretation and decision points, not mechanical steps. (conf 0.85)
 - "Approve-by-default" loops degrade into rubber-stamping; checkpoint design matters. (conf 0.7, inferred)
+- **Checkpoints are vulnerable to strategic avoidance (willful blindness):** Human operators will actively ignore explanations or skip review checkpoints if doing so maximizes output-based incentives (bonuses) or avoids moral discomfort, making "checkbox transparency" a major design flaw — see [[concepts/agent-experience/willful-blindness|Willful Blindness]]. (conf 0.90)
+- **HITL fits across four nested loop levels:** Loop 1 (input gates before sensitive actions), Loop 2 (human-as-grader), Loop 3 (output approval before production delivery), and Loop 4 (harness-change review before deployment) — see [[concepts/ai-agents/loop-engineering|Loop Engineering]]. (conf 0.85)
 
 ## Related concepts
 
@@ -33,6 +37,8 @@ Recurring spine across this wiki's clusters: agentic automation ([[concepts/ai-a
 
 ## Sources
 
+- [[sources/hbs-working-knowledge-ai-advice-willful-blindness|Chan (2026): When AI Gives Advice, Employees Rarely Ask Why]]
+- [[sources/langchain-loop-engineering|Runkle (2026): The Art of Loop Engineering]]
 - See backlinks; original source list lost in corruption.
 
 ## Open questions

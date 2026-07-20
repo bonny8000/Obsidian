@@ -2,7 +2,7 @@
 type: overview
 status: active
 created: 2026-06-12
-updated: 2026-07-02
+updated: 2026-07-07
 tags: [overview, synthesis, ux-research, llm-wiki, agentic-engineering]
 sources:
   - maps/llm-ready-source-index
@@ -18,7 +18,7 @@ This vault is a research-first LLM knowledge base. `raw/` preserves evidence, `w
 
 ## Current Shape
 
-- Source records: [[maps/llm-ready-source-index|151 tracked source pages]], with 129 currently marked `llm_ready: true`.
+- Source records: [[maps/llm-ready-source-index|154 tracked source pages]], with 132 currently marked `llm_ready: true`.
 - UX research concept graph: [[concepts/ux-research/research-methods-foundations|research methods foundations]], [[concepts/ux-research/research-strategy|research strategy]], [[concepts/ux-research/research-operations|ResearchOps]], [[concepts/ux-research/ux-metrics|UX metrics]], and AI-assisted research concepts.
 - UX research operating layer: [[methods/usability-testing|method pages]], [[comparisons/research-method-selection-matrix|comparison matrices]], and [[analyses/ux-research-wiki-gap-audit-2026-06-12|analysis memos]].
 
@@ -46,6 +46,14 @@ This vault is a research-first LLM knowledge base. `raw/` preserves evidence, `w
 - Some source records remain `coverage: partial` and should be deepened before being used as primary decision evidence.
 - The method library is now seeded, but each method should be expanded with project examples, study templates, and decision criteria.
 - Analysis memos should be added whenever sources are synthesized into a product or research recommendation.
+
+## Market Research, Explainable AI, and 0-Person Companies (2026-07-07)
+
+Three new sources have expanded the UXR, AX, and agentic engineering clusters:
+
+- [[sources/qualtrics-market-research-trends-2026|Qualtrics 2026 Market Research Trends Report]] → [[concepts/ux-research/democratization-of-insights|Democratization of Insights]], [[concepts/ux-research/specialized-research-platforms|Specialized Research Platforms]], and [[concepts/ux-research/ai-adoption-gap|AI Adoption Gap]]: AI has reached a 95% baseline among researchers, driving a shift toward specialized platforms. However, an organizational adoption gap remains: C-suite leaders are significantly more optimistic about research reliance (72% vs 44%) and AI-driven efficiency gains (83% vs 65%) than the individual contributors doing the daily work.
+- [[sources/eopla-magazine-44341-0-person-company|Eopla Matrix "0-Person Company" analysis]] → [[concepts/ai-agents/zero-person-company|Zero-Person Company]], [[concepts/ai-agents/autonomous-company-runtime|Autonomous Company Runtime]], and [[concepts/ai-agents/loop-optimization|Loop Optimization]]: The late-June 2026 release of Matrix shifts the startup paradigm from "team building" to "loop optimization," where organizational runtimes orchestrate specialized agent departments. Differentiator shifts to architectural "taste" (prompting, boundaries, gates), though token burn vs. yield and legal liability remain unresolved.
+- [[sources/hbs-working-knowledge-ai-advice-willful-blindness|HBS Explainable AI advice working paper]] → [[concepts/agent-experience/willful-blindness|Willful Blindness]], [[concepts/agent-experience/checkbox-transparency|Checkbox Transparency]], and [[concepts/ux-research/explainable-ai|Explainable AI]]: Randomized human-AI experiment shows that operators strategically avoid AI explanations (willful blindness) to protect performance bonuses or avoid moral conflict. This exposes "checkbox transparency" (passive XAI options) as a major UX flaw and highlights the need to build mandatory cognitive review gates in [[concepts/ux-research/human-in-the-loop|human-in-the-loop]] checkpoints to avoid devaluing human judgment.
 
 ## Cross-Domain Ingest and Visual Workflow Upgrade (2026-07-02)
 
