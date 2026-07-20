@@ -14,6 +14,7 @@ Append-only chronological log for structural vault changes. Detailed generated c
 
 ## 2026-07-20
 
+- Weakness remediation: added the synthetic-users evidence synthesis (analyses) + role-selection comparison, Safe Script Maintenance playbook + two decision records (script gates, link convention), and AGENTS.md rules 10–11 (script gates; synthesize at ~5 sources per cluster). Details in [[wiki/logs/change-log|Change Log]].
 - Cleanup follow-through: ingested Bakhshi "AI in Quantitative Research" from the orphaned outer raw (3 new concepts), upgraded the Li user-proxy raw to verbatim `coverage: full`, removed the outer duplicate and `test.txt`. Details in [[wiki/logs/change-log|Change Log]].
 - Structure health check after restructure: fixed backfill boilerplate duplication in 66 source pages (incl. 20 false `deep` ingest-level claims), created 3 missing concept pages (cognitive-load, mental-models, heuristics-and-biases), fixed index.md mojibake + duplicate entry, documented `wiki/drafts/` in AGENTS.md. Details in [[wiki/logs/change-log|Change Log]] and [[wiki/logs/lint-report|Lint Report]].
 - Upgraded [[wiki/sources/measuringu-types-of-synthetic-users|MeasuringU: What Are the Different Types of Synthetic Users?]] to `coverage: full` by adding verbatim type definitions from a fresh fetch, and cleaned up the duplicate requested.

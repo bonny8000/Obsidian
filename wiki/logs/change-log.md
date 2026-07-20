@@ -10,6 +10,15 @@ confidence: 1.0
 
 # Change Log
 
+## 2026-07-20 - Weakness remediation: synthesis layer, script gates, link convention
+
+Follow-through on the health check's "comparative weaknesses":
+
+- **Synthesis lag** → new analysis memo [[wiki/analyses/2026-07-20-synthetic-users-evidence-synthesis|Synthetic Users: What the Evidence Supports]] (synthesizes 9 sources; 5 convergent findings + 2 documented disagreements) and new decision table [[wiki/comparisons/synthetic-data-role-selection|Synthetic-Data Role Selection]]. Added AGENTS.md Core Rule 11: clusters of ~5 related sources trigger an analysis memo, not just more source pages.
+- **Script risk** → new [[wiki/playbooks/safe-script-maintenance|Safe Script Maintenance playbook]] (dry-run / spot-check / re-audit / idempotence gates) + [[wiki/decisions/2026-07-20-script-maintenance-gates|decision record]], codified as AGENTS.md Core Rule 10. Root-caused against the 2026-06-12 backfill incident.
+- **Link-style inconsistency** → [[wiki/decisions/2026-07-20-link-path-convention|decision record]]: canonical form is vault-rooted (`[[wiki/...]]`) for new/edited links, opportunistic normalization only, no bulk rewrite. Added to AGENTS.md Naming.
+- **Seedling layers** → `decisions/` 2→4, `analyses/` 1→2, `comparisons/` 3→4, `playbooks/` 5→6, all with load-bearing content. `cognitive-science/` (3) intentionally left to grow through future ingests.
+
 ## 2026-07-20 - Orphaned raw cleanup: Bakhshi quantitative ingest + Li verbatim upgrade
 
 - Resolved the two orphaned captures flagged in the health check (outer `D:\Obsidian\raw\`):

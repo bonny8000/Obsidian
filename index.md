@@ -91,6 +91,8 @@ This is the top-level catalog for the Obsidian LLM-Wiki. Use it as the first sto
 - [[wiki/methods/longitudinal-research|Longitudinal Research]]
 - [[wiki/comparisons/research-method-selection-matrix|Research Method Selection Matrix]]
 - [[wiki/comparisons/ai-assisted-research-risk-matrix|AI-Assisted Research Risk Matrix]]
+- [[wiki/comparisons/synthetic-data-role-selection|Synthetic-Data Role Selection]]
+- [[wiki/analyses/2026-07-20-synthetic-users-evidence-synthesis|Synthetic Users: What the Evidence Supports (2026-07)]]
 - [[wiki/analyses/ux-research-wiki-gap-audit-2026-06-12|UX Research Wiki Gap Audit]]
 
 ## Core Libraries
