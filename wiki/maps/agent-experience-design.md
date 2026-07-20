@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-07-07
 tags: [map, agent-experience, ax, ux-design, ux-research]
 sources:
   - sources/lee-see-2004-trust-in-automation
@@ -12,7 +12,8 @@ sources:
   - sources/pxd-story-ai-insights
   - sources/theaxlabs-contaminated-memory-performance
   - sources/google-io-2026-agentic-gemini
-confidence: 0.78
+  - sources/hbs-working-knowledge-ai-advice-willful-blindness
+confidence: 0.82
 ---
 
 # Agent Experience (AX) Design
@@ -33,6 +34,9 @@ This cluster organizes the design and research knowledge for agentic products: s
 - [[concepts/agent-experience/agent-transparency|Agent Transparency]]
 - [[concepts/agent-experience/error-recovery|Error Recovery]]
 - [[concepts/agent-experience/mental-model-onboarding|Mental Model Onboarding]]
+- [[concepts/agent-experience/willful-blindness|Willful Blindness]]
+- [[concepts/agent-experience/checkbox-transparency|Checkbox Transparency]]
+- [[concepts/ux-research/explainable-ai|Explainable AI]]
 
 ### Foundations already in the vault
 - [[concepts/ux-research/ax-ai-experience|AX (AI Experience)]]
@@ -64,13 +68,14 @@ This cluster organizes the design and research knowledge for agentic products: s
 
 ## Evidence Base
 
-The cluster is grounded in three foundational sources, all ingested 2026-06-12:
+The cluster is grounded in foundational sources:
 
-- [[sources/lee-see-2004-trust-in-automation|Lee & See (2004)]] — appropriate reliance, misuse/disuse, calibration/resolution/specificity, purpose/process/performance
-- [[sources/horvitz-1999-mixed-initiative|Horvitz (1999)]] — decision-theoretic initiative, attention cost, graded autonomy
-- [[sources/amershi-2019-human-ai-guidelines|Amershi et al. (2019)]] — 18 validated guidelines across four interaction phases; usable as heuristic-evaluation criteria
+- [[sources/lee-see-2004-trust-in-automation|Lee & See (2004)]] — appropriate reliance, misuse/disuse, calibration/resolution/specificity, purpose/process/performance (Ingested 2026-06-12)
+- [[sources/horvitz-1999-mixed-initiative|Horvitz (1999)]] — decision-theoretic initiative, attention cost, graded autonomy (Ingested 2026-06-12)
+- [[sources/amershi-2019-human-ai-guidelines|Amershi et al. (2019)]] — 18 validated guidelines across four interaction phases; usable as heuristic-evaluation criteria (Ingested 2026-06-12)
+- [[sources/hbs-working-knowledge-ai-advice-willful-blindness|Chan (2026)]] — empirical evidence of strategic information avoidance (willful blindness) in Explainable AI interaction under outcome-based incentives (Ingested 2026-07-07)
 
-All three predate generative LLM agents; transfer is well supported by current literature but per-feature validation is still required.
+Lee & See, Horvitz, and Amershi predate generative LLM agents; Chan (2026) provides direct empirical behavioral data on explainable AI interaction.
 
 ## Gaps To Fill Next
 

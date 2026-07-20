@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-06-22
-updated: 2026-07-02
+updated: 2026-07-07
 tags: [map, agentic-engineering, agents, harness, moc]
 sources:
   - the-new-sdlc-with-vibe-coding-day-1
@@ -16,6 +16,7 @@ sources:
   - langchain-multi-agent-architecture
   - langchain-agent-middleware
   - clova-merit-post-training
+  - eopla-magazine-44341-0-person-company
 confidence: 0.86
 ---
 
@@ -47,7 +48,7 @@ Recurring meta-theme of the vault: **"looks done / fast / satisfying ≠ reliabl
 
 ### Harness, loops & middleware
 - [[concepts/ai-agents/harness-engineering|Harness Engineering]] · [[concepts/ai-agents/model-harness|Model Harness]]
-- [[concepts/ai-agents/loop-engineering|Loop Engineering]] · [[concepts/ai-agents/agent-middleware|Agent Middleware]]
+- [[concepts/ai-agents/loop-engineering|Loop Engineering]] · [[concepts/ai-agents/agent-middleware|Agent Middleware]] · [[concepts/ai-agents/loop-optimization|Loop Optimization]]
 - [[concepts/ai-agents/context-engineering|Context Engineering]] · [[concepts/ai-agents/context-rot|Context Rot]]
 
 ### Multi-agent & orchestration
@@ -86,6 +87,7 @@ Recurring meta-theme of the vault: **"looks done / fast / satisfying ≠ reliabl
 ### Platforms, adoption & roles
 - [[concepts/infrastructure-dev/enterprise-ai-agent-platform|Enterprise AI Agent Platform]] · [[concepts/infrastructure-dev/self-serve-agent-platform|Self-Serve Agent Platform]] · [[concepts/ai-agents/managed-ai-agents|Managed AI Agents]]
 - [[concepts/product-management/ai-native-stack|AI-Native Stack]] · [[concepts/product-management/role-convergence|Role Convergence]]
+- [[concepts/ai-agents/zero-person-company|Zero-Person Company]] · [[concepts/ai-agents/autonomous-company-runtime|Autonomous Company Runtime]]
 
 ## LangChain Source Library (15)
 

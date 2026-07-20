@@ -14,9 +14,9 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 
 ## Status Summary
 
-- Total source pages: 151
-- LLM-ready source pages: 129
-- Deep / standard / light / detailed: 27 / 110 / 11 / 1
+- Total source pages: 154
+- LLM-ready source pages: 132
+- Deep / standard / light / detailed: 27 / 113 / 11 / 1
 - Legacy source pages without an `ingest_level`: 2
 - Partial coverage sources needing deeper ingest: 22
 
@@ -30,6 +30,9 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 
 | Source | Level | Coverage | LLM ready | Raw preserved | Deepening focus |
 | --- | --- | --- | --- | --- | --- |
+| [[sources/qualtrics-market-research-trends-2026|Qualtrics (2026): 2026 Qualtrics Market Research Trends Report]] | `standard` | `substantial` | `true` | `true` | global researcher survey; study leadership vs contributor disconnect |
+| [[sources/eopla-magazine-44341-0-person-company|비주류VC (2026): Humans only toss missions: The '0-Person Company' debate sparked by Matrix]] | `standard` | `substantial` | `true` | `true` | early beta runtime; analyze startup paradigm shift and legal boundaries |
+| [[sources/hbs-working-knowledge-ai-advice-willful-blindness|Chan (2026): When AI Gives Advice, Employees Rarely Ask Why]] | `standard` | `substantial` | `true` | `true` | randomized experiment; audit willful blindness in human checkpoints |
 | [[sources/arxiv-2606.30660-value-sensitive-conversational-ai|Maurya (2026): Value-Sensitive Conversational AI for Low-Literacy Surveys]] | `deep` | `full` | `true` | `true` | full preprint preserved; replicate with randomization and AI disclosure |
 | [[sources/clova-merit-post-training|CLOVA: MERIT Conflict-Aware Post-Training]] | `standard` | `substantial` | `true` | `true` | first-party explainer; use the paper and code for implementation |
 | [[sources/kakao-vc-upsell-design|Kakao Ventures: Upsell Design Through Value, Reassurance, and Convenience]] | `standard` | `substantial` | `true` | `true` | product framework; validate economics, trust, and legal boundaries |

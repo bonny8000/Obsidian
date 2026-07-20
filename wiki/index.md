@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-05-18
-updated: 2026-07-02
+updated: 2026-07-07
 tags: [index, llm-wiki, dashboard]
 sources:
   - sources/brunch-ghidesigner-487
@@ -31,6 +31,12 @@ confidence: 0.9
 ![[../dashboard.base]]
 
 ## Recent Ingests
+> [!success] Market research, Explainable AI, and 0-person companies — 2026-07-07 (3 sources)
+> - Market Research: [[sources/qualtrics-market-research-trends-2026|Qualtrics 2026 Market Research Trends Report]] → [[concepts/ux-research/democratization-of-insights|Democratization of Insights]], [[concepts/ux-research/specialized-research-platforms|Specialized Research Platforms]], [[concepts/ux-research/ai-adoption-gap|AI Adoption Gap]]
+> - 0-Person Companies: [[sources/eopla-magazine-44341-0-person-company|Eopla Matrix "0-Person Company" analysis]] → [[concepts/ai-agents/zero-person-company|Zero-Person Company]], [[concepts/ai-agents/autonomous-company-runtime|Autonomous Company Runtime]], [[concepts/ai-agents/loop-optimization|Loop Optimization]]
+> - Explainable AI behavior: [[sources/hbs-working-knowledge-ai-advice-willful-blindness|HBS Explainable AI advice working paper]] → [[concepts/agent-experience/willful-blindness|Willful Blindness]], [[concepts/agent-experience/checkbox-transparency|Checkbox Transparency]], [[concepts/ux-research/explainable-ai|Explainable AI]]
+> - Enriched: [[concepts/agent-experience/trust-calibration|Trust Calibration]], [[concepts/ux-research/human-in-the-loop|Human-in-the-Loop]]
+
 > [!success] Cross-domain ingest + visual workflow upgrade — 2026-07-02 (4 sources, 3 Canvases)
 > - Engineering: [[sources/sangwook-typescript-6-migration-troubleshooting|TypeScript 6 migration troubleshooting]] → [[concepts/infrastructure-dev/typescript-configuration-hygiene|TypeScript Configuration Hygiene]]
 > - Model training: [[sources/clova-merit-post-training|CLOVA MERIT]] → [[concepts/ai-agents/conflict-aware-instruction-tuning|Conflict-Aware Instruction Tuning]]
@@ -202,6 +208,9 @@ confidence: 0.9
 - [[concepts/agent-experience/a2ui-protocol|A2UI Protocol]]
 - [[concepts/ai-agents/markdown-agent-orchestration|Markdown Agent Orchestration]]
 - [[concepts/ai-agents/persona-agent|Persona Agent]]
+- [[concepts/ai-agents/zero-person-company|Zero-Person Company]]
+- [[concepts/ai-agents/autonomous-company-runtime|Autonomous Company Runtime]]
+- [[concepts/ai-agents/loop-optimization|Loop Optimization]]
 - [[comparisons/skills-vs-mcp-vs-agents-md|Comparison: Skills vs MCP vs AGENTS.md vs DESIGN.md]]
 
 ### 💼 AI-Native Product Management
@@ -269,6 +278,12 @@ confidence: 0.9
 - [[concepts/ux-research/senior-ux-researcher|Senior UX Researcher]]
 - [[concepts/ux-research/grounded-synthetic-personas|Grounded Synthetic Personas]]
 - [[concepts/ux-research/participant-selection-criteria|Participant Selection Criteria]]
+- [[concepts/ux-research/democratization-of-insights|Democratization of Insights]]
+- [[concepts/ux-research/specialized-research-platforms|Specialized Research Platforms]]
+- [[concepts/ux-research/ai-adoption-gap|AI Adoption Gap]]
+- [[concepts/ux-research/explainable-ai|Explainable AI]]
+- [[concepts/agent-experience/willful-blindness|Willful Blindness]]
+- [[concepts/agent-experience/checkbox-transparency|Checkbox Transparency]]
 
 ### 🏙️ Research Operations and Strategy
 > [!abstract] Frameworks: [[concepts/ux-research/eight-elements-of-research-ops|Eight Elements]], [[concepts/ux-research/operational-maturity-phases|Maturity Phases]]

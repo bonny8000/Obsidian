@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-05-18
-updated: 2026-07-02
+updated: 2026-07-07
 tags: [map, ux-research, ai, research-methods]
 sources:
   - sources/measuringu-ai-usability-problem-analysis-video
@@ -34,7 +34,9 @@ sources:
   - sources/bakhshi-ai-in-qualitative-research-map
   - sources/svenja-pieritz-positioning-experiment
   - sources/arxiv-2606.30660-value-sensitive-conversational-ai
-confidence: 0.86
+  - sources/qualtrics-market-research-trends-2026
+  - sources/hbs-working-knowledge-ai-advice-willful-blindness
+confidence: 0.88
 ---
 
 # AI UX Research Methods
@@ -97,6 +99,10 @@ This cluster tracks where AI can help UX research and where research-method inte
 - [[concepts/ux-research/participant-selection-criteria|Participant Selection Criteria]]
 - [[concepts/ux-research/sample-size-for-usability-studies|Sample Size for Usability Studies]]
 - [[concepts/ux-research/value-sensitive-conversational-surveys|Value-Sensitive Conversational Surveys]]
+- [[concepts/ux-research/democratization-of-insights|Democratization of Insights]]
+- [[concepts/ux-research/specialized-research-platforms|Specialized Research Platforms]]
+- [[concepts/ux-research/ai-adoption-gap|AI Adoption Gap]]
+- [[concepts/ux-research/explainable-ai|Explainable AI]]
 
 ## Source Path
 
@@ -116,8 +122,9 @@ This cluster tracks where AI can help UX research and where research-method inte
 - [[sources/carl-pearson-quant-uxr-self-study-resources|Carl Pearson: Learn Quantitative UX Research]]
 - [[sources/quantuxblog|Quantitative UX Research Blog]]
 - [[sources/meta-research-medium-publication|Meta Research Medium Publication]]
-- [[sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]]
 - [[sources/arxiv-2606.30660-value-sensitive-conversational-ai|Maurya (2026): Value-Sensitive Conversational AI for Low-Literacy Surveys]]
+- [[sources/qualtrics-market-research-trends-2026|Qualtrics (2026): 2026 Qualtrics Market Research Trends Report]]
+- [[sources/hbs-working-knowledge-ai-advice-willful-blindness|Chan (2026): When AI Gives Advice, Employees Rarely Ask Why]]
 
 ## Foundational UX Frameworks & Methods
 

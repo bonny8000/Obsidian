@@ -8,7 +8,8 @@ sources:
   - sources/andru-saksena-adobe-haic-2025
   - sources/theaxlabs-contaminated-memory-performance
   - sources/lee-see-2004-trust-in-automation
-confidence: 0.8
+  - sources/hbs-working-knowledge-ai-advice-willful-blindness
+confidence: 0.82
 ---
 
 # Trust Calibration
@@ -29,6 +30,8 @@ Both failure modes are expensive. Over-trust leads to unreviewed errors shipping
 - Easy verification paths (citations, diffs, previews before commit) let users build trust incrementally instead of taking a delegation leap.
 - Contaminated or stale memory silently miscalibrates trust because the user cannot see why the agent's behavior degraded — see [[concepts/ai-agents/memory-contamination|Memory Contamination]].
 - Lee & See define three target properties: calibration (level matches capability), resolution (trust differentiates contexts), and specificity (trust attaches to the right function) — plus a misuse/disuse failure taxonomy — see [[sources/lee-see-2004-trust-in-automation|Lee & See 2004]].
+- **Incentives and bias skew calibration:** Financial, outcome-based incentives and moral discomfort can cause users to ignore explanations (willful blindness), leading to uncalibrated over-reliance — see [[concepts/agent-experience/willful-blindness|Willful Blindness]].
+- **Embrace Uncertainty:** Microsoft Design positions uncertainty as an expected feature of agent systems; exposing reasoning and certainty levels is foundational to establishing appropriate trust — see [[concepts/agent-experience/microsoft-agent-ux-principles|Microsoft Agent UX Principles]].
 
 ## Design Levers
 
@@ -53,8 +56,10 @@ Both failure modes are expensive. Over-trust leads to unreviewed errors shipping
 ## Sources
 
 - [[sources/lee-see-2004-trust-in-automation|Lee & See (2004): Trust in Automation]]
+- [[sources/hbs-working-knowledge-ai-advice-willful-blindness|Chan (2026): When AI Gives Advice, Employees Rarely Ask Why]]
 - [[sources/andru-saksena-adobe-haic-2025|Adobe HAIC Framework]]
 - [[sources/theaxlabs-contaminated-memory-performance|AX LABS: Contaminated Memory]]
+- [[sources/microsoft-design-ux-for-agents|Microsoft Design (2025): UX Design for Agents]]
 
 ## Open Questions
 

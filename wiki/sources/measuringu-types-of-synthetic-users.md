@@ -9,7 +9,7 @@ source_url: https://measuringu.com/what-are-the-different-types-of-synthetic-use
 authors: [Jim Lewis, Jeff Sauro]
 sources: []
 ingest_level: standard
-coverage: substantial
+coverage: full
 llm_ready: true
 raw_preserved: true
 confidence: 0.85
@@ -31,12 +31,12 @@ A preliminary **taxonomy** of "synthetic users" — AI-generated respondents tha
 
 ## Key Claims
 
-- **Five types, weakest → strongest grounding:**
-  1. **AI Proto Persona** — generated from a bare role-play prompt; preliminary, assumption-based, no research backing.
-  2. **Demographic Based** — age/gender/occupation/region specs to approximate group tendencies.
-  3. **Persona Based** — richer persona descriptions (traits, behaviors); more detail but still weak grounding.
-  4. **Research Grounded** — references real research artifacts (interviews, surveys, analytics, support logs) with traceable sources, without modeling individuals.
-  5. **Digital Twins** — models individual-level data to replicate specific persons; strongest grounding; real-world accuracy still an open question.
+- **Five types, weakest → strongest grounding (Verbatim Definitions):**
+  1. **AI Proto Persona**: "This is the weakest (least grounded) type of synthetic user generated with simple role-playing prompts... This method produces preliminary user profiles based on broad assumptions rather than research."
+  2. **Demographic Based**: "Prompts specify age, gender, occupation, region, etc. to approximate group-level tendencies. This method is somewhat more grounded than a proto persona but is still limited in the quality of its output..."
+  3. **Persona Based**: "Prompts focus on richer persona paragraphs... Because these synthetic users are still weakly grounded, they are limited to approximate group-level tendencies."
+  4. **Research Grounded**: "Prompts refer to actual research artifacts with traceable sources but do not attempt to model individual human responses. These are based on actual interviews, survey results, analytics, customer-support logs, or other user data..."
+  5. **Digital Twins**: "Prompts refer to rich individual-level data for the purpose of modeling each individual in a dataset. This approach has the strongest grounding in actual user data but its accuracy in real-world deployments is still an open research question."
 - **Grounding ≠ richness.** A vivid persona is not "grounded"; the distinguishing variable is traceability to real human data, not descriptive detail.
 - **Generative agents are a different category** — agents that model behavior *over time* sit outside this static taxonomy.
 - **Hybrids are real** — practice blends types; cites **Bisbee et al. (2024)** mixing demographic + persona-based methods.
@@ -91,4 +91,4 @@ A preliminary **taxonomy** of "synthetic users" — AI-generated respondents tha
 
 ## Backfill Status
 
-- New ingest 2026-06-25 from full web_fetch. To reach `full`, capture verbatim type definitions and any per-type decision guidance.
+- Upgraded 2026-07-20 to `coverage: full` by adding verbatim type definitions.
