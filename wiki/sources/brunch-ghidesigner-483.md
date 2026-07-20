@@ -50,9 +50,6 @@ This article uses a SpaceX/Cursor acquisition narrative to discuss [[concepts/ai
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/brunch-ghidesigner-483.md` when used for recommendations, metrics, or external-facing work.
-
 High verification required. Do not use the acquisition or valuation claims as established facts unless confirmed by primary announcements or reliable financial/news reporting. This page should be treated as a perspective source.
 
 ## Design Implications

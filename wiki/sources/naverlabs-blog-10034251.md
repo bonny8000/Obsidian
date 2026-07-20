@@ -51,9 +51,6 @@ This article summarizes research on when people accept or reject a delivery robo
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/naverlabs-blog-10034251.md` when used for recommendations, metrics, or external-facing work.
-
 Primary organizational source from NAVER LABS. The underlying ACM CHI 2026 paper should be collected later for formal method and evidence details.
 
 ## Design Implications

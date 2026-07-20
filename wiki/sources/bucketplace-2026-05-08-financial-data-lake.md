@@ -52,11 +52,6 @@ Describes Bucketplace's transformation of financial data into a real-time decisi
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/bucketplace-2026-05-08-financial-data-lake.md` when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `partial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-
 > [!warning] Caveats
 > Reliability was not assessed in the earlier note. Treat this source as a prompt for exploration until raw evidence is checked.
 

@@ -59,11 +59,6 @@ The article argues that AI is making the distinction between procedural research
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/saeidehbakhshi-wicked-work-ai-research-2026-05-10.md` when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-
 - This is a practitioner essay, not an empirical study.
 - The tame/wicked problem framing is attributed to Rittel and Webber's planning theory; the original 1973 paper should be ingested if this concept becomes a formal evaluation rubric.
 - Confidence is high for the article's own argument and medium for generalized claims about the profession.

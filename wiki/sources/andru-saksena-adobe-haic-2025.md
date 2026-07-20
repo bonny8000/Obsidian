@@ -40,10 +40,7 @@ Andru & Saksena (2025). Adobe Human-AI Collaboration (HAIC) framework — exact 
 
 ## Reliability Notes
 
-- Coverage is `partial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/` evidence when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `partial` and ingest level is `light`; do not treat this source as fully digested unless `coverage: full`.
 
 > [!warning] Caveats
 > Reliability was not assessed in the earlier note. Treat this source as a prompt for exploration until raw evidence is checked.

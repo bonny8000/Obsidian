@@ -58,11 +58,6 @@ The post argues that demographic filters are not enough for UX research recruiti
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/linkedin-user-selection-criteria-2026-05-14.md` when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-
 - This is a secondary social summary, not the primary NN/g article it references.
 - Confidence is capped until the original NN/g guidance is ingested and checked.
 

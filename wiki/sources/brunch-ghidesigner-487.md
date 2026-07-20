@@ -52,9 +52,6 @@ The article explains the LLM Wiki idea for designers. It presents a workflow whe
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/brunch-ghidesigner-487.md` when used for recommendations, metrics, or external-facing work.
-
 This page is a paraphrased source summary. Verify specific historical claims or tool recommendations against primary sources before treating them as final.
 
 ## Design Implications

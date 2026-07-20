@@ -83,9 +83,6 @@ Remaining backlog: ch. 4–5 (benchmark and comparison tests), ch. 9 (six contro
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/files/sauro-lewis-quantifying-the-user-experience-2e.pdf` when used for recommendations, metrics, or external-facing work.
-
 > [!warning] Caveats
 > - Primary, authoritative source; both authors are leading figures in quant UX (MeasuringU; IBM/JUS).
 > - 2016 edition — predates AI-moderated research; pair with [[sources/measuringu-ai-usability-problem-analysis-video|MeasuringU AI analysis]] material for current practice. A 3rd edition exists; check for updated guidance before citing exact procedures.

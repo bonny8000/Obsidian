@@ -20,6 +20,7 @@ The goal is to turn raw source material into a durable, interlinked Markdown kno
 - `wiki/queries/`: saved answers to important questions.
 - `wiki/projects/`: active, ongoing, or completed UX/Product initiatives and experiments.
 - `wiki/decisions/`: Lightweight UX/Product Decision Records (UXDRs) documenting choices and evidence.
+- `wiki/drafts/`: staging area for pages awaiting review under the Safe Ingest Promotion Workflow; promote to their final folder after approval.
 - `wiki/logs/`: ingest logs, lint reports, and maintenance records.
 - `wiki/_templates/`: reusable page templates.
 

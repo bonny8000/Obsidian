@@ -2,7 +2,7 @@
 type: log
 status: active
 created: 2026-06-12
-updated: 2026-07-07
+updated: 2026-07-20
 tags: [log, operations, llm-wiki]
 sources: []
 confidence: 1.0
@@ -14,6 +14,8 @@ Append-only chronological log for structural vault changes. Detailed generated c
 
 ## 2026-07-20
 
+- Cleanup follow-through: ingested Bakhshi "AI in Quantitative Research" from the orphaned outer raw (3 new concepts), upgraded the Li user-proxy raw to verbatim `coverage: full`, removed the outer duplicate and `test.txt`. Details in [[wiki/logs/change-log|Change Log]].
+- Structure health check after restructure: fixed backfill boilerplate duplication in 66 source pages (incl. 20 false `deep` ingest-level claims), created 3 missing concept pages (cognitive-load, mental-models, heuristics-and-biases), fixed index.md mojibake + duplicate entry, documented `wiki/drafts/` in AGENTS.md. Details in [[wiki/logs/change-log|Change Log]] and [[wiki/logs/lint-report|Lint Report]].
 - Upgraded [[wiki/sources/measuringu-types-of-synthetic-users|MeasuringU: What Are the Different Types of Synthetic Users?]] to `coverage: full` by adding verbatim type definitions from a fresh fetch, and cleaned up the duplicate requested.
 - Ingested manually provided article [[wiki/sources/medium-cognitive-science-ux|Medium: Cognitive Science and User Experience]] and created concepts [[wiki/concepts/ux-research/cognitive-science-in-ux|Cognitive Science in UX]] and [[wiki/concepts/ux-research/marrs-tri-level-of-analysis|Marr's Tri-Level of Analysis]].
 - Ingested Korean Brunch article [[wiki/sources/brunch-ux-writing-principles|Brunch: Persuading Users vs Making Them Understand (UX Writing)]] into `raw/web/brunch-c5738bbb3f0c443-44.md` and created concepts [[wiki/concepts/ux-research/ux-writing-conversion-principles|UX Writing Conversion Principles]] and [[wiki/concepts/ux-research/cta-friction|CTA Friction]].

@@ -59,11 +59,6 @@ The article describes a method for structuring a personal "AI portfolio" by adop
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/hsol-ai-portfolio-6.md` when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-
 Primary source for the author's personal experiment. Uses established enterprise concepts from Palantir Foundry as a framework.
 
 ## Design Implications

@@ -52,11 +52,6 @@ A collection of articles from the pxd design agency focusing on the evolution of
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/2026-05-19-pxd-story-ai-insights.md` when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-
 - pxd is a leading UX design agency in Korea with high professional credibility.
 
 ## Design Implications

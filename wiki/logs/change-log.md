@@ -2,13 +2,29 @@
 type: log
 status: active
 created: 2026-05-18
-updated: 2026-07-07
+updated: 2026-07-20
 tags: [log, maintenance]
 sources: []
 confidence: 1.0
 ---
 
 # Change Log
+
+## 2026-07-20 - Orphaned raw cleanup: Bakhshi quantitative ingest + Li verbatim upgrade
+
+- Resolved the two orphaned captures flagged in the health check (outer `D:\Obsidian\raw\`):
+  - `ai-in-quantitative-research.md` → moved to `raw/web/saeidehbakhshi-ai-in-quantitative-research-2026-07-13.md` and fully ingested: new source [[wiki/sources/saeidehbakhshi-ai-in-quantitative-research|Bakhshi: AI in Quantitative Research]] (`deep` / `full`) with new concepts [[wiki/concepts/ux-research/evidence-engineering|Evidence Engineering]], [[wiki/concepts/ux-research/synthetic-data-roles|Synthetic Data Roles]], [[wiki/concepts/ux-research/researcher-degrees-of-freedom|Researcher Degrees of Freedom]].
+  - `what-LLM-can-and-cannot-find.md` was a fuller verbatim duplicate of the already-ingested Li article; replaced the digest body of `raw/web/guanjie-li-llm-user-proxy-2026-06-22.md` with the verbatim text (incl. both appendices), upgraded [[wiki/sources/guanjie-li-llm-user-proxy|the source page]] to `coverage: full`, deleted the outer duplicate.
+- Removed `test.txt` (content: "test") from the vault root, per health-check flag and Bonny's go-ahead.
+
+## 2026-07-20 - Structure health check & backfill cleanup
+
+- Ran full-vault lint after the restructure: 6,651 wiki-links scanned.
+- **Fixed backfill duplication in 66 source pages**: `scripts/backfill_llm_ready.py` had written the same coverage/claims boilerplate into both `Constraints / Caveats` and `Reliability Notes` (2-3 copies per file), including 20 files whose body claimed ``ingest level is `deep` `` while frontmatter said `standard`. Removed the duplicate copies from `Reliability Notes` (keeping real content such as warning callouts) and aligned all ingest-level mentions with frontmatter. Verified post-fix: 0 duplicates, 0 contradictions.
+- **Created 3 missing concept pages** that were link targets of the 2026-07-20 cognitive-science ingest but never created: [[wiki/concepts/ux-research/cognitive-load|Cognitive Load]], [[wiki/concepts/ux-research/mental-models|Mental Models]], [[wiki/concepts/ux-research/heuristics-and-biases|Heuristics and Biases]] (resolves 8 broken links from 6 pages).
+- Fixed mojibake in root `index.md` ("??rebuilt" → "— rebuilt") and removed a duplicate MeasuringU entry from Recent Ingests.
+- Added missing `wiki/drafts/` entry to the AGENTS.md directory contract (folder existed on disk but was undocumented).
+- Flagged for Bonny (not changed): `test.txt` junk file at vault root; two orphaned raw captures in outer `D:\Obsidian\raw\` (`ai-in-quantitative-research.md`, `what-LLM-can-and-cannot-find.md`) that sit outside the vault raw contract; broken/empty `.git` folder at `D:\Obsidian` root; untracked `scripts/obsidian-safe.py` and `scripts/rag_query.py` in the vault repo; stale `C:\Users\bonny_chen\LLM-Wiki` copy still on disk.
 
 ## 2026-07-20 - UXperiment Synthetic Users, UX Writing, Cognitive Science in UX, and Upgraded MeasuringU Synthetic Users source
 

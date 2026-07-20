@@ -52,11 +52,6 @@ This academic position article argues against using GenAI for reflexive qualitat
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/sage-10778004251401851-genai-reflexive-qualitative-research.md` when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-
 Primary academic source, but it is a position article. Future synthesis should pair it with response papers and opposing perspectives.
 
 ## Design Implications

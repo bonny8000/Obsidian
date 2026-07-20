@@ -55,7 +55,6 @@ Professor Yoo Hoon-sik outlines a paradigm shift where AI agents take over the m
 
 ## Reliability Notes
 
-- Coverage is `partial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/` evidence when used for recommendations, metrics, or external-facing work.
 
 The author is a known expert in the field of AI and Design in Korea.

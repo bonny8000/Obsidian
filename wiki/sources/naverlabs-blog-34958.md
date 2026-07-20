@@ -52,9 +52,6 @@ This article frames AI as future social and city infrastructure. It connects NAV
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/naverlabs-blog-34958.md` when used for recommendations, metrics, or external-facing work.
-
 Primary organizational source from NAVER LABS. Partnership and pilot details should be verified before use in external reports.
 
 ## Design Implications

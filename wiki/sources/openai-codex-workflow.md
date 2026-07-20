@@ -65,7 +65,6 @@ OpenAI가 개발자 중심이었던 **Codex**를 모든 전문 직무를 위한 
 
 ## Reliability Notes
 
-- Coverage is `partial` and ingest level is `light`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/` evidence when used for recommendations, metrics, or external-facing work.
 
 > [!warning] Caveats

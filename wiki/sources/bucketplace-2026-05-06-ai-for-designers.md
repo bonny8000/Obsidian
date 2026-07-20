@@ -53,9 +53,6 @@ A designer's perspective on using AI to speed up drafts, automate UT setups, and
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/bucketplace-2026-05-06-ai-for-designers.md` when used for recommendations, metrics, or external-facing work.
-
 > [!warning] Caveats
 > Reliability was not assessed in the earlier note. Treat this source as a prompt for exploration until raw evidence is checked.
 

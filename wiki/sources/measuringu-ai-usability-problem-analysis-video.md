@@ -53,11 +53,6 @@ This article evaluates whether AI systems produce consistent usability-problem l
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/measuringu-ai-usability-problem-analysis-video.md` when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-
 Primary source for a small study. The experiment uses one video and one prompt, so conclusions should not be generalized without more data.
 
 ## Design Implications

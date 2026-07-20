@@ -2,14 +2,14 @@
 type: source
 status: active
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-07-20
 tags: [ux-research, llm-user-proxy, interview-transcripts, well-posedness, rubric-design, qualitative-research, ai-analysis, question-design, validity, synthetic-users]
 source_path: raw/web/guanjie-li-llm-user-proxy-2026-06-22.md
 source_url: https://guanjie.li/Thinking-out-louder/2026/06/18/what-LLM-can-and-cannot-find.html
 authors: [Guanjie Li]
 sources: []
 ingest_level: deep
-coverage: substantial
+coverage: full
 llm_ready: true
 raw_preserved: true
 confidence: 0.8
@@ -19,7 +19,7 @@ confidence: 0.8
 
 **Authors:** Guanjie Li
 **Published:** 2026-06-18 — Thinking Out Louder (personal blog); part of a series on LLM-powered user proxies
-**Raw capture:** [[raw/web/guanjie-li-llm-user-proxy-2026-06-22|guanjie-li-llm-user-proxy-2026-06-22]]
+**Raw capture (upgraded to verbatim full text incl. both appendices, 2026-07-20):** [[raw/web/guanjie-li-llm-user-proxy-2026-06-22|guanjie-li-llm-user-proxy-2026-06-22]]
 **URL:** [guanjie.li/.../what-LLM-can-and-cannot-find](https://guanjie.li/Thinking-out-louder/2026/06/18/what-LLM-can-and-cannot-find.html)
 
 ## Citation

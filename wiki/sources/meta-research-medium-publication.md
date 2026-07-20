@@ -51,7 +51,6 @@ This source is currently captured as a pointer to an archive, not as evidence fo
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/web/meta-research-medium-publication-2016-2023`, `raw/web/meta-research-medium-publication-2016-2023.md` when used for recommendations, metrics, or external-facing work.
 
 Moderate-low confidence for article-level use. Medium blocked local extraction in this run and the public page exposed only publication metadata. Treat this as an index pointer until specific posts are captured.

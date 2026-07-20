@@ -40,7 +40,6 @@ Garrett, J. J. (2011). *The Elements of User Experience: User-Centered Design fo
 
 ## Reliability Notes
 
-- Coverage is `partial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/` evidence when used for recommendations, metrics, or external-facing work.
 
 > [!warning] Caveats

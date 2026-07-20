@@ -52,9 +52,6 @@ This article presents Hermes Agent as an autonomous AI agent framework for desig
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/brunch-ghidesigner-486.md` when used for recommendations, metrics, or external-facing work.
-
 Use this as a secondary article source. Specific adoption numbers, security comparisons, and product claims should be checked against official Hermes Agent documentation or repository data.
 
 ## Design Implications

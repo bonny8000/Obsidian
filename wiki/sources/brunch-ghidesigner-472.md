@@ -53,9 +53,6 @@ This article interprets Google's Gemini Enterprise Agent Platform as an enterpri
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/brunch-ghidesigner-472.md` when used for recommendations, metrics, or external-facing work.
-
 Secondary/perspective source. Verify product features and platform claims against official Google Cloud documentation before treating them as factual.
 
 ## Design Implications

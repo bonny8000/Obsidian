@@ -54,7 +54,6 @@ Google DeepMind's Gemini 3.5 family represents a major leap in AI "actionability
 
 ## Reliability Notes
 
-- Coverage is `partial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/` evidence when used for recommendations, metrics, or external-facing work.
 
 Official company blog.

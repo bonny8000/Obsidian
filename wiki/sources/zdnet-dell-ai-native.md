@@ -55,10 +55,7 @@ At Dell Technologies World 2026, Vice Chairman Jeff Clarke argued that the survi
 
 ## Reliability Notes
 
-- Coverage is `partial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/` evidence when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `partial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
 
 Industry news report from ZDNet Korea.
 

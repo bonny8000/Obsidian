@@ -52,11 +52,6 @@ This source card points to coverage of AWS expanding collaboration with OpenAI, 
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/mashdigi-aws-openai-bedrock-codex.md` when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-
 Needs review. The Mashdigi page was not readable through the text browser. Use official AWS/OpenAI announcements as primary sources for factual claims before relying on this article.
 
 ## Design Implications

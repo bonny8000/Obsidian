@@ -52,9 +52,6 @@ How Bucketplace introduced Pretendard JP into a multi-country Android app withou
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/bucketplace-pretendard-jp-2026-04-17.md` when used for recommendations, metrics, or external-facing work.
-
 > [!warning] Caveats
 > First-party engineering account; specific to Android delivery. Korean-language original.
 

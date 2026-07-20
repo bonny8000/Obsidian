@@ -53,11 +53,6 @@ Argues automated thematic summarization is the lowest-value use of AI in qualita
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/medium-harizlim-ai-qualitative-research-2026-05-10.md` when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-
 > [!warning] Caveats
 > Captured as summary only (paywall); opinion piece by a single practitioner. Aligns with [[sources/sage-10778004251401851-genai-reflexive-qualitative-research|SAGE reflexive qual paper]] and MeasuringU skepticism on AI analysis.
 

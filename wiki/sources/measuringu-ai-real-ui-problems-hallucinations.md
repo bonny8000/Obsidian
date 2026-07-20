@@ -70,10 +70,7 @@ The useful takeaway for the wiki is that AI usability analysis can add signal, b
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/web/measuringu-ai-real-ui-problems-hallucinations-2026-05-26`, `raw/web/measuringu-ai-real-ui-problems-hallucinations-2026-05-26.md` when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
 
 Primary source for a small MeasuringU study. The article is useful evidence for building review rubrics, but it should not be generalized as a population estimate because it uses one video, one prompt setup, and two LLM families.
 

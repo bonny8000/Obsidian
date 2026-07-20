@@ -63,7 +63,6 @@ This podcast transcript excerpt frames AI hardware, robotics, manufacturing, and
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/web/lennys-podcast-ai-hardware-boom-caitlin-kalinowski.md`, `raw/files/lennys-podcast-ai-hardware-boom-transcript-excerpt-2026-05-18.md` when used for recommendations, metrics, or external-facing work.
 
 This page is based on a user-provided partial transcript excerpt plus public episode metadata. Treat the claims as interview perspective until checked against primary technical, market, supply-chain, or safety sources.

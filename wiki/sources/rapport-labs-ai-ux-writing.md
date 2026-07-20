@@ -50,11 +50,6 @@ A case study by Rapport Labs on building an AI-powered UX writing system. They d
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/2026-05-19-rapport-labs-ai-ux-writing.md` when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-
 - Primary source from a practicing product designer at a well-known startup (Rapport Labs).
 
 ## Design Implications
