@@ -2,13 +2,45 @@
 type: log
 status: active
 created: 2026-05-18
-updated: 2026-07-07
+updated: 2026-07-20
 tags: [log, maintenance]
 sources: []
 confidence: 1.0
 ---
 
 # Change Log
+
+## 2026-07-22 - Deep ingest: AI-Powered UX Research Book
+
+- **Ingested:** [[wiki/sources/ai-powered-ux-research|AI-Powered UX Research: Run Research at the Speed Your Team Actually Needs]] by Constantine Papas (2026). Captured full text from PDF and transformed to markdown. Marked as \deep\ / \ull\ / \llm_ready: true\.
+- **Created 6 new concepts:** [[wiki/concepts/ux-research/the-research-engine|The Research Engine]], [[wiki/concepts/ux-research/the-frame|The Frame]], [[wiki/concepts/ux-research/micro-research|Micro Research]], [[wiki/concepts/ux-research/sprint-research|Sprint Research]], [[wiki/concepts/ux-research/deep-research|Deep Research]], [[wiki/concepts/ux-research/decision-contract|Decision Contract]].
+- **Updated Indexes:** Added entry to \log.md\, \wiki/logs/change-log.md\, \wiki/index.md\, and \wiki/overview.md\.
+
+
+## 2026-07-20 - Weakness remediation: synthesis layer, script gates, link convention
+
+Follow-through on the health check's "comparative weaknesses":
+
+- **Synthesis lag** → new analysis memo [[wiki/analyses/2026-07-20-synthetic-users-evidence-synthesis|Synthetic Users: What the Evidence Supports]] (synthesizes 9 sources; 5 convergent findings + 2 documented disagreements) and new decision table [[wiki/comparisons/synthetic-data-role-selection|Synthetic-Data Role Selection]]. Added AGENTS.md Core Rule 11: clusters of ~5 related sources trigger an analysis memo, not just more source pages.
+- **Script risk** → new [[wiki/playbooks/safe-script-maintenance|Safe Script Maintenance playbook]] (dry-run / spot-check / re-audit / idempotence gates) + [[wiki/decisions/2026-07-20-script-maintenance-gates|decision record]], codified as AGENTS.md Core Rule 10. Root-caused against the 2026-06-12 backfill incident.
+- **Link-style inconsistency** → [[wiki/decisions/2026-07-20-link-path-convention|decision record]]: canonical form is vault-rooted (`[[wiki/...]]`) for new/edited links, opportunistic normalization only, no bulk rewrite. Added to AGENTS.md Naming.
+- **Seedling layers** → `decisions/` 2→4, `analyses/` 1→2, `comparisons/` 3→4, `playbooks/` 5→6, all with load-bearing content. `cognitive-science/` (3) intentionally left to grow through future ingests.
+
+## 2026-07-20 - Orphaned raw cleanup: Bakhshi quantitative ingest + Li verbatim upgrade
+
+- Resolved the two orphaned captures flagged in the health check (outer `D:\Obsidian\raw\`):
+  - `ai-in-quantitative-research.md` → moved to `raw/web/saeidehbakhshi-ai-in-quantitative-research-2026-07-13.md` and fully ingested: new source [[wiki/sources/saeidehbakhshi-ai-in-quantitative-research|Bakhshi: AI in Quantitative Research]] (`deep` / `full`) with new concepts [[wiki/concepts/ux-research/evidence-engineering|Evidence Engineering]], [[wiki/concepts/ux-research/synthetic-data-roles|Synthetic Data Roles]], [[wiki/concepts/ux-research/researcher-degrees-of-freedom|Researcher Degrees of Freedom]].
+  - `what-LLM-can-and-cannot-find.md` was a fuller verbatim duplicate of the already-ingested Li article; replaced the digest body of `raw/web/guanjie-li-llm-user-proxy-2026-06-22.md` with the verbatim text (incl. both appendices), upgraded [[wiki/sources/guanjie-li-llm-user-proxy|the source page]] to `coverage: full`, deleted the outer duplicate.
+- Removed `test.txt` (content: "test") from the vault root, per health-check flag and Bonny's go-ahead.
+
+## 2026-07-20 - Structure health check & backfill cleanup
+
+- Ran full-vault lint after the restructure: 6,651 wiki-links scanned.
+- **Fixed backfill duplication in 66 source pages**: `scripts/backfill_llm_ready.py` had written the same coverage/claims boilerplate into both `Constraints / Caveats` and `Reliability Notes` (2-3 copies per file), including 20 files whose body claimed ``ingest level is `deep` `` while frontmatter said `standard`. Removed the duplicate copies from `Reliability Notes` (keeping real content such as warning callouts) and aligned all ingest-level mentions with frontmatter. Verified post-fix: 0 duplicates, 0 contradictions.
+- **Created 3 missing concept pages** that were link targets of the 2026-07-20 cognitive-science ingest but never created: [[wiki/concepts/ux-research/cognitive-load|Cognitive Load]], [[wiki/concepts/ux-research/mental-models|Mental Models]], [[wiki/concepts/ux-research/heuristics-and-biases|Heuristics and Biases]] (resolves 8 broken links from 6 pages).
+- Fixed mojibake in root `index.md` ("??rebuilt" → "— rebuilt") and removed a duplicate MeasuringU entry from Recent Ingests.
+- Added missing `wiki/drafts/` entry to the AGENTS.md directory contract (folder existed on disk but was undocumented).
+- Flagged for Bonny (not changed): `test.txt` junk file at vault root; two orphaned raw captures in outer `D:\Obsidian\raw\` (`ai-in-quantitative-research.md`, `what-LLM-can-and-cannot-find.md`) that sit outside the vault raw contract; broken/empty `.git` folder at `D:\Obsidian` root; untracked `scripts/obsidian-safe.py` and `scripts/rag_query.py` in the vault repo; stale `C:\Users\bonny_chen\LLM-Wiki` copy still on disk.
 
 ## 2026-07-20 - UXperiment Synthetic Users, UX Writing, Cognitive Science in UX, and Upgraded MeasuringU Synthetic Users source
 

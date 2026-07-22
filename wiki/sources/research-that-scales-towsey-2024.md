@@ -90,9 +90,6 @@ A term coined by Towsey for non-researchers (designers, PMs, etc.) who conduct r
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/research-that-scales-towsey-2024.pdf` when used for recommendations, metrics, or external-facing work.
-
 > [!warning] Caveats
 > Reliability was not assessed in the earlier note. Treat this source as a prompt for exploration until raw evidence is checked.
 

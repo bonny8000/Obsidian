@@ -56,9 +56,6 @@ A technical and strategic guide for founders building startups in the AI-native 
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/founders-playbook-2026.md` when used for recommendations, metrics, or external-facing work.
-
 > [!warning] Caveats
 > Reliability was not assessed in the earlier note. Treat this source as a prompt for exploration until raw evidence is checked.
 

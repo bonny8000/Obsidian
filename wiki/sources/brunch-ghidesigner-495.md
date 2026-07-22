@@ -65,7 +65,6 @@ raw_preserved: false
 
 ## Reliability Notes
 
-- Coverage is `partial` and ingest level is `light`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/` evidence when used for recommendations, metrics, or external-facing work.
 
 > [!warning] Caveats

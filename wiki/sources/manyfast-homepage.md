@@ -52,9 +52,6 @@ Manyfast positions itself as an AI tool that turns a chat conversation into stru
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/manyfast-homepage.md` when used for recommendations, metrics, or external-facing work.
-
 > [!warning] Caveats
 > Marketing material — treat all capability and security claims as vendor-asserted.
 

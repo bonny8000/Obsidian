@@ -63,11 +63,6 @@ The essay traces several historical moments where the field could have consolida
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/saeidehbakhshi-long-accommodation-2026-06-07.md` when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-
 - This is a practitioner essay and historical interpretation, not an empirical study.
 - Confidence is high for the article's own argument and medium for its profession-level historical account.
 - The essay should be paired with primary sources on HCI, design thinking, ResearchOps, and data science if used as formal historical evidence.

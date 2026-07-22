@@ -53,7 +53,6 @@ Pearson provides a practical learning map for quantitative UX research. The cent
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/web/carl-pearson-quant-uxr-self-study-resources-2025-02-17`, `raw/web/carl-pearson-quant-uxr-self-study-resources-2025-02-17.md` when used for recommendations, metrics, or external-facing work.
 
 Practitioner guide, not a systematic review. It is high value as a curated learning map, but claims about role norms should be triangulated with job-posting studies, Chapman and Rodden, and industry hiring data.

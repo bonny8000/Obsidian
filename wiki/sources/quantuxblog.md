@@ -54,10 +54,7 @@ This ingest captured the homepage inventory plus two selected posts: "Rigor in Q
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/web/quantuxblog-source-collection-2026-06-10`, `raw/web/quantuxblog-source-collection-2026-06-10.md` when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
 
 The homepage capture used browser-readable content because the local extractor received a rate-limit response. The selected post summaries are useful for concept extraction, but deeper article-level notes should be created if these posts become central evidence.
 

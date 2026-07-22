@@ -48,9 +48,6 @@ Kagi Translate has introduced a feature that allows users to translate text into
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/2026-05-19-kagi-translate-linkedin.md` when used for recommendations, metrics, or external-facing work.
-
 - Reported by GeekNews, a reliable source for tech news in Korea. Based on an actual feature release by Kagi.
 
 ## Design Implications

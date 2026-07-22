@@ -64,11 +64,6 @@ Toss, the Korean fintech super-app, developed "Huribot" ??an AI assistant traine
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/toss-tech-research-platform-ai.md` when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-
 Primary source from the team that built Huribot. Author is the UX Research Operations Manager at Toss, so claims about internal tooling and workflow impact are first-hand. No independent verification of time-savings claim ("seconds vs. 1 hour"). Confidence: 0.95.
 
 ## Design Implications

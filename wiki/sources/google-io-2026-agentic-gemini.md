@@ -55,7 +55,6 @@ At Google I/O 2026, CEO Sundar Pichai announced a "full-stack" AI strategy that 
 
 ## Reliability Notes
 
-- Coverage is `partial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/` evidence when used for recommendations, metrics, or external-facing work.
 
 Official company blog.

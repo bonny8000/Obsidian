@@ -84,9 +84,6 @@ The review maps AI implementations across 10 steps of the research journey:
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/how-to-ai-uxr-2026.pdf` when used for recommendations, metrics, or external-facing work.
-
 > [!warning] Caveats
 > Reliability was not assessed in the earlier note. Treat this source as a prompt for exploration until raw evidence is checked.
 

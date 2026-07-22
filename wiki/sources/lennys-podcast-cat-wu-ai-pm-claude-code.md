@@ -71,7 +71,6 @@ This user-provided transcript capture describes how AI-native product work chang
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/files/lennys-podcast-cat-wu-ai-pm-claude-code-transcript-capture-2026-05-18`, `raw/files/lennys-podcast-cat-wu-ai-pm-claude-code-transcript-capture-2026-05-18.md` when used for recommendations, metrics, or external-facing work.
 
 This page is based on a transcript pasted by Bonny into Codex chat. Treat detailed Anthropic process, product, and business claims as interview statements unless verified against the original episode page or official Anthropic sources. The transcript includes likely speech-to-text artifacts such as "Cloud Code," "quad code," and "COD" where the intended product appears to be Claude Code.

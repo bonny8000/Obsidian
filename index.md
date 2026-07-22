@@ -25,6 +25,8 @@ This is the top-level catalog for the Obsidian LLM-Wiki. Use it as the first sto
 
 ## Recent Ingests
 
+- **AI in Quantitative Research (2026-07-20):** [[wiki/sources/saeidehbakhshi-ai-in-quantitative-research|Bakhshi: AI in Quantitative Research]] — the quantitative companion to her qual map; artifact-vs-evidence distinction, validation-by-role, and the four synthetic-data roles. New concepts: [[wiki/concepts/ux-research/evidence-engineering|Evidence Engineering]], [[wiki/concepts/ux-research/synthetic-data-roles|Synthetic Data Roles]], [[wiki/concepts/ux-research/researcher-degrees-of-freedom|Researcher Degrees of Freedom]]. Also upgraded [[wiki/sources/guanjie-li-llm-user-proxy|Li: What LLMs Can/Can't Find in Transcripts]] to `coverage: full` (verbatim raw incl. appendices).
+
 - **Market research, Explainable AI, and 0-person companies (2026-07-07):** [[wiki/sources/qualtrics-market-research-trends-2026|Qualtrics 2026 Market Research Trends Report]], [[wiki/sources/eopla-magazine-44341-0-person-company|Eopla Matrix "0-Person Company" analysis]], and [[wiki/sources/hbs-working-knowledge-ai-advice-willful-blindness|HBS Explainable AI advice working paper]]. Added 9 concepts: [[wiki/concepts/ux-research/democratization-of-insights|Democratization of Insights]], [[wiki/concepts/ux-research/specialized-research-platforms|Specialized Research Platforms]], [[wiki/concepts/ux-research/ai-adoption-gap|AI Adoption Gap]], [[wiki/concepts/ai-agents/zero-person-company|Zero-Person Company]], [[wiki/concepts/ai-agents/autonomous-company-runtime|Autonomous Company Runtime]], [[wiki/concepts/ai-agents/loop-optimization|Loop Optimization]], [[wiki/concepts/agent-experience/willful-blindness|Willful Blindness]], [[wiki/concepts/agent-experience/checkbox-transparency|Checkbox Transparency]], and [[wiki/concepts/ux-research/explainable-ai|Explainable AI]]. Enriched [[wiki/concepts/agent-experience/trust-calibration|Trust Calibration]] and [[wiki/concepts/ux-research/human-in-the-loop|Human-in-the-Loop]].
 
 - **Cross-domain ingest + visual workflow upgrade (2026-07-02):** [[wiki/sources/sangwook-typescript-6-migration-troubleshooting|TypeScript 6 migration troubleshooting]], [[wiki/sources/clova-merit-post-training|CLOVA MERIT]], [[wiki/sources/arxiv-2606.30660-value-sensitive-conversational-ai|value-sensitive conversational surveys]], and [[wiki/sources/kakao-vc-upsell-design|Kakao Ventures on upsell design]]. Added four durable concepts plus [[wiki/maps/llm-wiki-visual-workflows|three Obsidian Canvas workflows]] and a [[wiki/playbooks/safe-ingest-promotion-workflow|safe draft/review/apply playbook]].
@@ -46,14 +48,13 @@ This is the top-level catalog for the Obsidian LLM-Wiki. Use it as the first sto
 - [[wiki/sources/agent-tools-interoperability-day-2|Patlolla et al. (2026): Agent Tools & Interoperability]]
 - [[wiki/sources/the-new-sdlc-with-vibe-coding-day-1|Osmani et al. (2026): The New SDLC With Vibe Coding]]
 - [[wiki/sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]] - detailed raw/source refresh plus [[wiki/playbooks/small-n-ux-statistics-checklist|Small-N UX Statistics Checklist]]
-- [[wiki/sources/tullis-albert-measuring-ux-2013|Tullis & Albert (2013): Measuring the User Experience]] ??rebuilt from full PDF
-- [[wiki/sources/chapman-rodden-quant-uxr-2023|Chapman & Rodden (2023): Quantitative UX Research]] ??rebuilt from full PDF
+- [[wiki/sources/tullis-albert-measuring-ux-2013|Tullis & Albert (2013): Measuring the User Experience]] — rebuilt from full PDF
+- [[wiki/sources/chapman-rodden-quant-uxr-2023|Chapman & Rodden (2023): Quantitative UX Research]] — rebuilt from full PDF
 - [[wiki/sources/lee-see-2004-trust-in-automation|Lee & See (2004): Trust in Automation]]
 - [[wiki/sources/horvitz-1999-mixed-initiative|Horvitz (1999): Mixed-Initiative User Interfaces]]
 - [[wiki/sources/amershi-2019-human-ai-guidelines|Amershi et al. (2019): Guidelines for Human-AI Interaction]]  
 - [[wiki/sources/theaxlabs-contaminated-memory-performance|AX LABS: Contaminated Memory Eats Away Performance]] 
 - [[wiki/sources/figma-you-never-stop-cultivating-taste|Figma: You Never Stop Cultivating Taste]]
-- [[wiki/sources/measuringu-statistics-30-participants|MeasuringU: Do Statistics Really Require 30 Participants?]]
 
 ## Agent Experience Workspace
 
@@ -90,6 +91,8 @@ This is the top-level catalog for the Obsidian LLM-Wiki. Use it as the first sto
 - [[wiki/methods/longitudinal-research|Longitudinal Research]]
 - [[wiki/comparisons/research-method-selection-matrix|Research Method Selection Matrix]]
 - [[wiki/comparisons/ai-assisted-research-risk-matrix|AI-Assisted Research Risk Matrix]]
+- [[wiki/comparisons/synthetic-data-role-selection|Synthetic-Data Role Selection]]
+- [[wiki/analyses/2026-07-20-synthetic-users-evidence-synthesis|Synthetic Users: What the Evidence Supports (2026-07)]]
 - [[wiki/analyses/ux-research-wiki-gap-audit-2026-06-12|UX Research Wiki Gap Audit]]
 
 ## Core Libraries

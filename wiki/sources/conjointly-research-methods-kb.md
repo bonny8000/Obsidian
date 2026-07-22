@@ -194,7 +194,6 @@ This source collection is a broad research-methods reference covering foundation
 
 ## Reliability Notes
 
-- Coverage is `full` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/web/conjointly-research-methods-kb/manifest.json`, `raw/web/conjointly-research-methods-kb/`, `raw/web/conjointly-research-methods-kb/001-kb-home.md` when used for recommendations, metrics, or external-facing work.
 
 - Conjointly identifies the KB as Professor William M.K. Trochim's Research Methods Knowledge Base hosted by Conjointly.

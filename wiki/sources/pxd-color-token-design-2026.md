@@ -58,11 +58,6 @@ The article explains three ways to structure color tokens in a design system: sc
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/pxd-color-token-design-2026-05-18.md` when used for recommendations, metrics, or external-facing work.
-
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-
 - The source is a practitioner article from pxd story and is useful as applied design-system guidance.
 - The page footer links to a Creative Commons Attribution license.
 - Claims about APCA and WCAG 3.0 should be verified against primary standards documentation before being used as a formal accessibility compliance rule.

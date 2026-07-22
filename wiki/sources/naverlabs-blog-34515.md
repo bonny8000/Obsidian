@@ -52,9 +52,6 @@ This NAVER LABS article explains how AI connects with physical space through [[c
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/naverlabs-blog-34515.md` when used for recommendations, metrics, or external-facing work.
-
 Primary organizational source from NAVER LABS. Claims about specific systems should still be cross-checked with technical papers or product documentation when precision matters.
 
 ## Design Implications

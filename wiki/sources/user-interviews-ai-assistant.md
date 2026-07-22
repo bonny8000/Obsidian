@@ -48,9 +48,6 @@ User Interviews has launched an AI Assistant suite designed to streamline the en
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/2026-06-03-user-interviews-ai-assistant.md` when used for recommendations, metrics, or external-facing work.
-
 Primary source from the product vendor. High confidence in feature availability and intended use cases.
 
 ## Design Implications

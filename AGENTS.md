@@ -20,6 +20,7 @@ The goal is to turn raw source material into a durable, interlinked Markdown kno
 - `wiki/queries/`: saved answers to important questions.
 - `wiki/projects/`: active, ongoing, or completed UX/Product initiatives and experiments.
 - `wiki/decisions/`: Lightweight UX/Product Decision Records (UXDRs) documenting choices and evidence.
+- `wiki/drafts/`: staging area for pages awaiting review under the Safe Ingest Promotion Workflow; promote to their final folder after approval.
 - `wiki/logs/`: ingest logs, lint reports, and maintenance records.
 - `wiki/_templates/`: reusable page templates.
 
@@ -34,6 +35,8 @@ The goal is to turn raw source material into a durable, interlinked Markdown kno
 7. Log meaningful changes in `log.md` and `wiki/logs/change-log.md`.
 8. Do not delete wiki pages without first recording why, unless Bonny explicitly asks for cleanup.
 9. Use the [[wiki/playbooks/safe-ingest-promotion-workflow|Safe Ingest Promotion Workflow]] for draft, review, apply, and validation gates. Human approval is required for high-risk claims, destructive graph edits, external publishing, or consent/privacy-sensitive material.
+10. Any script that edits more than ~5 wiki pages must follow the [[wiki/playbooks/safe-script-maintenance|Safe Script Maintenance playbook]]: dry-run, spot-check, apply on a clean git tree, re-audit, idempotence check, and a change-log entry.
+11. Prefer synthesis over accumulation: when an ingest brings a cluster to roughly five related sources, create or update an analysis memo in `wiki/analyses/` (and a decision table in `wiki/comparisons/` if the cluster informs a choice) instead of only adding more source pages.
 
 ## Naming
 
@@ -41,6 +44,7 @@ The goal is to turn raw source material into a durable, interlinked Markdown kno
 - Use date prefixes for logs and saved query outputs when useful: `2026-05-18-topic.md`.
 - Keep filenames stable once linked.
 - Prefer descriptive page titles in the first H1.
+- Canonical wiki-link form for new or edited links: vault-rooted path without leading slash, e.g. `[[wiki/concepts/ux-research/cognitive-load|Cognitive Load]]`. Normalize old-style links opportunistically when touching a page; never as a standalone bulk rewrite. See [[wiki/decisions/2026-07-20-link-path-convention|the decision record]].
 
 ## Standard Frontmatter
 

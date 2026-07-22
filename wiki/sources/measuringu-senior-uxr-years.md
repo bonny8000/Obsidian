@@ -53,7 +53,6 @@ This article explores the professional requirements for achieving seniority in U
 
 ## Reliability Notes
 
-- Coverage is `partial` and ingest level is `deep`; do not treat this source as fully digested unless `coverage: full`.
 - Claims should be checked against `raw/` evidence when used for recommendations, metrics, or external-facing work.
 
 MeasuringU is a highly reliable source for quantitative UX research and industry benchmarks.

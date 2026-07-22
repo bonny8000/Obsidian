@@ -47,6 +47,14 @@ This vault is a research-first LLM knowledge base. `raw/` preserves evidence, `w
 - The method library is now seeded, but each method should be expanded with project examples, study templates, and decision criteria.
 - Analysis memos should be added whenever sources are synthesized into a product or research recommendation.
 
+
+## AI-Powered UX Research (2026-07-22)
+
+- [[sources/ai-powered-ux-research|AI-Powered UX Research: Run Research at the Speed Your Team Actually Needs]] introduces the **[[concepts/ux-research/the-research-engine|Research Engine]]**, a tiered operating model that shifts UX Research from a slow service center to an upstream intelligence function.
+- It is composed of three modes: **[[concepts/ux-research/micro-research|Micro Research]]** (24-72 hours, AI-moderated), **[[concepts/ux-research/sprint-research|Sprint Research]]** (1-2 weeks, AI-moderated + human follow-ups), and **[[concepts/ux-research/deep-research|Deep Research]]** (foundational).
+- Deep Research builds **[[concepts/ux-research/the-frame|The Frame]]**, the organization\'s continuously maintained understanding of its users. Fast research tests artifacts within The Frame. Without The Frame, fast research is precise but strategically useless.
+- All research is bounded by the **[[concepts/ux-research/decision-contract|Decision Contract]]** to prevent scope inflation and validate the utility of the study before it launches.
+
 ## Market Research, Explainable AI, and 0-Person Companies (2026-07-07)
 
 Three new sources have expanded the UXR, AX, and agentic engineering clusters:

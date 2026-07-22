@@ -51,9 +51,6 @@ This article frames [[concepts/ai-agents/vibe-design|Vibe Design]] and [[concept
 
 ## Reliability Notes
 
-- Coverage is `substantial` and ingest level is `standard`; do not treat this source as fully digested unless `coverage: full`.
-- Claims should be checked against `raw/web/brunch-ghidesigner-482.md` when used for recommendations, metrics, or external-facing work.
-
 Use this as a conceptual source. Product feature claims, release dates, model/version names, and adoption statistics should be verified against official product documentation before being treated as factual.
 
 ## Design Implications
