@@ -1,4 +1,4 @@
-# LLM-Wiki
+﻿# LLM-Wiki
 
 A personal, AI-maintained Obsidian knowledge base for turning raw source material into a durable, linked Markdown wiki.
 
@@ -135,7 +135,7 @@ Required behavior:
 - Log meaningful changes in `log.md` and `wiki/logs/change-log.md`.
 - Use the safe draft/review/apply workflow for high-risk or broad graph edits.
 
-## Recent Focus
+## Recent Ingests
 
 - 2026-07-20: AI in quantitative research, synthetic users, cognitive effort, Microsoft Agent UX principles, and UX writing principles.
 - 2026-07-07: Market research trends, explainable AI advice, and 0-person company analysis.
@@ -144,3 +144,4 @@ Required behavior:
 - 2026-06-12: Vault moved to `D:\Obsidian\LLM-Wiki`; UX research workspace schema and foundational Agent Experience sources rebuilt.
 
 Full history lives in [log.md](log.md) and [wiki/logs/change-log.md](wiki/logs/change-log.md).
+
