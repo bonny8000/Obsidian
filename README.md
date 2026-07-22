@@ -1,4 +1,4 @@
-﻿# LLM-Wiki
+# LLM-Wiki
 
 A personal, AI-maintained Obsidian knowledge base for turning raw source material into a durable, linked Markdown wiki.
 
@@ -144,4 +144,3 @@ Required behavior:
 - 2026-06-12: Vault moved to `D:\Obsidian\LLM-Wiki`; UX research workspace schema and foundational Agent Experience sources rebuilt.
 
 Full history lives in [log.md](log.md) and [wiki/logs/change-log.md](wiki/logs/change-log.md).
-
