@@ -1,90 +1,100 @@
 # LLM-Wiki
 
-A personal, AI-maintained knowledge base built on Obsidian — where raw source evidence is preserved and AI agents compile it into a durable, linked Markdown wiki.
+A personal, AI-maintained Obsidian knowledge base for turning raw source material into a durable, linked Markdown wiki.
 
-> Think of Obsidian as the visual IDE, this folder as the knowledge codebase, and the AI agent as the librarian + compiler.
+Think of Obsidian as the visual IDE, this repository as the knowledge codebase, and AI agents as the librarian/compiler that preserves evidence, builds source notes, links concepts, and records every meaningful change.
 
----
+![LLM-Wiki ingest pipeline](assets/readme/01-pipeline.svg)
 
-## What this is
+## What This Repository Contains
 
-- **`raw/`** preserves source evidence — PDFs, web captures, transcripts, notes. Immutable; never edited in place.
-- **`wiki/`** is the AI-maintained synthesis layer — concept pages, methods, comparisons, analyses, maps, projects, decisions.
-- **`CLAUDE.md` + `AGENTS.md`** are the operating manual AI agents follow. Every ingest preserves provenance, links concepts, updates indexes, and logs the change.
+- `raw/` stores immutable source evidence: PDFs, web captures, transcripts, notes, and local attachments.
+- `wiki/` stores the compiled knowledge layer: source records, concepts, methods, maps, analyses, playbooks, projects, queries, and decision records.
+- `CLAUDE.md` and `AGENTS.md` define the operating rules that AI agents follow when ingesting, querying, linting, or maintaining the vault.
+- `scripts/` contains maintenance tools for linting, LLM-readiness backfill, draft validation, question harvesting, and local RAG-style querying.
+- `index.md`, `wiki/index.md`, `wiki/overview.md`, `log.md`, and `wiki/logs/change-log.md` act as the navigation and audit trail.
 
-The goal is **compounding knowledge**: every source that comes in becomes citable, linkable evidence; every concept earns its place; nothing important disappears at the end of a session.
+The core rule is simple: preserve source truth in `raw/`, then compile useful, linked knowledge in `wiki/`.
 
----
+## Current Shape
 
-## Open in Obsidian
+![Evidence to knowledge structure](assets/readme/02-structure.svg)
 
-```text
-D:\Obsidian\LLM-Wiki
-```
+| Area | Current count | Notes |
+| --- | ---: | --- |
+| Raw files | 296 | Preserved under `raw/` and treated as source evidence |
+| Source pages | 162 | 139 currently marked `llm_ready: true` |
+| Concept pages | 317 | Grouped by domain under `wiki/concepts/` |
+| UX research methods | 14 | Method pages with use cases, quality bars, and LLM guidance |
+| Topic maps | 15 | Navigation hubs and source-readiness dashboards |
+| Comparisons | 4 | Decision matrices across methods, tools, and frameworks |
+| Analyses | 2 | Synthesized memos built from multiple sources |
+| Playbooks | 6 | Reusable operating and review workflows |
+| Projects | 8 | Active or completed project pages |
+| Saved queries | 73 | Reusable answers and research prompts |
+| Decision records | 4 | Lightweight UX/Product decision records |
 
-Everything lives on the `D:` drive. Don't create or sync a copy under `C:\Users\bonny_chen`.
+Concept clusters:
 
----
+| Cluster | Concept pages |
+| --- | ---: |
+| UX research | 108 |
+| AI agents and agentic engineering | 76 |
+| Infrastructure and design systems | 53 |
+| Robotics and spatial AI | 31 |
+| Product management | 28 |
+| Agent experience | 18 |
+| Cognitive science | 3 |
 
-## Directory map
+Start from [wiki/overview.md](wiki/overview.md) for synthesis, [wiki/index.md](wiki/index.md) for the Obsidian dashboard, or [index.md](index.md) for the top-level catalog.
+
+## Directory Map
 
 ```text
 LLM-Wiki/
-├── CLAUDE.md            # entry schema for AI agents
-├── AGENTS.md            # full operating rules
-├── index.md             # top-level content catalog
-├── log.md               # append-only operations log
-├── README.md            # this file
-├── raw/                 # immutable source material
-│   ├── *.pdf            # books, whitepapers, decks
-│   ├── files/           # local attachments
-│   └── web/             # captured web sources
-├── scripts/             # audit / lint / backfill utilities
-└── wiki/
-    ├── overview.md      # evolving synthesis of the whole base
-    ├── index.md         # Obsidian dashboard + graph entry
-    ├── sources/         # one page per ingested source
-    ├── concepts/        # durable concepts grouped by cluster
-    ├── methods/         # UX research method pages
-    ├── comparisons/     # decision matrices
-    ├── analyses/        # synthesized memos
-    ├── maps/            # topic maps + dashboards
-    ├── playbooks/       # operational checklists
-    ├── projects/        # active initiatives
-    ├── decisions/       # UX/Product Decision Records
-    ├── queries/         # saved Q&A
-    ├── logs/            # change log + lint reports
-    └── _templates/      # reusable page templates
+|-- CLAUDE.md              # short agent entry schema
+|-- AGENTS.md              # full operating rules for AI agents
+|-- README.md              # GitHub-facing project overview
+|-- index.md               # top-level content catalog
+|-- log.md                 # append-only operations log
+|-- dashboard.base         # Obsidian Bases dashboard
+|-- raw/                   # immutable source material
+|   |-- files/             # local files and attachments
+|   `-- web/               # captured web sources
+|-- assets/
+|   `-- readme/            # README diagrams
+|-- scripts/               # audit, lint, ingest, draft, and query tools
+`-- wiki/
+    |-- overview.md        # evolving synthesis of the whole wiki
+    |-- index.md           # Obsidian dashboard and graph entry point
+    |-- sources/           # one page per ingested source
+    |-- concepts/          # durable concepts grouped by cluster
+    |-- methods/           # UX research method pages
+    |-- maps/              # topic maps and dashboards
+    |-- comparisons/       # decision matrices
+    |-- analyses/          # synthesized memos
+    |-- canvases/          # Obsidian Canvas visual workflows
+    |-- playbooks/         # reusable operating checklists
+    |-- projects/          # active initiatives
+    |-- decisions/         # UX/Product decision records
+    |-- queries/           # saved questions and answers
+    |-- drafts/            # staged pages for safe promotion
+    |-- logs/              # change logs and lint reports
+    `-- _templates/        # reusable page templates
 ```
 
----
+## How The Workflow Works
 
-## What's inside
+![Self-improving wiki loop](assets/readme/03-loop.svg)
 
-| Cluster | Pages | Focus |
-| --- | --- | --- |
-| UX research | 70 concepts + 14 methods | Quant + qual rigor, statistics, ResearchOps, AI-assisted research |
-| AI agents & agentic engineering | 42 concepts | Agent Skills, MCP, AGENTS.md, DESIGN.md, harness engineering, memory |
-| Infrastructure & design systems | 39 concepts | AI-native design systems, design-to-code, tokens, knowledge linting |
-| Product management | 21 concepts | AI-native PM, product taste, role convergence |
-| Robotics & spatial AI | 29 concepts | Physical AI, embodied learning, robotics supply chain |
-| Agent experience (AX) | 8 concepts | Trust calibration, transparency, proactivity, mental-model onboarding |
-| **Sources** | **84** | **66 marked `llm_ready: true`** |
+1. Add or capture a source in `raw/`.
+2. Ask an AI agent to ingest it.
+3. The agent creates or updates a `wiki/sources/` page with provenance, summary, key claims, caveats, linked concepts, LLM-use guidance, and reliability notes.
+4. Reusable ideas are connected to `wiki/concepts/`, `wiki/methods/`, `wiki/comparisons/`, `wiki/analyses/`, or `wiki/maps/` as needed.
+5. Navigation pages and logs are updated so the wiki stays queryable and auditable.
+6. Future queries use `llm_ready: true` sources first, then return to `raw/` for verification when claims matter.
 
-Plus 13 topic maps, 3 comparison matrices, 1 analysis memo, 4 playbooks, 8 projects, 73 saved queries, and 2 decision records.
-
-Start from **[wiki/overview.md](wiki/overview.md)** for the synthesis view, **[wiki/index.md](wiki/index.md)** for the Obsidian dashboard, or **[index.md](index.md)** for the top-level catalog.
-
----
-
-## How to use it
-
-1. **Drop a source into `raw/`** — a PDF, a web clipping, a transcript, anything to be remembered.
-2. **Ask an AI agent to ingest it** — e.g. *"Ingest the new file in raw/ into the wiki"*. The agent reads it, creates a source page, updates or creates concept pages, links the graph, and logs the change.
-3. **Read the compiled wiki in Obsidian** — use the graph view to inspect concept relationships; jump between maps, methods, and sources via wikilinks.
-4. **Query the wiki when you need an answer** — e.g. *"What does the wiki say about Bayesian credible intervals?"*. Grounded answers cite source pages and raw files.
-
-### Useful prompts
+Useful prompts:
 
 ```text
 Ingest everything new in raw/ into the wiki.
@@ -102,22 +112,35 @@ Lint the wiki and fix low-risk issues.
 Create a topic map for the current wiki.
 ```
 
----
+## Local Use
 
-## Recent ingests
+Open this folder as the Obsidian vault:
 
-- **2026-07-20** — Ingested UXperiment on synthetic users, Cell TICS on cognitive effort, Microsoft Design's Agent UX principles, and Korean Brunch UX writing principles.
-- **2026-07-07** — Qualtrics market research trends, Eopla 0-person company analysis, and HBS explainable AI paper.
-- **2026-06-17** — Agentic engineering trilogy (SDLC Day-1, Interoperability Day-2, Agent Skills Day-3); Atlassian DESIGN.md + Context Engine pair; MeasuringU 5-pack (TAC-10 screening, synthetic users review, credible vs confidence intervals, Bayes priors, banner tables). Plus 11 new concepts and a four-primitive routing comparison ([Skills vs MCP vs AGENTS.md vs DESIGN.md](wiki/comparisons/skills-vs-mcp-vs-agents-md.md)).
-- **2026-06-16** — Detailed MeasuringU n ≥ 30 statistics ingest; Small-N UX Statistics Checklist playbook.
-- **2026-06-12** — Vault moved to `D:\Obsidian\LLM-Wiki`; UX research workspace schema, Agent Experience cluster, foundational AX sources (Lee & See, Horvitz, Amershi), Quant UXR book trio rebuilt from full PDFs.
+```text
+D:\Obsidian\LLM-Wiki
+```
 
-Full history in [log.md](log.md) and [wiki/logs/change-log.md](wiki/logs/change-log.md).
+This repository is maintained as a local Obsidian vault first and a GitHub backup/audit trail second. Day-to-day reading and graph navigation happen in Obsidian; Git records publishable snapshots and structural changes.
 
----
+## For AI Agents
 
-## For AI agents
+Read [CLAUDE.md](CLAUDE.md) first, then [AGENTS.md](AGENTS.md).
 
-- Read **[CLAUDE.md](CLAUDE.md)** first — the entry schema.
-- Then **[AGENTS.md](AGENTS.md)** — full operating rules covering ingest, project, query, and lint workflows.
-- Preserve `raw/`. Update existing pages before creating duplicates. Record meaningful changes in `log.md` and `wiki/logs/change-log.md`.
+Required behavior:
+
+- Preserve `raw/`; never edit raw evidence unless explicitly instructed.
+- Update existing wiki pages before creating duplicates.
+- Keep `ingest_level`, `coverage`, `llm_ready`, and `raw_preserved` honest.
+- Use vault-rooted Obsidian links for new or edited wiki links.
+- Log meaningful changes in `log.md` and `wiki/logs/change-log.md`.
+- Use the safe draft/review/apply workflow for high-risk or broad graph edits.
+
+## Recent Focus
+
+- 2026-07-20: AI in quantitative research, synthetic users, cognitive effort, Microsoft Agent UX principles, and UX writing principles.
+- 2026-07-07: Market research trends, explainable AI advice, and 0-person company analysis.
+- 2026-07-02: Visual workflow upgrade with Obsidian Canvas maps and safe ingest promotion tooling.
+- 2026-06-17: Agentic engineering, Agent Skills, MCP, DESIGN.md, Context Engine, and MeasuringU statistics sources.
+- 2026-06-12: Vault moved to `D:\Obsidian\LLM-Wiki`; UX research workspace schema and foundational Agent Experience sources rebuilt.
+
+Full history lives in [log.md](log.md) and [wiki/logs/change-log.md](wiki/logs/change-log.md).

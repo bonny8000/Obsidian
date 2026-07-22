@@ -1,40 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" font-family="Arial, 'Noto Sans TC', sans-serif">
-  <!-- Bonny Slide System · light-periwinkle theme · self-improving loop -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">LLM-Wiki self-improving loop</title>
+  <desc id="desc">Capture, organize, link, synthesize, and write back so each maintenance run improves future work.</desc>
   <rect width="1200" height="400" rx="24" fill="#FBFBFE"/>
+  <text x="60" y="64" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#7077FB" letter-spacing="2">THE LOOP</text>
+  <text x="60" y="94" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#2B3040">Every run improves the next one</text>
+  <text x="60" y="118" font-family="Arial, sans-serif" font-size="14" fill="#7C7E92">The wiki is not a note dump; it is a maintained knowledge system with feedback.</text>
 
-  <text x="60" y="64" font-size="15" font-weight="700" fill="#7077FB" letter-spacing="2">THE LOOP</text>
-  <text x="60" y="92" font-size="22" font-weight="700" fill="#2B3040">會回寫自己的迴圈 <tspan fill="#7C7E92" font-size="15" font-weight="400">every run improves the next one</tspan></text>
+  <rect x="80" y="174" width="190" height="66" rx="33" fill="#F1F4F9"/>
+  <text x="175" y="202" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#2B3040" text-anchor="middle">Capture</text>
+  <text x="175" y="224" font-family="Arial, sans-serif" font-size="12" fill="#7C7E92" text-anchor="middle">Preserve in raw/</text>
 
-  <!-- forward chain -->
-  <rect x="80" y="170" width="190" height="66" rx="33" fill="#F1F4F9"/>
-  <text x="175" y="197" font-size="17" font-weight="700" fill="#2B3040" text-anchor="middle">擷取 capture</text>
-  <text x="175" y="220" font-size="12" fill="#7C7E92" text-anchor="middle">新材料進 raw/</text>
+  <path d="M282 207h32" stroke="#DCE0EB" stroke-width="2"/>
+  <path d="M308 201l8 6-8 6" fill="none" stroke="#DCE0EB" stroke-width="2"/>
 
-  <path d="M282 203h32" stroke="#DCE0EB" stroke-width="2"/>
-  <path d="M308 197l8 6-8 6" fill="none" stroke="#DCE0EB" stroke-width="2"/>
+  <rect x="326" y="174" width="190" height="66" rx="33" fill="#F1F4F9"/>
+  <text x="421" y="202" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#2B3040" text-anchor="middle">Organize</text>
+  <text x="421" y="224" font-family="Arial, sans-serif" font-size="12" fill="#7C7E92" text-anchor="middle">Create source pages</text>
 
-  <rect x="326" y="170" width="190" height="66" rx="33" fill="#F1F4F9"/>
-  <text x="421" y="197" font-size="17" font-weight="700" fill="#2B3040" text-anchor="middle">整理 organize</text>
-  <text x="421" y="220" font-size="12" fill="#7C7E92" text-anchor="middle">來源頁＋信心度</text>
+  <path d="M528 207h32" stroke="#DCE0EB" stroke-width="2"/>
+  <path d="M554 201l8 6-8 6" fill="none" stroke="#DCE0EB" stroke-width="2"/>
 
-  <path d="M528 203h32" stroke="#DCE0EB" stroke-width="2"/>
-  <path d="M554 197l8 6-8 6" fill="none" stroke="#DCE0EB" stroke-width="2"/>
+  <rect x="572" y="174" width="190" height="66" rx="33" fill="#F1F4F9"/>
+  <text x="667" y="202" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#2B3040" text-anchor="middle">Link</text>
+  <text x="667" y="224" font-family="Arial, sans-serif" font-size="12" fill="#7C7E92" text-anchor="middle">Connect concepts</text>
 
-  <rect x="572" y="170" width="190" height="66" rx="33" fill="#F1F4F9"/>
-  <text x="667" y="197" font-size="17" font-weight="700" fill="#2B3040" text-anchor="middle">連結 link</text>
-  <text x="667" y="220" font-size="12" fill="#7C7E92" text-anchor="middle">概念圖生長</text>
+  <path d="M774 207h32" stroke="#DCE0EB" stroke-width="2"/>
+  <path d="M800 201l8 6-8 6" fill="none" stroke="#DCE0EB" stroke-width="2"/>
 
-  <path d="M774 203h32" stroke="#DCE0EB" stroke-width="2"/>
-  <path d="M800 197l8 6-8 6" fill="none" stroke="#DCE0EB" stroke-width="2"/>
+  <rect x="818" y="174" width="190" height="66" rx="33" fill="#F1F4F9"/>
+  <text x="913" y="202" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#2B3040" text-anchor="middle">Synthesize</text>
+  <text x="913" y="224" font-family="Arial, sans-serif" font-size="12" fill="#7C7E92" text-anchor="middle">Maps and decisions</text>
 
-  <rect x="818" y="170" width="190" height="66" rx="33" fill="#F1F4F9"/>
-  <text x="913" y="197" font-size="17" font-weight="700" fill="#2B3040" text-anchor="middle">綜合 synthesize</text>
-  <text x="913" y="220" font-size="12" fill="#7C7E92" text-anchor="middle">分析＋決策表</text>
-
-  <!-- write-back return arc · the ONE accent element -->
-  <path d="M913 250v36c0 18-14 32-32 32H207c-18 0-32-14-32-32v-36" fill="none" stroke="#7077FB" stroke-width="2.5"/>
-  <path d="M169 256l6 -10 6 10" fill="none" stroke="#7077FB" stroke-width="2.5"/>
-  <rect x="452" y="296" width="196" height="44" rx="22" fill="#7077FB"/>
-  <text x="550" y="323" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">回寫 write back</text>
-  <text x="600" y="374" font-size="13" fill="#7C7E92" text-anchor="middle">失敗變規則 · 發現變評測 · git 全程可回溯</text>
+  <path d="M913 258v34c0 18-14 32-32 32H207c-18 0-32-14-32-32v-34" fill="none" stroke="#7077FB" stroke-width="2.5"/>
+  <path d="M169 264l6-10 6 10" fill="none" stroke="#7077FB" stroke-width="2.5"/>
+  <rect x="452" y="302" width="196" height="44" rx="22" fill="#7077FB"/>
+  <text x="550" y="329" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">Write back</text>
+  <text x="600" y="376" font-family="Arial, sans-serif" font-size="13" fill="#7C7E92" text-anchor="middle">Indexes, logs, lint reports, and Git snapshots keep the system auditable.</text>
 </svg>

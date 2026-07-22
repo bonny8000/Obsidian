@@ -1,50 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" font-family="Arial, 'Noto Sans TC', sans-serif">
-  <!-- Bonny Slide System · light-periwinkle theme · 4-color discipline -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">LLM-Wiki ingest pipeline</title>
+  <desc id="desc">Raw sources are preserved, compiled into source records, linked into concept pages, and synthesized into maps, analyses, comparisons, and decisions.</desc>
   <rect width="1200" height="340" rx="24" fill="#FBFBFE"/>
+  <text x="60" y="64" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#7077FB" letter-spacing="2">PIPELINE</text>
+  <text x="60" y="94" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#2B3040">Raw material becomes reasoned knowledge</text>
+  <text x="60" y="118" font-family="Arial, sans-serif" font-size="14" fill="#7C7E92">Every ingest preserves evidence first, then compiles source-grounded wiki pages.</text>
 
-  <text x="60" y="64" font-size="15" font-weight="700" fill="#7077FB" letter-spacing="2">PIPELINE</text>
-  <text x="60" y="92" font-size="22" font-weight="700" fill="#2B3040">原始資料 → 可推理的知識 <tspan fill="#7C7E92" font-size="15" font-weight="400">raw material becomes reasoned knowledge</tspan></text>
+  <rect x="60" y="148" width="240" height="120" rx="18" fill="#F1F4F9"/>
+  <circle cx="96" cy="184" r="16" fill="#DCE0EB"/>
+  <text x="96" y="190" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#2B3040" text-anchor="middle">1</text>
+  <text x="124" y="190" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#2B3040">Capture in raw/</text>
+  <text x="84" y="220" font-family="Arial, sans-serif" font-size="13" fill="#7C7E92">PDFs, web pages, notes, transcripts</text>
+  <text x="84" y="242" font-family="Arial, sans-serif" font-size="13" fill="#7C7E92">Immutable evidence layer</text>
 
-  <!-- step 1 -->
-  <rect x="60" y="128" width="240" height="130" rx="18" fill="#F1F4F9"/>
-  <circle cx="96" cy="164" r="16" fill="#DCE0EB"/>
-  <text x="96" y="170" font-size="15" font-weight="700" fill="#2B3040" text-anchor="middle">1</text>
-  <text x="124" y="170" font-size="17" font-weight="700" fill="#2B3040">擷取 raw/</text>
-  <text x="84" y="200" font-size="13" fill="#7C7E92">文章、PDF、逐字稿原文</text>
-  <text x="84" y="222" font-size="13" fill="#7C7E92">存入後唯讀 · immutable</text>
+  <path d="M312 208h34" stroke="#DCE0EB" stroke-width="2"/>
+  <path d="M340 202l8 6-8 6" fill="none" stroke="#DCE0EB" stroke-width="2"/>
 
-  <path d="M312 193h34" stroke="#DCE0EB" stroke-width="2"/>
-  <path d="M340 187l8 6-8 6" fill="none" stroke="#DCE0EB" stroke-width="2"/>
+  <rect x="360" y="148" width="240" height="120" rx="18" fill="#F1F4F9"/>
+  <circle cx="396" cy="184" r="16" fill="#DCE0EB"/>
+  <text x="396" y="190" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#2B3040" text-anchor="middle">2</text>
+  <text x="424" y="190" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#2B3040">Create sources/</text>
+  <text x="384" y="220" font-family="Arial, sans-serif" font-size="13" fill="#7C7E92">Provenance, claims, caveats</text>
+  <text x="384" y="242" font-family="Arial, sans-serif" font-size="13" fill="#7C7E92">LLM-ready source records</text>
 
-  <!-- step 2 -->
-  <rect x="360" y="128" width="240" height="130" rx="18" fill="#F1F4F9"/>
-  <circle cx="396" cy="164" r="16" fill="#DCE0EB"/>
-  <text x="396" y="170" font-size="15" font-weight="700" fill="#2B3040" text-anchor="middle">2</text>
-  <text x="424" y="170" font-size="17" font-weight="700" fill="#2B3040">來源頁 sources/</text>
-  <text x="384" y="200" font-size="13" fill="#7C7E92">摘要、關鍵主張、信心分數</text>
-  <text x="384" y="222" font-size="13" fill="#7C7E92">一個來源一頁 · LLM-ready</text>
+  <path d="M612 208h34" stroke="#DCE0EB" stroke-width="2"/>
+  <path d="M640 202l8 6-8 6" fill="none" stroke="#DCE0EB" stroke-width="2"/>
 
-  <path d="M612 193h34" stroke="#DCE0EB" stroke-width="2"/>
-  <path d="M640 187l8 6-8 6" fill="none" stroke="#DCE0EB" stroke-width="2"/>
+  <rect x="660" y="148" width="240" height="120" rx="18" fill="#F1F4F9"/>
+  <circle cx="696" cy="184" r="16" fill="#DCE0EB"/>
+  <text x="696" y="190" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#2B3040" text-anchor="middle">3</text>
+  <text x="724" y="190" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#2B3040">Link concepts/</text>
+  <text x="684" y="220" font-family="Arial, sans-serif" font-size="13" fill="#7C7E92">Reusable ideas, methods, frameworks</text>
+  <text x="684" y="242" font-family="Arial, sans-serif" font-size="13" fill="#7C7E92">Obsidian knowledge graph</text>
 
-  <!-- step 3 -->
-  <rect x="660" y="128" width="240" height="130" rx="18" fill="#F1F4F9"/>
-  <circle cx="696" cy="164" r="16" fill="#DCE0EB"/>
-  <text x="696" y="170" font-size="15" font-weight="700" fill="#2B3040" text-anchor="middle">3</text>
-  <text x="724" y="170" font-size="17" font-weight="700" fill="#2B3040">概念頁 concepts/</text>
-  <text x="684" y="200" font-size="13" fill="#7C7E92">一頁一概念,雙向連結</text>
-  <text x="684" y="222" font-size="13" fill="#7C7E92">7 個領域 · knowledge graph</text>
+  <path d="M912 208h34" stroke="#7077FB" stroke-width="2"/>
+  <path d="M940 202l8 6-8 6" fill="none" stroke="#7077FB" stroke-width="2"/>
 
-  <path d="M912 193h34" stroke="#7077FB" stroke-width="2"/>
-  <path d="M940 187l8 6-8 6" fill="none" stroke="#7077FB" stroke-width="2"/>
+  <rect x="960" y="148" width="180" height="120" rx="18" fill="#E7E8FC"/>
+  <circle cx="996" cy="184" r="16" fill="#7077FB"/>
+  <text x="996" y="190" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="1024" y="190" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#7077FB">Synthesize</text>
+  <text x="984" y="220" font-family="Arial, sans-serif" font-size="13" fill="#7C7E92">Maps, analyses, comparisons</text>
+  <text x="984" y="242" font-family="Arial, sans-serif" font-size="13" fill="#7C7E92">Decisions and playbooks</text>
 
-  <!-- step 4 · accent -->
-  <rect x="960" y="128" width="180" height="130" rx="18" fill="#E7E8FC"/>
-  <circle cx="996" cy="164" r="16" fill="#7077FB"/>
-  <text x="996" y="170" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
-  <text x="1024" y="170" font-size="17" font-weight="700" fill="#7077FB">綜合</text>
-  <text x="984" y="200" font-size="13" fill="#7C7E92">analyses · comparisons</text>
-  <text x="984" y="222" font-size="13" fill="#7C7E92">從收集走到結論</text>
-
-  <text x="60" y="300" font-size="13" fill="#7C7E92">核心規則:合成頁永遠不是唯一證據 — 每句話都能追回 raw/ 原文</text>
+  <text x="60" y="306" font-family="Arial, sans-serif" font-size="13" fill="#7C7E92">The raw source remains the authority; wiki pages are compiled interfaces for search, synthesis, and reuse.</text>
 </svg>
