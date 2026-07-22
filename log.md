@@ -12,6 +12,11 @@ confidence: 1.0
 
 Append-only chronological log for structural vault changes. Detailed generated checks live in [[wiki/logs/lint-report|Lint Report]] and durable maintenance notes live in [[wiki/logs/change-log|Change Log]].
 
+
+## 2026-07-22
+
+- **Book Ingest**: Processed Constantine Papas\'s *AI-Powered UX Research*. Created the source page and the core architectural concepts (The Research Engine, The Frame, Micro Research, Sprint Research, Deep Research, Decision Contract).
+
 ## 2026-07-20
 
 - Weakness remediation: added the synthetic-users evidence synthesis (analyses) + role-selection comparison, Safe Script Maintenance playbook + two decision records (script gates, link convention), and AGENTS.md rules 10–11 (script gates; synthesize at ~5 sources per cluster). Details in [[wiki/logs/change-log|Change Log]].

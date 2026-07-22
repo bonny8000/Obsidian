@@ -10,6 +10,13 @@ confidence: 1.0
 
 # Change Log
 
+## 2026-07-22 - Deep ingest: AI-Powered UX Research Book
+
+- **Ingested:** [[wiki/sources/ai-powered-ux-research|AI-Powered UX Research: Run Research at the Speed Your Team Actually Needs]] by Constantine Papas (2026). Captured full text from PDF and transformed to markdown. Marked as \deep\ / \ull\ / \llm_ready: true\.
+- **Created 6 new concepts:** [[wiki/concepts/ux-research/the-research-engine|The Research Engine]], [[wiki/concepts/ux-research/the-frame|The Frame]], [[wiki/concepts/ux-research/micro-research|Micro Research]], [[wiki/concepts/ux-research/sprint-research|Sprint Research]], [[wiki/concepts/ux-research/deep-research|Deep Research]], [[wiki/concepts/ux-research/decision-contract|Decision Contract]].
+- **Updated Indexes:** Added entry to \log.md\, \wiki/logs/change-log.md\, \wiki/index.md\, and \wiki/overview.md\.
+
+
 ## 2026-07-20 - Weakness remediation: synthesis layer, script gates, link convention
 
 Follow-through on the health check's "comparative weaknesses":

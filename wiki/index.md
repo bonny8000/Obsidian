@@ -31,6 +31,9 @@ confidence: 0.9
 ![[../dashboard.base]]
 
 ## Recent Ingests
+> [!success] AI-Powered UX Research (Book Ingest) — 2026-07-22 (1 source)
+> - Methodology: [[sources/ai-powered-ux-research|AI-Powered UX Research (Papas, 2026)]] → [[concepts/ux-research/the-research-engine|The Research Engine]], [[concepts/ux-research/the-frame|The Frame]], [[concepts/ux-research/micro-research|Micro Research]], [[concepts/ux-research/sprint-research|Sprint Research]], [[concepts/ux-research/deep-research|Deep Research]], [[concepts/ux-research/decision-contract|Decision Contract]]
+
 > [!success] Market research, Explainable AI, and 0-person companies — 2026-07-07 (3 sources)
 > - Market Research: [[sources/qualtrics-market-research-trends-2026|Qualtrics 2026 Market Research Trends Report]] → [[concepts/ux-research/democratization-of-insights|Democratization of Insights]], [[concepts/ux-research/specialized-research-platforms|Specialized Research Platforms]], [[concepts/ux-research/ai-adoption-gap|AI Adoption Gap]]
 > - 0-Person Companies: [[sources/eopla-magazine-44341-0-person-company|Eopla Matrix "0-Person Company" analysis]] → [[concepts/ai-agents/zero-person-company|Zero-Person Company]], [[concepts/ai-agents/autonomous-company-runtime|Autonomous Company Runtime]], [[concepts/ai-agents/loop-optimization|Loop Optimization]]
@@ -256,6 +259,12 @@ confidence: 0.9
 
 ### 🔬 AI UX Research Methods
 > [!warning] Ethics: [[concepts/ux-research/genai-in-qualitative-research|GenAI Restrictions]]
+- [[concepts/ux-research/the-research-engine|The Research Engine]]
+- [[concepts/ux-research/the-frame|The Frame]]
+- [[concepts/ux-research/micro-research|Micro Research]]
+- [[concepts/ux-research/sprint-research|Sprint Research]]
+- [[concepts/ux-research/deep-research|Deep Research]]
+- [[concepts/ux-research/decision-contract|Decision Contract]]
 - [[concepts/ux-research/ux-research-automation|UX Research Automation]]
 - [[concepts/ux-research/ai-usability-analysis|AI Usability Analysis]]
 - [[concepts/ux-research/ai-usability-false-alarm-triage|AI Usability False-Alarm Triage]]
