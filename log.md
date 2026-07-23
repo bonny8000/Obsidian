@@ -185,3 +185,4 @@ Append-only chronological log for structural vault changes. Detailed generated c
 - Rebuilt the two corruption-stub source pages from the actual books: tullis-albert-measuring-ux-2013 (metric taxonomy, ch-level map, ten-myths playbook) and chapman-rodden-quant-uxr-2023 (skill triad, HEART, Goals-Signals-Metrics, MaxDiff). Both promoted: status draft -> active, coverage partial -> substantial, llm_ready true, raw_preserved true, confidence 0.6 -> 0.92.
 - Cross-linked the trio with explicit division of labor: Sauro & Lewis = statistics engine, Tullis & Albert = metric taxonomy, Chapman & Rodden = role and metric-derivation process.
 - Remaining backfill: deeper extraction of survey-depth chapters on demand (noted per source page).
+- 2026-07-23: Light ingest of 5 articles (MCP, Loop Engineering, AI Moderation, Healthcare UX NPS, Developer Handovers) into raw/web and wiki/sources.
