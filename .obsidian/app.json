@@ -1,5 +1,9 @@
 {
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "showLineNumber": false
+  "showLineNumber": false,
+  "userIgnoreFilters": [
+    "LLM-Wiki/raw/",
+    "LLM-Wiki/wiki/sources/"
+  ]
 }
