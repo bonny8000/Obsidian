@@ -38,7 +38,7 @@ LLM-Wiki/
 - Every source page must keep `ingest_level`, `coverage`, `llm_ready`, and `raw_preserved` honest.
 - Use `wiki/sources/` for source-specific evidence, `wiki/concepts/` for reusable ideas, `wiki/methods/` for UX research methods, `wiki/comparisons/` for decision tables, and `wiki/analyses/` for synthesized memos.
 - When adding a UX research method, connect it to at least one source and one concept. If evidence is thin, mark the page as partial rather than overstating confidence.
-- Update `index.md`, `wiki/index.md`, `wiki/overview.md`, and `log.md` after meaningful ingest or structural changes.
+- Update `README.md` (including count metrics and current shape), `index.md`, `wiki/index.md`, `wiki/overview.md`, and `log.md` after every meaningful ingest, file addition, or structural change.
 - Use [[wiki/playbooks/safe-ingest-promotion-workflow|Safe Ingest Promotion Workflow]] for draft → review → apply → validate. Canvas diagrams support navigation but never replace raw evidence or source records.
 
 ## LLM Use Pattern

@@ -37,6 +37,7 @@ The goal is to turn raw source material into a durable, interlinked Markdown kno
 9. Use the [[wiki/playbooks/safe-ingest-promotion-workflow|Safe Ingest Promotion Workflow]] for draft, review, apply, and validation gates. Human approval is required for high-risk claims, destructive graph edits, external publishing, or consent/privacy-sensitive material.
 10. Any script that edits more than ~5 wiki pages must follow the [[wiki/playbooks/safe-script-maintenance|Safe Script Maintenance playbook]]: dry-run, spot-check, apply on a clean git tree, re-audit, idempotence check, and a change-log entry.
 11. Prefer synthesis over accumulation: when an ingest brings a cluster to roughly five related sources, create or update an analysis memo in `wiki/analyses/` (and a decision table in `wiki/comparisons/` if the cluster informs a choice) instead of only adding more source pages.
+12. Update `README.md` (including current count tables and shape metrics), `index.md`, `wiki/index.md`, `wiki/overview.md`, `log.md`, and `wiki/logs/change-log.md` whenever new files are added, updated, or ingested.
 
 ## Naming
 
