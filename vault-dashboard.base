@@ -1,0 +1,152 @@
+filters:
+  and:
+    - type != "log"
+    - not:
+        - file.folder == "_templates"
+formulas:
+  triage: if(status == "needs-review", "🟠 Needs review", if(status == "draft", "🟡 Draft", if(confidence < 0.7, "🔴 Low confidence", if(updated < (now() - "60 days"), "🕰️ Stale", "✅ Healthy"))))
+  conf_band: if(confidence >= 0.9, "0.9–1.0 strong", if(confidence >= 0.7, "0.7–0.89 solid", if(confidence >= 0.4, "0.4–0.69 partial", "0.0–0.39 weak")))
+  days_since_touch: if(updated, (now() - date(updated)).days.round(0), "")
+  readiness: if(llm_ready == true, "✅ LLM-ready", "📥 Needs deepening")
+properties:
+  file.name:
+    displayName: Note
+  formula.triage:
+    displayName: Lane
+  formula.conf_band:
+    displayName: Confidence band
+  formula.days_since_touch:
+    displayName: Days since touch
+  formula.readiness:
+    displayName: Readiness
+  confidence:
+    displayName: Conf.
+views:
+  # ---- 1. THE KANBAN — this is the board view ----
+  - type: cards
+    name: 🗂️ Work Queue Kanban
+    filters:
+      not:
+        - formula.triage == "✅ Healthy"
+    groupBy:
+      property: formula.triage
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - confidence
+      - formula.days_since_touch
+    summaries:
+      file.name: Count
+
+  # ---- 2. Fallback board, grouped by the raw status field ----
+  - type: cards
+    name: 🗃️ Board by Status
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - confidence
+      - updated
+    summaries:
+      file.name: Count
+
+  # ---- 3. Knowledge health ----
+  - type: cards
+    name: 🩺 Confidence Bands
+    filters:
+      and:
+        - confidence > 0
+    groupBy:
+      property: formula.conf_band
+      direction: DESC
+    order:
+      - file.name
+      - confidence
+      - type
+    summaries:
+      file.name: Count
+
+  - type: table
+    name: 🔴 Low Confidence (< 0.7)
+    filters:
+      and:
+        - confidence < 0.7
+        - confidence > 0
+    order:
+      - confidence
+      - file.name
+      - type
+      - updated
+    summaries:
+      file.name: Count
+
+  - type: table
+    name: 🕰️ Stale Concepts (60+ days)
+    filters:
+      and:
+        - type == "concept"
+        - updated < (now() - "60 days")
+    order:
+      - updated
+      - file.name
+      - formula.days_since_touch
+    summaries:
+      file.name: Count
+
+  # ---- 4. Source pipeline ----
+  - type: cards
+    name: 📥 Source Readiness
+    filters:
+      and:
+        - type == "source"
+    groupBy:
+      property: formula.readiness
+      direction: ASC
+    order:
+      - file.name
+      - coverage
+      - ingest_level
+      - confidence
+    summaries:
+      file.name: Count
+
+  - type: table
+    name: 🆕 Recent Ingests
+    filters:
+      and:
+        - type == "source"
+        - created > (now() - "30 days")
+    order:
+      - created
+      - file.name
+      - confidence
+      - coverage
+    summaries:
+      file.name: Count
+
+  # ---- 5. Topic composition ----
+  - type: cards
+    name: 🗺️ Library by Type
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - confidence
+    summaries:
+      file.name: Count
+
+  - type: table
+    name: ⚠️ Lost Content Awaiting Re-ingest
+    filters:
+      and:
+        - tags.contains("lost-content")
+    order:
+      - file.name
+      - updated
+    summaries:
+      file.name: Count

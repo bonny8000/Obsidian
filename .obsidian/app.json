@@ -5,5 +5,6 @@
   "userIgnoreFilters": [
     "LLM-Wiki/raw/",
     "LLM-Wiki/wiki/sources/"
-  ]
+  ],
+  "showUnsupportedFiles": true
 }

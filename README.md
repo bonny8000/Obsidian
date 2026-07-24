@@ -22,13 +22,13 @@ The core rule is simple: preserve source truth in `raw/`, then compile useful, l
 
 | Area | Current count | Notes |
 | --- | ---: | --- |
-| Raw files | 301 | Preserved under `raw/` and treated as source evidence |
-| Source pages | 167 | 144 currently marked `llm_ready: true` |
-| Concept pages | 317 | Grouped by domain under `wiki/concepts/` |
+| Raw files | 306 | Preserved under `raw/` and treated as source evidence |
+| Source pages | 172 | 149 currently marked `llm_ready: true` |
+| Concept pages | 324 | Grouped by domain under `wiki/concepts/` |
 | UX research methods | 14 | Method pages with use cases, quality bars, and LLM guidance |
 | Topic maps | 15 | Navigation hubs and source-readiness dashboards |
 | Comparisons | 4 | Decision matrices across methods, tools, and frameworks |
-| Analyses | 2 | Synthesized memos built from multiple sources |
+| Analyses | 3 | Synthesized memos built from multiple sources |
 | Playbooks | 6 | Reusable operating and review workflows |
 | Projects | 8 | Active or completed project pages |
 | Saved queries | 73 | Reusable answers and research prompts |
@@ -39,8 +39,8 @@ Concept clusters:
 | Cluster | Concept pages |
 | --- | ---: |
 | UX research | 108 |
-| AI agents and agentic engineering | 76 |
-| Infrastructure and design systems | 53 |
+| AI agents and agentic engineering | 82 |
+| Infrastructure and design systems | 54 |
 | Robotics and spatial AI | 31 |
 | Product management | 28 |
 | Agent experience | 18 |

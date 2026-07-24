@@ -17,6 +17,7 @@ This is the top-level catalog for the Obsidian LLM-Wiki. Use it as the first sto
 - [[CLAUDE|Operating Schema]]
 - [[AGENTS|Detailed Agent Rules]]
 - [[wiki/overview|Knowledge Base Overview]]
+- [[dashboard|📊 Vault Dashboard]] — kanban work queue + health boards, live inside Obsidian
 - [[wiki/index|Obsidian Dashboard Index]]
 - [[wiki/maps/llm-ready-source-index|LLM-Ready Source Index]]
 - [[wiki/maps/llm-wiki-visual-workflows|LLM Wiki Visual Workflows]]
@@ -24,6 +25,8 @@ This is the top-level catalog for the Obsidian LLM-Wiki. Use it as the first sto
 - [[log|Operations Log]]
 
 ## Recent Ingests
+
+- **Agent-latitude cluster (2026-07-24, 5 sources):** *How much freedom should an agent get?* — [[wiki/sources/socar-self-healing-agents|SOCAR: AI Agents That Self-Repair Failures]] (the cluster's only production case: 4 hours → under 5 minutes incident response, 7,267 recoveries in two months), [[wiki/sources/ai-as-senior-hire-not-intern|Ozenc & Holbrook: AI as a Senior Hire, Not an Intern]], [[wiki/sources/spec-driven-development-exit-strategy|Eisele: Spec-Driven Development Needs an Exit Strategy]], [[wiki/sources/openworker-andrew-ng|AX LABS: OpenWorker]], [[wiki/sources/claude-code-interview-first|AX LABS: Let Claude Code Interview You]]. New concepts: [[wiki/concepts/ai-agents/ai-as-senior-hire|AI as a Senior Hire]], [[wiki/concepts/infrastructure-dev/agent-defense-in-depth|Agent Defense in Depth]], [[wiki/concepts/ai-agents/approval-gate|Approval Gate]], [[wiki/concepts/ai-agents/change-brief|Change Brief]], [[wiki/concepts/ai-agents/jagged-frontier|Jagged Frontier]], [[wiki/concepts/ai-agents/interview-first-elicitation|Interview-First Elicitation]], [[wiki/concepts/ai-agents/local-first-agents|Local-First Agents]]. **A direct contradiction was recorded rather than merged:** Eisele inverts both core claims of [[wiki/concepts/ai-agents/spec-driven-development|Spec-Driven Development]] (confidence lowered 0.8 → 0.7). Synthesized in [[wiki/analyses/2026-07-24-directing-agents-in-production|How Much Latitude Should an Agent Get?]] — *latitude in reasoning, bounds on action; gate on reversibility, never on confidence.* Whole batch ingested from AI-generated page extractions, not verbatim reads — quotations need re-verification.
 
 - **AI in Quantitative Research (2026-07-20):** [[wiki/sources/saeidehbakhshi-ai-in-quantitative-research|Bakhshi: AI in Quantitative Research]] — the quantitative companion to her qual map; artifact-vs-evidence distinction, validation-by-role, and the four synthetic-data roles. New concepts: [[wiki/concepts/ux-research/evidence-engineering|Evidence Engineering]], [[wiki/concepts/ux-research/synthetic-data-roles|Synthetic Data Roles]], [[wiki/concepts/ux-research/researcher-degrees-of-freedom|Researcher Degrees of Freedom]]. Also upgraded [[wiki/sources/guanjie-li-llm-user-proxy|Li: What LLMs Can/Can't Find in Transcripts]] to `coverage: full` (verbatim raw incl. appendices).
 

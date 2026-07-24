@@ -16,6 +16,7 @@ confidence: 0.9
 
 ## 🚀 Active Work
 > [!info] Ongoing Projects & Decisions
+> - **Vault Dashboard:** [[../dashboard|📊 Work Queue Kanban & Health Boards]] — what needs attention, sorted into lanes
 > - **Visual Board:** [[../project-kanban.base|Project Kanban Board]]
 > - **Active Projects:**
 >   - [[projects/product-workflow-studio|Product Workflow Studio]]

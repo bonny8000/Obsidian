@@ -186,3 +186,13 @@ Append-only chronological log for structural vault changes. Detailed generated c
 - Cross-linked the trio with explicit division of labor: Sauro & Lewis = statistics engine, Tullis & Albert = metric taxonomy, Chapman & Rodden = role and metric-derivation process.
 - Remaining backfill: deeper extraction of survey-depth chapters on demand (noted per source page).
 - 2026-07-23: Light ingest of 5 articles (MCP, Loop Engineering, AI Moderation, Healthcare UX NPS, Developer Handovers) into raw/web and wiki/sources.
+
+## 2026-07-24 — Agent-latitude cluster (5 sources) + vault dashboard
+
+- Ingested 5 web sources into `raw/web/` and `wiki/sources/`: Ozenc & Holbrook "AI as a Senior Hire" (0.75), SOCAR self-repairing agents (0.88, **deep** — the only production case with metrics), Eisele "Spec-Driven Development Needs an Exit Strategy" (0.80), AX LABS OpenWorker (0.70), AX LABS Claude Code interview-first (0.68). All `substantial` / `llm_ready: true` / `raw_preserved: true`.
+- Added 7 concepts: `ai-as-senior-hire`, `agent-defense-in-depth`, `approval-gate`, `change-brief`, `jagged-frontier`, `interview-first-elicitation`, `local-first-agents`.
+- **Recorded a direct contradiction** rather than merging it: Eisele inverts both core claims of `spec-driven-development` (code is the primary fact; the spec is disposable). Added a Conflicts block to that page and lowered its confidence 0.8 → 0.7 pending resolution.
+- Added analysis memo `wiki/analyses/2026-07-24-directing-agents-in-production.md` per AGENTS.md Rule 11 — synthesizes the cluster's central disagreement into a two-axis model: **latitude in reasoning, bounds on action; gate on reversibility, never on confidence.**
+- Added `vault-dashboard.base` + `dashboard.md` — a Bases kanban of the wiki's work queue, grouped by status, viewable inside Obsidian.
+- **Honest caveat on the whole batch:** all 5 were ingested from AI-generated page extractions, not verbatim reads. Quotations and figures need re-verification before external citation. Two of the five share a publisher (AX LABS), and one states no limitations at all — this is not five independent viewpoints.
+- Next: find a second production case study with metrics outside browser automation; source evidence on approval-gate fatigue (the cluster's largest hole).

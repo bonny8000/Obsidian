@@ -48,6 +48,16 @@ This vault is a research-first LLM knowledge base. `raw/` preserves evidence, `w
 - Analysis memos should be added whenever sources are synthesized into a product or research recommendation.
 
 
+## How Much Latitude Should an Agent Get? (2026-07-24 batch)
+
+- Five sources ingested on the same question — how much freedom to give an agent, and where the constraints belong — and they **disagree sharply**. Synthesized in [[analyses/2026-07-24-directing-agents-in-production|How Much Latitude Should an Agent Get?]].
+- The spread of *evidence grades* matters as much as the spread of positions: the strongest evidence sits at the **most constrained** end. [[sources/socar-self-healing-agents|SOCAR]] is the only production case (2 months, 7,267 recoveries, incident response 4 hours → under 5 minutes) and it achieved that by **removing** agent discretion, not granting it.
+- The contradiction dissolves once reasoning and action are separated: **latitude in reasoning, bounds on action.** Brief like a senior colleague; bound like a junior operator.
+- **Gate on reversibility, never on model confidence.** [[concepts/ai-agents/approval-gate|Approval gates]] were arrived at independently by two sources from opposite motives — privacy ([[sources/openworker-andrew-ng|OpenWorker]]) and reliability (SOCAR) — which is the strongest signal in the batch that the pattern is load-bearing.
+- **Reliability is bought in code, not prompts** — see [[concepts/infrastructure-dev/agent-defense-in-depth|Agent Defense in Depth]]. If a safeguard depends on the model behaving, it is not a safeguard.
+- **The unsolved problem is review capacity.** Every source moves work toward human review and none tests the gate under fatigue. Named as the batch's largest open risk and a natural UX research question.
+- A direct contradiction with [[concepts/ai-agents/spec-driven-development|Spec-Driven Development]] was **recorded, not merged** — [[sources/spec-driven-development-exit-strategy|Eisele]] argues code is the durable fact and the spec is disposable, inverting both of that page's core claims.
+
 ## AI-Powered UX Research (2026-07-22)
 
 - [[sources/ai-powered-ux-research|AI-Powered UX Research: Run Research at the Speed Your Team Actually Needs]] introduces the **[[concepts/ux-research/the-research-engine|Research Engine]]**, a tiered operating model that shifts UX Research from a slow service center to an upstream intelligence function.

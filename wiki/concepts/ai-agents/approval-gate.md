@@ -1,0 +1,51 @@
+---
+type: concept
+status: active
+created: 2026-07-24
+updated: 2026-07-24
+tags: [concept, ai-agent, human-in-the-loop, safety, automation, approval-gate]
+sources: [openworker-andrew-ng, socar-self-healing-agents]
+confidence: 0.82
+---
+
+# Approval Gate
+
+> [!abstract] Summary
+> A structural halt placed immediately before any **irreversible** action — send, write, execute, deploy — requiring human confirmation to proceed. The gate is positioned by *reversibility*, not by the agent's confidence: a highly confident agent about to send an email still stops.
+
+> [!important] Why it Matters
+> Two sources in this cluster arrived at the same pattern from **opposite motives** — OpenWorker from privacy and user control, SOCAR from production reliability. Independent convergence from unrelated pressures is the strongest signal available that a pattern is load-bearing rather than stylistic.
+
+## 📝 Key Claims
+
+- **Gate on reversibility, not confidence.** The question is "can this be undone?", never "how sure is the model?"
+- **Autonomy is asymmetric.** SOCAR's formulation: auto-recovery acceptable, auto-deployment unacceptable. Agents repair failures automatically but open **Draft PRs only**.
+- **The escalation inbox** accumulates approvals from unattended runs, so the gate does not force synchronous babysitting — it batches the human interrupt rather than eliminating it.
+- **Read-then-write adoption:** start agents on read-only tasks (organize, summarize), widen to write and send only once behavior is understood.
+- **Declare the gate in the prompt** — "show me the draft before sending" — so it is explicit in the brief, not only in the harness.
+
+## ⚖️ Conflicts & Caveats
+
+> [!warning] The rubber-stamp failure mode
+> No source in this cluster tests the gate under fatigue. A gate that fires constantly trains the human to approve reflexively, at which point it provides the *appearance* of oversight while providing none. This is the single largest unexamined risk in the pattern — and it is a UX problem, not an engineering one.
+
+> [!warning] Throughput tax
+> Every gate is a human interrupt. At volume this is the same bottleneck Holbrook calls **"the tyranny of reviewing"** — generation capacity outruns review capacity, and the gate is where that mismatch becomes visible.
+
+## 🔗 Related Concepts
+
+- [[wiki/concepts/ux-research/human-in-the-loop|Human in the Loop]] — the parent pattern
+- [[wiki/concepts/infrastructure-dev/agent-defense-in-depth|Agent Defense in Depth]]
+- [[wiki/concepts/ai-agents/local-first-agents|Local-First Agents]]
+- [[wiki/concepts/ai-agents/jagged-frontier|Jagged Frontier]] — why gates cannot be retired on good performance
+
+## 📚 Sources
+
+- [[wiki/sources/openworker-andrew-ng|AX LABS (2026): OpenWorker]]
+- [[wiki/sources/socar-self-healing-agents|SOCAR (2026): AI Agents That Self-Repair Failures]]
+
+## ❓ Open Questions
+
+- At what approval frequency does review quality collapse into rubber-stamping?
+- Should gate placement adapt to demonstrated reliability, or does adaptive gating just reintroduce confidence-based gating through the back door?
+- Is there a design that makes the *cost* of an irreversible action legible at the moment of approval?

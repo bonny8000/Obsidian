@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bfd788b6f6e4c68d",
+        "id": "85b233b23eff8549",
         "type": "tabs",
         "children": [
           {
-            "id": "e6ecdd27414f6bba",
+            "id": "06cbf18cc1353f23",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "LLM-Wiki/wiki/canvases/llm-wiki-three-layers.canvas",
-                "viewState": {
-                  "x": 680,
-                  "y": 490,
-                  "zoom": 0
-                }
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "llm-wiki-three-layers"
+              "icon": "lucide-file",
+              "title": "CLAUDE"
             }
           }
         ]
@@ -77,8 +74,7 @@
               "title": "書籤"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,43 +185,46 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "e6ecdd27414f6bba",
+  "active": "06cbf18cc1353f23",
   "lastOpenFiles": [
+    "wiki/concepts/ai-agents/spec-driven-development.md.tmp.22700.d29f618a04a8",
+    "wiki/concepts/ai-agents/spec-driven-development.md.tmp.22700.401d2ba4fb31",
+    "wiki/overview.md.tmp.22700.04b8d4a2c9ae",
+    "wiki/index.md.tmp.22700.3ae0a5d138ce",
+    "index.md.tmp.22700.cd6bd9c2d862",
+    "index.md.tmp.22700.0e3df181ed5a",
+    "README.md.tmp.22700.dd397aec6564",
+    "README.md.tmp.22700.a4eb48877730",
+    "dashboard.md",
+    "dashboard.md.tmp.22700.3be46c34bb31",
+    "vault-dashboard.base",
+    "vault-dashboard.base.tmp.22700.0fa28d80fe23",
+    "wiki/analyses/2026-07-24-directing-agents-in-production.md",
+    "wiki/concepts/ai-agents/local-first-agents.md",
+    "wiki/concepts/ai-agents/interview-first-elicitation.md",
+    "wiki/concepts/ai-agents/jagged-frontier.md",
+    "wiki/concepts/ai-agents/change-brief.md",
+    "wiki/concepts/ai-agents/approval-gate.md",
+    "wiki/concepts/infrastructure-dev/agent-defense-in-depth.md",
+    "wiki/concepts/ai-agents/ai-as-senior-hire.md",
+    "wiki/sources/claude-code-interview-first.md",
+    "wiki/sources/openworker-andrew-ng.md",
+    "wiki/sources/spec-driven-development-exit-strategy.md",
+    "wiki/sources/socar-self-healing-agents.md",
+    "wiki/sources/ai-as-senior-hire-not-intern.md",
+    "raw/web/axlabs-claude-code-interview-first-2026-07-24.md",
+    "raw/web/socar-agentic-engineering-in-production-2026-07-24.md",
+    "raw/web/mainthread-spec-driven-development-exit-strategy-2026-07-24.md",
+    "raw/web/axlabs-andrew-ng-openworker-2026-07-24.md",
+    "raw/web/designmeetsai-ai-as-senior-hire-2026-07-24.md",
+    "AGENTS.md",
+    "未命名.canvas",
+    "2026-07-24.md",
+    "LLM-Wiki/wiki/canvases/llm-wiki-three-layers.canvas",
     "LLM-Wiki/wiki/maps/llm-wiki-visual-workflows.md",
     "LLM-Wiki/wiki/canvases/advanced-wiki-modules.canvas",
-    "未命名.base",
     "LLM-Wiki/wiki/drafts/README.md",
-    "LLM-Wiki/wiki/drafts",
-    "LLM-Wiki/scripts/validate-ingest.ps1",
-    "LLM-Wiki/scripts/apply-latest-draft.ps1",
-    "LLM-Wiki/scripts/draft-with-ollama.ps1",
     "LLM-Wiki/wiki/maps/agentic-engineering.md",
-    "LLM-Wiki/wiki/logs/change-log.md.tmp.29464.a19ee9218c6c",
-    "LLM-Wiki/log.md.tmp.29464.c26eb653fff5",
-    "LLM-Wiki/log.md.tmp.29464.658bfff90e39",
-    "LLM-Wiki/wiki/overview.md.tmp.29464.9d2921311efc",
-    "LLM-Wiki/wiki/overview.md.tmp.29464.5fe5009f5d28",
-    "LLM-Wiki/wiki/concepts/product-management/domain-expert-as-builder.md",
-    "LLM-Wiki/wiki/concepts/infrastructure-dev/ai-adoption-culture.md",
-    "LLM-Wiki/wiki/concepts/robotics-spatial/input-modality.md",
-    "LLM-Wiki/wiki/concepts/product-management/planning-harness.md",
-    "LLM-Wiki/wiki/concepts/ux-research/synthetic-user-taxonomy.md",
-    "LLM-Wiki/wiki/sources/theaxlabs-hanwha-life-claude-code-pbl.md",
-    "LLM-Wiki/wiki/sources/kakao-vc-ai-input-modality.md",
-    "LLM-Wiki/wiki/sources/maily-product-makers-planning-harness.md",
-    "LLM-Wiki/wiki/sources/carrotcap-naver.md",
-    "LLM-Wiki/wiki/sources/yozm-obsidian-llm-wiki-secondbrain.md",
-    "LLM-Wiki/wiki/sources/google-good-seo-is-good-geo.md",
-    "LLM-Wiki/wiki/sources/toss-tossplace-ai-surf-day.md",
-    "LLM-Wiki/wiki/sources/dusskapark-product-designer-codex.md",
-    "LLM-Wiki/wiki/sources/measuringu-types-of-synthetic-users.md",
-    "LLM-Wiki/raw/web/theaxlabs-hanwha-life-claude-code-pbl-2026-06-25.md",
-    "LLM-Wiki/raw/web/kakao-vc-ai-input-modality-wearables-2026-06-25.md",
-    "LLM-Wiki/raw/web/maily-product-makers-planning-harness-2026-06-25.md",
-    "LLM-Wiki/raw/web/carrotcap-naver-2026-06-25.md",
-    "LLM-Wiki/raw/web/yozm-obsidian-llm-wiki-secondbrain-2026-06-25.md",
-    "LLM-Wiki/raw/web/google-good-seo-is-good-geo-2026-06-25.md",
-    "LLM-Wiki/raw/web/toss-tossplace-ai-surf-day-2026-06-25.md",
-    "LLM-Wiki/raw/web/dusskapark-product-designer-codex-2026-06-25.md"
+    "LLM-Wiki/wiki/concepts/product-management/domain-expert-as-builder.md"
   ]
 }
