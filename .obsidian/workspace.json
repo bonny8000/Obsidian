@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "dashboard"
             }
           }
         ]
@@ -187,6 +187,8 @@
   },
   "active": "06cbf18cc1353f23",
   "lastOpenFiles": [
+    "dashboard.base",
+    "CLAUDE.md",
     "wiki/concepts/ai-agents/spec-driven-development.md.tmp.22700.d29f618a04a8",
     "wiki/concepts/ai-agents/spec-driven-development.md.tmp.22700.401d2ba4fb31",
     "wiki/overview.md.tmp.22700.04b8d4a2c9ae",
@@ -198,7 +200,6 @@
     "dashboard.md",
     "dashboard.md.tmp.22700.3be46c34bb31",
     "vault-dashboard.base",
-    "vault-dashboard.base.tmp.22700.0fa28d80fe23",
     "wiki/analyses/2026-07-24-directing-agents-in-production.md",
     "wiki/concepts/ai-agents/local-first-agents.md",
     "wiki/concepts/ai-agents/interview-first-elicitation.md",
@@ -224,7 +225,6 @@
     "LLM-Wiki/wiki/maps/llm-wiki-visual-workflows.md",
     "LLM-Wiki/wiki/canvases/advanced-wiki-modules.canvas",
     "LLM-Wiki/wiki/drafts/README.md",
-    "LLM-Wiki/wiki/maps/agentic-engineering.md",
-    "LLM-Wiki/wiki/concepts/product-management/domain-expert-as-builder.md"
+    "LLM-Wiki/wiki/maps/agentic-engineering.md"
   ]
 }
