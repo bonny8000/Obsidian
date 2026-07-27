@@ -32,6 +32,12 @@ confidence: 0.9
 ![[../dashboard.base]]
 
 ## Recent Ingests
+> [!success] AI product workflows and evidence boundaries — 2026-07-27 (5 sources)
+> - Validation: [[sources/microsoft-forms-did-me-dirty|Microsoft Forms Did Me Dirty]] → [[concepts/ux-research/research-data-validation|Research Data Validation]], [[concepts/ux-research/ranking-and-prioritization|Ranking and Prioritization]]
+> - AI workflow: [[sources/use-ai-to-need-less-ai|Use AI to Need Less AI]] and [[sources/ux-writing-bot-follow-up|UX writing bot follow-up]] → [[concepts/infrastructure-dev/deterministic-ai-workflows|Deterministic AI Workflows]], [[concepts/infrastructure-dev/ai-readable-documentation|AI-Readable Documentation]]
+> - Product and leadership: [[sources/ai-feature-monetization-spoonlabs|SpoonLabs AI monetization experiment]], [[sources/hands-on-design-leaders|Hands-on design leaders]] → [[concepts/product-management/contextual-ai-value|Contextual AI Value]], [[concepts/product-management/player-coach-leadership|Player-Coach Leadership]]
+> - Synthesis: [[analyses/2026-07-27-ai-product-workflows-and-evidence|AI Product Workflows Need Better Evidence Boundaries]]
+
 > [!success] AI-Powered UX Research (Book Ingest) — 2026-07-22 (1 source)
 > - Methodology: [[sources/ai-powered-ux-research|AI-Powered UX Research (Papas, 2026)]] → [[concepts/ux-research/the-research-engine|The Research Engine]], [[concepts/ux-research/the-frame|The Frame]], [[concepts/ux-research/micro-research|Micro Research]], [[concepts/ux-research/sprint-research|Sprint Research]], [[concepts/ux-research/deep-research|Deep Research]], [[concepts/ux-research/decision-contract|Decision Contract]]
 

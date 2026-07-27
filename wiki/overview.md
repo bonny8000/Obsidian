@@ -14,6 +14,11 @@ confidence: 0.88
 
 # Knowledge Base Overview
 
+## AI Product Workflows and Evidence Boundaries (2026-07-27)
+
+The latest five-source cluster connects research validation, deterministic design-system workflows, AI-readable documentation, contextual monetization, and hands-on leadership. Its common principle is to put model judgment where uncertainty exists, move stable facts into contracts and retrieval, and validate downstream outcomes rather than trusting polished defaults or proximate activity metrics. See [[analyses/2026-07-27-ai-product-workflows-and-evidence|the synthesis memo]].
+
+
 This vault is a research-first LLM knowledge base. `raw/` preserves evidence, `wiki/sources/` turns evidence into source records, and the durable working layer lives in concepts, methods, comparisons, analyses, maps, projects, decisions, and queries.
 
 ## Current Shape

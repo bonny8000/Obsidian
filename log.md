@@ -10,7 +10,13 @@ confidence: 1.0
 
 # Operations Log
 
-Append-only chronological log for structural vault changes. Detailed generated checks live in [[wiki/logs/lint-report|Lint Report]] and durable maintenance notes live in [[wiki/logs/change-log|Change Log]].
+Append-only chronological log for structural vault changes.
+
+## 2026-07-27
+
+- Ingested five unique user-provided web sources into `raw/web/` and `wiki/sources/` (duplicate Microsoft Forms URL collapsed; Maily URL resolved to its actual issue title).
+- Added eight reusable concepts and [[wiki/analyses/2026-07-27-ai-product-workflows-and-evidence|one synthesis memo]].
+- Medium source retained with `coverage: partial` because direct retrieval returned 403. Detailed generated checks live in [[wiki/logs/lint-report|Lint Report]] and durable maintenance notes live in [[wiki/logs/change-log|Change Log]].
 
 
 ## 2026-07-22

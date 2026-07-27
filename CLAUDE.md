@@ -40,6 +40,7 @@ LLM-Wiki/
 - When adding a UX research method, connect it to at least one source and one concept. If evidence is thin, mark the page as partial rather than overstating confidence.
 - Update `README.md` (including count metrics and current shape), `index.md`, `wiki/index.md`, `wiki/overview.md`, and `log.md` after every meaningful ingest, file addition, or structural change.
 - Use [[wiki/playbooks/safe-ingest-promotion-workflow|Safe Ingest Promotion Workflow]] for draft → review → apply → validate. Canvas diagrams support navigation but never replace raw evidence or source records.
+- After every user-requested vault change, validate, review the diff, commit the in-scope changes, and push directly to origin/main; never force-push, and stop if unrelated changes or a push failure needs human direction.
 
 ## LLM Use Pattern
 

@@ -10,6 +10,13 @@ confidence: 1.0
 
 # Change Log
 
+## 2026-07-27 — User-provided AI product workflow ingest
+
+- Added five immutable raw source cards, five source pages, eight concepts, and one synthesis memo.
+- Updated README, index, overview, and operations log.
+- Duplicate Microsoft Forms URL collapsed; Maily URL recorded under its resolved title.
+- Medium coverage remains partial because direct retrieval returned 403.
+
 ## 2026-07-22 - Deep ingest: AI-Powered UX Research Book
 
 - **Ingested:** [[wiki/sources/ai-powered-ux-research|AI-Powered UX Research: Run Research at the Speed Your Team Actually Needs]] by Constantine Papas (2026). Captured full text from PDF and transformed to markdown. Marked as \deep\ / \ull\ / \llm_ready: true\.
