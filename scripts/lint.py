@@ -41,6 +41,9 @@ for rel, s in texts.items():
         issues['pipe_stripped'].append(f'{rel}: {m.group(0)[:60]}')
     for m in link_pat.finditer(s):
         t = m.group(1).strip()
+        # Inside a markdown table cell the alias pipe must be escaped (`[[target\|alias]]`),
+        # so the captured target keeps a trailing backslash. Strip it before resolving.
+        t = t.rstrip('\\').strip()
         if t.startswith('raw/') or t.startswith('http') or '.' in t.split('/')[-1]:
             continue
         key = t[5:] if t.startswith('wiki/') else t

@@ -202,3 +202,37 @@ Append-only chronological log for structural vault changes.
 - Added `vault-dashboard.base` + `dashboard.md` — a Bases kanban of the wiki's work queue, grouped by status, viewable inside Obsidian.
 - **Honest caveat on the whole batch:** all 5 were ingested from AI-generated page extractions, not verbatim reads. Quotations and figures need re-verification before external citation. Two of the five share a publisher (AX LABS), and one states no limitations at all — this is not five independent viewpoints.
 - Next: find a second production case study with metrics outside browser automation; source evidence on approval-gate fatigue (the cluster's largest hole).
+
+## 2026-07-28 — Constraining AI by construction + UXR under acceleration (12 sources)
+
+Largest single ingest to date. Twelve user-supplied URLs, captured into `raw/web/` and promoted to `wiki/sources/`, forming two coherent clusters plus four reference/adjacent sources.
+
+**Agent-constraint cluster (5):** [[wiki/sources/naver-d2-ai-hackathon-nstake|NAVER D2 — what the winning AI hackathon team did *not* delegate]] (0.87, **deep, `coverage: full`**), [[wiki/sources/socar-parking-brain-knowledge-graph|SOCAR parking-brain knowledge graph]] (0.83, deep), [[wiki/sources/polar-orbit-llm-safe-design-system|Polar Orbit LLM-safe design system]] (0.78, deep), [[wiki/sources/b2b-admin-web-accessibility|rami_ B2B admin accessibility]] (0.76), [[wiki/sources/membership-inference-attack-explainer|Membership inference attack explainer]] (0.74, `coverage: full`).
+
+**UXR-under-acceleration cluster (3):** [[wiki/sources/nngroup-accelerating-research-with-ai|NN/g Accelerating Research with AI]] (0.88, deep — highest-reliability source in the batch), [[wiki/sources/when-research-gets-faster|Venkat: When research gets faster]] (0.68), [[wiki/sources/uxr-market-research-data-science-reorg|Papas: UXR/MR/DS walk into a reorg]] (0.60 — lowest-confidence prose source; diagnosis kept, three-year prediction discarded).
+
+**Agent-facing / adaptive interfaces (2):** [[wiki/sources/veronikapj-whats-new-android-2026|What's New in Android 2026]] (0.70, deep, secondary reporting), [[wiki/sources/google-natively-adaptive-interfaces|Google Natively Adaptive Interfaces]] (0.45, **partial, `llm_ready: false`** — hub page only, backfill queued with ordered next steps).
+
+**Reference (2):** [[wiki/sources/pm-market-analysis-saas-vs-platform|SaaS vs. Platform]] (0.62, light), [[wiki/sources/datarize-ai-product-search|Datarize AI product search]] (0.40, **vendor marketing, `llm_ready: false`** — retained as a market signal, not as evidence).
+
+**11 concepts added:** `permission-boundary-guardrails`, `rule-statistical-external-validation`, `workflow-completeness`, `membership-inference-attack` (ai-agents); `domain-knowledge-graph`, `llm-safe-design-system` (infrastructure-dev); `web-accessibility-pour`, `interpretation-locality` (ux-research); `agent-invocable-app-functions`, `natively-adaptive-interfaces` (agent-experience); `saas-vs-platform` (product-management).
+
+**11 existing concepts updated rather than duplicated:** `organizational-ontology`, `deterministic-ai-workflows`, `ai-native-design-system`, `ai-readable-documentation`, `approval-gate`, `agentic-search`, `role-convergence`, `uxr-role-split`, `decision-contract`, `research-influence`, `ai-analysis`, `ai-moderated-interviews`, `feature-vs-platform`.
+
+**Comparison added (answering a deferred action from 2026-07-24):** [[wiki/comparisons/delegate-vs-determinize|Delegate to a Model vs. Determinize in Code]] — 15-row decision table with the evidence grade attached to each placement.
+
+**Two analysis memos (AGENTS.md Rule 11):**
+- [[wiki/analyses/2026-07-28-constraining-ai-by-construction|Constraining AI by Construction]] — five domains independently reach the same conclusion; the sharpened formulation is *the generator stays free; the acceptance gate gets narrow*, and the six objects of constraint are authority, access, context, vocabulary, measurement, and the artifact itself.
+- [[wiki/analyses/2026-07-28-uxr-under-ai-acceleration|What AI Acceleration Actually Changes About UX Research]] — AI compressed the middle of the process, which was never the bottleneck; confidence in this cluster declines monotonically with the ambition of the claim.
+
+**Two contradictions recorded, not merged:**
+1. **Split vs. merger.** Papas predicts UXR/MR/DS merge in ~3 years; [[wiki/concepts/ux-research/uxr-role-split|Newton predicts research splits into three roles]] — from the same premise (AI collapsing production cost). Both pages now carry the conflict; `uxr-role-split` confidence 0.70 → 0.68. A reconciliation neither author proposes (roles splitting *inside* a merged function) is recorded as a hypothesis.
+2. **Automated concept extraction.** SOCAR **tried LLM extraction of concepts/relationships and abandoned it** as too noisy, reverting to ~100 hand-written seeds — directly contradicting the meeting-records "pre-ontology" pipeline anchoring [[wiki/concepts/infrastructure-dev/organizational-ontology|Organizational Ontology]]. Conflict block added there; may be an input-type difference (code vs. speech), unresolved.
+
+**Two sources were read in full rather than via extraction:** NAVER D2 (retrieved through its content API after `d2.naver.com` blocked normal fetching) and the Naver blog MIA explainer. Both marked `coverage: full` with a note on what that covers. The other ten are AI-generated extractions and say so.
+
+**Honest limits recorded across the batch:** only one source in the agent cluster (SOCAR's earlier production post, carried forward) measures a benefit — five new ones report design rationale or a prevented failure. Every constraint architecture in the cluster charges standing maintenance and none states its break-even volume. Approval-gate fatigue, flagged as the largest hole on 2026-07-24, is now *more* urgent because this cluster adds gates. Two sources are from SOCAR.
+
+**Counts:** raw 311 → 323 · sources 177 → 189 (`llm_ready` 154 → 164) · concepts 333 → 344 · comparisons 4 → 5 · analyses 4 → 6.
+
+**Next:** find a source measuring a constraint architecture's cost against its benefit; source evidence on approval-gate fatigue; ingest a primary source (NIST / Shokri et al. 2017) to anchor the MIA concept; backfill the Google NAI sub-guides; ingest Papas part 3 when it publishes.

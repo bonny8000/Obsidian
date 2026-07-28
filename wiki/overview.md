@@ -2,7 +2,7 @@
 type: overview
 status: active
 created: 2026-06-12
-updated: 2026-07-07
+updated: 2026-07-28
 tags: [overview, synthesis, ux-research, llm-wiki, agentic-engineering]
 sources:
   - maps/llm-ready-source-index
@@ -13,6 +13,18 @@ confidence: 0.88
 ---
 
 # Knowledge Base Overview
+
+## Constraining AI by Construction (2026-07-28)
+
+The largest single ingest to date — twelve sources, two clusters.
+
+**The agent cluster (5 sources) settles a question the 2026-07-24 batch left open.** That batch concluded "reliability is bought in code, not in prompts" on the strength of one production case. Five sources from unrelated domains — internal finance tooling, developer knowledge management, design systems, accessibility engineering, ML privacy — reach the same conclusion without citing each other. The sharper generalization: **the constraint gets applied at whichever layer the model would otherwise be trusted**, and the objects of constraint differ — authority (rules replace the model for official numbers), access (authorization before generation, not masking after), context (domain truth made addressable), vocabulary (off-system values made uncompilable), measurement (the audit instrument itself needed verifying), and the artifact (a trained model is a disclosure surface). Prompting appears in none of them. Polar's formulation is the cleanest: *the generator stays free; the acceptance gate gets narrow.*
+
+Honest limit: six sources agree on direction and **only one measures anything**. Every constraint architecture in the cluster also charges standing maintenance — rule authoring, baseline schemas, weekly token curation, seed upkeep — and no source states the break-even volume. See [[analyses/2026-07-28-constraining-ai-by-construction|the synthesis memo]] and [[comparisons/delegate-vs-determinize|the decision table]].
+
+**The UXR cluster (3 sources) finds that AI compressed the part that was never the bottleneck.** NN/g's stage map says AI helps in planning and analysis and fails at conducting, with one mechanism explaining all of it: AI does better on attitudinal, language-based data than on behavioral data. That automated band sits in the *middle* of the process — leaving framing and follow-through untouched. Consequence: faster research **exposes** organizational dysfunction rather than fixing it, and when studies become nearly free the scarce resource becomes stakeholder attention, not research capacity. Two sources independently arrive at the [[concepts/ux-research/decision-contract|Decision Contract]] gate from different framings. Structurally the cluster contradicts itself — Papas predicts UXR/MR/DS **merge** while Newton predicts research **splits**, both from the same premise — and nobody asks the headcount question. See [[analyses/2026-07-28-uxr-under-ai-acceleration|the synthesis memo]].
+
+**Also arriving: accessibility metadata acquired a second consumer.** Three independent sources point the same way for three different reasons — repetition economics in B2B admin tools, Android's Computer Control *reading* accessibility semantics to drive apps that made no code changes, and Google's NAI framing accessibility as an agent-native capability. Whether agent adaptation raises or lowers the need for underlying semantics is unresolved and worth resolving.
 
 ## AI Product Workflows and Evidence Boundaries (2026-07-27)
 
