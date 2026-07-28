@@ -2,11 +2,14 @@
 type: concept
 status: active
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-07-28
 tags: [concept, product-strategy, platform, abstraction, ops-tooling, recommendation]
 sources: [myrealtrip-polaris-cancellation-recommendation]
 confidence: 0.75
 ---
+
+> [!info] Not the same question as SaaS vs. Platform
+> This page is about the **internal build decision** — whether to build a one-off feature or abstract it into a reusable capability. For the **company-level business model** distinction (selling connections vs. selling software that solves a problem, and the metrics that follow), see [[wiki/concepts/product-management/saas-vs-platform|SaaS vs. Platform]]. The two are commonly conflated.
 
 # Feature vs Platform
 
@@ -28,6 +31,7 @@ confidence: 0.75
 - [[concepts/product-management/product-roadmap|Product Roadmap]]
 - [[concepts/product-management/ai-native-stack|AI-Native Stack]]
 - [[concepts/product-management/role-convergence|Role Convergence]]
+- [[wiki/concepts/product-management/saas-vs-platform|SaaS vs. Platform]] — the business-model question, distinct from this build decision.
 
 ## ⚖️ Conflicts & Caveats
 > [!warning] Contradictions

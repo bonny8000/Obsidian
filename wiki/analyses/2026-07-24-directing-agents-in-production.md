@@ -2,13 +2,22 @@
 type: analysis
 status: active
 created: 2026-07-24
-updated: 2026-07-24
+updated: 2026-07-28
 tags: [analysis, agentic-engineering, ai-agent, delegation, human-in-the-loop, production, reliability]
 sources: [ai-as-senior-hire-not-intern, socar-self-healing-agents, spec-driven-development-exit-strategy, openworker-andrew-ng, claude-code-interview-first]
 confidence: 0.78
 ---
 
 # How Much Latitude Should an Agent Get? — Synthesis of the 2026-07-24 Cluster
+
+> [!info] Partially superseded — see the follow-on memo
+> Five sources ingested on **2026-07-28** tested this memo's central finding ("reliability is bought in code, not in prompts") from unrelated domains, and it held. See [[wiki/analyses/2026-07-28-constraining-ai-by-construction|Constraining AI by Construction]], which:
+> - **Confirms the generalization** with four more independent cases — internal finance tooling, developer knowledge management, design systems, accessibility engineering — none of which cite each other.
+> - **Sharpens the two-axis model** below. Rather than "latitude in reasoning / bounds on action," the cleaner formulation is: **the generator stays free; the acceptance gate gets narrow.**
+> - **Answers the deferred comparison page** — now written as [[wiki/comparisons/delegate-vs-determinize|Delegate to a Model vs. Determinize in Code]].
+> - **Delivers the second production-adjacent case** requested below (NAVER D2's NStake — prototype rather than production, so the gap is narrowed, not closed).
+> - **Leaves the approval-gate fatigue question unanswered, and makes it more urgent** — the newer cluster adds gates rather than resolving the fatigue problem.
+> - **Adds one item this memo missed entirely:** every constraint architecture charges standing maintenance, and no source states the break-even volume.
 
 ## Research Question
 
@@ -84,8 +93,14 @@ Eisele's "specs become a second codebase" and Holbrook's "don't micro-specify" a
 
 ## Next Research Actions
 
-- [ ] Find a **second production case study** with metrics, ideally outside browser automation, to test whether the constraint architecture generalizes.
-- [ ] Source evidence on **approval-gate fatigue** — at what frequency does review quality collapse? This is the cluster's biggest hole and a natural UX research question.
+- [~] **Partially done (2026-07-28).** Find a **second production case study** with metrics, ideally outside browser automation, to test whether the constraint architecture generalizes. → [[wiki/sources/naver-d2-ai-hackathon-nstake|NStake]] is a different domain reaching the same conclusion, but it is a **prototype without metrics**. A second *production* case with numbers is still missing.
+- [ ] Source evidence on **approval-gate fatigue** — at what frequency does review quality collapse? Still open, and now more urgent: the 2026-07-28 cluster adds gates without addressing fatigue.
 - [ ] Re-verify SOCAR's figures and Eisele's TLA+ citation against the originals.
 - [ ] Resolve the [[wiki/concepts/ai-agents/spec-driven-development|SDD]] ↔ [[wiki/concepts/ai-agents/change-brief|Change Brief]] contradiction with a source that addresses greenfield vs. brownfield directly.
-- [ ] Consider a comparison page in `wiki/comparisons/` once a sixth source lands: *when to constrain vs. when to delegate.*
+- [x] **Done (2026-07-28).** Comparison page: *when to constrain vs. when to delegate* → [[wiki/comparisons/delegate-vs-determinize|Delegate to a Model vs. Determinize in Code]].
+- [ ] **New, from the follow-on cluster:** find one source that measures a constraint architecture's **cost against its benefit**. Six sources now agree on direction; none quantifies the trade.
+
+## Related
+
+- [[wiki/analyses/2026-07-28-constraining-ai-by-construction|Analysis: Constraining AI by Construction (2026-07-28)]] — the follow-on memo that tests and extends this one.
+- [[wiki/comparisons/delegate-vs-determinize|Comparison: Delegate to a Model vs. Determinize in Code]]
