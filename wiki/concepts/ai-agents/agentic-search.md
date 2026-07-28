@@ -2,9 +2,9 @@
 type: concept
 status: active
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-07-28
 tags: [concept, agentic-search, web-research, retrieval, multi-agent, rag]
-sources: [langchain-exa]
+sources: [langchain-exa, datarize-ai-product-search]
 confidence: 0.78
 ---
 
@@ -22,6 +22,7 @@ confidence: 0.78
 - **Snippet-first, then full-content** retrieval to control cost/latency.
 - **Structured JSON output** for programmatic (API) consumption.
 - **Token-usage observability** drives pricing (cost-as-a-system).
+- **Commodity productization signal (2026-07):** semantic retrieval is now shipping as an off-the-shelf feature for mid-market commerce rather than requiring an in-house ML team — [[wiki/sources/datarize-ai-product-search|Datarize]] launched semantic product search (synonym, typo, spacing and conversational-intent tolerance) for Cafe24 fashion retailers. **Vendor marketing, no metrics, `llm_ready: false`** — a datapoint about market trajectory, not about efficacy. Note the design caution it raises: merchandising rules (auto-hiding out-of-stock, boosting new products) layered onto relevance ranking make search quality hard to evaluate unless kept separable.
 
 ## 🔗 Related Concepts
 - [[concepts/ai-agents/agentic-rag|Agentic RAG]]
@@ -36,7 +37,9 @@ confidence: 0.78
 
 ## 📚 Sources
 - [[sources/langchain-exa|Exa × LangChain: Agentic Web Search]]
+- [[wiki/sources/datarize-ai-product-search|Datarize (2026): AI Product Search Launch]] — commodity-productization market signal. Vendor marketing; `llm_ready: false`.
 
 ## ❓ Open Questions
 - How is retrieval *fidelity/quality* measured for agentic search (vs just latency/throughput)?
 - How does selective inter-task context affect synthesis quality vs cost?
+- Is there an independent benchmark for semantic e-commerce search — and specifically for Korean-language catalogs, where native/loanword synonym pairs are routine?
