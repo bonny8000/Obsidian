@@ -2,7 +2,7 @@
 type: concept
 status: active
 created: 2026-06-17
-updated: 2026-07-28
+updated: 2026-06-29
 tags: [ai-native-design-system, context-engine, design-system, agentic-engineering, mcp, agent-skills, accessibility]
 sources:
   - sources/atlassian-design-system-context-engine
@@ -10,7 +10,6 @@ sources:
   - sources/christinevallaure-agentic-ai-design-systems
   - sources/christinevallaure-a2ui-generative-ui
   - sources/christinevallaure-hypertokens
-  - sources/polar-orbit-llm-safe-design-system
 confidence: 0.82
 ---
 
@@ -44,7 +43,6 @@ confidence: 0.82
 - **"Design system as instructions, not documentation."** Vallaure reframes the AI shift as: *"The design system is no longer just documentation for developers. It is instructions for a machine"* that reads and assembles UI faithfully — *"it will go exactly where you point it."* The creative-control upside is conditional on rigorous file/token setup; a sloppy file yields sloppy agent output ([[sources/christinevallaure-agentic-ai-design-systems|Vallaure, 2026]]). (This "design-system-as-instructions" reframing is treated as a facet of this concept, not a separate page.)
 - **The catalog is the agent-facing contract.** In A2UI-style generative UI, an AI-native design system exposes a machine-readable [[concepts/infrastructure-dev/component-catalog|component catalog]] as the *only* palette an agent may build from — making catalog quality the ceiling for every generated screen ([[sources/christinevallaure-a2ui-generative-ui|Vallaure, 2026]]).
 - **Bundled tokens reduce agent reconstruction.** [[concepts/infrastructure-dev/hypertokens|Hypertokens]] (named, grouped style bundles compiling to many targets) are a proposed AI-native primitive: handing an agent `Surface.brand` instead of raw values means less to reverse-engineer ([[sources/christinevallaure-hypertokens|Vallaure, 2026]]).
-- **Legibility may not be sufficient — foreclosure is the stronger form.** [[wiki/sources/polar-orbit-llm-safe-design-system|Polar's Orbit]] argues that documentation and context files fail because an LLM generates without sustained context awareness, so off-system decisions must be made **uncompilable** rather than discouraged: typed tokens derived from definitions, raw layout elements banned by lint rule, theme resolution inside the token, and CI treated as a contract. This is a *narrower and more forceful* claim than the four pillars — see [[wiki/concepts/infrastructure-dev/llm-safe-design-system|LLM-Safe Design System]] for the full treatment and the tension it creates with DESIGN.md-style approaches.
 
 ## Self-assessment maturity model (Atlassian four pillars)
 
@@ -59,7 +57,6 @@ For any design system, audit each pillar honestly:
 
 ## 🔗 Related Concepts
 
-- [[wiki/concepts/infrastructure-dev/llm-safe-design-system|LLM-Safe Design System]] — the constraint-side sibling. This concept asks whether AI *can understand and build with* the system; that one asks whether the system can make wrong output *fail*.
 - [[concepts/infrastructure-dev/design-md|DESIGN.md]] — the portable always-on slice of the Context Engine.
 - [[concepts/ai-agents/agent-skills|Agent Skills]] — the on-demand procedural slice.
 - [[concepts/ai-agents/mcp-integration|MCP Integration]] — the on-demand reach slice.
@@ -95,7 +92,6 @@ For any design system, audit each pillar honestly:
 - [[sources/christinevallaure-agentic-ai-design-systems|Vallaure (2026): Agentic AI, Design Systems & Figma]] — "design system as instructions for a machine" reframing + six-part Figma checklist.
 - [[sources/christinevallaure-a2ui-generative-ui|Vallaure (2026): A2UI Under the Hood]] — the catalog as agent-facing contract.
 - [[sources/christinevallaure-hypertokens|Vallaure (2026): Hypertokens]] — bundled-decision token tier for agents.
-- [[wiki/sources/polar-orbit-llm-safe-design-system|Polar (2026): Building an LLM-Safe Design System (Orbit)]] — the foreclosure argument: constrain the acceptance gate, not the generator.
 
 ## ❓ Open Questions
 

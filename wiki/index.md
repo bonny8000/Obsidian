@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-05-18
-updated: 2026-07-28
+updated: 2026-07-07
 tags: [index, llm-wiki, dashboard]
 sources:
   - sources/brunch-ghidesigner-487
@@ -32,14 +32,6 @@ confidence: 0.9
 ![[../dashboard.base]]
 
 ## Recent Ingests
-> [!success] Constraining AI by construction + UXR under acceleration — 2026-07-28 (12 sources)
-> - **Agent constraint (5):** [[sources/naver-d2-ai-hackathon-nstake|NAVER D2 — what the winning team did *not* delegate]] (`coverage: full`), [[sources/socar-parking-brain-knowledge-graph|SOCAR parking-brain knowledge graph]], [[sources/polar-orbit-llm-safe-design-system|Polar Orbit LLM-safe design system]], [[sources/b2b-admin-web-accessibility|B2B admin web accessibility]], [[sources/membership-inference-attack-explainer|Membership inference attack]] → [[concepts/ai-agents/permission-boundary-guardrails|Permission-Boundary Guardrails]], [[concepts/ai-agents/rule-statistical-external-validation|Rule/Statistical/eXternal Validation]], [[concepts/ai-agents/workflow-completeness|Workflow Completeness]], [[concepts/infrastructure-dev/domain-knowledge-graph|Domain Knowledge Graph]], [[concepts/infrastructure-dev/llm-safe-design-system|LLM-Safe Design System]], [[concepts/ai-agents/membership-inference-attack|Membership Inference Attack]]
-> - **UXR under AI acceleration (3):** [[sources/nngroup-accelerating-research-with-ai|NN/g — Accelerating Research with AI]], [[sources/when-research-gets-faster|Venkat — when research gets faster]], [[sources/uxr-market-research-data-science-reorg|Papas — UXR/MR/DS reorg]] → [[concepts/ux-research/interpretation-locality|Interpretation Locality]]
-> - **Agent-facing & adaptive interfaces (2):** [[sources/veronikapj-whats-new-android-2026|What's New in Android 2026]], [[sources/google-natively-adaptive-interfaces|Google NAI]] *(partial)* → [[concepts/agent-experience/agent-invocable-app-functions|Agent-Invocable App Functions]], [[concepts/agent-experience/natively-adaptive-interfaces|Natively Adaptive Interfaces]], [[concepts/ux-research/web-accessibility-pour|Web Accessibility (POUR)]]
-> - **Reference (2):** [[sources/pm-market-analysis-saas-vs-platform|SaaS vs. Platform]] → [[concepts/product-management/saas-vs-platform|SaaS vs. Platform]]; [[sources/datarize-ai-product-search|Datarize AI search]] *(vendor marketing, `llm_ready: false`)*
-> - **Decision table:** [[comparisons/delegate-vs-determinize|Delegate to a Model vs. Determinize in Code]]
-> - **Syntheses:** [[analyses/2026-07-28-constraining-ai-by-construction|Constraining AI by Construction]] · [[analyses/2026-07-28-uxr-under-ai-acceleration|What AI Acceleration Actually Changes About UX Research]]
-
 > [!success] AI product workflows and evidence boundaries — 2026-07-27 (5 sources)
 > - Validation: [[sources/microsoft-forms-did-me-dirty|Microsoft Forms Did Me Dirty]] → [[concepts/ux-research/research-data-validation|Research Data Validation]], [[concepts/ux-research/ranking-and-prioritization|Ranking and Prioritization]]
 > - AI workflow: [[sources/use-ai-to-need-less-ai|Use AI to Need Less AI]] and [[sources/ux-writing-bot-follow-up|UX writing bot follow-up]] → [[concepts/infrastructure-dev/deterministic-ai-workflows|Deterministic AI Workflows]], [[concepts/infrastructure-dev/ai-readable-documentation|AI-Readable Documentation]]
