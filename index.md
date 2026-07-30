@@ -2,7 +2,7 @@
 type: index
 status: active
 created: 2026-06-12
-updated: 2026-07-28
+updated: 2026-07-30
 tags: [index, llm-wiki, ux-research]
 sources: []
 confidence: 1.0
@@ -25,6 +25,12 @@ This is the top-level catalog for the Obsidian LLM-Wiki. Use it as the first sto
 - [[log|Operations Log]]
 
 ## Recent Ingests
+
+- **Trust measurement, AI advertising, and the designer-builder (2026-07-30, 3 sources):** two sources describing the same phenomenon with opposite valence.
+  - [[wiki/sources/measuringu-measuring-the-ux-of-ai|Sauro & Lewis: Measuring the UX of AI]] (0.72) — a **34-item, six-construct** instrument (AI Productivity, Trust, Dependency, Anxiety, Personification, Early Adoption) layered under UX-Lite. **No psychometric validation, no response format stated** — an item bank, not a scale. New concept: [[wiki/concepts/ux-research/ai-ux-measurement-constructs|AI UX Measurement Constructs]] (`draft`). This page also flags a confound the source does not: *AI Anxiety* and *Early Adoption* measure the **respondent**, not the product.
+  - [[wiki/sources/kakao-vc-ai-agent-advertising|Kakao Ventures: AI agents as true representatives]] (0.76) — conversational sponsored recommendations selected at **61.2%** vs **22.4%** in search; explicit labels *plus warnings* only reduce it to **55.5%**; hidden intent detected **under 10%** of the time (Princeton study, cited second-hand — parameters unknown). New concepts: [[wiki/concepts/agent-experience/delegation-spectrum|Delegation Spectrum]], [[wiki/concepts/agent-experience/principal-agent-problem|Principal–Agent Problem (AI)]], [[wiki/concepts/product-management/ai-advertising|AI Advertising]].
+  - [[wiki/sources/designer-builder-collapse|Ozenc & Yousefi: The Designer-Builder]] (0.62) — the designer/builder boundary collapsing toward [[wiki/concepts/agent-experience/designing-generative-systems|designing generative systems]], with the design act becoming review/approval. Single practitioner, no data; **contradicted on its central optimism by NStake**, where fast generated UI was wrong for its audience and design became the bottleneck.
+  - Synthesized in [[wiki/analyses/2026-07-30-trust-measurement-and-monetization|Measuring Trust While Trust Is Being Monetized]] — *the same construct is a UX defect and a revenue asset; trust calibration was built for noise, not for an opponent; disclosure has now failed twice independently, so the intervention moves upstream to incentive structure.* Enriched: [[wiki/concepts/agent-experience/trust-calibration|Trust Calibration]], [[wiki/concepts/agent-experience/agent-transparency|Agent Transparency]], [[wiki/concepts/agent-experience/checkbox-transparency|Checkbox Transparency]], [[wiki/concepts/agent-experience/companion-attachment-dependency|Companion Attachment & Dependency]], [[wiki/concepts/product-management/product-taste|Product Taste]], [[wiki/concepts/ai-agents/vibe-design|Vibe Design]], [[wiki/concepts/ux-research/ux-metrics|UX Metrics]], [[wiki/concepts/product-management/role-convergence|Role Convergence]].
 
 - **Constraining AI by construction + UXR under acceleration (2026-07-28, 12 sources):** the largest single ingest so far, in two clusters.
   - *Agent constraint (5):* [[wiki/sources/naver-d2-ai-hackathon-nstake|NAVER D2: What the winning AI hackathon team did **not** delegate]] (0.87, `coverage: full` — read end-to-end via the D2 API; the delegation table, the R/S/X validation split, six authorization boundaries, and a self-inflicted shared-DB wipe that took 20+ minutes of a 6-hour event), [[wiki/sources/socar-parking-brain-knowledge-graph|SOCAR parking-brain]] (0.83 — ~100 hand-written seeds + ~17k derived Neo4j nodes, hourly, `sourceRef` not duplication; LLM concept extraction *tried and abandoned*), [[wiki/sources/polar-orbit-llm-safe-design-system|Polar Orbit]] (0.78 — typed tokens, banned raw HTML layout, CI as contract), [[wiki/sources/b2b-admin-web-accessibility|rami_: B2B admin accessibility]] (0.76 — an automated scan reported 168 missing `alt` where **6** existed), [[wiki/sources/membership-inference-attack-explainer|Membership inference attack]] (0.74). New concepts: [[wiki/concepts/ai-agents/permission-boundary-guardrails|Permission-Boundary Guardrails]], [[wiki/concepts/ai-agents/rule-statistical-external-validation|Rule/Statistical/eXternal Validation]], [[wiki/concepts/ai-agents/workflow-completeness|Workflow Completeness]], [[wiki/concepts/infrastructure-dev/domain-knowledge-graph|Domain Knowledge Graph]], [[wiki/concepts/infrastructure-dev/llm-safe-design-system|LLM-Safe Design System]], [[wiki/concepts/ai-agents/membership-inference-attack|Membership Inference Attack]]. Synthesized in [[wiki/analyses/2026-07-28-constraining-ai-by-construction|Constraining AI by Construction]] — *the generator stays free; the acceptance gate gets narrow* — with the deferred decision table now written as [[wiki/comparisons/delegate-vs-determinize|Delegate to a Model vs. Determinize in Code]].
@@ -103,6 +109,7 @@ This is the top-level catalog for the Obsidian LLM-Wiki. Use it as the first sto
 - [[wiki/comparisons/ai-assisted-research-risk-matrix|AI-Assisted Research Risk Matrix]]
 - [[wiki/comparisons/synthetic-data-role-selection|Synthetic-Data Role Selection]]
 - [[wiki/comparisons/delegate-vs-determinize|Delegate to a Model vs. Determinize in Code]]
+- [[wiki/analyses/2026-07-30-trust-measurement-and-monetization|Measuring Trust While Trust Is Being Monetized (2026-07-30)]]
 - [[wiki/analyses/2026-07-28-constraining-ai-by-construction|Constraining AI by Construction (2026-07-28)]]
 - [[wiki/analyses/2026-07-28-uxr-under-ai-acceleration|What AI Acceleration Actually Changes About UX Research (2026-07-28)]]
 - [[wiki/analyses/2026-07-27-ai-product-workflows-and-evidence|AI Product Workflows Need Better Evidence Boundaries (2026-07-27)]]

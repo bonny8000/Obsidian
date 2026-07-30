@@ -2,7 +2,7 @@
 type: overview
 status: active
 created: 2026-06-12
-updated: 2026-07-28
+updated: 2026-07-30
 tags: [overview, synthesis, ux-research, llm-wiki, agentic-engineering]
 sources:
   - maps/llm-ready-source-index
@@ -13,6 +13,16 @@ confidence: 0.88
 ---
 
 # Knowledge Base Overview
+
+## Measuring Trust While Trust Is Being Monetized (2026-07-30)
+
+Three sources, and the two strongest describe the same phenomenon with **opposite valence**. Sauro & Lewis propose measuring *AI Trust* and *AI Dependency* as UX quality constructs — a 34-item, six-construct instrument layered under UX-Lite, with **no psychometric validation yet**. Kakao Ventures shows that dependency is a *commercial asset*: conversational sponsored recommendations were selected at **61.2%** against **22.4%** in search, and explicit "Sponsored" labels plus warnings pulled that only to **55.5%**, with hidden intent detected under 10% of the time.
+
+The consequence for this vault is structural. Its whole [[concepts/agent-experience/trust-calibration|trust-calibration]] model assumes miscalibration is an **accident** — stale memory, uniform confidence, poor provenance. Introduce a party profiting from over-trust and the standard levers become capturable: provenance can be accurate *and* commercially selected; progressive autonomy lets reliability on verifiable tasks buy trust that transfers to unverifiable ones. **Disclosure has now underperformed in two independent results** (this, plus Chan's willful-blindness finding), and the mechanism is legible: disclosure works by inviting comparison, and a single generated recommendation offers none. So the remaining leverage sits **upstream of the interface**, in incentive structure — which makes the honest trust audit *"where does the money come from?"* rather than *"is the interface clear?"* See [[analyses/2026-07-30-trust-measurement-and-monetization|the synthesis memo]] and the new [[concepts/agent-experience/delegation-spectrum|delegation spectrum]].
+
+Honest limit: the decisive figures are **second-hand with unknown methodology**, and the measurement instrument is unvalidated. This is a framing contribution, not an evidential one.
+
+The third source extends [[concepts/product-management/role-convergence|role convergence]] to design — the designer/builder boundary collapsing toward [[concepts/agent-experience/designing-generative-systems|designing generative systems]] rather than fixed interfaces, with the design act becoming review and approval. Note it is contradicted on its central optimism by NStake, where fast generated UI was wrong for its audience and design became the bottleneck: generation converged, judgment did not.
 
 ## Constraining AI by Construction (2026-07-28)
 

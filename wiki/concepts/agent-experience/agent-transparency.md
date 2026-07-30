@@ -2,14 +2,15 @@
 type: concept
 status: active
 created: 2026-06-12
-updated: 2026-06-29
-tags: [agent-experience, transparency, explainability, ax]
+updated: 2026-07-30
+tags: [agent-experience, transparency, explainability, ax, disclosure, principal-agent]
 sources:
   - sources/andru-saksena-adobe-haic-2025
   - sources/amershi-2019-human-ai-guidelines
   - sources/lee-see-2004-trust-in-automation
   - sources/christinevallaure-a2ui-generative-ui
-confidence: 0.75
+  - sources/kakao-vc-ai-agent-advertising
+confidence: 0.72
 ---
 
 # Agent Transparency
@@ -40,10 +41,21 @@ Probabilistic systems break the predictability assumptions of traditional UI. Us
 - [[concepts/agent-experience/mental-model-onboarding|Mental Model Onboarding]]
 - [[concepts/ux-research/ax-ai-experience|AX (AI Experience)]]
 - [[concepts/agent-experience/a2ui-protocol|A2UI Protocol]] — the agent-to-UI rendering surface.
+- [[wiki/concepts/agent-experience/delegation-spectrum|Delegation Spectrum]] — why disclosure loses its mechanism at higher tiers.
+- [[wiki/concepts/agent-experience/principal-agent-problem|Principal–Agent Problem (AI)]] — when the party providing the transparency has a stake in the outcome.
+- [[concepts/agent-experience/checkbox-transparency|Checkbox Transparency]]
 
 ## Conflicts & Caveats
 
 - Tension exists between transparency and cognitive load; more explanation is not always better. Amershi et al.'s G11 (explain why the system acted) and Lee & See's purpose/process/performance dimensions now ground the framework, though both predate long-horizon generative agents.
+
+> [!warning] Disclosure has now underperformed in two independent results
+> This concept's implicit premise is that legibility produces appropriate reliance. Two unrelated findings say the mechanism is weaker than assumed:
+>
+> - **Disclosure barely moves behavior.** Conversational sponsored recommendations were selected at **61.2%** versus **22.4%** in search; adding explicit "Sponsored" labels *plus warnings* reduced that only to **55.5%**, and hidden intent went undetected **over 90%** of the time ([[wiki/sources/kakao-vc-ai-agent-advertising|Kakao Ventures, 2026]] — second-hand figures, see source caveats).
+> - **Available explanations go unread** when incentives point the other way — [[concepts/agent-experience/willful-blindness|willful blindness]] ([[sources/hbs-working-knowledge-ai-advice-willful-blindness|Chan, 2026]]).
+>
+> **The mechanism worth naming: disclosure works by inviting comparison.** A results page offers something to compare against; a single generated recommendation does not. So the failure is structural rather than a labelling-design problem, and it worsens as products move up the [[wiki/concepts/agent-experience/delegation-spectrum|delegation spectrum]]. Transparency remains necessary; it is not sufficient, and it should not be counted as a safeguard. See [[concepts/agent-experience/checkbox-transparency|Checkbox Transparency]] — now an empirical finding rather than a critique.
 
 ## Sources
 
@@ -52,6 +64,7 @@ Probabilistic systems break the predictability assumptions of traditional UI. Us
 - [[sources/andru-saksena-adobe-haic-2025|Adobe HAIC Framework]]
 - [[sources/christinevallaure-a2ui-generative-ui|Vallaure (2026): A2UI Under the Hood]] — recipe/renderer split as a transparency/provenance surface.
 - [[sources/microsoft-design-ux-for-agents|Microsoft Design (2025): UX Design for Agents]]
+- [[wiki/sources/kakao-vc-ai-agent-advertising|Kakao Ventures (2026): AI Agents — Questioning the Qualifications of a True Representative]] — the disclosure-insufficiency evidence.
 
 ## Open Questions
 

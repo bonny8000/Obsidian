@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-05-18
-updated: 2026-07-28
+updated: 2026-07-30
 tags: [index, llm-wiki, dashboard]
 sources:
   - sources/brunch-ghidesigner-487
@@ -32,6 +32,12 @@ confidence: 0.9
 ![[../dashboard.base]]
 
 ## Recent Ingests
+> [!success] Trust measurement, AI advertising, designer-builder — 2026-07-30 (3 sources)
+> - Measurement: [[sources/measuringu-measuring-the-ux-of-ai|Sauro & Lewis — Measuring the UX of AI]] → [[concepts/ux-research/ai-ux-measurement-constructs|AI UX Measurement Constructs]] *(34 items, six constructs, **unvalidated**)*
+> - Commercial capture: [[sources/kakao-vc-ai-agent-advertising|Kakao Ventures — AI agents as true representatives]] → [[concepts/agent-experience/delegation-spectrum|Delegation Spectrum]], [[concepts/agent-experience/principal-agent-problem|Principal–Agent Problem (AI)]], [[concepts/product-management/ai-advertising|AI Advertising]]
+> - Design practice: [[sources/designer-builder-collapse|Ozenc & Yousefi — The Designer-Builder]] → [[concepts/agent-experience/designing-generative-systems|Designing Generative Systems]]
+> - Synthesis: [[analyses/2026-07-30-trust-measurement-and-monetization|Measuring Trust While Trust Is Being Monetized]] — *disclosure has now underperformed in two independent results; the intervention moves upstream to incentive structure*
+
 > [!success] Constraining AI by construction + UXR under acceleration — 2026-07-28 (12 sources)
 > - **Agent constraint (5):** [[sources/naver-d2-ai-hackathon-nstake|NAVER D2 — what the winning team did *not* delegate]] (`coverage: full`), [[sources/socar-parking-brain-knowledge-graph|SOCAR parking-brain knowledge graph]], [[sources/polar-orbit-llm-safe-design-system|Polar Orbit LLM-safe design system]], [[sources/b2b-admin-web-accessibility|B2B admin web accessibility]], [[sources/membership-inference-attack-explainer|Membership inference attack]] → [[concepts/ai-agents/permission-boundary-guardrails|Permission-Boundary Guardrails]], [[concepts/ai-agents/rule-statistical-external-validation|Rule/Statistical/eXternal Validation]], [[concepts/ai-agents/workflow-completeness|Workflow Completeness]], [[concepts/infrastructure-dev/domain-knowledge-graph|Domain Knowledge Graph]], [[concepts/infrastructure-dev/llm-safe-design-system|LLM-Safe Design System]], [[concepts/ai-agents/membership-inference-attack|Membership Inference Attack]]
 > - **UXR under AI acceleration (3):** [[sources/nngroup-accelerating-research-with-ai|NN/g — Accelerating Research with AI]], [[sources/when-research-gets-faster|Venkat — when research gets faster]], [[sources/uxr-market-research-data-science-reorg|Papas — UXR/MR/DS reorg]] → [[concepts/ux-research/interpretation-locality|Interpretation Locality]]

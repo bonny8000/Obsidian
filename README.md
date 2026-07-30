@@ -22,13 +22,13 @@ The core rule is simple: preserve source truth in `raw/`, then compile useful, l
 
 | Area | Current count | Notes |
 | --- | ---: | --- |
-| Raw files | 323 | Preserved under `raw/` and treated as source evidence |
-| Source pages | 189 | 164 currently marked `llm_ready: true` |
-| Concept pages | 344 | Grouped by domain under `wiki/concepts/` |
+| Raw files | 326 | Preserved under `raw/` and treated as source evidence |
+| Source pages | 192 | 167 currently marked `llm_ready: true` |
+| Concept pages | 349 | Grouped by domain under `wiki/concepts/` |
 | UX research methods | 14 | Method pages with use cases, quality bars, and LLM guidance |
 | Topic maps | 15 | Navigation hubs and source-readiness dashboards |
 | Comparisons | 5 | Decision matrices across methods, tools, and frameworks |
-| Analyses | 6 | Synthesized memos built from multiple sources |
+| Analyses | 7 | Synthesized memos built from multiple sources |
 | Playbooks | 6 | Reusable operating and review workflows |
 | Projects | 8 | Active or completed project pages |
 | Saved queries | 73 | Reusable answers and research prompts |
@@ -38,12 +38,12 @@ Concept clusters:
 
 | Cluster | Concept pages |
 | --- | ---: |
-| UX research | 113 |
+| UX research | 114 |
 | AI agents and agentic engineering | 86 |
 | Infrastructure and design systems | 58 |
-| Product management | 33 |
+| Product management | 34 |
 | Robotics and spatial AI | 31 |
-| Agent experience | 20 |
+| Agent experience | 23 |
 | Cognitive science | 3 |
 
 Start from [wiki/overview.md](wiki/overview.md) for synthesis, [wiki/index.md](wiki/index.md) for the Obsidian dashboard, or [index.md](index.md) for the top-level catalog.
