@@ -14,7 +14,7 @@ confidence: 1.0
 ## Pipe-stripped links: 0
 
 
-## Broken link targets: 8
+## Broken link targets: 7
 
 - `concepts/ux-research/decision-contract -> [[wiki/concepts/ux-research/minimum-viable-rigor]]`
 - `concepts/ux-research/micro-research -> [[wiki/concepts/ux-research/directional-readout]]`
@@ -23,7 +23,6 @@ confidence: 1.0
 - `index -> [[../dashboard]]`
 - `sources/ai-powered-ux-research -> [[wiki/concepts/ux-research/directional-readout]]`
 - `sources/ai-powered-ux-research -> [[wiki/concepts/ux-research/minimum-viable-rigor]]`
-- `sources/ux-nps-benchmark-report-for-healthcare-websites-2026 -> [[wiki/methods/ux-benchmarking]]`
 
 ## Empty/near-empty pages: 0
 

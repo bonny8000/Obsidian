@@ -47,7 +47,7 @@ MeasuringU 2026 quantitative UX benchmark evaluating usability metrics, task com
 - What impact do integrated AI health assistants have on overall website usability scores?
 
 ## Concepts linked from this source
-- [[wiki/methods/ux-benchmarking|UX Benchmarking]]
+- [[wiki/methods/benchmark-studies|Benchmark Studies]]
 
 ## LLM use guidance
 - Use this dataset as quantitative evidence when setting target UX metrics for healthcare web products.
