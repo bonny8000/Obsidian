@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-05-18
-updated: 2026-07-30
+updated: 2026-07-31
 tags: [index, llm-wiki, dashboard]
 sources:
   - sources/brunch-ghidesigner-487
@@ -32,6 +32,11 @@ confidence: 0.9
 ![[../dashboard.base]]
 
 ## Recent Ingests
+> [!success] Constraint architectures + reporting and modality — 2026-07-31 (5 sources)
+> - **Constraint cluster (3):** [[sources/karrot-kraft-design-system-agent|Karrot — Kraft]] (`coverage: full`; DesignSpec schema, 11 scorers, cross-session memory, **multi-agent tried and abandoned**), [[sources/pxd-writone-ai-writing-assistant|pxd — Writone]] (placement beats capability), [[sources/maily-product-makers-guardrails|Product Makers Note #24 — Guardrails]] (three layers, deployed in inverse strength order) → [[concepts/ai-agents/design-spec-intermediate-representation|Design Spec as IR]], [[concepts/ai-agents/generated-output-scoring|Generated-Output Scoring]], [[concepts/ai-agents/layered-content-guardrails|Layered Content Guardrails]], [[concepts/infrastructure-dev/in-workflow-ai-placement|In-Workflow AI Placement]]
+> - **Shape-to-the-receiver pairing (2):** [[sources/carl-pearson-minimally-technical-reporting|Pearson — Minimally Technical Reporting]], [[sources/smashing-matching-ai-modality-user-intent|Yocco — Matching AI Modality to User Intent]] → [[concepts/ux-research/minimally-technical-reporting|Minimally Technical Reporting]], [[concepts/agent-experience/modality-intent-matching|Modality–Intent Matching]]
+> - **Synthesis:** [[analyses/2026-07-31-constraint-architectures-converge|Constraint Architectures Converge — and Still Nobody Measures Them]] + [[comparisons/where-to-put-the-constraint|Where to Put the Constraint]] — *eight sources agree on the architecture; one has measured it*
+
 > [!success] Trust measurement, AI advertising, designer-builder — 2026-07-30 (3 sources)
 > - Measurement: [[sources/measuringu-measuring-the-ux-of-ai|Sauro & Lewis — Measuring the UX of AI]] → [[concepts/ux-research/ai-ux-measurement-constructs|AI UX Measurement Constructs]] *(34 items, six constructs, **unvalidated**)*
 > - Commercial capture: [[sources/kakao-vc-ai-agent-advertising|Kakao Ventures — AI agents as true representatives]] → [[concepts/agent-experience/delegation-spectrum|Delegation Spectrum]], [[concepts/agent-experience/principal-agent-problem|Principal–Agent Problem (AI)]], [[concepts/product-management/ai-advertising|AI Advertising]]

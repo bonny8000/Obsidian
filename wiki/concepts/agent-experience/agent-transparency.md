@@ -2,14 +2,15 @@
 type: concept
 status: active
 created: 2026-06-12
-updated: 2026-07-30
-tags: [agent-experience, transparency, explainability, ax, disclosure, principal-agent]
+updated: 2026-07-31
+tags: [agent-experience, transparency, explainability, ax, disclosure, principal-agent, citation, automation-bias]
 sources:
   - sources/andru-saksena-adobe-haic-2025
   - sources/amershi-2019-human-ai-guidelines
   - sources/lee-see-2004-trust-in-automation
   - sources/christinevallaure-a2ui-generative-ui
   - sources/kakao-vc-ai-agent-advertising
+  - pxd-writone-ai-writing-assistant
 confidence: 0.72
 ---
 
@@ -65,6 +66,7 @@ Probabilistic systems break the predictability assumptions of traditional UI. Us
 - [[sources/christinevallaure-a2ui-generative-ui|Vallaure (2026): A2UI Under the Hood]] — recipe/renderer split as a transparency/provenance surface.
 - [[sources/microsoft-design-ux-for-agents|Microsoft Design (2025): UX Design for Agents]]
 - [[wiki/sources/kakao-vc-ai-agent-advertising|Kakao Ventures (2026): AI Agents — Questioning the Qualifications of a True Representative]] — the disclosure-insufficiency evidence.
+- [[wiki/sources/pxd-writone-ai-writing-assistant|pxd (2026): Writone]] — **the favourable case for disclosure.** Every correction cites the guideline source and principle page, and the reason is given in human language rather than algorithmic terms. This is a materially stronger form than a label, because it is *checkable*: the user can go read the cited rule. It fits the mechanism [[wiki/analyses/2026-07-30-trust-measurement-and-monetization|the trust memo]] identifies — disclosure works by inviting a comparison the user can actually make. Note the limits: the source measures no acceptance rate, so it cannot show that citing the rule changes behaviour rather than merely reassuring, and there is no adversarial party here, which is what made the unfavourable cases unfavourable.
 
 ## Open Questions
 

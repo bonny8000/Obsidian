@@ -2,10 +2,11 @@
 type: concept
 status: active
 created: 2026-06-25
-updated: 2026-06-25
-tags: [planning-harness, harness-engineering, ai-pm, product-planning, skills, guardrails, claudemd]
+updated: 2026-07-31
+tags: [planning-harness, harness-engineering, ai-pm, product-planning, skills, guardrails, claudemd, content-safety]
 sources:
   - sources/maily-product-makers-planning-harness
+  - maily-product-makers-guardrails
 confidence: 0.78
 ---
 
@@ -42,6 +43,7 @@ PMs get good high-level strategy help from AI but revert to manual detailed plan
 ## Sources
 
 - [[sources/maily-product-makers-planning-harness|Product Makers Note: Build a Planning Harness (2026)]]
+- [[wiki/sources/maily-product-makers-guardrails|Product Makers Note #24 (2026): Guardrails]] — same publisher, five issues later. It opens a four-part series naming **guardrails, tool use, human-in-the-loop, and context** as the elements of AI *service* planning — near-identical to this page's four harness elements, but aimed at designing the product rather than the planning process. Its guardrail treatment replaces "human approval" with three technical layers ([[concepts/ai-agents/layered-content-guardrails|prompt / tuning / API]]) and does not return to approval; whether human-in-the-loop is now a separate element or a demoted one is unresolved until part 3 publishes.
 
 ## Open Questions
 

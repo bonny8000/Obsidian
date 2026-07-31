@@ -2,7 +2,7 @@
 type: overview
 status: active
 created: 2026-06-12
-updated: 2026-07-30
+updated: 2026-07-31
 tags: [overview, synthesis, ux-research, llm-wiki, agentic-engineering]
 sources:
   - maps/llm-ready-source-index
@@ -13,6 +13,20 @@ confidence: 0.88
 ---
 
 # Knowledge Base Overview
+
+## Constraint Architectures Converge — and Still Nobody Measures Them (2026-07-31)
+
+Five sources; the three strongest extend the vault's largest cluster. [[sources/karrot-kraft-design-system-agent|Karrot's Kraft]] independently reached the principle [[sources/polar-orbit-llm-safe-design-system|Polar Orbit]] stated three months ago — *constrain the acceptance criteria, not the generator* — but implemented it a layer up, in a **spec schema** whose token field cannot hold a hex value rather than in a type system that will not compile one. Same conclusion, different mechanism, different country, neither citing the other. With [[sources/naver-d2-ai-hackathon-nstake|NStake]], [[sources/socar-self-healing-agents|SOCAR]], and [[sources/maily-product-makers-guardrails|Product Makers Note #24]], that principle now holds across five domains and five organisations.
+
+Karrot extends it in two directions the vault did not have. **Scoring rather than gating:** eleven [[concepts/ai-agents/generated-output-scoring|scorers]] split seven deterministic static checks from four LLM judgment calls, so a violation reports *how far off and where* instead of pass/fail. **Cumulative rather than authored:** decisions accumulate across sessions and repeat above a threshold to become domain principles, so the constraint set grows from use. It also supplies the cluster's only recorded negative result — a multi-agent design tried and abandoned for communication overhead and context loss, replaced by a harness with two modes and code-writing delegated outward to Claude Code.
+
+A second pattern runs through all three: **the human moved to the decision point, not the production point.** Writone's *"AI presents the options; the judgment is made by a person"*, #24's *"where to post the gatekeeper and how sensitive to make it is the planner's job"*, and Kraft's Plan mode — which does not decline to write code but simply **lacks the tool**. That last is the strongest [[concepts/ai-agents/approval-gate|approval gate]] form in this vault, and approval-gate convergence is now five sources deep.
+
+**The load-bearing finding is negative.** The 2026-07-28 memo flagged that no constraint architecture here states its break-even. Three sources later it is unchanged, and the gap has stopped looking like an accident: Kraft reports no adoption, cycle time, or eval-score distribution — *a tool justified entirely by consistency, reporting no consistency metric*; Writone reports no adoption, accuracy, or failure case; #24 reports no block or over-refusal rate. Only SOCAR has ever put numbers behind one, out of eight sources. These teams agree on what good architecture looks like; **none of them has shown it works.** See [[analyses/2026-07-31-constraint-architectures-converge|the synthesis]] and [[comparisons/where-to-put-the-constraint|the decision table]].
+
+Honest limits: four of six memo sources are first-party accounts by the builders, five are Korean industry sources, and nobody publishes the constraint architecture they abandoned.
+
+The two remaining sources pair off separately and below memo threshold: [[sources/carl-pearson-minimally-technical-reporting|Pearson]] on reporting depth and [[sources/smashing-matching-ai-modality-user-intent|Yocco]] on interface modality both argue the artifact must be shaped to the receiver's cognitive state rather than the producer's convenience — one against defaulting to the appendix, the other against defaulting to chat.
 
 ## Measuring Trust While Trust Is Being Monetized (2026-07-30)
 

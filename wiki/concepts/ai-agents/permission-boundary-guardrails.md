@@ -2,9 +2,9 @@
 type: concept
 status: active
 created: 2026-07-28
-updated: 2026-07-28
-tags: [concept, ai-agent, guardrails, authorization, zero-trust, mcp, audit-log, human-in-the-loop, safety]
-sources: [naver-d2-ai-hackathon-nstake, socar-self-healing-agents]
+updated: 2026-07-31
+tags: [concept, ai-agent, guardrails, authorization, zero-trust, mcp, audit-log, human-in-the-loop, safety, tool-whitelist]
+sources: [naver-d2-ai-hackathon-nstake, socar-self-healing-agents, karrot-kraft-design-system-agent]
 confidence: 0.84
 ---
 
@@ -86,6 +86,7 @@ Derived from the shared-database incident, and the part most likely to be skippe
 
 - [[wiki/sources/naver-d2-ai-hackathon-nstake|NAVER D2 (2026): What the Winning AI Hackathon Team Did *Not* Delegate to AI]] — primary source: the six boundaries, the shared-DB incident, the environment-separation principles.
 - [[wiki/sources/socar-self-healing-agents|SOCAR (2026): AI Agents That Self-Repair Failures]] — production corroboration: credential isolation via closure so passwords never enter prompts or logs; retry blocked for write operations.
+- [[wiki/sources/karrot-kraft-design-system-agent|Karrot (2026): Kraft]] — the boundary applied to a **delegated sub-agent**: when Kraft hands code-writing to Claude Code, only `Edit/Write/Read/Bash/Glob/Grep` plus one docs MCP are whitelisted. Two transferable points — the authorization boundary follows the delegation rather than stopping at the first agent, and Kraft's mode split shows the same mechanism used for *workflow* control, not only safety: a mode is defined by which tools it lacks.
 
 ## ❓ Open Questions
 

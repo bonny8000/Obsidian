@@ -52,6 +52,7 @@ confidence: 0.85
 - [[wiki/concepts/ux-research/human-in-the-loop|Human in the Loop]]
 - [[wiki/concepts/ai-agents/ai-as-senior-hire|AI as a Senior Hire]] — the position this most directly constrains
 - [[wiki/concepts/ai-agents/context-engineering|Context Engineering]]
+- [[wiki/concepts/ai-agents/layered-content-guardrails|Layered Content Guardrails]] — **a different three layers, deliberately not merged.** This page layers *action / behavior / context* for **reliability**; that one layers *prompt / tuning / API* for **content safety**. They agree on the meta-claim — defense is layered, and the prompt is the weakest layer — but they are not the same taxonomy and should not be collapsed into one.
 
 ## 📚 Sources
 

@@ -2,12 +2,13 @@
 type: concept
 status: active
 created: 2026-05-18
-updated: 2026-06-17
-tags: [ai-agent, skills, automation, procedural-memory]
+updated: 2026-07-31
+tags: [ai-agent, skills, automation, procedural-memory, design-system, lazy-loading]
 sources:
   - sources/brunch-ghidesigner-486
   - sources/arxiv-2605-23904
   - sources/agent-skills-day-3
+  - karrot-kraft-design-system-agent
 confidence: 0.9
 ---
 
@@ -51,6 +52,7 @@ Skills turn one-off agent work into compounding process knowledge — Day-3 fram
 - [[sources/agent-skills-day-3|Singhal et al. (2026): Agent Skills (Day 3)]] — current standard reference for format, evaluation, composition, and governance.
 - [[sources/brunch-ghidesigner-486|Hermes Agent AI for Designers]]
 - [[sources/arxiv-2605-23904|arXiv 2605.23904: SkillOpt]] — treats skill documents as external trainable weights; best results across 52 configurations.
+- [[wiki/sources/karrot-kraft-design-system-agent|Karrot (2026): Kraft]] — **design-system knowledge as seven markdown skills** (`spacing-constraint`, `radius-constraint`, `typography-constraint`, `screen-patterns`, `small-writing-guide`, `design-principles`, `eval-self-check`), loaded only when relevant: a form screen pulls layout and spacing rules, while the copy guide loads only once copy is being decided. Two claimed benefits worth carrying — putting every rule in the system prompt both **wastes tokens and adds noise** (context-irrelevant rules actively degrade output, not merely cost money), and a design-system rule change edits **one skill file** rather than the system prompt. A concrete instance of skills as the maintenance boundary for institutional knowledge.
 
 ## Open Questions
 

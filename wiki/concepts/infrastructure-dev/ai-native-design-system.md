@@ -2,8 +2,8 @@
 type: concept
 status: active
 created: 2026-06-17
-updated: 2026-07-28
-tags: [ai-native-design-system, context-engine, design-system, agentic-engineering, mcp, agent-skills, accessibility]
+updated: 2026-07-31
+tags: [ai-native-design-system, context-engine, design-system, agentic-engineering, mcp, agent-skills, accessibility, decision-automation]
 sources:
   - sources/atlassian-design-system-context-engine
   - sources/atlassian-design-md
@@ -96,6 +96,7 @@ For any design system, audit each pillar honestly:
 - [[sources/christinevallaure-a2ui-generative-ui|Vallaure (2026): A2UI Under the Hood]] — the catalog as agent-facing contract.
 - [[sources/christinevallaure-hypertokens|Vallaure (2026): Hypertokens]] — bundled-decision token tier for agents.
 - [[wiki/sources/polar-orbit-llm-safe-design-system|Polar (2026): Building an LLM-Safe Design System (Orbit)]] — the foreclosure argument: constrain the acceptance gate, not the generator.
+- [[wiki/sources/karrot-kraft-design-system-agent|Karrot (2026): Kraft]] — a working instance: SEED-docs MCP, seven markdown skill modules, a spec schema, and eleven scorers. Its reframing is the useful one — *"the core is automating the decisions the design system demands, not drawing pixels"* — which recasts an AI-native design system as a **decision surface** rather than a component surface.
 
 ## ❓ Open Questions
 

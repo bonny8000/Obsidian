@@ -2,10 +2,10 @@
 type: concept
 status: active
 created: 2026-07-28
-updated: 2026-07-28
-tags: [concept, design-system, llm-safe, design-tokens, ci-enforcement, lint-rules, stylex, constraint-by-construction]
-sources: [polar-orbit-llm-safe-design-system]
-confidence: 0.76
+updated: 2026-07-31
+tags: [concept, design-system, llm-safe, design-tokens, ci-enforcement, lint-rules, stylex, constraint-by-construction, intermediate-representation, scorers]
+sources: [polar-orbit-llm-safe-design-system, karrot-kraft-design-system-agent]
+confidence: 0.79
 ---
 
 # LLM-Safe Design System
@@ -21,6 +21,17 @@ confidence: 0.76
 > "The LLM is free to write anything it wants. We just make sure the only things that pass CI are things we'd be happy to ship."
 
 This is the cleanest statement in this wiki of a general principle: **constrain the acceptance criteria, not the generator.** It appears independently in [[wiki/sources/socar-self-healing-agents|SOCAR's]] schema-enforced outputs and [[wiki/sources/naver-d2-ai-hackathon-nstake|NStake's]] authorization boundaries.
+
+## A second independent instance, at a different layer
+
+[[wiki/sources/karrot-kraft-design-system-agent|Karrot's Kraft]] reached the same principle from screen generation rather than from styling, and implemented it **one layer up** — in a spec schema rather than in the type system. Kraft's `DesignSpec` has a `designTokens` field that accepts only SEED semantic token names (`bg.layerDefault`) and *cannot represent* a raw hex value. The author's claim is that this alone guarantees brand-correct color. Same move, different altitude: Polar makes the wrong value uncompilable, Karrot makes it unrepresentable in the plan.
+
+Karrot then extends the principle in two directions Polar does not:
+
+- **Machine-scored, not just gated.** Eleven [[wiki/concepts/ai-agents/generated-output-scoring|scorers]] — seven deterministic static checks, four LLM-based judgment checks — score each generated screen so the machine filters before a human reviews. CI answers pass/fail; scoring answers *how far off, and where*.
+- **Cumulative, not just enforced.** Design decisions accumulate across sessions and repeated patterns are auto-promoted into per-domain principles, so the constraint set grows from use rather than only from authorship. See [[wiki/concepts/ai-agents/agent-memory|agent memory]].
+
+The convergence is real and worth weighting — two teams, two countries, two problem framings, same conclusion. The shared limitation is equally real: **neither reports an outcome measurement.**
 
 ## 📝 Key Claims
 
@@ -69,6 +80,9 @@ This is the cleanest statement in this wiki of a general principle: **constrain 
 - [[wiki/concepts/infrastructure-dev/design-review-automation|Design Review Automation]] — what the CI gate replaces.
 - [[wiki/concepts/infrastructure-dev/design-system-implementation|Design System Implementation]]
 - [[wiki/concepts/ai-agents/permission-boundary-guardrails|Permission-Boundary Guardrails]] — the same structural-over-instructed logic applied to agent authorization.
+- [[wiki/concepts/ai-agents/design-spec-intermediate-representation|Design Spec as Intermediate Representation]] — the same foreclosure enforced in a spec schema instead of a type system.
+- [[wiki/concepts/ai-agents/generated-output-scoring|Generated-Output Scoring]] — what Kraft adds beyond a binary CI gate.
+- [[wiki/comparisons/where-to-put-the-constraint|Where to Put the Constraint]] — the decision table across all four available layers.
 - [[wiki/concepts/infrastructure-dev/agent-defense-in-depth|Agent Defense in Depth]]
 
 ## 📚 Sources
@@ -76,6 +90,7 @@ This is the cleanest statement in this wiki of a general principle: **constrain 
 - [[wiki/sources/polar-orbit-llm-safe-design-system|Polar (2026): Building an LLM-Safe Design System (Orbit)]] — primary source: the four mechanisms, code examples, token conventions, and the CI-as-contract framing.
 - [[wiki/sources/naver-d2-ai-hackathon-nstake|NAVER D2 (2026): What the Winning AI Hackathon Team Did *Not* Delegate to AI]] — independent convergence on structural-over-instructed constraint from a different domain.
 - [[wiki/sources/socar-self-healing-agents|SOCAR (2026): AI Agents That Self-Repair Failures]] — schema-enforced output as the production-grade instance of the same principle.
+- [[wiki/sources/karrot-kraft-design-system-agent|Karrot (2026): Kraft]] — second independent instance, enforced in a spec schema and extended with scoring and cross-session memory.
 
 ## ❓ Open Questions
 

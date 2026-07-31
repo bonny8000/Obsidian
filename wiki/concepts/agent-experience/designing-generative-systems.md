@@ -2,10 +2,10 @@
 type: concept
 status: active
 created: 2026-07-30
-updated: 2026-07-30
-tags: [concept, agent-experience, generative-ui, design-practice, role-convergence, review-surface, product-taste]
-sources: [designer-builder-collapse, naver-d2-ai-hackathon-nstake]
-confidence: 0.62
+updated: 2026-07-31
+tags: [concept, agent-experience, generative-ui, design-practice, role-convergence, review-surface, product-taste, design-system]
+sources: [designer-builder-collapse, naver-d2-ai-hackathon-nstake, karrot-kraft-design-system-agent]
+confidence: 0.66
 ---
 
 # Designing Generative Systems
@@ -70,6 +70,7 @@ confidence: 0.62
 
 - [[wiki/sources/designer-builder-collapse|Ozenc & Yousefi (2026): The Designer-Builder]] — the shift, the prototyping kit, taste-as-differentiator, review-as-design-act. Single practitioner interview, no data.
 - [[wiki/sources/naver-d2-ai-hackathon-nstake|NAVER D2 (2026): NStake]] — the counter-evidence on generation speed versus audience judgment, and the design bottleneck.
+- [[wiki/sources/karrot-kraft-design-system-agent|Karrot (2026): Kraft]] — **what designing a generative system actually costs.** A design system team built the generator, and the review act they ended up designing is not a human squinting at output: it is a spec schema, seven rule modules, eleven scorers, and a cross-session memory. The thesis that the design act becomes review survives; the implication that this is *cheap* does not. Karrot's framing — *"which decisions do we delegate to AI?"* — is the sharper version of this concept's central question.
 
 ## ❓ Open Questions
 

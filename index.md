@@ -2,7 +2,7 @@
 type: index
 status: active
 created: 2026-06-12
-updated: 2026-07-30
+updated: 2026-07-31
 tags: [index, llm-wiki, ux-research]
 sources: []
 confidence: 1.0
@@ -25,6 +25,14 @@ This is the top-level catalog for the Obsidian LLM-Wiki. Use it as the first sto
 - [[log|Operations Log]]
 
 ## Recent Ingests
+
+- **Constraint architectures + reporting and modality (2026-07-31, 5 sources):** three sources converge on the same constraint principle; two pair off on a separate theme.
+  - [[wiki/sources/karrot-kraft-design-system-agent|Karrot: Kraft]] (0.80, `coverage: full`) — a design system team's screen generator across three architectures (**admin → CLI → agent**), each transition documented with the wall that forced it. Reframes the problem as *"which decisions do we delegate to AI?"* rather than *"shall AI draw the screen?"* Contributes a **`DesignSpec` intermediate representation** (a schema that cannot hold a hex value), **11 scorers** split 7 deterministic / 4 LLM, **cross-session memory** that auto-promotes repeated decisions into domain principles, and a rare **negative result on multi-agent** — tried, abandoned for communication overhead and context loss, replaced by a harness plus delegation to Claude Code. New concepts: [[wiki/concepts/ai-agents/design-spec-intermediate-representation|Design Spec as IR]], [[wiki/concepts/ai-agents/generated-output-scoring|Generated-Output Scoring]].
+  - [[wiki/sources/pxd-writone-ai-writing-assistant|pxd: Writone]] (0.65) — UX writing guidelines die as dormant PDFs because leaving Figma to check one costs too much; the fix is placement, not capability. New concept: [[wiki/concepts/infrastructure-dev/in-workflow-ai-placement|In-Workflow AI Placement]], shared with Kraft.
+  - [[wiki/sources/maily-product-makers-guardrails|Product Makers Note #24]] (0.68) — guardrails as **three layers** (prompt / tuning / API), deployed in the *inverse* of their strength order. *"A guardrail is a thermometer — it only tells you a number."* New concept: [[wiki/concepts/ai-agents/layered-content-guardrails|Layered Content Guardrails]].
+  - [[wiki/sources/carl-pearson-minimally-technical-reporting|Pearson: Minimally Technical Reporting]] (0.70) — a five-level reporting iceberg with checkable rules (10–20 slides; one number per slide for executives; *"if you show a table to executives, you've gone too deep"*). New concept: [[wiki/concepts/ux-research/minimally-technical-reporting|Minimally Technical Reporting]].
+  - [[wiki/sources/smashing-matching-ai-modality-user-intent|Yocco: Matching AI Modality to User Intent]] (0.58) — against *"conversational tunnel vision"*; a Task Audit and intent→modality matrix. Scored low: the 20% headline has no methodology and the cognitive claims are uncited. New concept: [[wiki/concepts/agent-experience/modality-intent-matching|Modality–Intent Matching]].
+  - Synthesized in [[wiki/analyses/2026-07-31-constraint-architectures-converge|Constraint Architectures Converge — and Still Nobody Measures Them]], with the decision table [[wiki/comparisons/where-to-put-the-constraint|Where to Put the Constraint]]. **The load-bearing finding is a negative one:** eight sources now agree on what good constraint architecture looks like, and exactly one (SOCAR) has ever measured whether it works.
 
 - **Trust measurement, AI advertising, and the designer-builder (2026-07-30, 3 sources):** two sources describing the same phenomenon with opposite valence.
   - [[wiki/sources/measuringu-measuring-the-ux-of-ai|Sauro & Lewis: Measuring the UX of AI]] (0.72) — a **34-item, six-construct** instrument (AI Productivity, Trust, Dependency, Anxiety, Personification, Early Adoption) layered under UX-Lite. **No psychometric validation, no response format stated** — an item bank, not a scale. New concept: [[wiki/concepts/ux-research/ai-ux-measurement-constructs|AI UX Measurement Constructs]] (`draft`). This page also flags a confound the source does not: *AI Anxiety* and *Early Adoption* measure the **respondent**, not the product.
@@ -109,6 +117,8 @@ This is the top-level catalog for the Obsidian LLM-Wiki. Use it as the first sto
 - [[wiki/comparisons/ai-assisted-research-risk-matrix|AI-Assisted Research Risk Matrix]]
 - [[wiki/comparisons/synthetic-data-role-selection|Synthetic-Data Role Selection]]
 - [[wiki/comparisons/delegate-vs-determinize|Delegate to a Model vs. Determinize in Code]]
+- [[wiki/comparisons/where-to-put-the-constraint|Where to Put the Constraint]]
+- [[wiki/analyses/2026-07-31-constraint-architectures-converge|Constraint Architectures Converge (2026-07-31)]]
 - [[wiki/analyses/2026-07-30-trust-measurement-and-monetization|Measuring Trust While Trust Is Being Monetized (2026-07-30)]]
 - [[wiki/analyses/2026-07-28-constraining-ai-by-construction|Constraining AI by Construction (2026-07-28)]]
 - [[wiki/analyses/2026-07-28-uxr-under-ai-acceleration|What AI Acceleration Actually Changes About UX Research (2026-07-28)]]

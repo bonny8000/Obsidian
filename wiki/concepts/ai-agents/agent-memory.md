@@ -2,13 +2,14 @@
 type: concept
 status: active
 created: 2026-05-18
-updated: 2026-06-17
-tags: [ai-agent, memory, knowledge-management, evals, procedural-memory]
+updated: 2026-07-31
+tags: [ai-agent, memory, knowledge-management, evals, procedural-memory, cross-session, decision-log]
 sources:
   - sources/brunch-ghidesigner-486
   - sources/brunch-ghidesigner-487
   - sources/theaxlabs-contaminated-memory-performance
   - sources/agent-skills-day-3
+  - karrot-kraft-design-system-agent
 confidence: 0.78
 ---
 
@@ -48,6 +49,8 @@ Without memory, useful AI work disappears at the end of a session. In an [[conce
 - [[sources/brunch-ghidesigner-487|AI Designer LLM Wiki Article]]
 - [[sources/theaxlabs-contaminated-memory-performance|AX LABS: Contaminated Memory Eats Away Performance]]
 - [[sources/agent-skills-day-3|Singhal et al. (2026): Agent Skills (Day 3)]]
+- [[wiki/sources/karrot-kraft-design-system-agent|Karrot (2026): Kraft]] — **cross-session memory with automatic promotion.** The problem stated plainly: a correction like "in this domain, always use `brandSolid` for CTAs" held for one session and vanished, and *"repeating the same correction every time is work for a person, not a tool."* The mechanism has three parts — decisions append to a per-session `decision-log.jsonl`; patterns repeating **above a threshold** are auto-promoted to per-domain principles in `principles.json`; new sessions read those principles back at the Memory Read step. Conversation context survives restarts in a LibSQL store. The promotion step is the reusable idea: memory that *summarises itself upward* rather than accumulating flat.
+  **Caveat:** the threshold is unspecified, and nothing described prevents a wrong early decision from being promoted into a standing principle and propagating to every later user — which is [[concepts/ai-agents/memory-contamination|memory contamination]] with an automated distribution mechanism attached.
 
 ## Open Questions
 
