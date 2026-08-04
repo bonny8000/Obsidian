@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-05-27
-updated: 2026-06-17
+updated: 2026-08-04
 tags: [map, ux-research, metrics, quant-ux, bayesian, screening]
 sources:
   - sources/measuringu-statistics-30-participants
@@ -11,6 +11,7 @@ sources:
   - sources/measuringu-tac10-screening
   - sources/measuringu-banner-tables
   - sources/measuringu-synthetic-users-review
+  - sources/saeidehbakhshi-usability-metrics-static-product
 confidence: 0.86
 ---
 
@@ -61,8 +62,21 @@ confidence: 0.86
 - [[sources/tullis-albert-measuring-ux-2013|Measuring the User Experience (Tullis & Albert, 2013)]]
 - [[sources/chapman-rodden-quant-uxr-2023|Quantitative User Experience Research (Chapman & Rodden, 2023)]]
 
+## When The Product Will Not Hold Still (added 2026-08-04)
+
+Everything above assumes a stable object of measurement. On personalised and adaptive products that assumption fails twice — across users, and within a user over time — and the failure is a **validity** problem, so a larger sample does not fix it.
+
+- [[wiki/concepts/ux-research/measurement-under-adaptation|Measurement Under Adaptation]]: the two violations, why effort is ambiguous rather than good, the circularity problem, and the four-dimension alternative (Goal / Interaction / Outcome / Trajectory).
+- [[wiki/concepts/ux-research/steerability|Steerability]]: usability's missing partner — can the user redirect a model the system has built of them, and **does the correction persist?** No instrument exists; this is the most buildable open measurement problem in the vault.
+- **The cheap discipline:** report the conditions with every figure — *whose goal, which product state, what outcome, what stage of use.* No new instrument required.
+- **Affected pages:** [[concepts/ux-research/ux-performance-benchmarking|UX Performance Benchmarking]] (comparability becomes unwarranted without a declared product state) · [[wiki/concepts/ux-research/ai-ux-measurement-constructs|AI UX Measurement Constructs]] (a validated instrument still measures a moving referent) · [[methods/benchmark-studies|Benchmark Studies]] · [[methods/usability-testing|Usability Testing]] · [[methods/longitudinal-research|Longitudinal Research]].
+- **Source:** [[wiki/sources/saeidehbakhshi-usability-metrics-static-product|Bakhshi (2026)]] — conceptual critique, **no data.** Sound as a validity argument; not evidence about effect sizes.
+
 ## Tensions And Open Questions
 
+- **Does any page in this framework currently report measurement conditions?** As of 2026-08-04, no. That is a backfill item.
+- What instrument would measure steerability, and does correction-persistence predict anything users care about?
+- How often must trajectory be sampled to detect direction rather than noise? Bakhshi does not say, and it is the variable that decides affordability.
 - How should reports explain valid small-n statistics without implying high precision?
 - Standardized questionnaires versus product-analytics frameworks: when does each earn its keep?
 - Small-sample inferential stats versus "just ship and A/B": where is the boundary for Bonny's projects?

@@ -2,7 +2,7 @@
 type: concept
 status: active
 created: 2026-05-18
-updated: 2026-07-31
+updated: 2026-08-04
 tags: [ai-agent, memory, knowledge-management, evals, procedural-memory, cross-session, decision-log]
 sources:
   - sources/brunch-ghidesigner-486
@@ -10,6 +10,7 @@ sources:
   - sources/theaxlabs-contaminated-memory-performance
   - sources/agent-skills-day-3
   - karrot-kraft-design-system-agent
+  - sources/evan-moon-identity-in-programming
 confidence: 0.78
 ---
 
@@ -56,4 +57,24 @@ Without memory, useful AI work disappears at the end of a session. In an [[conce
 
 - [Answered ??[[queries/2026-05-27-wiki-durable-vs-chat-memory|Query Page]]] Which items should become durable wiki memory versus temporary chat context?
 - What memory metadata should this vault track to prevent contamination: provenance, promotion criteria, expiry, or conflict policy?
+- **Does the value/entity distinction give a usable storage rule** — values stored as immutable facts, entities keyed by an assigned ID? See below. Untested.
+
+## Memory as an Undeclared Identity Contract
+
+> [!important] Added 2026-08-04 — a framing this vault's memory pages have not had
+> An agent that remembers "the user" across sessions is asserting a **domain identity that persists across state changes** — with no declared contract, no assigned ID, and no check at the boundary where a retrieval is matched to a subject. [[wiki/sources/evan-moon-identity-in-programming|Evan Moon (2026)]] gives the vocabulary:
+>
+> - **Reference identity** — same memory location. What an in-session object handle gives you.
+> - **Structural equality** — identical contents. What embedding similarity approximates, badly.
+> - **Domain identity** — same persistent ID. **What memory retrieval actually requires and rarely declares.**
+>
+> The essay's failure analysis predicts the observed behaviour in [[wiki/concepts/ai-agents/memory-contamination|memory contamination]] exactly: hash and comparison structures *assume* the equivalence axioms and never check them, so *"a wrong identity does not blow up on the spot."* Nothing throws. The wrong memory is retrieved and the system proceeds confidently — which is precisely how contamination presents.
+>
+> **The candidate rule, from the value/entity test** (*"values have no concept of time; entities do"*): store **values** freely — they are immutable and cannot go stale in the way that matters. **Key entities** by an assigned identifier, because they change and similarity will not track them across the change.
+>
+> **This is a hypothesis, not a finding.** Neither the source nor any memory source in this vault has connected them, and the mapping has not been tested. It is recorded here because it is cheap to test and would explain a failure mode the vault currently only describes. See [[wiki/concepts/infrastructure-dev/identity-contract|Identity Contract]].
+
+## Additional Sources
+
+- [[wiki/sources/evan-moon-identity-in-programming|Evan Moon (2026): Why Identity Is the Hardest Problem in Programming]] — the three-sameness taxonomy, the boundary thesis, the silent-failure analysis, and the value/entity test. Not about agents; applied here by inference.
 

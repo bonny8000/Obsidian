@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-05-18
-updated: 2026-07-31
+updated: 2026-08-04
 tags: [index, llm-wiki, dashboard]
 sources:
   - sources/brunch-ghidesigner-487
@@ -32,6 +32,14 @@ confidence: 0.9
 ![[../dashboard.base]]
 
 ## Recent Ingests
+> [!success] The response gap, crawl consent, measurement under adaptation — 2026-08-04 (8 sources)
+> - **The response gap (2, a genuine convergence):** [[sources/toyota-voice-interaction-humanoid-robots|Toyota FRC — Voice Interaction with Humanoid Robots]] fills the LLM latency gap with **speech** (parallel speculative execution, a main > clarification > filler ladder, "think while listening"); [[sources/paxton-yao-voice-ai-thinking-state|Yao — Voice AI Gave Designers a New State to Show]] fills it with **colour** (2 states desktop, 5 in-car). Published a day apart, neither aware of the other → [[concepts/agent-experience/response-latency-masking|Response Latency Masking]], [[concepts/agent-experience/system-state-signaling|System State Signaling]]
+> - **Crawl consent vs. answer surfaces (2, a direct contradiction):** [[sources/cloudflare-responsible-ai-bot-principles|Cloudflare — Responsible AI Bot Principles]] (declare **one** purpose: search / AI-input / training) against [[sources/google-search-io-2026-agents|Google — Search at I/O 2026]] (24/7 Information Agents over blogs and news; Generative UI free to all; agent phones businesses for you) → [[concepts/infrastructure-dev/ai-crawler-governance|AI Crawler Governance]]
+> - **Measurement under adaptation (1):** [[sources/saeidehbakhshi-usability-metrics-static-product|Bakhshi — Usability Metrics Assume the Product Stays Still]] — *"different users are using different versions of the product."* **Less effort is ambiguous, not good** → [[concepts/ux-research/measurement-under-adaptation|Measurement Under Adaptation]], [[concepts/ux-research/steerability|Steerability]]
+> - **Artifacts and defaults (3):** [[sources/nngroup-ux-context-design|Alicea / NN/g — UX-Context Design]] (research output as machine context; **no evidence at all**) → [[concepts/ux-research/ux-context-design|UX-Context Design]]; [[sources/evan-moon-identity-in-programming|Evan Moon — Why Identity Is the Hardest Problem in Programming]] (**0.78, highest in batch**) → [[concepts/infrastructure-dev/identity-contract|Identity Contract]]; [[sources/boongranii-cursor-pointer-debate|Boongranii — cursor: pointer]] (spec vs. learned convention) → [[concepts/ux-research/perceived-affordance|Perceived Affordance]]
+> - **Synthesis:** [[analyses/2026-08-04-the-response-gap|The Response Gap]] + [[comparisons/filling-the-response-gap|Filling the Response Gap]] — *the gap is a turn-taking problem, not a loading state*; and [[analyses/2026-08-04-crawl-consent-vs-answer-surfaces|Crawl Consent vs. Answer Surfaces]] — *a conflict recorded rather than merged*
+> - **Not captured:** two `uibowl.io/self-contents/…` URLs — client-rendered SPA with no server-side content, domain blocked in the browser pane. Deferred in [[logs/change-log|the change log]] and the root operations log; no pages created.
+
 > [!success] Constraint architectures + reporting and modality — 2026-07-31 (5 sources)
 > - **Constraint cluster (3):** [[sources/karrot-kraft-design-system-agent|Karrot — Kraft]] (`coverage: full`; DesignSpec schema, 11 scorers, cross-session memory, **multi-agent tried and abandoned**), [[sources/pxd-writone-ai-writing-assistant|pxd — Writone]] (placement beats capability), [[sources/maily-product-makers-guardrails|Product Makers Note #24 — Guardrails]] (three layers, deployed in inverse strength order) → [[concepts/ai-agents/design-spec-intermediate-representation|Design Spec as IR]], [[concepts/ai-agents/generated-output-scoring|Generated-Output Scoring]], [[concepts/ai-agents/layered-content-guardrails|Layered Content Guardrails]], [[concepts/infrastructure-dev/in-workflow-ai-placement|In-Workflow AI Placement]]
 > - **Shape-to-the-receiver pairing (2):** [[sources/carl-pearson-minimally-technical-reporting|Pearson — Minimally Technical Reporting]], [[sources/smashing-matching-ai-modality-user-intent|Yocco — Matching AI Modality to User Intent]] → [[concepts/ux-research/minimally-technical-reporting|Minimally Technical Reporting]], [[concepts/agent-experience/modality-intent-matching|Modality–Intent Matching]]
@@ -235,12 +243,17 @@ confidence: 0.9
 - [[concepts/infrastructure-dev/component-catalog|Component Catalog]]
 - [[concepts/infrastructure-dev/figma-code-connect|Figma Code Connect]]
 - [[concepts/agent-experience/a2ui-protocol|A2UI Protocol]]
+- [[concepts/agent-experience/system-state-signaling|System State Signaling]]
+- [[concepts/agent-experience/response-latency-masking|Response Latency Masking]]
+- [[concepts/infrastructure-dev/identity-contract|Identity Contract]]
+- [[concepts/infrastructure-dev/ai-crawler-governance|AI Crawler Governance]]
 - [[concepts/ai-agents/markdown-agent-orchestration|Markdown Agent Orchestration]]
 - [[concepts/ai-agents/persona-agent|Persona Agent]]
 - [[concepts/ai-agents/zero-person-company|Zero-Person Company]]
 - [[concepts/ai-agents/autonomous-company-runtime|Autonomous Company Runtime]]
 - [[concepts/ai-agents/loop-optimization|Loop Optimization]]
 - [[comparisons/skills-vs-mcp-vs-agents-md|Comparison: Skills vs MCP vs AGENTS.md vs DESIGN.md]]
+- [[comparisons/filling-the-response-gap|Comparison: Filling the Response Gap]]
 
 ### 💼 AI-Native Product Management
 > [!info] Core Skills: [[concepts/product-management/product-taste|Product Taste]], [[concepts/product-management/10-person-unicorn|10-Person Unicorn]]
@@ -298,6 +311,7 @@ confidence: 0.9
 - [[concepts/ux-research/huribot|Huribot]]
 - [[concepts/ux-research/automated-ut-setup|Automated UT Setup]]
 - [[concepts/ux-research/reliability-vs-validity|Reliability vs Validity]]
+- [[concepts/ux-research/ux-context-design|UX-Context Design]]
 - [[concepts/ux-research/validity-and-decision-relevance|Validity and Decision Relevance]]
 - [[concepts/ux-research/any-2-agreement|Any-2 Agreement]]
 - [[concepts/ux-research/genai-in-qualitative-research|GenAI in Qualitative Research]]
@@ -345,6 +359,9 @@ confidence: 0.9
 - [[concepts/ux-research/quant-uxr-rigor|Quant UXR Rigor]]
 - [[concepts/ux-research/self-reported-ux-metrics|Self-Reported UX Metrics]]
 - [[concepts/ux-research/ux-performance-benchmarking|UX Performance Benchmarking]]
+- [[concepts/ux-research/measurement-under-adaptation|Measurement Under Adaptation]]
+- [[concepts/ux-research/steerability|Steerability]]
+- [[concepts/ux-research/perceived-affordance|Perceived Affordance]]
 - [[concepts/ux-research/behavioral-sequence-analysis|Behavioral Sequence Analysis]]
 - [[concepts/ux-research/physiological-ux-research|Physiological UX Research]]
 - [[concepts/ux-research/maxdiff-prioritization|MaxDiff Prioritization]]

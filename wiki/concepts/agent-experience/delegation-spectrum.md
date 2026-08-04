@@ -2,9 +2,9 @@
 type: concept
 status: active
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 tags: [concept, agent-experience, delegation, trust, autonomy, commercial-influence, approval-gate]
-sources: [kakao-vc-ai-agent-advertising]
+sources: [kakao-vc-ai-agent-advertising, google-search-io-2026-agents]
 confidence: 0.74
 ---
 
@@ -77,3 +77,21 @@ confidence: 0.74
 - Is there *any* disclosure format that changes behavior at tier 3?
 - How do users form beliefs about which tier they are on, and how often are they wrong?
 - Should tier be surfaced to users as an explicit product setting?
+- **What does the spectrum owe a third party the agent contacts,** who is not on it at all?
+
+## A Consumer Product Now Occupies the Far End
+
+> [!important] Added 2026-08-04
+> [[wiki/sources/google-search-io-2026-agents|Google's agentic booking]] (announced I/O 2026, US, summer 2026) extends to **placing phone calls to businesses on the user's behalf** — home repair, beauty, pet care.
+>
+> That sits at the top tier by every criterion this page uses: the user cannot observe the action while it happens, cannot verify it in flight, and the cost of an error lands outside the interface. The spectrum predicts verification collapses here, and this is the first mass-market consumer product in the vault to occupy that position.
+>
+> **The gap the spectrum does not model.** Every tier on this page describes a relationship between a user and an agent. An agent phoning a business creates a **third party who never delegated anything** — no interface, no disclosure, no consent, and no seat on the spectrum. Google's announcement does not say whether the callee is told they are speaking to an AI.
+>
+> Related: [[wiki/sources/kakao-vc-ai-agent-advertising|Kakao Ventures]] found hidden intent in conversational recommendation went undetected **over 90%** of the time. The pattern generalises — as agents mediate more, the parties bearing the consequences are increasingly the ones furthest from the interface. See [[wiki/analyses/2026-08-04-crawl-consent-vs-answer-surfaces|the 2026-08-04 memo]], which reaches the same conclusion from the publisher side.
+>
+> Caveat: this is a first-party product announcement with no evaluation data and a stated summer-2026 date. Announced ≠ shipped; not verified here.
+
+## Additional Sources
+
+- [[wiki/sources/google-search-io-2026-agents|Google (2026): Search at I/O 2026]] — agentic booking and outbound calling.

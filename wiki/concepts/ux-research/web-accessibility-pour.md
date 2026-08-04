@@ -2,9 +2,9 @@
 type: concept
 status: active
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-08-04
 tags: [concept, accessibility, wcag, pour, b2b-admin, agent-compatibility, front-end]
-sources: [b2b-admin-web-accessibility, veronikapj-whats-new-android-2026, google-natively-adaptive-interfaces]
+sources: [b2b-admin-web-accessibility, veronikapj-whats-new-android-2026, google-natively-adaptive-interfaces, boongranii-cursor-pointer-debate, paxton-yao-voice-ai-thinking-state]
 confidence: 0.75
 ---
 
@@ -86,3 +86,27 @@ A 28× overcount on one metric, caused by line-based grep against multi-line att
 - Do accessibility rules in an agent context file actually prevent regression in generated code, and how would that be measured?
 - Which constraints are best expressed as lint rules (structural) versus context-file guidance (judgment)?
 - How reliable is accessibility-semantics-driven agent automation against poorly labeled apps — the majority case?
+- **What is the touch and keyboard equivalent of the affordance `cursor: pointer` patches** — and does adding the cursor reduce the pressure to build it?
+- What is the discoverability rate of a clickable card by input modality? Twenty years of debate on this and apparently no published study.
+
+## Two Cases Where an Accessibility Argument Fixes the Wrong Channel
+
+> [!warning] Added 2026-08-04 — both new sources make an accessibility case for a single-channel signal
+> POUR exists partly to prevent exactly this, and two sources ingested 2026-08-04 walk into it from different directions. Recorded here because in both, the reasoning is well-intentioned and the effect is to make a defect *feel* addressed.
+>
+> **1. `cursor: pointer` serves the modality that was already best served.** [[wiki/sources/boongranii-cursor-pointer-debate|Boongranii (2026)]] argues for setting the cursor on clickable elements partly on accessibility grounds: not all users perceive a subtle hover colour change, and a cursor change is near-universally detectable.
+>
+> That is true **for pointer users, who are the only users a cursor exists for.** Touch has no cursor; keyboard navigation has none; screen readers have none. And the case the essay makes best — a whole card as the click target, with nothing announcing that its surface is interactive — is **worse** for those users. Under POUR the real defect is that the target is not *perceivable* or *operable* without a mouse, and the cursor leaves that defect exactly where it was.
+>
+> **Guidance: fix the affordance and set the cursor.** Never let the cursor substitute for the fix. See [[wiki/concepts/ux-research/perceived-affordance|Perceived Affordance]].
+>
+> **2. Colour-only state signalling, chosen for colourblind safety.** [[wiki/sources/paxton-yao-voice-ai-thinking-state|Yao (2026)]] picks orange/blue for a voice assistant's state indicator because the pair is *"distinguishable across nearly all forms of color vision deficiency"* — good reasoning at the encoding stage, and then colour is the *sole* channel carrying state.
+>
+> A colourblind-safe palette does not satisfy the redundancy principle. The argument is made in a **driving** context, where the alternatives (audio, haptics) are free and eyes-free, and where blind and low-vision users go unaddressed inside an accessibility argument. **Guidance: state must never rest on one channel** — add shape, motion, audio, or haptic. See [[wiki/concepts/agent-experience/system-state-signaling|System State Signaling]].
+>
+> **The generalisable pattern:** an accessibility improvement to one channel is not an accessibility fix if the underlying signal is still single-channel. Ask which modality the fix reaches, then ask which modalities the original defect affects.
+
+## Additional Sources
+
+- [[wiki/sources/boongranii-cursor-pointer-debate|Boongranii (2026): Should Clickable Elements Use cursor: pointer?]] — the weak-affordance cases and the pointer-only accessibility argument.
+- [[wiki/sources/paxton-yao-voice-ai-thinking-state|Yao (2026): Voice AI Gave Designers a New State to Show]] — colour-vision-safe palette selection as sole state channel.

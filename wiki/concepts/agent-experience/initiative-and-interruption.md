@@ -2,12 +2,15 @@
 type: concept
 status: active
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-08-04
 tags: [agent-experience, mixed-initiative, attention, ax]
 sources:
   - sources/andru-saksena-adobe-haic-2025
   - sources/horvitz-1999-mixed-initiative
   - sources/amershi-2019-human-ai-guidelines
+  - sources/google-search-io-2026-agents
+  - sources/paxton-yao-voice-ai-thinking-state
+  - sources/toyota-voice-interaction-humanoid-robots
 confidence: 0.78
 ---
 
@@ -52,3 +55,27 @@ Attention is the scarcest resource in agentic products. An agent that interrupts
 ## Open Questions
 
 - For background agents running long tasks, what events justify an interruption versus a status line the user can poll?
+- **Do users notice, or care, that no interruption contract exists?** Google shipped 24/7 monitoring agents to paid tiers without describing one.
+- **Is the response gap a turn-taking problem?** If so, this concept — not "loading states" — is where latency design belongs.
+
+## Two Additions, 2026-08-04
+
+> [!important] The pattern this concept exists for is now shipping, with no interruption contract described
+> [[wiki/sources/google-search-io-2026-agents|Google's Information Agents]] (announced I/O 2026, paid tiers, summer 2026) operate *"in the background, 24/7"* over blogs, news, social posts, and live finance/shopping/sports data, then push synthesised updates. Example uses: apartment-hunting alerts, notifications about a named athlete.
+>
+> A standing monitor that decides *when to interrupt* is making initiative decisions continuously. The announcement says **nothing** about frequency, thresholds, snooze, why-this-fired explanations, or how a user corrects a bad monitor. The open questions on this page stop being theoretical.
+>
+> **What a monitoring agent needs, and Google has not described:** a frequency budget, a materiality threshold, a visible reason for each notification, and a correction path that persists (see [[wiki/concepts/ux-research/steerability|Steerability]] — a "show me less of this" that reverts next session is not control).
+
+> [!important] The response gap is a floor-holding problem, not a progress-bar problem
+> The most revealing detail in [[wiki/sources/paxton-yao-voice-ai-thinking-state|Yao (2026)]] is that NIO's NOMI assistant has a **countdown** state — not system processing at all, but a window in which *the user may still speak*. That is a turn-taking signal, and it is the state a system-centric model never enumerates.
+>
+> Read that way, [[wiki/sources/toyota-voice-interaction-humanoid-robots|Toyota's]] pre-emptively generated fillers (*"Um"*, *"Well"*) are the same move in speech: not progress indicators but **claims on the floor**, which is what human conversation has always used them for. Both sources reinvent turn-taking repair and neither names it.
+>
+> **Implication for this concept:** interruption is usually framed here as the agent breaking into the user's attention. Turn-taking is the symmetrical case — who holds the floor, and how does each party know. See [[wiki/concepts/agent-experience/response-latency-masking|Response Latency Masking]], [[wiki/concepts/agent-experience/system-state-signaling|System State Signaling]], and [[wiki/analyses/2026-08-04-the-response-gap|the 2026-08-04 memo]], where this reframe is argued at length. It is the vault's inference, not either source's claim.
+
+## Additional Sources
+
+- [[wiki/sources/google-search-io-2026-agents|Google (2026): Search at I/O 2026]] — Information Agents as persistent monitors; no interruption model described.
+- [[wiki/sources/paxton-yao-voice-ai-thinking-state|Yao (2026): Voice AI Gave Designers a New State to Show]] — the countdown state, and ambiguous silence.
+- [[wiki/sources/toyota-voice-interaction-humanoid-robots|Toyota FRC (2026): Voice Interaction with Humanoid Robots]] — fillers as floor-holding.

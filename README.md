@@ -22,13 +22,13 @@ The core rule is simple: preserve source truth in `raw/`, then compile useful, l
 
 | Area | Current count | Notes |
 | --- | ---: | --- |
-| Raw files | 331 | Preserved under `raw/` and treated as source evidence |
-| Source pages | 197 | 172 currently marked `llm_ready: true` |
-| Concept pages | 355 | Grouped by domain under `wiki/concepts/` |
+| Raw files | 339 | Preserved under `raw/` and treated as source evidence |
+| Source pages | 205 | 180 currently marked `llm_ready: true` |
+| Concept pages | 363 | Grouped by domain under `wiki/concepts/` |
 | UX research methods | 14 | Method pages with use cases, quality bars, and LLM guidance |
-| Topic maps | 15 | Navigation hubs and source-readiness dashboards |
-| Comparisons | 6 | Decision matrices across methods, tools, and frameworks |
-| Analyses | 8 | Synthesized memos built from multiple sources |
+| Topic maps | 17 | Navigation hubs and source-readiness dashboards |
+| Comparisons | 7 | Decision matrices across methods, tools, and frameworks |
+| Analyses | 10 | Synthesized memos built from multiple sources |
 | Playbooks | 6 | Reusable operating and review workflows |
 | Projects | 8 | Active or completed project pages |
 | Saved queries | 73 | Reusable answers and research prompts |
@@ -38,12 +38,12 @@ Concept clusters:
 
 | Cluster | Concept pages |
 | --- | ---: |
-| UX research | 115 |
+| UX research | 119 |
 | AI agents and agentic engineering | 89 |
-| Infrastructure and design systems | 59 |
+| Infrastructure and design systems | 61 |
 | Product management | 34 |
 | Robotics and spatial AI | 31 |
-| Agent experience | 24 |
+| Agent experience | 26 |
 | Cognitive science | 3 |
 
 Start from [wiki/overview.md](wiki/overview.md) for synthesis, [wiki/index.md](wiki/index.md) for the Obsidian dashboard, or [index.md](index.md) for the top-level catalog.

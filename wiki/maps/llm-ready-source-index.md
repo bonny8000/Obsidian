@@ -2,7 +2,7 @@
 type: map
 status: active
 created: 2026-06-12
-updated: 2026-07-02
+updated: 2026-08-04
 tags: [map, llm-ready, source-index]
 sources: []
 confidence: 1.0
@@ -14,11 +14,13 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 
 ## Status Summary
 
-- Total source pages: 154
-- LLM-ready source pages: 132
-- Deep / standard / light / detailed: 27 / 113 / 11 / 1
-- Legacy source pages without an `ingest_level`: 2
-- Partial coverage sources needing deeper ingest: 22
+- Total source pages: 205
+- LLM-ready source pages: 180
+- Deep / standard / light / detailed: 42 / 145 / 14 / 1
+- Legacy source pages without an `ingest_level`: 3
+- Partial coverage sources needing deeper ingest: 25
+
+*Counts recomputed 2026-08-04. The readiness table below is not exhaustive — it was last regenerated 2026-07-02 and rows are appended per ingest. Trust the counts above over the table's length.*
 
 ## How to Use
 
@@ -30,6 +32,14 @@ This map tracks whether source pages are ready to support LLM-assisted ideation,
 
 | Source | Level | Coverage | LLM ready | Raw preserved | Deepening focus |
 | --- | --- | --- | --- | --- | --- |
+| [[wiki/sources/evan-moon-identity-in-programming|Evan Moon (2026): Why Identity Is the Hardest Problem in Programming]] | `deep` | `full` | `true` | `true` | spec-verifiable; extend the value/entity test to agent memory |
+| [[wiki/sources/nngroup-ux-context-design|Alicea (2026): UX-Context Design]] | `deep` | `full` | `true` | `true` | framing only — no evidence; run the artifact-vs-output comparison |
+| [[wiki/sources/saeidehbakhshi-usability-metrics-static-product|Bakhshi (2026): Usability Metrics Assume the Product Stays Still]] | `deep` | `full` | `true` | `true` | validity argument, no data; operationalise steerability and trajectory |
+| [[wiki/sources/cloudflare-responsible-ai-bot-principles|Cloudflare (2025/2026): Responsible AI Bot Principles]] | `deep` | `full` | `true` | `true` | vendor advocacy + real RFCs; check Web Bot Auth adoption status |
+| [[wiki/sources/toyota-voice-interaction-humanoid-robots|Toyota FRC (2026): Voice Interaction with Humanoid Robots]] | `deep` | `full` | `true` | `true` | architecture only, zero measurement; cite for design, never outcomes |
+| [[wiki/sources/google-search-io-2026-agents|Google (2026): Search at I/O 2026 — AI Agents and More]] | `standard` | `full` | `true` | `true` | announcement record; verify which summer-2026 features shipped |
+| [[wiki/sources/paxton-yao-voice-ai-thinking-state|Yao (2026): Voice AI Gave Designers a New State to Show — Thinking]] | `standard` | `substantial` | `true` | `true` | no research; needs automotive-HMI glance literature |
+| [[wiki/sources/boongranii-cursor-pointer-debate|Boongranii (2026): Should Clickable Elements Use cursor: pointer?]] | `standard` | `full` | `true` | `true` | debate history is accurate; accessibility claim is unresearched |
 | [[sources/qualtrics-market-research-trends-2026|Qualtrics (2026): 2026 Qualtrics Market Research Trends Report]] | `standard` | `substantial` | `true` | `true` | global researcher survey; study leadership vs contributor disconnect |
 | [[sources/eopla-magazine-44341-0-person-company|비주류VC (2026): Humans only toss missions: The '0-Person Company' debate sparked by Matrix]] | `standard` | `substantial` | `true` | `true` | early beta runtime; analyze startup paradigm shift and legal boundaries |
 | [[sources/hbs-working-knowledge-ai-advice-willful-blindness|Chan (2026): When AI Gives Advice, Employees Rarely Ask Why]] | `standard` | `substantial` | `true` | `true` | randomized experiment; audit willful blindness in human checkpoints |

@@ -2,10 +2,11 @@
 type: concept
 status: active
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-08-04
 tags: [design-md, design-system, context-engineering, portability, ui-slop, agentic-engineering]
 sources:
   - sources/atlassian-design-md
+  - sources/nngroup-ux-context-design
 confidence: 0.82
 ---
 
@@ -83,3 +84,19 @@ confidence: 0.82
 - Is there a real crossover point (small system, no MCP infra) where DESIGN.md beats Skills on TCO?
 - What does a *customer-uploaded* DESIGN.md unlock for white-label AI features (admin uploads a brand kit; AI-generated reports respect it)?
 - For Bonny's own bilingual slide system: should `bonny-slide-design` ship its own DESIGN.md analog, and what's the right token budget?
+- **What is the `UX.md` equivalent worth shipping** — and would the five NN/g components survive the same TCO scrutiny applied to DESIGN.md above?
+
+## DESIGN.md Cited as the Precedent for a Wider Practice
+
+> [!important] Added 2026-08-04
+> [[wiki/sources/nngroup-ux-context-design|NN/g (Alicea, 2026)]] uses DESIGN.md as **the existence proof** for a practice it names [[wiki/concepts/ux-research/ux-context-design|UX-Context Design]]: curating organisational knowledge into the context that steers generated output. The argument is that if machine-readable design values plus human-readable rationale works for the visual system, the same shape should carry research and behaviour.
+>
+> The proposed extension, a hypothetical **`UX.md`**, would hold research synthesis as *actionable constraints*, interaction standards, a glossary of the users' vocabulary, user models, and **world models** — the circumstances of use, which is the component with no traditional home.
+>
+> **Two things to keep straight.** First, the pattern NN/g takes from DESIGN.md is the **split**: machine-readable values for the generator, human-readable rationale for the reviewer who has to judge whether the generator got it right. That split is the transferable part.
+>
+> Second, **`UX.md` does not exist.** It is a proposal in an article — no format, no spec, no tool, no adoption. DESIGN.md has all four. Do not let secondary coverage present them as peers.
+
+## Additional Sources
+
+- [[wiki/sources/nngroup-ux-context-design|Alicea (2026): UX-Context Design]] — cites DESIGN.md as precedent; proposes `UX.md`.

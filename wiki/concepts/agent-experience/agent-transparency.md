@@ -2,7 +2,7 @@
 type: concept
 status: active
 created: 2026-06-12
-updated: 2026-07-31
+updated: 2026-08-04
 tags: [agent-experience, transparency, explainability, ax, disclosure, principal-agent, citation, automation-bias]
 sources:
   - sources/andru-saksena-adobe-haic-2025
@@ -11,6 +11,10 @@ sources:
   - sources/christinevallaure-a2ui-generative-ui
   - sources/kakao-vc-ai-agent-advertising
   - pxd-writone-ai-writing-assistant
+  - sources/paxton-yao-voice-ai-thinking-state
+  - sources/toyota-voice-interaction-humanoid-robots
+  - sources/cloudflare-responsible-ai-bot-principles
+  - sources/google-search-io-2026-agents
 confidence: 0.72
 ---
 
@@ -68,7 +72,41 @@ Probabilistic systems break the predictability assumptions of traditional UI. Us
 - [[wiki/sources/kakao-vc-ai-agent-advertising|Kakao Ventures (2026): AI Agents — Questioning the Qualifications of a True Representative]] — the disclosure-insufficiency evidence.
 - [[wiki/sources/pxd-writone-ai-writing-assistant|pxd (2026): Writone]] — **the favourable case for disclosure.** Every correction cites the guideline source and principle page, and the reason is given in human language rather than algorithmic terms. This is a materially stronger form than a label, because it is *checkable*: the user can go read the cited rule. It fits the mechanism [[wiki/analyses/2026-07-30-trust-measurement-and-monetization|the trust memo]] identifies — disclosure works by inviting a comparison the user can actually make. Note the limits: the source measures no acceptance rate, so it cannot show that citing the rule changes behaviour rather than merely reassuring, and there is no adversarial party here, which is what made the unfavourable cases unfavourable.
 
+## State Legibility Is a Layer Beneath This One
+
+> [!important] Added 2026-08-04 — a distinction this page has been missing
+> Everything above concerns making *reasoning, data use, and provenance* legible. [[wiki/sources/paxton-yao-voice-ai-thinking-state|Yao (2026)]] identifies a cheaper, lower layer that has to work first: **what is the system doing right now?**
+>
+> In voice, *"silence means several different things"* — not heard, listening, processing, about to speak. And LLM inference created a state with no prior equivalent: *"gap is a new state that didn't exist before."* **A user who cannot tell whether the agent is listening has no use for a reasoning trace.** See [[wiki/concepts/agent-experience/system-state-signaling|System State Signaling]].
+>
+> This matters for the disclosure-scepticism warning above: the two failures are different. Disclosure fails because users do not *use* available information. State signalling fails because the information is not *there*. The second is a solvable design problem; the first may not be.
+
+> [!warning] Latency masking is a small deception this vault should name
+> [[wiki/sources/toyota-voice-interaction-humanoid-robots|Toyota (2026)]] generates fillers (*"Um"*, *"Well"*) **pre-emptively, when a delay is anticipated** — the system performing thought it is not yet doing. It is a fake progress bar made of speech, and Toyota treats it purely as craft.
+>
+> It is benign in a mascot robot. It is not obviously benign before a recommendation the user will act on, because a convincing stall manages the user's impression of the system's confidence. And it may actively conflict with honest state signalling: a filler implying the answer is nearly ready, running alongside an indicator reporting "thinking," gives the user two different stories. **Nobody has tested whether covering and labelling compose.**
+>
+> Guidance: no performed thinking ahead of a consequential decision. See [[wiki/concepts/agent-experience/response-latency-masking|Response Latency Masking]], [[wiki/comparisons/filling-the-response-gap|the decision table]], and [[wiki/analyses/2026-08-04-the-response-gap|the memo]].
+
+> [!note] The one favourable structural case for disclosure: a machine audience
+> [[wiki/sources/cloudflare-responsible-ai-bot-principles|Cloudflare's AI bot principles]] are disclosure obligations — declare identity, operator, and purpose — and they are the strongest available rebuttal to this page's disclosure scepticism, because **the audience is a machine-readable policy engine, not a person deciding under time pressure.** A filter can be made to act on a declaration; a human cannot be made to read one.
+>
+> The rebuttal holds only if the declaration is *verifiable*. Until **Web Bot Auth** (IETF draft) deploys, every one of those declarations is a self-reported string — which makes it [[wiki/concepts/agent-experience/checkbox-transparency|checkbox transparency]] with extra steps. See [[wiki/concepts/infrastructure-dev/ai-crawler-governance|AI Crawler Governance]].
+
+> [!warning] A second audience with no interface
+> Google's agentic booking now [[wiki/sources/google-search-io-2026-agents|places phone calls to businesses on a user's behalf]]. Every transparency framework on this page assumes the audience is the user. A callee has no interface, no disclosure, and no consent — and no concept in this vault covers that case. Whether the business is told it is speaking to an AI is not stated in the announcement.
+
 ## Open Questions
 
 - What is the minimum process visibility users need during long-horizon agent tasks to stay comfortable without babysitting the agent?
 - Does provenance display change decisions, or only confidence?
+- Does an honest state indicator plus a latency-masking filler compose, or does the filler make the indicator read as evasion?
+- **Where is the line at which latency masking becomes misleading rather than polite?**
+- What does transparency owe a third party the agent contacts, who never agreed to anything?
+
+## Additional Sources
+
+- [[wiki/sources/paxton-yao-voice-ai-thinking-state|Yao (2026): Voice AI Gave Designers a New State to Show]] — state legibility as the layer beneath transparency.
+- [[wiki/sources/toyota-voice-interaction-humanoid-robots|Toyota FRC (2026): Voice Interaction with Humanoid Robots]] — pre-emptive fillers as performed thinking.
+- [[wiki/sources/cloudflare-responsible-ai-bot-principles|Cloudflare (2025/2026): Responsible AI Bot Principles]] — disclosure to a machine audience; the favourable structural case, contingent on verification.
+- [[wiki/sources/google-search-io-2026-agents|Google (2026): Search at I/O 2026]] — agentic calling, and the third-party audience with no interface.

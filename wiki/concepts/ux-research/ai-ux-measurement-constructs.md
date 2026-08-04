@@ -2,9 +2,9 @@
 type: concept
 status: draft
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-04
 tags: [concept, ux-research, ux-metrics, standardized-questionnaires, psychometrics, ai-ux, trust, dependency, needs-validation]
-sources: [measuringu-measuring-the-ux-of-ai]
+sources: [measuringu-measuring-the-ux-of-ai, saeidehbakhshi-usability-metrics-static-product]
 confidence: 0.65
 ---
 
@@ -68,6 +68,18 @@ The likely correct use is as **moderators or segmentation variables**: an early 
 
 > [!warning] Scope
 > Chat-based generative AI only. Explicitly may not transfer to recommendation systems, embedded AI features, or agentic execution.
+
+> [!warning] On adaptive products, the validity conditions move under the instrument — added 2026-08-04
+> This page's reservations are all about the instrument's *construction* — factor structure, response format, product-versus-trait confounds. [[wiki/sources/saeidehbakhshi-usability-metrics-static-product|Bakhshi (2026)]] adds a reservation about its *referent*: on a personalised or adaptive product, *"the score is conditional on the user, their history, the state of the system, and the stage of use"* — so *"the number may be precise while the underlying construct it is measuring is not the same thing."*
+>
+> The two critiques are compatible and unflattering in combination. Even a fully validated version of these six constructs would still be measuring a moving object unless the conditions are pinned and reported.
+>
+> **Two direct consequences for this instrument:**
+>
+> - **AI Trust and AI Dependency are trajectory variables, not levels.** Both plausibly change as a user's relationship with a system matures, which means a single administration is a snapshot of an unknown point on a curve. Bakhshi's argument is that on adaptive products the direction is the finding.
+> - **The scope caveat above becomes sharper.** "May not transfer to recommendation systems" understates it: recommendation systems are precisely the case where the product differs per user and per session, so a benchmark across respondents is comparing different products.
+>
+> **Practical addition to the guidance list above:** report the product state and the respondent's stage of use alongside any score from this item bank. See [[wiki/concepts/ux-research/measurement-under-adaptation|Measurement Under Adaptation]] and [[wiki/concepts/ux-research/steerability|Steerability]] — the latter is a construct these six do not cover and adaptive products need.
 
 ## 🔗 Related Concepts
 

@@ -2,13 +2,45 @@
 type: log
 status: active
 created: 2026-05-18
-updated: 2026-07-20
+updated: 2026-08-04
 tags: [log, maintenance]
 sources: []
 confidence: 1.0
 ---
 
 # Change Log
+
+## 2026-08-04 - Response gap, crawl consent, and measurement under adaptation (8 of 10 sources)
+
+**Added**
+
+- 8 raw captures in `raw/web/` (all AI-written extractions, short quotes only, no full-text reproduction).
+- 8 source pages: `evan-moon-identity-in-programming` (0.78), `saeidehbakhshi-usability-metrics-static-product` (0.72), `nngroup-ux-context-design` (0.66), `cloudflare-responsible-ai-bot-principles` (0.64), `toyota-voice-interaction-humanoid-robots` (0.62), `boongranii-cursor-pointer-debate` (0.60), `google-search-io-2026-agents` (0.55), `paxton-yao-voice-ai-thinking-state` (0.48).
+- 8 concept pages: `infrastructure-dev/identity-contract`, `infrastructure-dev/ai-crawler-governance`, `ux-research/ux-context-design`, `ux-research/measurement-under-adaptation`, `ux-research/steerability`, `ux-research/perceived-affordance`, `agent-experience/response-latency-masking`, `agent-experience/system-state-signaling`.
+- 2 analysis memos: `2026-08-04-the-response-gap`, `2026-08-04-crawl-consent-vs-answer-surfaces`.
+- 1 comparison: `filling-the-response-gap`.
+
+**Updated**
+
+- Concepts (14): `agent-transparency`, `initiative-and-interruption`, `modality-intent-matching`, `delegation-spectrum`, `agent-identity`, `agent-memory`, `context-engineering`, `design-md`, `design-system-implementation`, `geo-generative-engine-optimization`, `human-robot-interaction`, `ai-persona-replication`, `generative-ui`, `web-accessibility-pour`, plus `ux-metrics`, `ux-performance-benchmarking`, `ai-ux-measurement-constructs`, `progressive-user-control`.
+- Methods (3): `usability-testing`, `benchmark-studies`, `longitudinal-research` — each gained an adaptive-product validity section.
+- Maps (3): `agent-experience-design` (new "Legibility" and "Response Gap" sections), `ux-metrics-framework`, `llm-ready-source-index` (counts recomputed: 205 sources / 180 `llm_ready`).
+- Navigation: `README.md` count tables, `index.md`, `wiki/index.md`, `wiki/overview.md`.
+- `wiki/sources/google-io-2026-agentic-gemini` — partially superseded by a pointer; its own frontmatter left honest.
+
+**Confidence changed**
+
+- `ux-performance-benchmarking`: 1.00 -> 0.88. Reason: Bakhshi's conditionality argument qualifies the practice's core comparability claim, so an unqualified 1.00 no longer matches the page's own caveats.
+
+**Not done, and why**
+
+- Two `uibowl.io/self-contents/...` URLs were not ingested. Client-rendered SPA, empty static payload, identical 2,784-byte shell under plain / browser / Googlebot user-agents, domain blocked in the browser pane, no reachable content API in the JS chunks. **No stub pages or invented content were created.** Needs the text supplied manually.
+- A third candidate memo — "UX artifacts as machine context" (NN/g + `atlassian-design-md` + `yozm-obsidian-llm-wiki-secondbrain` + `claudemd-context`) — was judged below the Rule 11 threshold at 3 sources. The synthesis lives on `ux-research/ux-context-design` instead, including the untested prediction about this vault's own pages.
+- The 2026-07-28 / 07-30 / 07-31 ingests remain missing from both logs. Not reconstructed.
+
+**Method note**
+
+- The 11-file and 6-file frontmatter updates were run as dry-run-then-apply scripts on a clean tree with the diff reviewed, per [[wiki/playbooks/safe-script-maintenance|Safe Script Maintenance]]. All prose edits were made as individual structured edits.
 
 ## 2026-07-27 — User-provided AI product workflow ingest
 

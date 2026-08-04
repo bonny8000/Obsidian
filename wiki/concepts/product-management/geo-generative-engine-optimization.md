@@ -2,9 +2,9 @@
 type: concept
 status: active
 created: 2026-05-19
-updated: 2026-06-25
+updated: 2026-08-04
 tags: [ai, marketing, search, agents, seo, eeat]
-sources: [wiki/sources/pxd-story-ai-insights.md, sources/google-good-seo-is-good-geo]
+sources: [wiki/sources/pxd-story-ai-insights.md, sources/google-good-seo-is-good-geo, cloudflare-responsible-ai-bot-principles, google-search-io-2026-agents, hai-headlines-ai-news-audit]
 confidence: 0.90
 ---
 
@@ -35,4 +35,25 @@ As users increasingly bypass traditional search engines (like Google) in favor o
 ## Sources
 - [[wiki/sources/pxd-story-ai-insights.md|pxd story: AI & UX Insights]]
 - [[sources/google-good-seo-is-good-geo|Kraham / Google (2026): Good SEO is good GEO]]
+- [[wiki/sources/cloudflare-responsible-ai-bot-principles|Cloudflare (2025/2026): Responsible AI Bot Principles]] — the same phenomenon from the opposite posture.
+- [[wiki/sources/google-search-io-2026-agents|Google (2026): Search at I/O 2026]] — generative UI free to all users; the surface GEO optimises for is changing.
+
+## Two Caveats Added 2026-08-04
+
+> [!warning] "Optimise to be cited" assumes a surface that cites
+> Google publishes both sides of this and they do not obviously reconcile. [[wiki/sources/google-good-seo-is-good-geo|Kraham (Think with Google)]] tells publishers how to earn citation in AI answers. Two months earlier, [[wiki/sources/google-search-io-2026-agents|Reid (I/O 2026)]] announced **Generative UI free to every Search user** — bespoke assembled layouts with interactive visuals and simulations, replacing the page of links, with no stated citation guarantee.
+>
+> GEO's existing tactics assume a text answer with attributable links. **When the answer becomes a generated component, what counts as a citation is undefined** — and Google has not said.
+>
+> Independent evidence makes this worse rather than better: [[wiki/sources/hai-headlines-ai-news-audit|Suzgun & Zou's audit]] of six commercial chatbots on same-day news found retrieval and citation-attribution failures. That is the only *measured* source in this cluster, and the publisher-side bargain rests entirely on citation working.
+
+> [!warning] GEO is one posture toward AI crawling; there is another
+> This concept frames AI answer surfaces as an optimisation target. [[wiki/concepts/infrastructure-dev/ai-crawler-governance|AI Crawler Governance]] frames the traffic they replace as the problem being governed, and supplies a taxonomy GEO lacks: **search** (index access for referral traffic — a trade), **AI-input** (live content for generated answers — the visit is substituted), **training** (content as data — nothing returned). GEO reasons almost entirely about the first two as though they were one thing.
+>
+> Same phenomenon, opposite question: GEO asks how to be cited; crawler governance asks whether the crawl is a fair trade at all. See [[wiki/analyses/2026-08-04-crawl-consent-vs-answer-surfaces|the 2026-08-04 memo]].
+
+## Related (added 2026-08-04)
+- [[wiki/concepts/infrastructure-dev/ai-crawler-governance|AI Crawler Governance]]
+- [[wiki/concepts/ux-research/generative-ui|Generative UI]]
+- [[wiki/concepts/ai-agents/ai-news-intermediary|AI News Intermediary]]
 

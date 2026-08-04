@@ -4,7 +4,7 @@ status: active
 created: 2026-05-20
 tags: [google-io, agentic-ai, gemini]
 sources: [https://blog.google/intl/ko-kr/company-news/technology/sundar-pichai-io-2026-kr/#more-news]
-updated: 2026-06-12
+updated: 2026-08-04
 ingest_level: standard
 coverage: partial
 llm_ready: false
@@ -83,3 +83,12 @@ Official company blog.
 
 - Retrofitted on 2026-06-12 by `scripts/backfill_llm_ready.py` from the existing source note.
 - This standardizes the note for LLM use; it does not by itself mean the raw source has been fully re-read.
+
+> [!important] Partially superseded 2026-08-04 — prefer the Search-specific page
+> [[wiki/sources/google-search-io-2026-agents|Google (2026): Search at I/O 2026]] covers the **Search-specific** post from the same event (Elizabeth Reid, 2026-05-19), at `coverage: full` with a raw capture at `raw/web/google-search-io-2026-agents-2026-08-04.md`.
+>
+> **Prefer that page for:** AI Mode, the redesigned search box, conversational follow-ups, Information Agents, agentic booking and outbound calling, Generative UI in Search, custom dashboards/mini-apps, and Personal Intelligence — including the rollout dates and gating.
+>
+> **This page remains the record for** the keynote's broader claims not repeated in the Search post: the full-stack strategy, 8th-generation TPUs, the 3,200-trillion-tokens-per-month figure, Gemini Spark, and Antigravity 2.0.
+>
+> This page's `coverage: partial`, `llm_ready: false`, and `raw_preserved: false` are unchanged and still accurate — there is no raw capture behind it. Its `confidence: 1.0` is also inconsistent with `coverage: partial` and unverified claims; treat it as a known defect from the 2026-06-12 backfill rather than as a judgment.

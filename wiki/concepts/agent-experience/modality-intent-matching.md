@@ -2,9 +2,9 @@
 type: concept
 status: active
 created: 2026-07-31
-updated: 2026-07-31
-tags: [concept, agent-experience, modality, multimodal, conversational-ui, cognitive-load, context-of-use, accessibility, task-audit]
-sources: [smashing-matching-ai-modality-user-intent]
+updated: 2026-08-04
+tags: [concept, agent-experience, modality, multimodal, conversational-ui, cognitive-load, context-of-use, accessibility, task-audit, latency]
+sources: [smashing-matching-ai-modality-user-intent, toyota-voice-interaction-humanoid-robots, paxton-yao-voice-ai-thinking-state]
 confidence: 0.6
 ---
 
@@ -41,6 +41,17 @@ confidence: 0.6
 
 - **The audit can be cheap:** 2 hours field observation + 3–5 interviews + a 90-minute workshop, before the design sprint. Making it schedulable is most of what makes it happen.
 
+## The Missing Fifth Question: Latency
+
+> [!important] Added 2026-08-04 — modality choice constrains the architecture, not only the interface
+> Two sources ingested 2026-08-04 supply a constraint the four Task Audit questions omit. Voice imposes a **~1 second budget to first output** ([[wiki/sources/toyota-voice-interaction-humanoid-robots|Toyota FRC, 2026]]), and *every* technique that improves answer quality — RAG, web search, multi-pass refinement — breaks it: *"there is a trade-off where utilizing these methods increases the delay until the final response."*
+>
+> So choosing voice is choosing a stack: shallower retrieval, or speculative execution, or an accepted quality ceiling. Toyota's honest baseline is that a dedicated team running three mitigation techniques still *"cannot get them to consistently respond within one second."*
+>
+> **The fifth Task Audit question: what latency does this modality tolerate, and can the answer be produced inside it?**
+>
+> The corollary from [[wiki/sources/paxton-yao-voice-ai-thinking-state|Yao (2026)]]: voice also needs *state* signalling that text does not, because *"silence means several different things."* See [[wiki/concepts/agent-experience/response-latency-masking|Response Latency Masking]], [[wiki/concepts/agent-experience/system-state-signaling|System State Signaling]], and [[wiki/analyses/2026-08-04-the-response-gap|the 2026-08-04 memo]] — which argues the gap is better framed as a turn-taking problem than as a loading state.
+
 ## 🔗 Related Concepts
 
 - [[wiki/concepts/agent-experience/natively-adaptive-interfaces|Natively Adaptive Interfaces]] — **a competing bet.** Google's NAI puts adaptation inside the agent, inferred per interaction; this puts it in design-time fieldwork. Runtime inference vs. prior research; neither source acknowledges the other.
@@ -49,6 +60,9 @@ confidence: 0.6
 - [[wiki/concepts/agent-experience/proactivity-design|Proactivity Design]]
 - [[wiki/concepts/agent-experience/initiative-and-interruption|Initiative and Interruption]]
 - [[wiki/concepts/ux-research/minimally-technical-reporting|Minimally Technical Reporting]] — the same instinct in research communication: shape the artifact to the receiver's capacity, not the producer's convenience.
+- [[wiki/concepts/agent-experience/response-latency-masking|Response Latency Masking]] — the latency constraint this matrix omits.
+- [[wiki/concepts/agent-experience/system-state-signaling|System State Signaling]] — what voice needs and text does not.
+- [[wiki/concepts/ux-research/perceived-affordance|Perceived Affordance]] — the same receiver-over-producer principle, applied to specification defaults.
 - [[wiki/methods/field-studies|Field Studies]]
 
 ## ⚖️ Conflicts & Caveats
@@ -61,7 +75,9 @@ confidence: 0.6
 
 ## 📚 Sources
 
-- [[wiki/sources/smashing-matching-ai-modality-user-intent|Yocco (2026): Matching AI Modality to User Intent]]
+- [[wiki/sources/smashing-matching-ai-modality-user-intent|Yocco (2026): Matching AI Modality to User Intent]] — the matrix and the four constraint questions.
+- [[wiki/sources/toyota-voice-interaction-humanoid-robots|Toyota FRC (2026): Voice Interaction with Humanoid Robots]] — the latency budget voice imposes, and the quality/speed trade.
+- [[wiki/sources/paxton-yao-voice-ai-thinking-state|Yao (2026): Voice AI Gave Designers a New State to Show]] — the state-signalling requirement voice adds.
 
 ## ❓ Open Questions
 
@@ -69,3 +85,4 @@ confidence: 0.6
 - Does modality change verification behaviour — do users check an audio summary less than a dashboard? This is the question that would connect the framework to the trust cluster, and nobody has asked it.
 - Does the mapping hold outside physically constrained work?
 - What triggers an adaptive handoff, and how does the system avoid switching at the wrong moment?
+- Should the matrix carry a latency column? Voice and audio rows are the ones where the architecture is constrained, and the matrix currently reads as though modality were free.

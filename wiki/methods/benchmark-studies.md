@@ -2,11 +2,12 @@
 type: method
 status: active
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-08-04
 tags: [method, ux-research, benchmarking, quantitative]
 sources:
   - sources/tullis-albert-measuring-ux-2013
   - sources/sauro-lewis-quantifying-ux-2016
+  - sources/saeidehbakhshi-usability-metrics-static-product
 confidence: 0.7
 method_family: evaluative
 best_for: tracking UX quality across releases or against competitors with standardized metrics
@@ -69,3 +70,18 @@ Measure UX quality with standardized tasks and metrics, repeated over time or ac
 - [[methods/usability-testing|Usability Testing]]
 - [[concepts/ux-research/ux-performance-benchmarking|UX Performance Benchmarking]]
 - [[concepts/ux-research/ux-metrics|UX Metrics]]
+- [[wiki/concepts/ux-research/measurement-under-adaptation|Measurement Under Adaptation]] — the condition under which this method's comparability claim fails.
+- [[wiki/concepts/ux-research/steerability|Steerability]]
+
+## Avoid When (addition, 2026-08-04)
+
+> [!warning] Do not benchmark a personalising product without pinning the product state
+> This method's entire value is comparability — across releases, against competitors, over time. [[wiki/sources/saeidehbakhshi-usability-metrics-static-product|Bakhshi (2026)]] argues that on an adaptive or personalised surface that comparability is **unwarranted rather than merely noisy**, because the object of measurement is not the same twice: *"the score is conditional on the user, their history, the state of the system, and the stage of use."*
+>
+> This is a validity problem, so a larger sample does not fix it. The score stays precise while its referent moves.
+>
+> **Minimum requirement if you benchmark anyway:** declare the product state and the participants' stage of use as part of the benchmark definition, and treat any wave-over-wave comparison across a change in personalisation logic as a *new* benchmark rather than a continuation of the old one.
+
+## Additional Source Evidence
+
+- [[wiki/sources/saeidehbakhshi-usability-metrics-static-product|Bakhshi (2026): Usability Metrics Assume the Product Stays Still]] — the conditionality argument. Conceptual critique, no data.

@@ -2,7 +2,7 @@
 type: overview
 status: active
 created: 2026-06-12
-updated: 2026-07-31
+updated: 2026-08-04
 tags: [overview, synthesis, ux-research, llm-wiki, agentic-engineering]
 sources:
   - maps/llm-ready-source-index
@@ -13,6 +13,34 @@ confidence: 0.88
 ---
 
 # Knowledge Base Overview
+
+## Two Sources Solved the Same New Problem, and Two Contradicted Each Other (2026-08-04)
+
+Eight sources. The batch's two most interesting facts are both about *relationships between sources* rather than about any source individually.
+
+**A convergence nobody intended.** [[sources/toyota-voice-interaction-humanoid-robots|Toyota's Frontier Research Center]] published on 2026-07-31; [[sources/paxton-yao-voice-ai-thinking-state|Paxton Yao]] published on 2026-08-01. Both are about the same second — the pause LLM inference inserted into voice interaction, which Yao names precisely: *"gap is a new state that didn't exist before."* Toyota fills it with **speech** (parallel speculative execution across routing/retrieval/generation with discard, a main > clarification > filler priority ladder, and "think while listening" — generating before the user stops talking, then adopting the earliest candidate that survives a discrepancy check). Yao fills it with **colour** (two states on desktop, five in a car, with the count set by whether the display is read foveally or peripherally). Neither cites the other; one comes from a Japanese automaker's robotics lab, one from a designer analysing a Chinese EV assistant and a US AI product.
+
+The memo's own contribution is a reframe neither source makes: **the response gap is a turn-taking problem, not a loading state.** NIO's *countdown* state is not system processing at all — it is a window in which the user may still speak, a floor-holding signal. Read that way, Toyota's pre-emptive *"Um"* is the same move in a different medium, and human conversation has always used it that way. Both sources are reinventing turn-taking repair and neither names it. See [[analyses/2026-08-04-the-response-gap|the memo]] and [[comparisons/filling-the-response-gap|the decision table]].
+
+The honest baseline from the batch: Toyota, with a dedicated team running all three techniques after two years of public deployment, still *"cannot get them to consistently respond within one second."* And **nothing in this sub-cluster is measured** — no latency figures, no ablation, no user data, and Yao volunteers that nobody knows whether five states are perceived as five.
+
+**A contradiction inside one batch.** [[sources/cloudflare-responsible-ai-bot-principles|Cloudflare]] proposes that an AI crawler must declare **one** purpose — search, AI-input, or training — and not bundle them *"in a way that prevents web operators from deliberately and effectively deciding."* Two months earlier, [[sources/google-search-io-2026-agents|Google]] announced Information Agents monitoring *"blogs, news sites and social posts"* 24/7, Generative UI **free to every Search user**, and agentic booking extended to phoning businesses on the user's behalf — with consent, compensation, attribution, and crawl declaration absent entirely. The two describe the same infrastructure from opposite ends of a bargain and neither engages the other. Recorded rather than merged, per the conflict rules. See [[analyses/2026-08-04-crawl-consent-vs-answer-surfaces|the memo]].
+
+What survives both parties' interests is Cloudflare's **three-purpose taxonomy** — search is a trade, AI-input substitutes for the visit, training returns nothing — plus the verifiable fact that OpenAI already separates GPTBot from OAI-SearchBot, which makes bundling a choice rather than a constraint. What does not survive: every compliance accusation (a vendor with a commercial stake in the enforcement, at least one claim publicly disputed, behind an unmarked July 2026 edit) and every traffic figure on either side. **The load-bearing dependency is Web Bot Auth, still an IETF draft** — until it deploys, all crawler declarations are unverifiable self-reported strings, and this vault has not checked its status.
+
+**Three quieter contributions.**
+
+[[sources/saeidehbakhshi-usability-metrics-static-product|Bakhshi]] states cleanly a problem this vault kept meeting sideways: usability measurement presumes a stationary object of study, and personalised products violate that twice — *"different users are using different versions of the product"* and *"the product changes as the same person uses it."* The consequence is not noise but a validity failure, so more participants do not fix it: *"the number may be precise while the underlying construct it is measuring is not the same thing."* The claim that should change practice here is the inversion of the field's most-used metric — **less effort is ambiguous, not good**, because *"the user had less room to compare, question, or change what happened."* New concepts: [[concepts/ux-research/measurement-under-adaptation|Measurement Under Adaptation]] and [[concepts/ux-research/steerability|Steerability]], the latter being the vault's most buildable open measurement problem — a correction that reverts next session is a placebo button, and persistence is directly observable.
+
+[[sources/nngroup-ux-context-design|NN/g named what this vault already is]]: **UX-Context Design** — research and design knowledge curated as machine context rather than as human persuasion, measured by whether generated output improves *"not by whether stakeholders are convinced."* The practical filter that transfers is **obeyability**: could a generator act on this sentence? It is scored down hard (0.66) because its only empirical claim is *"our experiments suggest"* with no methodology, from the institution best placed to supply one — and its measurement proposal is circular, since the same party writes the context and judges the output. The useful consequence is a testable prediction about this vault that has never been checked: if the practice works, the pages the agent relies on most should be the ones whose constraints are phrased most obeyably.
+
+[[sources/evan-moon-identity-in-programming|Evan Moon]] scores highest in the batch (0.78) because every claim is checkable against a specification. Identity is a **declared contract**, not a property of data, and *"bugs go off not when a contract is broken, but at the boundary where contracts meet."* Three dimensions of sameness — reference, structural, domain — plus the equivalence axioms and why violations fail silently. **The most valuable unexplored link in this ingest:** an agent remembering "the user" across sessions is asserting a domain identity with no declared contract and no boundary check, which predicts [[concepts/ai-agents/memory-contamination|memory contamination]]'s exact presentation — nothing throws, the wrong entity is retrieved, the system proceeds confidently. That is a hypothesis now recorded on both pages, not a finding.
+
+Also: [[sources/boongranii-cursor-pointer-debate|the cursor:pointer debate]] gives the vault its only worked case of **specification versus twenty-year learned convention**, with a correction the source itself misses — the fix reaches pointer users only, and the affordance problem it patches is worse for touch and keyboard users.
+
+**A gap no concept covers.** Google's agentic calling reaches a **third party with no interface, no disclosure, and no seat on the [[concepts/agent-experience/delegation-spectrum|delegation spectrum]]**. Every transparency and delegation framework here assumes the audience is the user. Watch for a second source before opening a page.
+
+**Two URLs could not be captured** — both `uibowl.io/self-contents/...` articles are client-rendered with no server-side content and the domain is blocked in the browser pane. No pages were created; deferred in [[logs/change-log|the change log]] and the root operations log.
 
 ## Constraint Architectures Converge — and Still Nobody Measures Them (2026-07-31)
 
@@ -59,7 +87,7 @@ This vault is a research-first LLM knowledge base. `raw/` preserves evidence, `w
 
 ## Current Shape
 
-- Source records: [[maps/llm-ready-source-index|154 tracked source pages]], with 132 currently marked `llm_ready: true`.
+- Source records: [[maps/llm-ready-source-index|205 tracked source pages]], with 180 currently marked `llm_ready: true`.
 - UX research concept graph: [[concepts/ux-research/research-methods-foundations|research methods foundations]], [[concepts/ux-research/research-strategy|research strategy]], [[concepts/ux-research/research-operations|ResearchOps]], [[concepts/ux-research/ux-metrics|UX metrics]], and AI-assisted research concepts.
 - UX research operating layer: [[methods/usability-testing|method pages]], [[comparisons/research-method-selection-matrix|comparison matrices]], and [[analyses/ux-research-wiki-gap-audit-2026-06-12|analysis memos]].
 
@@ -87,6 +115,11 @@ This vault is a research-first LLM knowledge base. `raw/` preserves evidence, `w
 - Some source records remain `coverage: partial` and should be deepened before being used as primary decision evidence.
 - The method library is now seeded, but each method should be expanded with project examples, study templates, and decision criteria.
 - Analysis memos should be added whenever sources are synthesized into a product or research recommendation.
+- **No page in the metrics cluster currently reports measurement conditions** (whose goal, which product state, what stage of use). Cheap to fix, and now a named requirement — see [[concepts/ux-research/measurement-under-adaptation|Measurement Under Adaptation]].
+- **Web Bot Auth's current status is unchecked**, and the realism of the whole AI-crawler-governance cluster depends on it.
+- **The response-gap cluster has no measurement of any kind.** A latency-versus-perceived-responsiveness study for voice agents is the highest-value thing to ingest next in agent experience.
+- **Third-party consent in agent-mediated contact** has no concept page and one source. Open one when a second appears.
+- **No steerability instrument exists** anywhere in the vault, despite correction-persistence being directly observable.
 
 
 ## How Much Latitude Should an Agent Get? (2026-07-24 batch)
