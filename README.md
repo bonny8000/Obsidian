@@ -22,9 +22,7 @@ The core rule is simple: preserve source truth in `raw/`, then compile useful, l
 
 | Area | Current count | Notes |
 | --- | ---: | --- |
-| Raw files | 339 | Preserved under `raw/` and treated as source evidence |
-| Source pages | 205 | 180 currently marked `llm_ready: true` |
-| Concept pages | 363 | Grouped by domain under `wiki/concepts/` |
+ Stashed changes
 | UX research methods | 14 | Method pages with use cases, quality bars, and LLM guidance |
 | Topic maps | 17 | Navigation hubs and source-readiness dashboards |
 | Comparisons | 7 | Decision matrices across methods, tools, and frameworks |

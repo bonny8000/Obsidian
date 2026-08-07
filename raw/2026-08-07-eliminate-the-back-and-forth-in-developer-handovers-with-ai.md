@@ -1,0 +1,12 @@
+# Eliminate the back-and-forth in developer handovers with AI agents
+
+**URL:** [https://zeroheight.com/blog/eliminate-the-back-and-forth-in-developer-handovers-with-ai-agents/](https://zeroheight.com/blog/eliminate-the-back-and-forth-in-developer-handovers-with-ai-agents/)
+**Publisher:** zeroheight
+**Topic:** AI & UX,Product Design,AI Engineering
+**Date Added:** 2026-08-07
+
+## Summary
+這篇 zeroheight 文章討論 AI agents 如何改善 design-to-development handover。核心觀點是：agentic development 可以減少 mockup 到 code 之間的來回溝通與 drift，但如果 design system documentation 缺乏清楚的 guidelines、best practices、ownership 與 technical spec，drift 只是轉移到更難監控的地方。因此設計文件需要同時服務人類與 AI agents，成為可執行、可引用的設計系統上下文。
+
+## Source Text / Content Excerpt
+Eliminate the back-and-forth in developer handovers with AI agents - zeroheight Features Solutions Pricing Customers Resources Features Documentation Create &amp; update your documentation Delivery Deliver your design system Measurement Get insights on adoption &amp; usage Management Automate workflows &amp; improve security More Integrations zeroheight AI MCP What’s new Product Teams Designers Engineering Leaders Design System Maturity Early stage Scaling Use Case Enterprise Multi-product The System Stack by Browse all of zeroheight’s resources. Learn Blog eBooks & Newsletters Showcase Get Involved Webinars Podcast Converge Get Support Help Center ROI Calculator zeroheight 101 Accessibility Trust Center Design System report 2025 Join our Slack Community The System Stack by Browse all of zeroheight’s resources. Learn Blog Reports & eBooks Showcase Learn MCP Use Cases Maturity Model Tool Get Involved Webinars Podcast Converge Get Support Help Center zeroheight API ROI Calculator zeroheight 101 Accessibility Trust Center Design Systems Report 2026 Join our Slack Community Log in Book a demo Create account Get teams and agents building from your design system h-76 gap-32 Start for free p-180 p-180 Start for free h-76 Book a demo p-180 p-180 Book a demo logo/primary/zeroheight Sign up to the latest updates Features Documentation Delivery Measurement Management Platform Integrations What’s new Pricing Request a demo Solutions Design Engineering Leaders Early Stage Scaling Enterprise Multi-product Company About Careers Resources Help Center Resource Centre Customers Showcase eBooks & Newsletters Blog MCP Use Cases Maturity Model Tool Design Systems Report Webinars Converge Podcasts ROI Calculator zeroheight 101 Accessibility Trust Center Contact Us Terms & Conditions Privacy Policy © zeroheight 2025. All rights reserved. Connect with us

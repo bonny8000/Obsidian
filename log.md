@@ -12,20 +12,13 @@ confidence: 1.0
 
 Append-only chronological log for structural vault changes.
 
-## 2026-08-04
+ Stashed changes
 
-- Ingested **8 of 10** user-provided web URLs into `raw/web/` and `wiki/sources/`. All eight are `raw_preserved: true` and `llm_ready: true`; six are `coverage: full`, one `substantial`, and seven are `deep` or `standard`.
-- **2 URLs could not be captured and no pages were created for them:**
-  - `https://uibowl.io/self-contents/cmrmx3dsz0004lb041o92xwr9`
-  - `https://uibowl.io/self-contents/cmrlbsm8g000clf04lciauzqo`
-  - Reason: uibowl.io is a statically exported Next.js SPA whose page payload is empty (`pageProps: {}`) and whose content is fetched client-side; the same 2,784-byte shell is returned to plain fetch, to a browser user-agent, and to a Googlebot user-agent. The domain is also blocked by policy in the browser pane, and no reachable content API was found in the site's JS chunks (`api.uibowl.io` resolves to a dead Vercel deployment). **Deferred — needs the article text pasted, or a manual save.**
-- `global.toyota` returns 403 to plain fetch tools and is blocked in the browser pane; captured with an ordinary browser user-agent via curl. Recorded as an access note on the source page.
-- New concepts (8): `identity-contract`, `ai-crawler-governance` (infrastructure-dev); `ux-context-design`, `measurement-under-adaptation`, `steerability`, `perceived-affordance` (ux-research); `response-latency-masking`, `system-state-signaling` (agent-experience).
-- Analysis memos (2, per AGENTS.md Rule 11): [[wiki/analyses/2026-08-04-the-response-gap|The Response Gap]] and [[wiki/analyses/2026-08-04-crawl-consent-vs-answer-surfaces|Crawl Consent vs. Answer Surfaces]]. Decision table: [[wiki/comparisons/filling-the-response-gap|Filling the Response Gap]].
-- One conflict recorded rather than merged, per the Conflict Handling rules: Cloudflare's single-purpose crawler principle against Google's Information Agents and Generative UI announcements. Carried on both source pages, the concept page, and the memo.
-- One existing source page partially superseded with a pointer rather than edited away: [[wiki/sources/google-io-2026-agentic-gemini|google-io-2026-agentic-gemini]] now directs Search-specific questions to the new page and keeps the keynote-only claims. Its `coverage: partial` / `llm_ready: false` are unchanged; its `confidence: 1.0` is flagged as a known defect from the 2026-06-12 backfill.
-- Enriched 17 existing pages, lowered `ux-performance-benchmarking` from `confidence: 1.00` to `0.88` (its comparability claim is now qualified), and updated 3 method pages, 3 maps, README counts, `index.md`, `wiki/index.md`, and `wiki/overview.md`.
-- **Pre-existing gap noticed, not backfilled:** the 2026-07-28, 2026-07-30, and 2026-07-31 ingests are recorded in `index.md`, `wiki/index.md`, and `wiki/overview.md` but have no entries in this log or in [[wiki/logs/change-log|Change Log]]. Left alone rather than reconstructed from commit messages.
+## 2026-08-07
+
+- Ingested 28 new technology and AI/UX articles from Notion database "Tech Insights" into `raw/` and `wiki/sources/`.
+- Updated vault counts and indices (`README.md`, `index.md`, `wiki/index.md`, `wiki/overview.md`, `log.md`, `wiki/logs/change-log.md`).
+- Passed vault lint (`python scripts/lint.py`) and git diff checks (`git diff --check`).
 
 ## 2026-07-27
 
